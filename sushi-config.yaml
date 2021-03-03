@@ -45,7 +45,7 @@ menu:
   Artifacts Summary: artifacts.html
   Other Resources: 
     FHIR Spec: http://hl7.org/fhir/R4/index.html
-  Downloads: downloads.html
+#  Downloads: downloads.html downloads page is not included in the other PACIO
 
 # ╭───────────────────────────────────────package-list.json────────────────────────────────────────╮
 # │  To control the package-list.json using this config, uncomment and set the "history" property. │
