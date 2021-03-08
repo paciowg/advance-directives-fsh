@@ -1,0 +1,30 @@
+[
+  {
+    "id": "hl7.fhir.us.pacio-adi",
+    "type": "ImplementationGuide",
+    "url": "http://hl7.org/fhir/us/pacio-adi/ImplementationGuide/hl7.fhir.us.pacio-adi",
+    "version": "0.0.1",
+    "name": "PACIOAdvanceDirectiveInformation"
+  },
+  {
+    "id": "PADI-Composition",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-Composition",
+    "version": "0.0.1",
+    "name": "PADIComposition"
+  },
+  {
+    "id": "PADI-DocumentReference",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-DocumentReference",
+    "version": "0.0.1",
+    "name": "PADIDocumentReference"
+  },
+  {
+    "id": "PADI-Endpoint",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-Endpoint",
+    "version": "0.0.1",
+    "name": "PADIEndPoint"
+  }
+]

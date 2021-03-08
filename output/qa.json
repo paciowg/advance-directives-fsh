@@ -1,0 +1,12 @@
+{
+  "url": "http://hl7.org/fhir/us/pacio-adi/ImplementationGuide/hl7.fhir.us.pacio-adi",
+  "name": "PACIOAdvanceDirectiveInformation",
+  "package-id": "hl7.fhir.us.pacio-adi",
+  "ig-ver": "0.0.1",
+  "date": "Mon, 08 Mar, 2021 15:30:03 -0800",
+  "errs": 1,
+  "warnings": 4,
+  "hints": 0,
+  "version": "4.0.1",
+  "tool": "4.5.0 (3)"
+}
