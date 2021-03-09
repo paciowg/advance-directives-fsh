@@ -6,7 +6,7 @@ For profiles defined in other IGs, the meaning of "Must Support" is established 
 
 ### Resource Profile: ADIDocumentReference
 
-This resource profile is intended to be used for data exchange of Advance Directive Information. 
+This resource profile is intended to be used for data exchange of Advance Directive Information.
 
 <table class="grid">
   <thead>
