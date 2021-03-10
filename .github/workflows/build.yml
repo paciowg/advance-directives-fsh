@@ -35,7 +35,7 @@ jobs:
       - name: Push changes
         uses: peaceiris/actions-gh-pages@v2.5.0
         env:
-          ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          CW_DEPLOY_KEY: ${{ secrets.CW_DEPLOY_KEY }}
           EXTERNAL_REPOSITORY: paciowg/advance-directives-ig
           PUBLISH_BRANCH: main
           PUBLISH_DIR: ./output
