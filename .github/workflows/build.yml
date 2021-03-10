@@ -16,9 +16,9 @@ jobs:
           PUBLISH_BRANCH: main
           PUBLISH_DIR: ./output
           SCRIPT_MODE: true
-        run: |
-          wget https://raw.githubusercontent.com/peaceiris/actions-gh-pages/v2.5.0/entrypoint.sh
-          bash ./entrypoint.sh
+        # run: |
+        #   wget https://raw.githubusercontent.com/peaceiris/actions-gh-pages/v2.5.0/entrypoint.sh
+        #   bash ./entrypoint.sh
 
 
       # - name: Push changes
