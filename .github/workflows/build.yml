@@ -30,8 +30,8 @@ jobs:
         run: ./node_modules/.bin/sushi .
       # - name: Update ig-publisher
       #   run: ./_updatePublisher.sh
-      - name: Run ig-publisher
-        run: ./_genonce.sh
+      # - name: Run ig-publisher
+      #   run: ./_genonce.sh
       - name: Push changes
         uses: peaceiris/actions-gh-pages@v2.5.0
         env:
