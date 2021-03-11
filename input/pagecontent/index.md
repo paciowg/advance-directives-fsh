@@ -1,4 +1,4 @@
-### Advance Directive Information
+### Advance Directive Interoperability
 <p>TODO 
 
 
@@ -6,7 +6,6 @@ Advance directive documents are documents that people have traditionally used to
 Healthcare is evolving towards the use of advance care planning and advance care plans and moving away from legal transactional approaches to advance directives. A Personal Advance Care Plan (PACP) is a standard document used to exchange personal advance care planning information authored by the patient. The advance care plan addresses some unknown future time when certain circumstances might arise. It expresses the patient’s goals, preferences, and priorities for care and treatment under those specific circumstances. The statements made in the advance care plan don’t impact care directly. They inform decision-makers who made want to take the person’s goals, preferences, and priorities into consideration should the need arise to make medical treatment decisions on the person’s behalf.</p>
 <p>When a person is about to undergo an operation where they will be sedated, or about to have an inpatient stay, or a stay at a nursing or rehab care facility, care providers may ask a patient to make decisions about medical treatments they do or do not want should a circumstance arise when this choice would need to be taken into consideration. A patient may make these decisions for his or her self, or if the patient cannot make these decisions, the healthcare agent may decide. These medical treatment decisions are made in the present. They are instructions provided by the patient or a surrogate decision-maker. These instructions are closely related to advance directives, in that they say, if x happens, then do y. Or, if x happens, do not do y. For this reason, they are often recorded with a person’s advance directives. However, they are not advance directives because they represent treatment instructions that have, in fact, been given by the patient or their healthcare agent. These instructions are considered obligation or prohibition instructions, provided by the patient or the surrogate decision-maker, for the benefit of care providers. Providers involved in care delivery still need to make a judgement call as to whether or not x is happening before they decide if they should do y or not.<br/>
 A portable medical order is a document that tells other healthcare professionals the medical orders for life-sustaining treatment for a patient. Portable medical order documents are authored by physicians, not patients. They do not document goals, preferences and priorities that a patient intends to be used as guidance when making care decisions. They document medical treatment intervention decisions that already have been made and are currently in place to guide care delivery.</p>
-
 
 
 ### Expected Users
@@ -26,8 +25,9 @@ The PACIO Project is a collaborative effort to advance interoperable health data
 
 <p>The primary goal of the PACIO Project is to establish a framework for the development of Fast Healthcare Interoperability Resource (FHIR) technical implementation guides and reference implementations that will facilitate health data exchange through standards-based use case-driven application programming interfaces (APIs).
 </p>
-
+<!--
 ### Content and Organization
+TODO
 <p>The implementation guide is organized into the following sections:</p>
 <ul>
   <li><a href="advance_directive_use_case.html">Use Case Example</a> Describes an example of its use and provides a high-level overview of expected process flow.</li>
@@ -36,25 +36,14 @@ The PACIO Project is a collaborative effort to advance interoperable health data
   <li><a href="security_and_data_sharing.html">Security and Data Sharing</a> Covers issues concerning security and patient information access and sharing.</li>
   <li><a href="artifacts.html">Artifacts Summary</a> Introduces and provides links to the Capability Statement, IG Resource Profiles, and IG Extension Definitions as well as example profile instances.</li>
 </ul>
+-->
 
 ### Dependencies
 <p>This implementation guide relies on the following other specifications:</p>
 <ul>
-  <li><a href="http://hl7.org/fhir/R4/">FHIR R4</a> - The ‘current’ official version of FHIR as of the time this implementation guide was published.  See the <a href="underlying_technologies.html">background page</a> for key pieces of this specification implementers should be familiar with.</li>
-  <li><a href="http://hl7.org/fhir/us/core">US Core STU3</a> - The version of US Core based on FHIR R4.</li>
+  <li><a href="http://hl7.org/fhir/R4/">FHIR R4</a> - The version of FHIR used as the base for this implementation guide.
+  <li><a href="http://hl7.org/fhir/us/core/STU3.1.1/index.html">US Core STU3.1</a> - The version of US Core based on FHIR R4.</li>
+  <li><a href="http://hl7.org/fhir/us/ccda/STU1.1/index.html">C-CDA on FHIR STU1.1</a> - The version of C-CDA on FHIR based on FHIR R4.</li>
 </ul>
-
-### Downloads
-<p>
-<ul>
-  <li>The full <a href="full-ig.zip">PACIO Advance Directive Information Implementation Guide</a></li>
-  <li><a href="definitions.json.zip">FHIR R4 PACIO ADI Resource JSON Definitions</a> for use with the FHIR validator</li>
-  <li><a href="definitions.xml.zip">FHIR R4 PACIO ADI Resource XML Definitions</a></li>
-  <li><a href="definitions.ttl.zip">FHIR R4 PACIO ADI Resource Turtle Definitions</a></li>
-  <li><a href="examples.json.zip">FHIR R4 PACIO ADI Examples</a></li>
-  <li><a href="https://fhir.github.io/latest-ig-validator/org.hl7.fhir.validator.jar">FHIR IG Validator Pack</a> which can be used to check FHIR resource instance validity</li>
-</ul>
-
-
 </p>
 

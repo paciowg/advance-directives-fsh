@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>HL7.FHIR.US.PACIO-ADI\Patient Stories and Personas - FHIR v4.0.1</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet"/>
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"6"}
+    h3,h4,h5,h6{--heading-prefix:"6"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Placeholder for child template header declarations -->
+
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="http://hl7.org">
+            <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
+          </a>
+        </div>
+        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+        </div>
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">PACIO Advance Directive Information Implementation Guide</span><br/>0.0.1 - STU1</p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="introduction.html#advance-directive-interoperability-adi-project-need">Advance Directive Interoperability (ADI) Project Need</a>
+      </li>
+      <li>
+        <a href="introduction.html#external-drivers">External Drivers</a>
+      </li>
+      <li>
+        <a href="introduction.html#audience">Audience</a>
+      </li>
+      <li>
+        <a href="introduction.html#how-to-read-this-guide">How to read this Guide</a>
+      </li>
+      <li>
+        <a href="introduction.html#key-terms-and-acronyms">Key Terms and Acronyms</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Guidance
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="business_case.html">Business Case</a>
+      </li>
+      <li>
+        <a href="patient_stories_and_personas.html">Patient Stories and Personas</a>
+      </li>
+      <li>
+        <a href="use_cases.html">Use Cases</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">FHIR Artifacts
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="artifacts.html#structures-resource-profiles">Profiles</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="downloads.html">Downloads</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Patient Stories and Personas</b></li>
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <div id="segment-content">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">PACIO Advance Directive Information Implementation Guide - Local Development build (v0.0.1). See the <a href="http://hl7.org/fhir/us/pacio-adi/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Patient Stories and Personas</h2>
+  
+
+
+
+
+
+
+
+
+
+    <p><!-- white space is critical inside of capture --></p>
+<div>
+<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
+</div>
+
+<h3 id="1-create-in-a-digital-form-and-make-available-for-sharing-and-accessing">1. Create in a digital form and make available for sharing and accessing</h3>
+<h4 id="1a-create-in-a-digital-form-and-make-available-for-sharing-and-accessing-advance-directive-information">1a. Create in a digital form and make available for sharing and accessing advance directive information</h4>
+<p>
+Angie has Sickle Cell Disease. She worries that if she contracts COVID-19 and becomes unable to communicate with medical personnel, they won't be familiar with her history and specific treatment needs. 
+</p>
+<p>
+She uses a consumer facing tool to create a digital advance directive or upload a scanned copy of her paper advance directive document. Her interoperable digital advance directive information is made available by being stored in a registry/repository/HIE/QHIN/EHR. 
+</p>
+<p>
+Angie shares her advance directive information with her medical proxy/healthcare agent and primary care physician so if either are contacted by a treating provider in an emergency, they can make her advance directive accessible to inform treatment.
+</p>
+<p><img src="./patient_story_1a.png" alt="Patient Story 1a" />
+ <br clear="all" /></p>
+
+<h4 id="1b-create-in-a-digital-form-and-make-available-for-sharing-and-accessing-encounter-centric-patient-instructions">1b Create in a digital form and make available for sharing and accessing Encounter-Centric Patient Instructions</h4>
+<p>
+Steven is a 34 year old man who has had Cystic Fibrosis all his life. He created his advance directive a few years ago when his condition sharply worsened. He is eligible for a lung transplant due to his age and disease state. 
+</p>
+<p>
+His advance directive states that he wants no life-sustaining treatment if he has a health crisis that warrants those measures, and is unable to communicate for himself. Steven doesn't want to be resuscitated only to wait for a lung transplant that may never happen. 
+</p>
+<p>
+Steven gets the call one night that he has been matched to a donor and goes immediately to the hospital for his lung transplant. 
+</p>
+<p>
+The surgeon meets with Steven prior to the procedure and asks him if he has specific instructions related to the transplant encounter, should a situation arise during surgery that requires additional treatment decisions to be made. 
+</p>
+<p>
+Steven’s surgeon creates an order, based on Steven’s consent, about his decision to receive life-sustaining treatment during the current encounter. Steven feels he has a chance at a longer life with a new lung that he hasn't been able to consider until now. 
+</p>
+<p>
+Steven's patient instructions and consent are documented and signed-off in the clinical record to enable the entire medical team to have visibility into Steven’s instructions during his surgical procedure.
+</p>
+<p>
+Steven’s patient instructions and associated order, as part of the encounter summary documentation, is made available from the EMR to other care settings (outside the clinical record) by being stored in a registry/repository/HIE/QHIN/EHR as a result of integration that exists. 
+</p>
+<p><img src="./patient_story_1b.png" alt="Patient Story 1b" />
+<br clear="all" /></p>
+
+<h4 id="1c-create-in-a-digital-form-and-make-available-for-sharing-and-accessing-portable-medical-order-for-life-sustaining-treatment">1c Create in a digital form and make available for sharing and accessing Portable Medical Order for Life-Sustaining Treatment</h4>
+<p>
+Frank is a 78 year old man who has end stage kidney disease and receives dialysis 3x per week. He receives long term supportive services in his home. Frank is cognitively intact.
+</p>
+<p>
+Frank suffers from a chronic health condition that has resulted in a limited life-expectancy of 6-12 months. He creates an advance directive with his caregiver. Frank does not want to have life-sustaining treatment rendered if his condition warrants those measures, if he is unable to communicate for himself. 
+</p>
+<p>
+Frank's condition worsens sharply one day and he is taken by ambulance to the nearest hospital for treatment. Frank tells the ER physician about his advance directive and the physician writes a DNR order, valid for that hospitalization only, to Frank's medical record. 
+</p>
+<p>
+Frank is transferred to a skilled nursing facility for post-acute care. The practitioner overseeing his care in the Skilled Nursing Facility (SNF) meets with Frank to discuss his goals of care, his hospital DNR, and reviews his advance directive with him. He recommends creation of a portable medical order for life-sustaining treatment to align with Frank's desire to prevent an unwanted hospital transfer. 
+</p>
+<p>
+The practitioner ensures the portable medical order for life-sustaining treatment document is added to Frank’s SNF medical record so it is accessible by facility staff in case of emergency.  Frank also receives a copy of this new document, which he places in his bedside table.
+</p>
+<p>
+The facility's medical record is integrated to the broader healthcare ecosystem which accessed Frank's advance directive, and now enables his portable medical order for life-sustaining treatment document to be available in a registry/repository/HIE/QHIN so as to inform treatment during a transition of care. 
+</p>
+<p>
+One evening Frank sustains a significant change in condition that renders him unconscious. The SNF care team reviews his portable medical order for life-sustaining treatment document to find he doesn't want to receive life-sustaining treatment. They call 911 in accordance with facility policy. Emergency access to Frank's ADI is granted, and the EMS personnel render comfort measures in concordance with his wishes. 
+</p>
+<p><img src="./patient_story_1a.png" alt="Patient Story 1c" />
+<br clear="all" /></p>
+
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color: #81BEF7" href="http://www.hl7.org/Special/committees/patientempowerment/index.cfm">HL7 Patient Empowerment Working Group</a>.  Package hl7.fhir.us.pacio-adi#0.0.1 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Mar 11, 2021 15:19-0800">2021-03-11</span>
+          <br/>
+          <span style="color: #FFFF77">
+                      Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
+                 <a style="color: #81BEF7" href="qa.html">QA Report</a>
+               | <a style="color: #81BEF7" target="_blank" href="http://hl7.org/fhir/us/pacio-adi/history.html">Version History  |
+               <a style="color: #81BEF7" target="_blank" href="searchform.html">Search  |
+                 <a style="color: #81BEF7" rel="license" href="http://hl7.org/fhir/R4/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
+                 <!--<a style="color: #81BEF7" href="todo.html">Search</a> | --> 
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.org/fhir-issues">Propose a change </a>
+
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

@@ -25,6 +25,7 @@ license: CC0-1.0
 fhirVersion: 4.0.1
 dependencies:
   hl7.fhir.us.core: 3.1.1   # updated from 3.1.0 on 9/23/20
+  hl7.fhir.us.ccda: 1.1.0   # US Realm Header for DocumentReference
 parameters:
   show-inherited-invariants: false
   apply-jurisdiction: true
@@ -37,15 +38,43 @@ jurisdiction: urn:iso:std:iso:3166#US
 # │  To control the menu.xml using this config, uncomment and set the "menu" property.             │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
-  IG Home: index.html
+  Home: index.html
   Table of Contents: toc.html
-  Underlying Technologies: underlying_technologies.html
-  Use Case Example: advance_directive_use_case.html
-  Profile Highlights and Guidance: profile_highlights_and_guidance.html
-  Artifacts Summary: artifacts.html
-  Other Resources: 
-    FHIR Spec: http://hl7.org/fhir/R4/index.html
-#  Downloads: downloads.html downloads page is not included in the other PACIO
+  Introduction:
+    Advance Directive Interoperability (ADI) Project Need: introduction.html#advance-directive-interoperability-adi-project-need
+    External Drivers: introduction.html#external-drivers
+    Audience: introduction.html#audience
+    How to read this Guide: introduction.html#how-to-read-this-guide
+    Key Terms and Acronyms: introduction.html#key-terms-and-acronyms
+  Guidance:
+    Business Case:  business_case.html
+    Patient Stories and Personas: patient_stories_and_personas.html
+    Use Cases: use_cases.html
+  FHIR Artifacts:
+    Profiles: artifacts.html#structures-resource-profiles
+#    Search Parameters: 6_searchparameters.html
+    #Terminology: artifacts.html#5
+    #Capability Statement: CapabilityStatement-padi.html
+  #Examples: artifacts.html#7
+  Downloads: downloads.html
+
+# Old menu for reference
+#menu:
+#  Home: index.html
+#    Introduction: introduction.html
+#  How to read this Guide: how_to_read_this_guide.html
+#  ADI Business Case: ADI_business_case.html
+#  Patient Stories and Personas: patient_stories_and_personas.html
+#  ADI Actors: ADI_actors.html
+#  ADI Profiles: ADI_profiles.html
+#  Table of Contents: toc.html
+#  Underlying Technologies: underlying_technologies.html
+#  Use Case Example: advance_directive_use_case.html
+#  Profile Highlights and Guidance: profile_highlights_and_guidance.html
+#  Artifacts Summary: artifacts.html
+#  Other Resources: 
+#    FHIR Spec: http://hl7.org/fhir/R4/index.html
+#    Downloads: downloads.html downloads page is not included in the other PACIO
 
 # ╭───────────────────────────────────────package-list.json────────────────────────────────────────╮
 # │  To control the package-list.json using this config, uncomment and set the "history" property. │

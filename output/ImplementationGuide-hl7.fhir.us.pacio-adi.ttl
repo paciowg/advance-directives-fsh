@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "PACIOAdvanceDirectiveInformation"];
   fhir:ImplementationGuide.title [ fhir:value "PACIO Advance Directive Information Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-03-11T06:15:37-08:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-03-11T15:19:52-08:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 Patient Empowerment Working Group"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -56,6 +56,15 @@
      ];
      fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "hl7.fhir.us.core" ];
      fhir:ImplementationGuide.dependsOn.version [ fhir:value "3.1.1" ]
+  ], [
+     fhir:index 1;
+     fhir:Element.id [ fhir:value "hl7_fhir_us_ccda" ];
+     fhir:ImplementationGuide.dependsOn.uri [
+       fhir:value "http://hl7.org/fhir/us/ccda/ImplementationGuide/hl7.fhir.us.ccda";
+       fhir:link <http://hl7.org/fhir/us/ccda/ImplementationGuide/hl7.fhir.us.ccda>
+     ];
+     fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "hl7.fhir.us.ccda" ];
+     fhir:ImplementationGuide.dependsOn.version [ fhir:value "1.1.0" ]
   ];
   fhir:ImplementationGuide.definition [
      fhir:Element.extension [
@@ -370,18 +379,48 @@
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ], [
          fhir:index 2;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "business_case.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Business Case" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index 3;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "downloads.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Downloads" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index 4;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "introduction.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Introduction" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index 5;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "patient_stories_and_personas.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Patient Stories and Personas" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index 6;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "profile_highlights_and_guidance.html" ];
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Profile Highlights and Guidance" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ], [
-         fhir:index 3;
+         fhir:index 7;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "profiles.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Profiles" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index 8;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "security_and_data_sharing.html" ];
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Security and Data Sharing" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ], [
-         fhir:index 4;
+         fhir:index 9;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "underlying_technologies.html" ];
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Underlying Technologies" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index 10;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "use_cases.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Use Cases" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ]
      ];

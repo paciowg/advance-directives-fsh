@@ -63,6 +63,30 @@
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/us/ccda/StructureDefinition/AuthorizationExtension": [
+      "Composition"
+    ],
+    "http://hl7.org/fhir/us/ccda/StructureDefinition/DataEntererExtension": [
+      "Composition"
+    ],
+    "http://hl7.org/fhir/us/ccda/StructureDefinition/InformantExtension": [
+      "Composition"
+    ],
+    "http://hl7.org/fhir/us/ccda/StructureDefinition/InformationRecipientExtension": [
+      "Composition"
+    ],
+    "http://hl7.org/fhir/us/ccda/StructureDefinition/OrderExtension": [
+      "Composition"
+    ],
+    "http://hl7.org/fhir/us/ccda/StructureDefinition/ParticipantExtension": [
+      "Composition"
+    ],
+    "http://hl7.org/fhir/us/ccda/StructureDefinition/PerformerExtension": [
+      "Composition"
+    ],
+    "http://hl7.org/fhir/us/ccda/StructureDefinition/VersionNumber": [
+      "Composition"
     ]
   }
 }

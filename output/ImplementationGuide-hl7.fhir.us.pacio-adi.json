@@ -10,7 +10,7 @@
   "name": "PACIOAdvanceDirectiveInformation",
   "title": "PACIO Advance Directive Information Implementation Guide",
   "status": "draft",
-  "date": "2021-03-11T06:15:37-08:00",
+  "date": "2021-03-11T15:19:52-08:00",
   "publisher": "HL7 Patient Empowerment Working Group",
   "contact": [
     {
@@ -49,6 +49,12 @@
       "uri": "http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core",
       "packageId": "hl7.fhir.us.core",
       "version": "3.1.1"
+    },
+    {
+      "id": "hl7_fhir_us_ccda",
+      "uri": "http://hl7.org/fhir/us/ccda/ImplementationGuide/hl7.fhir.us.ccda",
+      "packageId": "hl7.fhir.us.ccda",
+      "version": "1.1.0"
     }
   ],
   "definition": {
@@ -387,8 +393,33 @@
           "generation": "markdown"
         },
         {
+          "nameUrl": "business_case.html",
+          "title": "Business Case",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "downloads.html",
+          "title": "Downloads",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "introduction.html",
+          "title": "Introduction",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "patient_stories_and_personas.html",
+          "title": "Patient Stories and Personas",
+          "generation": "markdown"
+        },
+        {
           "nameUrl": "profile_highlights_and_guidance.html",
           "title": "Profile Highlights and Guidance",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "profiles.html",
+          "title": "Profiles",
           "generation": "markdown"
         },
         {
@@ -399,6 +430,11 @@
         {
           "nameUrl": "underlying_technologies.html",
           "title": "Underlying Technologies",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "use_cases.html",
+          "title": "Use Cases",
           "generation": "markdown"
         }
       ]

@@ -11,7 +11,7 @@
   <name value="PACIOAdvanceDirectiveInformation"/>
   <title value="PACIO Advance Directive Information Implementation Guide"/>
   <status value="draft"/>
-  <date value="2021-03-11T06:15:37-08:00"/>
+  <date value="2021-03-11T15:19:52-08:00"/>
   <publisher value="HL7 Patient Empowerment Working Group"/>
   <contact>
     <name value="HL7 Patient Empowerment Working Group"/>
@@ -38,6 +38,11 @@
     <uri value="http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core"/>
     <packageId value="hl7.fhir.us.core"/>
     <version value="3.1.1"/>
+  </dependsOn>
+  <dependsOn id="hl7_fhir_us_ccda">
+    <uri value="http://hl7.org/fhir/us/ccda/ImplementationGuide/hl7.fhir.us.ccda"/>
+    <packageId value="hl7.fhir.us.ccda"/>
+    <version value="1.1.0"/>
   </dependsOn>
   <definition>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -256,8 +261,33 @@
         <generation value="markdown"/>
       </page>
       <page>
+        <nameUrl value="business_case.html"/>
+        <title value="Business Case"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="downloads.html"/>
+        <title value="Downloads"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="introduction.html"/>
+        <title value="Introduction"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="patient_stories_and_personas.html"/>
+        <title value="Patient Stories and Personas"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
         <nameUrl value="profile_highlights_and_guidance.html"/>
         <title value="Profile Highlights and Guidance"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="profiles.html"/>
+        <title value="Profiles"/>
         <generation value="markdown"/>
       </page>
       <page>
@@ -268,6 +298,11 @@
       <page>
         <nameUrl value="underlying_technologies.html"/>
         <title value="Underlying Technologies"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="use_cases.html"/>
+        <title value="Use Cases"/>
         <generation value="markdown"/>
       </page>
     </page>

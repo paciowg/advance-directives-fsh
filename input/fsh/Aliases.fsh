@@ -12,6 +12,8 @@ Alias:   $USCoreProvenance = http://hl7.org/fhir/us/core/StructureDefinition/us-
 
 Alias: $USCoreDocumentReferenceType = http://hl7.org/fhir/us/core/ValueSet/us-core-documentreference-type
 Alias: $USCoreDocumentReferenceCategory = http://hl7.org/fhir/us/core/ValueSet/us-core-documentreference-category
+
+Alias: $USRealmHeader = http://hl7.org/fhir/us/ccda/StructureDefinition/US-Realm-Header
 //Alias:   $USCoreProviderRole = http://hl7.org/fhir/us/core/ValueSet/us-core-provider-role
 //Alias:   $USCoreProviderSpecialty = http://hl7.org/fhir/us/core/ValueSet/us-core-provider-specialty
 /*
