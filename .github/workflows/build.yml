@@ -39,4 +39,3 @@ jobs:
           EXTERNAL_REPOSITORY: paciowg/advance-directives-ig
           PUBLISH_BRANCH: main
           PUBLISH_DIR: ./output
-          SCRIPT_MODE: true
