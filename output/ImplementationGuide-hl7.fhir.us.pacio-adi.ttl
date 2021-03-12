@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "PACIOAdvanceDirectiveInteroperability"];
   fhir:ImplementationGuide.title [ fhir:value "PACIO Advance Directive Interoperability Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-03-12T08:14:43-08:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-03-12T15:44:28-08:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 Patient Empowerment Working Group"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -346,7 +346,7 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/PADI-DocumentReference" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "PACIO ADI Document Reference" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "TODO A reference to an Advance Directive Document" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "[TODO] This profile defines constraints that represent the information needed to register an advance directive information document on a FHIR server." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 2;
@@ -361,6 +361,20 @@
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "PACIO ADI Endpoint" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "TODO A an Advance Directive Endpoint" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-Provenance>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/PADI-Provenance" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PACIO ADI Provenance" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "[TODO] Advance Directive Interoperability Provanance baed on US Core" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ];
      fhir:ImplementationGuide.definition.page [
@@ -409,8 +423,8 @@
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ], [
          fhir:index 8;
-         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "security_and_data_sharing.html" ];
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "Security and Data Sharing" ];
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "security.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Security" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ], [
          fhir:index 9;
@@ -492,6 +506,8 @@
 <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-DocumentReference> a fhir:us .
 
 <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-Endpoint> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-Provenance> a fhir:us .
 
 # - ontology header ------------------------------------------------------------
 

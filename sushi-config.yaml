@@ -40,16 +40,11 @@ jurisdiction: urn:iso:std:iso:3166#US
 menu:
   Home: index.html
   Table of Contents: toc.html
-  Introduction:
-    Advance Directive Interoperability (ADI) Project Need: introduction.html#advance-directive-interoperability-adi-project-need
-    External Drivers: introduction.html#external-drivers
-    Audience: introduction.html#audience
-    How to read this Guide: introduction.html#how-to-read-this-guide
-    Key Terms and Acronyms: introduction.html#key-terms-and-acronyms
   Guidance:
     Business Case:  business_case.html
     Patient Stories and Personas: patient_stories_and_personas.html
     Use Cases: use_cases.html
+    Security: security.html
   FHIR Artifacts:
     Profiles: artifacts.html#structures-resource-profiles
 #    Search Parameters: 6_searchparameters.html

@@ -22,6 +22,12 @@
         "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-Endpoint",
         "title": "PACIO ADI Endpoint"
       }
+    ],
+    "Provenance": [
+      {
+        "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-Provenance",
+        "title": "PACIO ADI Provenance"
+      }
     ]
   },
   "usage": {

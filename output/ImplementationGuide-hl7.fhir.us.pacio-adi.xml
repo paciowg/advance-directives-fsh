@@ -11,7 +11,7 @@
   <name value="PACIOAdvanceDirectiveInteroperability"/>
   <title value="PACIO Advance Directive Interoperability Implementation Guide"/>
   <status value="draft"/>
-  <date value="2021-03-12T08:14:43-08:00"/>
+  <date value="2021-03-12T15:44:28-08:00"/>
   <publisher value="HL7 Patient Empowerment Working Group"/>
   <contact>
     <name value="HL7 Patient Empowerment Working Group"/>
@@ -232,7 +232,7 @@
         <reference value="StructureDefinition/PADI-DocumentReference"/>
       </reference>
       <name value="PACIO ADI Document Reference"/>
-      <description value="TODO A reference to an Advance Directive Document"/>
+      <description value="[TODO] This profile defines constraints that represent the information needed to register an advance directive information document on a FHIR server."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -244,6 +244,17 @@
       </reference>
       <name value="PACIO ADI Endpoint"/>
       <description value="TODO A an Advance Directive Endpoint"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/PADI-Provenance"/>
+      </reference>
+      <name value="PACIO ADI Provenance"/>
+      <description value="[TODO] Advance Directive Interoperability Provanance baed on US Core"/>
       <exampleBoolean value="false"/>
     </resource>
     <page>
@@ -291,8 +302,8 @@
         <generation value="markdown"/>
       </page>
       <page>
-        <nameUrl value="security_and_data_sharing.html"/>
-        <title value="Security and Data Sharing"/>
+        <nameUrl value="security.html"/>
+        <title value="Security"/>
         <generation value="markdown"/>
       </page>
       <page>

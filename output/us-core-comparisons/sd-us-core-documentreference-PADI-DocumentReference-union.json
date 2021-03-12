@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "3a333335-9da0-4adf-8195-91f5df61f1f4-2",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/3a333335-9da0-4adf-8195-91f5df61f1f4-2",
+  "id" : "66182033-b953-4fbf-a089-19c3c2634706-2",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/66182033-b953-4fbf-a089-19c3c2634706-2",
   "name" : "UnionUSCoreDocumentReferenceProfileAndPADIDocumentReference",
   "title" : "Union of US Core DocumentReference Profile And PACIO ADI Document Reference",
   "status" : "active",
-  "date" : "2021-03-12T08:14:50-08:00",
+  "date" : "2021-03-12T15:44:32-08:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

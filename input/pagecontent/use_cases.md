@@ -48,14 +48,17 @@ Use cases in this IG will provide requirements for systems to use FHIR RESTful o
  
 #### Use Case 3: Query and Access [Content]
 3.1 Patient query
+<br clear="all" />
 <img src="./use_case_3_2.png" alt="Use Case 3: Diagram 1"/>
 <br clear="all" />
 
 3.2 DocumentReference query
+<br clear="all" />
 <img src="./use_case_3_2.png" alt="Use Case 3: Diagram 2"/>
 <br clear="all" />
 
 3.3 Binary read or Read Composition with $Document or Read Composition with _include:*
+<br clear="all" />
  <img src="./use_case_3_3.png" alt="Use Case 3: Diagram 3"/>
  <br clear="all" />
 

@@ -10,7 +10,7 @@
   "name": "PACIOAdvanceDirectiveInteroperability",
   "title": "PACIO Advance Directive Interoperability Implementation Guide",
   "status": "draft",
-  "date": "2021-03-12T08:14:43-08:00",
+  "date": "2021-03-12T15:44:28-08:00",
   "publisher": "HL7 Patient Empowerment Working Group",
   "contact": [
     {
@@ -359,7 +359,7 @@
           "reference": "StructureDefinition/PADI-DocumentReference"
         },
         "name": "PACIO ADI Document Reference",
-        "description": "TODO A reference to an Advance Directive Document",
+        "description": "[TODO] This profile defines constraints that represent the information needed to register an advance directive information document on a FHIR server.",
         "exampleBoolean": false
       },
       {
@@ -374,6 +374,20 @@
         },
         "name": "PACIO ADI Endpoint",
         "description": "TODO A an Advance Directive Endpoint",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/PADI-Provenance"
+        },
+        "name": "PACIO ADI Provenance",
+        "description": "[TODO] Advance Directive Interoperability Provanance baed on US Core",
         "exampleBoolean": false
       }
     ],
@@ -423,8 +437,8 @@
           "generation": "markdown"
         },
         {
-          "nameUrl": "security_and_data_sharing.html",
-          "title": "Security and Data Sharing",
+          "nameUrl": "security.html",
+          "title": "Security",
           "generation": "markdown"
         },
         {

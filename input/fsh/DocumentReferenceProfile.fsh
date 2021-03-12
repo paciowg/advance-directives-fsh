@@ -1,9 +1,9 @@
 Profile: PADIDocumentReference
-// Does this need to derive from US Core DocumentReference? If so, need to review the requirements below and remove incompatible or redundant requirements
+// [TODO] Does this need to derive from US Core DocumentReference? If so, need to review the requirements below and remove incompatible or redundant requirements
 Parent: DocumentReference
 Id: PADI-DocumentReference
 Title: "PACIO ADI Document Reference"
-Description: "TODO A reference to an Advance Directive Document"
+Description: "[TODO] This profile defines constraints that represent the information needed to register an advance directive information document on a FHIR server."
 
 // Is a last updated required?
 //* meta.lastUpdated 1..1 MS

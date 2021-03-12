@@ -26,5 +26,12 @@
     "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-Endpoint",
     "version": "0.0.1",
     "name": "PADIEndPoint"
+  },
+  {
+    "id": "PADI-Provenance",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-Provenance",
+    "version": "0.0.1",
+    "name": "PADIProvenance"
   }
 ]

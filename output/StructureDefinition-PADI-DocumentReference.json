@@ -20,7 +20,7 @@
   "name": "PADIDocumentReference",
   "title": "PACIO ADI Document Reference",
   "status": "active",
-  "date": "2021-03-12T08:14:43-08:00",
+  "date": "2021-03-12T15:44:28-08:00",
   "publisher": "HL7 Patient Empowerment Working Group",
   "contact": [
     {
@@ -37,7 +37,7 @@
       ]
     }
   ],
-  "description": "TODO A reference to an Advance Directive Document",
+  "description": "[TODO] This profile defines constraints that represent the information needed to register an advance directive information document on a FHIR server.",
   "jurisdiction": [
     {
       "coding": [

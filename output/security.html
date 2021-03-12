@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>HL7.FHIR.US.PACIO-ADI\Security and Data Sharing - FHIR v4.0.1</title>
+    <title>HL7.FHIR.US.PACIO-ADI\Security - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -92,28 +92,6 @@
     <a href="toc.html">Table of Contents</a>
   </li>
   <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
-      <b class="caret"></b>
-    </a>
-    <ul class="dropdown-menu">
-      <li>
-        <a href="introduction.html#advance-directive-interoperability-adi-project-need">Advance Directive Interoperability (ADI) Project Need</a>
-      </li>
-      <li>
-        <a href="introduction.html#external-drivers">External Drivers</a>
-      </li>
-      <li>
-        <a href="introduction.html#audience">Audience</a>
-      </li>
-      <li>
-        <a href="introduction.html#how-to-read-this-guide">How to read this Guide</a>
-      </li>
-      <li>
-        <a href="introduction.html#key-terms-and-acronyms">Key Terms and Acronyms</a>
-      </li>
-    </ul>
-  </li>
-  <li class="dropdown">
     <a data-toggle="dropdown" href="#" class="dropdown-toggle">Guidance
       <b class="caret"></b>
     </a>
@@ -126,6 +104,9 @@
       </li>
       <li>
         <a href="use_cases.html">Use Cases</a>
+      </li>
+      <li>
+        <a href="security.html">Security</a>
       </li>
     </ul>
   </li>
@@ -153,7 +134,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Security and Data Sharing</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Security</b></li>
         </ul>
       </div>  <!-- /container -->
     </div>  <!-- /segment-breadcrumb -->
@@ -172,7 +153,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </style>
 <div class="col-12">
   <!--ReleaseHeader--><p id="publish-box">PACIO Advance Directive Interoperability Implementation Guide - Local Development build (v0.0.1). See the <a href="http://hl7.org/fhir/us/pacio-adi/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
-  <h2>Security and Data Sharing</h2>
+  <h2>Security</h2>
   
 
 
@@ -184,24 +165,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 
     <p><!-- white space is critical inside of capture --></p>
-<div class="markdown-toc">
-<ul id="markdown-toc">
-  <li><a href="#security-privacy-and-consent" id="markdown-toc-security-privacy-and-consent">Security, Privacy, and Consent</a></li>
-  <li><a href="#smart-on-fhir-patient-access" id="markdown-toc-smart-on-fhir-patient-access">SMART-on-FHIR Patient-Access</a></li>
-</ul>
-
+<div>
+<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
 </div>
 <h3 id="security-privacy-and-consent">Security, Privacy, and Consent</h3>
 
-<p>TODO</p>
+<p>[TODO]</p>
 
 <p>This Implementation Guide leverages the <a href="http://docs.smarthealthit.org/">SMART-on-FHIR</a> and <a href="https://oauth.net/2/">OAuth2.0</a> standards, which add authentication and authorization capabilities to FHIR. This architecture is intended to maximize the number of clinical systems that conform to this guide as well as to allow for easy growth and extensibility of system capabilities in the future.</p>
 
-<h3 id="smart-on-fhir-patient-access">SMART-on-FHIR Patient-Access</h3>
-
-<p>The sharing of data with a patient-controlled third-party app is accomplished through the patient’s HIPAA Right of Access, which allows the patient to use their data in any way they desire. As a result, the third-party app may not be a HIPAA Covered Entity or Business Associate of a covered entity and may not be covered by HIPAA controls in the use of data, sensitive or otherwise.</p>
-
-<p>The patient or authorized caregiver <strong>SHALL</strong> authenticate using credentials that have been issued, or recognized and accepted, by the provider. These are typically the provider’s credentials for a patient portal or health information exchange network.</p>
 
 
 
@@ -225,7 +197,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color: #81BEF7" href="http://www.hl7.org/Special/committees/patientempowerment/index.cfm">HL7 Patient Empowerment Working Group</a>.  Package hl7.fhir.us.pacio-adi#0.0.1 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Mar 12, 2021 08:14-0800">2021-03-12</span>
+          IG &#169; 2021+ <a style="color: #81BEF7" href="http://www.hl7.org/Special/committees/patientempowerment/index.cfm">HL7 Patient Empowerment Working Group</a>.  Package hl7.fhir.us.pacio-adi#0.0.1 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Mar 12, 2021 15:44-0800">2021-03-12</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
