@@ -41,9 +41,9 @@ TODO
 ### Dependencies
 <p>This implementation guide relies on the following other specifications:</p>
 <ul>
-  <li><a href="http://hl7.org/fhir/R4/">FHIR R4</a> - The version of FHIR used as the base for this implementation guide.
+  <li><a href="http://hl7.org/fhir/R4/">FHIR R4</a> - The version of FHIR used as the base for this implementation guide.</li>
   <li><a href="http://hl7.org/fhir/us/core/STU3.1.1/index.html">US Core STU3.1</a> - The version of US Core based on FHIR R4.</li>
   <li><a href="http://hl7.org/fhir/us/ccda/STU1.1/index.html">C-CDA on FHIR STU1.1</a> - The version of C-CDA on FHIR based on FHIR R4.</li>
 </ul>
-</p>
+
 

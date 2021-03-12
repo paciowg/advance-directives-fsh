@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "PACIOAdvanceDirectiveInformation"];
   fhir:ImplementationGuide.title [ fhir:value "PACIO Advance Directive Information Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-03-11T15:19:52-08:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-03-11T17:30:50-08:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 Patient Empowerment Working Group"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
