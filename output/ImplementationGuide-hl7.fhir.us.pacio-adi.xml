@@ -3,15 +3,15 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="hl7.fhir.us.pacio-adi"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>PACIOAdvanceDirectiveInformation</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/us/pacio-adi/ImplementationGuide/hl7.fhir.us.pacio-adi</pre><div><p>PACIO Advance Directive Information Implementation Guide</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>PACIOAdvanceDirectiveInteroperability</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/us/pacio-adi/ImplementationGuide/hl7.fhir.us.pacio-adi</pre><div><p>PACIO Advance Directive Interoperability Implementation Guide</p>
 </div></div>
   </text>
   <url value="http://hl7.org/fhir/us/pacio-adi/ImplementationGuide/hl7.fhir.us.pacio-adi"/>
   <version value="0.0.1"/>
-  <name value="PACIOAdvanceDirectiveInformation"/>
-  <title value="PACIO Advance Directive Information Implementation Guide"/>
+  <name value="PACIOAdvanceDirectiveInteroperability"/>
+  <title value="PACIO Advance Directive Interoperability Implementation Guide"/>
   <status value="draft"/>
-  <date value="2021-03-11T17:30:50-08:00"/>
+  <date value="2021-03-12T08:14:43-08:00"/>
   <publisher value="HL7 Patient Empowerment Working Group"/>
   <contact>
     <name value="HL7 Patient Empowerment Working Group"/>
@@ -24,7 +24,7 @@
       <value value="patients@lists.HL7.org"/>
     </telecom>
   </contact>
-  <description value="PACIO Advance Directive Information Implementation Guide"/>
+  <description value="PACIO Advance Directive Interoperability Implementation Guide"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>

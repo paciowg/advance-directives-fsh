@@ -13,14 +13,14 @@
 id: hl7.fhir.us.pacio-adi
 canonical: http://hl7.org/fhir/us/pacio-adi
 version: 0.0.1
-name: PACIOAdvanceDirectiveInformation
-title: PACIO Advance Directive Information Implementation Guide
+name: PACIOAdvanceDirectiveInteroperability
+title: PACIO Advance Directive Interoperability Implementation Guide
 status: draft
 publisher:
   name: HL7 Patient Empowerment Working Group
   url: http://www.hl7.org/Special/committees/patientempowerment/index.cfm
   email: patients@lists.HL7.org
-description: PACIO Advance Directive Information Implementation Guide
+description: PACIO Advance Directive Interoperability Implementation Guide
 license: CC0-1.0
 fhirVersion: 4.0.1
 dependencies:

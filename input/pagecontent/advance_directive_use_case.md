@@ -1,5 +1,5 @@
 ### Example Scenario
 
 
-### Advance Directive Information Exchange
+### Advance Directive Interoperability Exchange
 

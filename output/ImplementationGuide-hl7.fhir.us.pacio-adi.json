@@ -3,14 +3,14 @@
   "id": "hl7.fhir.us.pacio-adi",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>PACIOAdvanceDirectiveInformation</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/us/pacio-adi/ImplementationGuide/hl7.fhir.us.pacio-adi</pre><div><p>PACIO Advance Directive Information Implementation Guide</p>\n</div></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>PACIOAdvanceDirectiveInteroperability</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/us/pacio-adi/ImplementationGuide/hl7.fhir.us.pacio-adi</pre><div><p>PACIO Advance Directive Interoperability Implementation Guide</p>\n</div></div>"
   },
   "url": "http://hl7.org/fhir/us/pacio-adi/ImplementationGuide/hl7.fhir.us.pacio-adi",
   "version": "0.0.1",
-  "name": "PACIOAdvanceDirectiveInformation",
-  "title": "PACIO Advance Directive Information Implementation Guide",
+  "name": "PACIOAdvanceDirectiveInteroperability",
+  "title": "PACIO Advance Directive Interoperability Implementation Guide",
   "status": "draft",
-  "date": "2021-03-11T17:30:50-08:00",
+  "date": "2021-03-12T08:14:43-08:00",
   "publisher": "HL7 Patient Empowerment Working Group",
   "contact": [
     {
@@ -27,7 +27,7 @@
       ]
     }
   ],
-  "description": "PACIO Advance Directive Information Implementation Guide",
+  "description": "PACIO Advance Directive Interoperability Implementation Guide",
   "jurisdiction": [
     {
       "coding": [

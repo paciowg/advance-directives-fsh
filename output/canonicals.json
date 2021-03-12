@@ -4,7 +4,7 @@
     "type": "ImplementationGuide",
     "url": "http://hl7.org/fhir/us/pacio-adi/ImplementationGuide/hl7.fhir.us.pacio-adi",
     "version": "0.0.1",
-    "name": "PACIOAdvanceDirectiveInformation"
+    "name": "PACIOAdvanceDirectiveInteroperability"
   },
   {
     "id": "PADI-Composition",

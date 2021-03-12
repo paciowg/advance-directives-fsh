@@ -10,14 +10,14 @@
   fhir:Resource.id [ fhir:value "hl7.fhir.us.pacio-adi"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>PACIOAdvanceDirectiveInformation</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/us/pacio-adi/ImplementationGuide/hl7.fhir.us.pacio-adi</pre><div><p>PACIO Advance Directive Information Implementation Guide</p>\n</div></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>PACIOAdvanceDirectiveInteroperability</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/us/pacio-adi/ImplementationGuide/hl7.fhir.us.pacio-adi</pre><div><p>PACIO Advance Directive Interoperability Implementation Guide</p>\n</div></div>"
   ];
   fhir:ImplementationGuide.url [ fhir:value "http://hl7.org/fhir/us/pacio-adi/ImplementationGuide/hl7.fhir.us.pacio-adi"];
   fhir:ImplementationGuide.version [ fhir:value "0.0.1"];
-  fhir:ImplementationGuide.name [ fhir:value "PACIOAdvanceDirectiveInformation"];
-  fhir:ImplementationGuide.title [ fhir:value "PACIO Advance Directive Information Implementation Guide"];
+  fhir:ImplementationGuide.name [ fhir:value "PACIOAdvanceDirectiveInteroperability"];
+  fhir:ImplementationGuide.title [ fhir:value "PACIO Advance Directive Interoperability Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-03-11T17:30:50-08:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-03-12T08:14:43-08:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 Patient Empowerment Working Group"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -32,7 +32,7 @@
        fhir:ContactPoint.value [ fhir:value "patients@lists.HL7.org" ]
      ]
   ];
-  fhir:ImplementationGuide.description [ fhir:value "PACIO Advance Directive Information Implementation Guide"];
+  fhir:ImplementationGuide.description [ fhir:value "PACIO Advance Directive Interoperability Implementation Guide"];
   fhir:ImplementationGuide.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [
