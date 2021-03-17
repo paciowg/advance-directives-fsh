@@ -17,7 +17,10 @@ Alias: $USRealmHeader = http://hl7.org/fhir/us/ccda/StructureDefinition/US-Realm
 
 
 
-Alias: $ProvenancePartcipantType = http://terminology.hl7.org/CodeSystem/provenance-participant-type
+Alias: $HL7ProvenancePartcipantType = http://terminology.hl7.org/CodeSystem/provenance-participant-type
+
+
+Alias: $HL7CompositionAttestation = http://hl7.org/fhir/ValueSet/composition-attestation-mode
 
 //Alias:   $USCoreProviderRole = http://hl7.org/fhir/us/core/ValueSet/us-core-provider-role
 //Alias:   $USCoreProviderSpecialty = http://hl7.org/fhir/us/core/ValueSet/us-core-provider-specialty

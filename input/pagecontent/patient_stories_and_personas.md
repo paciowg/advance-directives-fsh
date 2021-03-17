@@ -1,7 +1,7 @@
 [//]: #  ## Patient Stories and Personas 
 
-### 1. Create in a digital form and make available for sharing and accessing 
-#### 1a. Create in a digital form and make available for sharing and accessing advance directive information
+### Create in a digital form and make available for sharing and accessing 
+#### Create in a digital form and make available for sharing and accessing advance directive information
 <p>
 Angie has Sickle Cell Disease. She worries that if she contracts COVID-19 and becomes unable to communicate with medical personnel, they won't be familiar with her history and specific treatment needs. 
 </p>
@@ -14,7 +14,7 @@ Angie shares her advance directive information with her medical proxy/healthcare
 <img src="./patient_story_1a.png" alt="Patient Story 1a"/>
  <br clear="all" />
 
-#### 1b Create in a digital form and make available for sharing and accessing Encounter-Centric Patient Instructions
+#### Create in a digital form and make available for sharing and accessing Encounter-Centric Patient Instructions
 <p>
 Steven is a 34 year old man who has had Cystic Fibrosis all his life. He created his advance directive a few years ago when his condition sharply worsened. He is eligible for a lung transplant due to his age and disease state. 
 </p>
@@ -39,7 +39,7 @@ Steven’s patient instructions and associated order, as part of the encounter s
 <img src="./patient_story_1b.png" alt="Patient Story 1b"/>
 <br clear="all" />
 
-#### 1c Create in a digital form and make available for sharing and accessing Portable Medical Order for Life-Sustaining Treatment
+#### Create in a digital form and make available for sharing and accessing Portable Medical Order for Life-Sustaining Treatment
 <p>
 Frank is a 78 year old man who has end stage kidney disease and receives dialysis 3x per week. He receives long term supportive services in his home. Frank is cognitively intact.
 </p>
@@ -61,7 +61,7 @@ The facility's medical record is integrated to the broader healthcare ecosystem 
 <p>
 One evening Frank sustains a significant change in condition that renders him unconscious. The SNF care team reviews his portable medical order for life-sustaining treatment document to find he doesn't want to receive life-sustaining treatment. They call 911 in accordance with facility policy. Emergency access to Frank's ADI is granted, and the EMS personnel render comfort measures in concordance with his wishes. 
 </p>
-<img src="./patient_story_1a.png" alt="Patient Story 1c"/>
+<img src="./patient_story_1c.png" alt="Patient Story 1c"/>
 <br clear="all" />
 
 

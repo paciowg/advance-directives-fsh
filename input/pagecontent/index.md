@@ -142,7 +142,7 @@ TODO
 ### ADI Profiles
 <table border="1" style="border-spacing: 100px;">
     <tr>
-        <th colspan="4" style="background-color: #FFF2CC; text-align:center; padding: 10px; padding: 10px;"><b>CONTENT TYPE I: Advance Directives Information</b> <i>(in STU1 scope)</i></th>
+        <th colspan="4" style="background-color: #DEEBF7; text-align:center; padding: 10px; padding: 10px;"><b>CONTENT TYPE I: Advance Directives Information</b> <i>(in STU1 scope)</i></th>
     </tr>
     <tr style="background-color: #D9D9D9;">
         <th style="padding: 10px;" colspan="2"><b>Name of Profile to be developed</b></th>
@@ -151,24 +151,24 @@ TODO
     </tr>
     <tr>
         <td style="padding: 7px;">1</td>
-        <td style="padding: 7px;"><a href="#">ADI Document Reference</a></td>
+        <td style="padding: 7px;"><a href="StructureDefinition-PADI-DocumentReference.html">ADI Document Reference</a></td>
         <td style="padding: 7px;"><p>This profile defines constraints that represent the information needed to register an advance directive information document on a FHIR server.</p>
         <p><i>Development status: Initial draft available. Mapping in progress.</i></p></td>
         <td style="padding: 7px;"><a href="http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-documentreference.html">US Core DocumentReference</a></td>
     </tr>
     <tr>
         <td style="padding: 7px;">2</td>
-        <td style="padding: 7px;"><a href="#">ADI Header</a></td>
+        <td style="padding: 7px;"><a href="StructureDefinition-PADI-Header.html">ADI Header</a></td>
         <td style="padding: 7px;"><p>This profile defines constraints that represent common administrative and demographic concepts for advance directives information used in US Realm clinical documents.</p>
         <p><i>Development status: Initial draft available. Mapping in progress.</i></p></td>
-        <td style="padding: 7px;"><a href="http://hl7.org/fhir/us/ccda/STU1.1/StructureDefinition-US-Realm-Header.html">US Realm Header</a></td>
+        <td style="padding: 7px;"><a href="http://hl7.org/fhir/R4/clinicaldocument.html">ClinicalDocument</a></td>
     </tr>
     <tr>
         <td style="padding: 7px;">3</td>
         <td style="padding: 7px;"><a href="#">ADI Personal Advance Care Plan Composition</a></td>
         <td style="padding: 7px;"><p>This profile encompasses information that makes up the author’s advance care information plan.</p>
         <p><i>Development status: Mapping in progress.</i></p></td>
-        <td style="padding: 7px;"><a href="http://hl7.org/fhir/R4/composition.html">Composition</a></td>
+        <td style="padding: 7px;"><a href="StructureDefinition-PADI-Composition.html">ADI Header</a></td>
     </tr>
     <tr>
         <td style="padding: 7px;">4</td>
@@ -242,13 +242,13 @@ TODO
     </tr>
     <tr>
         <td style="padding: 7px;">14</td>
-        <td style="padding: 7px;">ADI Provenance</td>
+        <td style="padding: 7px;"><a href="#"><a href="StructureDefinition-PADI-Provenance.html">ADI Provenance</a></td>
         <td style="padding: 7px;"><p>[TODO] This profile is used for tracking the provenance of the Advance Directive resources.</p>
         <p><i>Development status: Not started.</i></p></td>
         <td style="padding: 7px;"><a href="http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-provenance.html">US Core Provenance</a></td>
     </tr>
     <tr>
-        <th colspan="4" style="background-color: #FFF2CC; text-align:center; padding: 10px; padding: 10px;"><b>CONTENT TYPE II: Encounter-Centric Patient Instructions</b> <i>(after STU1)</i></th>
+        <th colspan="4" style="background-color: #9DC3E6; text-align:center; padding: 10px; padding: 10px;"><b>CONTENT TYPE II: Encounter-Centric Patient Instructions</b> <i>(after STU1)</i></th>
     </tr>
     <tr style="background-color: #D9D9D9;">
         <th style="padding: 10px;" colspan="2"><b>Name of Profile to be developed</b></th>
@@ -291,7 +291,7 @@ TODO
         <td style="padding: 7px;"><a href="http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-procedure.html">US Core Procedure</a></td>
     </tr>
     <tr>
-        <th colspan="4" style="background-color: #FFF2CC; text-align:center; padding: 10px; padding: 10px;"><b>CONTENT Type III: P/MOLST</b> <i>(after STU1)</i></th>
+        <th colspan="4" style="background-color: #478FD1; text-align:center; padding: 10px; padding: 10px;"><b>CONTENT Type III: P/MOLST</b> <i>(after STU1)</i></th>
     </tr>
     <tr style="background-color: #D9D9D9;">
         <th style="padding: 10px;" colspan="2"><b>Name of Profile to be developed</b></th>

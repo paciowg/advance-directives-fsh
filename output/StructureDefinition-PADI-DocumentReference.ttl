@@ -26,7 +26,7 @@
   fhir:StructureDefinition.name [ fhir:value "PADIDocumentReference"];
   fhir:StructureDefinition.title [ fhir:value "PACIO ADI Document Reference"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-03-12T15:44:28-08:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-03-16T22:34:51-07:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "HL7 Patient Empowerment Working Group"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
@@ -41,7 +41,7 @@
        fhir:ContactPoint.value [ fhir:value "patients@lists.HL7.org" ]
      ]
   ];
-  fhir:StructureDefinition.description [ fhir:value "[TODO] This profile defines constraints that represent the information needed to register an advance directive information document on a FHIR server."];
+  fhir:StructureDefinition.description [ fhir:value "This profile defines constraints that represent the information needed to register an advance directive information document on a FHIR server."];
   fhir:StructureDefinition.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [

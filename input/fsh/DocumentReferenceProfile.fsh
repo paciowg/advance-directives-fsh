@@ -3,7 +3,7 @@ Profile: PADIDocumentReference
 Parent: DocumentReference
 Id: PADI-DocumentReference
 Title: "PACIO ADI Document Reference"
-Description: "[TODO] This profile defines constraints that represent the information needed to register an advance directive information document on a FHIR server."
+Description: "This profile defines constraints that represent the information needed to register an advance directive information document on a FHIR server."
 
 // Is a last updated required?
 //* meta.lastUpdated 1..1 MS

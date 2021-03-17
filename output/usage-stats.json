@@ -3,14 +3,73 @@
   "version": "0.0.1",
   "fhirVersion": "4.0.1",
   "jurisdiction": "US",
-  "extensions": [],
+  "extensions": [
+    {
+      "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-authorization-extension",
+      "title": "Authorization",
+      "types": [
+        "Reference",
+        "Reference"
+      ]
+    },
+    {
+      "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-dataEnterer-extension",
+      "title": "Data Enterer",
+      "types": [
+        "Reference",
+        "Reference"
+      ]
+    },
+    {
+      "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-informant-extension",
+      "title": "Informant",
+      "types": [
+        "Reference",
+        "Reference"
+      ]
+    },
+    {
+      "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-informatioRecipient-extension",
+      "title": "Information Recipient",
+      "types": [
+        "Reference",
+        "Reference"
+      ]
+    },
+    {
+      "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-order-extension",
+      "title": "Order",
+      "types": [
+        "Reference",
+        "Reference"
+      ]
+    },
+    {
+      "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-participant-extension",
+      "title": "Participant",
+      "types": [
+        "Reference",
+        "Reference"
+      ]
+    },
+    {
+      "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-performer-extension",
+      "title": "Informant",
+      "types": [
+        "Reference",
+        "Reference"
+      ]
+    },
+    {
+      "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-versionNumber-extension",
+      "title": "Version Number",
+      "types": [
+        "integer",
+        "integer"
+      ]
+    }
+  ],
   "profiles": {
-    "Composition": [
-      {
-        "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-Composition",
-        "title": "PACIO ADI Composition"
-      }
-    ],
     "DocumentReference": [
       {
         "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-DocumentReference",
@@ -21,6 +80,16 @@
       {
         "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-Endpoint",
         "title": "PACIO ADI Endpoint"
+      }
+    ],
+    "Composition": [
+      {
+        "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-Header",
+        "title": "PACIO ADI Header"
+      },
+      {
+        "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PACPComposition",
+        "title": "ADI Personal Advance Care Plan Composition"
       }
     ],
     "Provenance": [
@@ -70,28 +139,28 @@
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
     ],
-    "http://hl7.org/fhir/us/ccda/StructureDefinition/AuthorizationExtension": [
+    "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-authorization-extension": [
       "Composition"
     ],
-    "http://hl7.org/fhir/us/ccda/StructureDefinition/DataEntererExtension": [
+    "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-dataEnterer-extension": [
       "Composition"
     ],
-    "http://hl7.org/fhir/us/ccda/StructureDefinition/InformantExtension": [
+    "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-informant-extension": [
       "Composition"
     ],
-    "http://hl7.org/fhir/us/ccda/StructureDefinition/InformationRecipientExtension": [
+    "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-informatioRecipient-extension": [
       "Composition"
     ],
-    "http://hl7.org/fhir/us/ccda/StructureDefinition/OrderExtension": [
+    "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-order-extension": [
       "Composition"
     ],
-    "http://hl7.org/fhir/us/ccda/StructureDefinition/ParticipantExtension": [
+    "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-participant-extension": [
       "Composition"
     ],
-    "http://hl7.org/fhir/us/ccda/StructureDefinition/PerformerExtension": [
+    "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-performer-extension": [
       "Composition"
     ],
-    "http://hl7.org/fhir/us/ccda/StructureDefinition/VersionNumber": [
+    "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-versionNumber-extension": [
       "Composition"
     ]
   }

@@ -10,7 +10,7 @@
   "name": "PACIOAdvanceDirectiveInteroperability",
   "title": "PACIO Advance Directive Interoperability Implementation Guide",
   "status": "draft",
-  "date": "2021-03-12T15:44:28-08:00",
+  "date": "2021-03-16T22:34:51-07:00",
   "publisher": "HL7 Patient Empowerment Working Group",
   "contact": [
     {
@@ -342,24 +342,10 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/PADI-Composition"
-        },
-        "name": "PACIO ADI Composition",
-        "description": "TODO A an Advance Directive Document Composition",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:resource"
-          }
-        ],
-        "reference": {
           "reference": "StructureDefinition/PADI-DocumentReference"
         },
         "name": "PACIO ADI Document Reference",
-        "description": "[TODO] This profile defines constraints that represent the information needed to register an advance directive information document on a FHIR server.",
+        "description": "This profile defines constraints that represent the information needed to register an advance directive information document on a FHIR server.",
         "exampleBoolean": false
       },
       {
@@ -380,6 +366,34 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource:abstract"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/PADI-Header"
+        },
+        "name": "PACIO ADI Header",
+        "description": "This abstract profile defines constraints that represent common administrative and demographic concepts for advance directives information used in US Realm clinical documents.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/PADI-PACPComposition"
+        },
+        "name": "ADI Personal Advance Care Plan Composition",
+        "description": "This profile encompasses information that makes up the author’s advance care information plan.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "StructureDefinition:resource"
           }
         ],
@@ -388,6 +402,118 @@
         },
         "name": "PACIO ADI Provenance",
         "description": "[TODO] Advance Directive Interoperability Provanance baed on US Core",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/padi-authorization-extension"
+        },
+        "name": "Authorization",
+        "description": "The Advance Directive Information Authorization Extension contains the ADI Consent profile which represents information about a patient’s consents.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/padi-dataEnterer-extension"
+        },
+        "name": "Data Enterer",
+        "description": "Data Enterer Extension represents the person who transferred the content, written or dictated, into the Advance Directive document. To clarify, an author provides the content, subject to their own interpretation; a dataEnterer adds an author’s information to the electronic system.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/padi-informant-extension"
+        },
+        "name": "Informant",
+        "description": "The Advance Directive Information Informant Extension describes an information source for any content within the Advance Directive document. This informant is constrained for use when the source of information is an assigned health care provider for the patient.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/padi-informatioRecipient-extension"
+        },
+        "name": "Information Recipient",
+        "description": " The Information Recipient Extension records the intended recipient of the advance directive information at the time the document was created.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/padi-order-extension"
+        },
+        "name": "Order",
+        "description": "The Advance Directive Information Order Extension represents orders that are fulfilled by this document such as a radiologists report of an x-ray.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/padi-participant-extension"
+        },
+        "name": "Participant",
+        "description": "The Advance Directive Information Participant Extension identifies supporting entities, including parents, relatives, caregivers, insurance policyholders, guarantors, and others related in some way to the patient. A supporting person or organization is an individual or an organization with a relationship to the patient. A supporting person who is playing multiple roles would be recorded in multiple participants (e.g., emergency contact and next-of-kin).",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/padi-performer-extension"
+        },
+        "name": "Informant",
+        "description": "The Advance Directive Information Performer Extension represents clinicians who actually and principally carry out the clinical services being documented. In a transfer of care this represents the healthcare providers involved in the current or pertinent historical care of the patient. Preferably, the patients key healthcare care team members would be listed, particularly their primary physician and any active consulting physicians, therapists, and counselors.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/padi-versionNumber-extension"
+        },
+        "name": "Version Number",
+        "description": "Advance Directive Information VersionNumber Extension represents a numeric value used to version successive replacement documents.",
         "exampleBoolean": false
       }
     ],

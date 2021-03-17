@@ -7,13 +7,6 @@
     "name": "PACIOAdvanceDirectiveInteroperability"
   },
   {
-    "id": "PADI-Composition",
-    "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-Composition",
-    "version": "0.0.1",
-    "name": "PADIComposition"
-  },
-  {
     "id": "PADI-DocumentReference",
     "type": "StructureDefinition",
     "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-DocumentReference",
@@ -28,10 +21,80 @@
     "name": "PADIEndPoint"
   },
   {
+    "id": "PADI-Header",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-Header",
+    "version": "0.0.1",
+    "name": "PADIHeader"
+  },
+  {
+    "id": "PADI-PACPComposition",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PACPComposition",
+    "version": "0.0.1",
+    "name": "PADIPACPComposition"
+  },
+  {
     "id": "PADI-Provenance",
     "type": "StructureDefinition",
     "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-Provenance",
     "version": "0.0.1",
     "name": "PADIProvenance"
+  },
+  {
+    "id": "padi-authorization-extension",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-authorization-extension",
+    "version": "0.0.1",
+    "name": "AuthorizationExtension"
+  },
+  {
+    "id": "padi-dataEnterer-extension",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-dataEnterer-extension",
+    "version": "0.0.1",
+    "name": "DataEntererExtension"
+  },
+  {
+    "id": "padi-informant-extension",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-informant-extension",
+    "version": "0.0.1",
+    "name": "InformantExtension"
+  },
+  {
+    "id": "padi-informatioRecipient-extension",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-informatioRecipient-extension",
+    "version": "0.0.1",
+    "name": "InformationRecipientExtension"
+  },
+  {
+    "id": "padi-order-extension",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-order-extension",
+    "version": "0.0.1",
+    "name": "OrderExtension"
+  },
+  {
+    "id": "padi-participant-extension",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-participant-extension",
+    "version": "0.0.1",
+    "name": "ParticipantExtension"
+  },
+  {
+    "id": "padi-performer-extension",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-performer-extension",
+    "version": "0.0.1",
+    "name": "PerformerExtension"
+  },
+  {
+    "id": "padi-versionNumber-extension",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-versionNumber-extension",
+    "version": "0.0.1",
+    "name": "VersionNumber"
   }
 ]

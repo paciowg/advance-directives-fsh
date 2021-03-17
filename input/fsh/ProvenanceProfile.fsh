@@ -9,7 +9,7 @@ Description: "[TODO] Advance Directive Interoperability Provanance baed on US Co
     assembler 0..1 MS
 
 * agent[assembler].type 1..1 MS 
-* agent[assembler].type = $ProvenancePartcipantType#assembler
+* agent[assembler].type = $HL7ProvenancePartcipantType#assembler
 
 
 * insert PADIProvenanceDescriptions
