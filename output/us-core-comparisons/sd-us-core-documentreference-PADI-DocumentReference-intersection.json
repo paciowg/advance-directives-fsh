@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "fc898293-45c2-4d64-ae51-e3c380963011-3",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/fc898293-45c2-4d64-ae51-e3c380963011-3",
+  "id" : "03f45de9-9e5b-4206-85b6-6c37a7c074d7-3",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/03f45de9-9e5b-4206-85b6-6c37a7c074d7-3",
   "name" : "IntersectionUSCoreDocumentReferenceProfileAndPADIDocumentReference",
   "title" : "Intersection of US Core DocumentReference Profile And PACIO ADI Document Reference",
   "status" : "active",
-  "date" : "2021-03-16T22:34:57-07:00",
+  "date" : "2021-03-17T10:15:31-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
