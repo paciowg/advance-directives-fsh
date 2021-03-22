@@ -10,7 +10,7 @@
   "name": "PACIOAdvanceDirectiveInteroperability",
   "title": "PACIO Advance Directive Interoperability Implementation Guide",
   "status": "draft",
-  "date": "2021-03-17T10:15:25-07:00",
+  "date": "2021-03-22T09:58:28-07:00",
   "publisher": "HL7 Patient Empowerment Working Group",
   "contact": [
     {
@@ -49,12 +49,6 @@
       "uri": "http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core",
       "packageId": "hl7.fhir.us.core",
       "version": "3.1.1"
-    },
-    {
-      "id": "hl7_fhir_us_ccda",
-      "uri": "http://hl7.org/fhir/us/ccda/ImplementationGuide/hl7.fhir.us.ccda",
-      "packageId": "hl7.fhir.us.ccda",
-      "version": "1.1.0"
     }
   ],
   "definition": {

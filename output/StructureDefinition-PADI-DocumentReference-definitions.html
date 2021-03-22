@@ -361,7 +361,7 @@ Status of the underlying document.</p>
   <tr><td>Definition</td><td><p>Specifies the particular kind of document referenced  (e.g. History and Physical, Discharge Summary, Progress Note). This usually equates to the purpose of making the document referenced.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>1..1</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td>The codes SHALL be taken from <a href="http://hl7.org/fhir/us/core/STU3.1/ValueSet-us-core-documentreference-type.html">US Core DocumentReference Type</a></td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td>The codes SHALL be taken from <a href="http://hl7.org/fhir/us/core/STU3.1.1/ValueSet-us-core-documentreference-type.html">US Core DocumentReference Type</a></td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#mustSupport">Must Support</a></td><td>true</td></tr>
   <tr><td>Comments</td><td><p>Key metadata element describing the document that describes he exact type of document. Helps humans to assess whether the document is of interest when viewing a list of documents.</p>
@@ -372,7 +372,7 @@ Status of the underlying document.</p>
   <tr><td>Definition</td><td><p>A categorization for the type of document referenced - helps for indexing and searching. This may be implied by or derived from the code specified in the DocumentReference.type.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>1..*</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td>The codes SHALL be taken from <a href="http://hl7.org/fhir/us/core/STU3.1/ValueSet-us-core-documentreference-category.html">US Core DocumentReference Category</a>; other codes may be used where these codes are not suitable</td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td>The codes SHALL be taken from <a href="http://hl7.org/fhir/us/core/STU3.1.1/ValueSet-us-core-documentreference-category.html">US Core DocumentReference Category</a>; other codes may be used where these codes are not suitable</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#mustSupport">Must Support</a></td><td>true</td></tr>
   <tr><td title="Other names by which this resource/element may be known">Alternate Names</td><td>claxs</td></tr>
@@ -384,7 +384,7 @@ Status of the underlying document.</p>
   <tr><td>Definition</td><td><p>Who or what the document is about. The document can be about a person, (patient or healthcare practitioner), a device (e.g. a machine) or even a group of subjects (such as a document about a herd of farm animals, or a set of patients that share a common exposure).</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>1..1</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a>(<a href="http://hl7.org/fhir/us/core/STU3.1/StructureDefinition-us-core-patient.html" title="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient">USCorePatientProfile</a>)</td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a>(<a href="http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-patient.html" title="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient">USCorePatientProfile</a>)</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#mustSupport">Must Support</a></td><td>true</td></tr>
   <tr><td>Invariants</td><td><b>Defined on this element</b><br/>
 <b title="Formal Invariant Identifier">ele-1</b>: All FHIR elements must have a @value or children (: hasValue() or (children().count() &gt; id.count()))</td></tr>
@@ -403,7 +403,7 @@ Status of the underlying document.</p>
   <tr><td>Definition</td><td><p>Identifies who is responsible for adding the information to the document.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>0..*</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a>(<a href="http://hl7.org/fhir/us/core/STU3.1/StructureDefinition-us-core-practitioner.html" title="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner">USCorePractitionerProfile</a> | <a href="http://hl7.org/fhir/us/core/STU3.1/StructureDefinition-us-core-organization.html" title="http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization">USCoreOrganizationProfile</a> | <a href="http://hl7.org/fhir/us/core/STU3.1/StructureDefinition-us-core-patient.html" title="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient">USCorePatientProfile</a>)</td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a>(<a href="http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-practitioner.html" title="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner">USCorePractitionerProfile</a> | <a href="http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-organization.html" title="http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization">USCoreOrganizationProfile</a> | <a href="http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-patient.html" title="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient">USCorePatientProfile</a>)</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#mustSupport">Must Support</a></td><td>true</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Must Support Types</a></td><td>No must-support rules about the choice of types/profiles</td></tr>
   <tr><td>Comments</td><td><p>Not necessarily who did the actual data entry (i.e. typist) or who was the source (informant).</p>
@@ -423,7 +423,7 @@ Status of the underlying document.</p>
   <tr><td>Definition</td><td><p>Identifies the organization or group who is responsible for ongoing maintenance of and access to the document.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>0..1</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a>(<a href="http://hl7.org/fhir/us/core/STU3.1/StructureDefinition-us-core-organization.html" title="http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization">USCoreOrganizationProfile</a>)</td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a>(<a href="http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-organization.html" title="http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization">USCoreOrganizationProfile</a>)</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#mustSupport">Must Support</a></td><td>true</td></tr>
   <tr><td>Comments</td><td><p>Identifies the logical organization (software system, vendor, or department) to go to find the current version, where to report issues, etc. This is different from the physical location (URL, disk drive, or server) of the document, which is the technical location of the document, which host may be delegated to the management of some other organization.</p>
 </td></tr>
@@ -726,7 +726,7 @@ Document Format Codes.</p>
   <tr><td>Definition</td><td><p>Describes the clinical encounter or type of care that the document content is associated with.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>0..*</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a>(<a href="http://hl7.org/fhir/us/core/STU3.1/StructureDefinition-us-core-encounter.html" title="http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter">USCoreEncounterProfile</a>)</td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a>(<a href="http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-encounter.html" title="http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter">USCoreEncounterProfile</a>)</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#mustSupport">Must Support</a></td><td>true</td></tr>
   <tr><td>Invariants</td><td><b>Defined on this element</b><br/>
 <b title="Formal Invariant Identifier">ele-1</b>: All FHIR elements must have a @value or children (: hasValue() or (children().count() &gt; id.count()))</td></tr>
@@ -842,7 +842,7 @@ Additional details about where the content was created (e.g. clinical specialty)
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color: #81BEF7" href="http://www.hl7.org/Special/committees/patientempowerment/index.cfm">HL7 Patient Empowerment Working Group</a>.  Package hl7.fhir.us.pacio-adi#0.0.1 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Mar 17, 2021 10:15-0700">2021-03-17</span>
+          IG &#169; 2021+ <a style="color: #81BEF7" href="http://www.hl7.org/Special/committees/patientempowerment/index.cfm">HL7 Patient Empowerment Working Group</a>.  Package hl7.fhir.us.pacio-adi#0.0.1 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Mar 22, 2021 09:58-0700">2021-03-22</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |

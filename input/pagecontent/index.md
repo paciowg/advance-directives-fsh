@@ -1,66 +1,90 @@
-### Introduction
+This FHIR implementation guide (IG) ...
 
+### Introduction 
 <p>
-This FHIR implementation guide (IG) defines the minimum conformance requirements for representing Personal Advance Care Plan (PACP) data.  It is based on <a href="http://hl7.org/fhir/us/core/STU3.1.1/index.html">US Core 3.1.1</a>, <a href="http://hl7.org/fhir/us/ccda/STU1.1/index.html">C-CDA on FHIR 1.1.0</a>, and <a href="http://hl7.org/fhir/R4/">FHIR R4</a>.
+This FHIR implementation guide (IG) describes how to use existing FHIR standards to exchange information about an individual's advance directives (e.g., a person’s advance medical treatment and intervention goals, preferences and priorities, regardless of the individual’s current health condition or physical location) regarding potential future medical care in the event the individual becomes a patient and can not speak for herself or himself.
+</p>
+<p>
+ A subsequent version of this IG will define the minimum conformance requirements for digital representation and exchange of encounter-centric patient instructions regarding medical treatments and interventions for a specific period of time associated with the encounter in question.
+</p>
+<p>
+A further subsequent version of this IG will define the minimum conformance requirements for digital composition, representation and exchange of medical treatment order sets used to record the life-sustaining medical treatments a patient does or does not want to receive. These order sets are established by a practitioner(i.e., portable medical orders for life-sustaining treatments).
 </p>
 
+### Background
 <p>
-Advance directives information is a complex area that involves many stakeholders. The HL7 sponsor for this IG is Patient Empowerment.  Co-sponsors include Patient Care, Community Based Care and Privacy, and Orders & Observations.  In order to reach out to a broader community, the Post-Acute Care Interoperability (PACIO) Community has adopted this IG as a project use case.  The PACIO Community has a strong interest in the topic of advance directives and will support the community engagement and technical FHIR IG development needed for advance directives interoperability. PACIO is supported by MITRE, CMS, ONC and many other stakeholders (clinical, technical, and industry associations).
+Advance directives interoperability is a complex area that involves many stakeholders. The HL7 sponsor for this IG is Patient Empowerment. HL7 Co-sponsor workgroups include Patient Care, Community Based Care and Privacy, and Orders & Observations. In order to reach out to a broader community, the Post-Acute Care Interoperability (PACIO) Community has adopted this IG as a project use case. The PACIO Community has a strong interest in the topic of advance directives and will support the community engagement and technical FHIR IG development needed for advance directives interoperability. PACIO is supported by MITRE, CMS, ONC and many other stakeholders (clinical, technical, and industry associations).
 </p>
-
 <p>
 FHIR profiles will be developed for several existing FHIR resources to represent advance directive content such as: living will, durable medical power of attorney, personal health goals at end of life, care experience preferences, patient instructions (obligation, prohibitions, and consent), and portable medical orders for life sustaining treatments.
 </p>
 <p>
-The current version of this FHIR IG covers the use of RESTful API interactions for creating, sharing, query/access, and verification of advance directive information between systems.  It is intended to address advance directive interoperability needs where the author is the individual that is making medical intervention goals, preferences, priorities known in advance.  This IG is not intended to cover medical intervention goals, preferences, priorities for individuals who are not able to make their own wishes known.
+The current version of this FHIR IG covers the use of RESTful API interactions for creating, sharing, query/access, and verification of advance directive documentation between systems. It is intended to address advance directive interoperability needs where the author is the individual that is making medical intervention goals, preferences, priorities known in advance. This IG is not intended to cover medical intervention goals, preferences, priorities for individuals who are not able to make their own wishes known.
 </p>
 <p>
-Future versions of this FHIR IG will address encounter-centric patient instructions and portable medical orders for life-sustaining treatment
+Future versions of this FHIR IG will address encounter-centric patient instructions and portable medical orders for life-sustaining treatment.
 </p>
 
-### Advance Directive Interoperability (ADI) Project Need
+![PACIO logo](./pacio.png)
+
+### About PACIO
 <p>
-Systems used to create and update patient-generated advance care plans through a patient-directed process need a way for individuals to communicate information about their advance medical care goals, preferences, and priorities. Individuals need a way to generate and update information related to their advance directives so that their current wishes can inform provider-generated care plans. Interoperable exchange of the advance directive information supports more effective sharing of advance directive information across transitions of care and enables practitioners to create person-centered care plans that align with a patient’s values, goals of care, treatment preferences, and quality of life priorities when a patient can no longer communicate for themselves.
+The PACIO Project is a collaborative effort to advance interoperable health data exchange between post-acute care (PAC) and other providers, patients, and key stakeholders across health care and to promote health data exchange in collaboration with policy makers, standards organizations, and industry through a consensus-based approach.
+</p>
+
+<p>
+The primary goal of the PACIO Project is to establish a framework for the development of Fast Healthcare Interoperability Resource (FHIR) technical implementation guides and reference implementations that will facilitate health data exchange through standards-based use case-driven application programming interfaces (APIs).
+</p>
+
+
+### Project Need
+<p>
+Systems used to create and update patient-generated advance care plans through a patient-directed process need a way for individuals to communicate information about their advance medical care goals, preferences, and priorities. Individuals need a way to generate and update information related to their advance directives so that their current wishes can inform provider-generated care plans. Interoperable exchange of the advance directive documentation supports more effective sharing of this information across transitions of care and enables practitioners to create person-centered care plans that align with a patient’s values, goals of care, treatment preferences, and quality of life priorities when a patient can no longer communicate for themselves.
 </p>
 
 ### External drivers
 <p>
-The aging population receiving healthcare in skilled nursing facilities and assisted living communities have been under forced isolation to reduce the risk of contracting COVID-19.  Additionally, due to the pandemic, those requiring medical care have found themselves during a transition of care without family or personal advocate to accompany them to influence medical care or be at their side; concerns about the viral transmission potential associated with paper advance directive documents further complicate transitions of care. The impact is a sense of disempowerment, isolation, and a disconnection with the world they can no longer safely interact freely with.  
+The aging population receiving healthcare in skilled nursing facilities and assisted living communities have been under forced isolation to reduce the risk of contracting COVID-19. Additionally, due to the pandemic, those requiring medical care have found themselves during a transition of care without family or personal advocate to accompany them to influence medical care or be at their side; concerns about the viral transmission potential associated with paper advance directive documents further complicate transitions of care. The impact is a sense of disempowerment, isolation, and a disconnection with the world they can no longer safely interact freely with.
 </p>
 <p>
-Never before has the availability of verifiable digital advance directive information been so essential to delivering care.
+Never before has the availability of verifiable digital advance directive documents been so essential to delivering care.
 </p>
 <p>
-The role of technology and expanded adoption by the aging population, providers, and care teams has brought to the forefront the expectation of seamless accessibility of advance directive information.  An increased understanding exists that a person’s goals, preferences, and priorities for care are a critical element in a person-centered healthcare system.
+Providers understand that a person’s goals, preferences, and priorities for care are a critical element in a person-centered healthcare system.
+</p>
+<p>
+The role of technology and expanded adoption by the aging population, providers, and care teams has brought to the forefront the expectation of seamless accessibility of advance directive information.
 </p>
 
-###	Audience
+### Audience/Expected Users
 <p>
-The audience for this IG includes architects and developers of healthcare information technology (HIT) systems in the US Realm that exchange clinical and non-clinical data. Business analysts and policy managers can also benefit from a basic understanding of the use of  FHIR profiles across multiple implementation use cases. Finally, Quality Reporting Agencies, Standards Development Organizations (SDOs), Payors, Providers and Patients could benefit from this IG. 
+The audience for this IG includes architects and developers of healthcare information technology (HIT) systems in the US Realm that exchange clinical and non-clinical data. Business analysts and policy managers can also benefit from a basic understanding of the use of FHIR profiles across multiple implementation use cases. Finally, Quality Reporting Agencies, Standards Development Organizations (SDOs), Payors, Providers and Patients could benefit from this IG. 
 </p>
 
 ### How to read this Guide
 This Guide is divided into several pages which are listed at the top of each page in the menu bar.
 <ul>
     <li>Home: The home page provides the introduction and background information to set context for the use of the HL7 FHIR® ADI Implementation Guide.</li>
-    <li>Guidance: These pages provide overall guidance in using the profiles and transactions defined in this guide.</li>
-    <ul>
-        <li>General Guidance provides guidance, definitions and requirements common to all HL7 FHIR® ADIImplementation Guide actors used in this guide.</li>
-        <li>Advance Directive Information Guidance gives guidance on the interactions between Consumers and Producers of Advance Directives Information.</li>
-        <li>Encounter-Centric Patient Instructions Guidance gives guidance on the interactions between Consumers and Producers of Encounter-Centric Patient Instructions.</li>
-        <li>Portable Medical Order for Life-Sustaining Treatment Guidance gives guidance on the interactions between Consumers and Producers of Portable Medical Orders for Life-Sustaining Treatment.</li>
-    </ul>
-    <li>FHIR Artifacts: These pages provide detailed descriptions and formal definitions for all the FHIR objects defined in this guide.</li>
-    <ul>
-        <li>Profiles and Extensions: This page lists the set of Profile and Extension that are defined in this guide to exchange quality data. Each Profile page includes a narrative introduction, formal definition and a “Quick Start” guide to the supported search transaction for each HL7 FHIR® ADI Implementation Guide Profile.</li>
-        <li>Search Parameters and Operations: This page lists the HL7 FHIR® ADI Implementation Guide defined Operations and Search Parameters that are used in ADI transactions.</li>
-        <li>Terminology: This page lists the value sets and code system defined for HL7 FHIR® US Core Implementation Guide profiles.</li>
-        <li>Capability Statements: This set of pages describes the expected FHIR capabilities of the various HL7 FHIR® US Core Implementation Guide actors.</li>
-    </ul>
-    <li>Security: General security requirements and recommendations for HL7 FHIR® ADI Implementation Guide actors.</li>
-    <li>Examples: List of links to all the examples used in this guide.</li>
+    <li>Guidance: These pages provide overall guidance in using the profiles and transactions defined in this guide by detailing the business case, patient stories and personas and use cases.
+        <ul>
+            <li>Security: General security requirements and recommendations for HL7 FHIR® ADI Implementation Guide actors. TBD: Security information will need to be described as needed.</li>
+            <li>General Guidance provides guidance, definitions and requirements common to all HL7 FHIR® ADI Implementation Guide actors used in this guide.</li>
+            <li>Advance Directive Information Guidance gives guidance on the interactions between Consumers and Producers of Advance Directives Information.</li>
+            <li>Encounter-Centric Patient Instructions Guidance gives guidance on the interactions between Consumers and Producers of Encounter-Centric Patient Instructions.</li>
+            <li>Portable Medical Order for Life-Sustaining Treatment Guidance gives guidance on the interactions between Consumers and Producers of Portable Medical Orders for Life-Sustaining Treatment.</li>
+        </ul>
+    </li>
+    <li>FHIR Artifacts: These pages provide detailed descriptions and formal definitions for all the FHIR objects defined in this guide.
+        <ul>
+            <li>Profiles and Extensions: This page lists the set of Profile and Extension that are defined in this guide to exchange advance directive information. quality data. Each Profile page includes a narrative introduction, formal definition and a “Quick Start” guide to the supported search transaction for each HL7 FHIR® ADI Implementation Guide Profile.</li>
+            <li>Search Parameters and Operations: This page lists the HL7 FHIR® ADI Implementation Guide defined Operations and Search Parameters that are used in ADI transactions.</li>
+            <li>Terminology: This page lists the value sets and code system defined for HL7 FHIR® ADI Implementation Guide profiles.</li>
+            <li>Capability Statements: This set of pages describes the expected FHIR capabilities of the various HL7 FHIR® ADI US Core Implementation Guide actors.</li>
+        </ul>
+    </li>
     <li>Downloads: This page provides links to downloadable artifacts.</li>
 </ul>
+
 
 ### Key Terms and Acronyms 
 
@@ -76,7 +100,7 @@ This Guide is divided into several pages which are listed at the top of each pag
     <tr>
         <td>Patient story</td>
         <td><p>Patient stories are fictitious illustrative personal stories that are included to show the personal nature of the information being shared and demonstrate the value of having and sharing personal advance care plan information or, alternatively, the negative outcomes that arise when this information is not available in a high-quality, standardized, sharable digital format.</p>
-        <p>Personas used to model, summarize and communicate research about people who have been observed or researched in some way. A persona is depicted as a specific person but is not a real individual; rather, it is synthesized from observations of many people.</p></td>
+        <p>Personas are used to model, summarize and communicate research about people who have been observed or researched in some way. A persona is depicted as a specific person but is not a real individual; rather, it is synthesized from observations of many people.</p></td>
     </tr>
     <tr>
         <td>Use case</td>
@@ -87,7 +111,6 @@ This Guide is divided into several pages which are listed at the top of each pag
         <td>Advance directive interoperability</td>
     </tr>
 </table>
-
 
 <!-- Old material. Holding temporarily untilinitial final draft.
 ### Advance Directive Interoperability
@@ -109,14 +132,7 @@ Systems used to create and update patient-generated advance directive informatio
 
 <p>Interoperable exchange of the advance directive information supports more effective sharing of advance directive information across transitions in care and enables practitioners to create person-centered care plans that align with a patient’s values, goals of care, treatment preferences, and quality of life priorities when a patient cannot communicate for themselves.</p>
 -->
-![PACIO logo](./pacio.png)
 
-### Background
-<p>
-The PACIO Project is a collaborative effort to advance interoperable health data exchange between post-acute care (PAC) and other providers, patients, and key stakeholders across health care and to promote health data exchange in collaboration with policy makers, standards organizations, and industry through a consensus-based approach.</p>
-
-<p>The primary goal of the PACIO Project is to establish a framework for the development of Fast Healthcare Interoperability Resource (FHIR) technical implementation guides and reference implementations that will facilitate health data exchange through standards-based use case-driven application programming interfaces (APIs).
-</p>
 <!--
 ### Content and Organization
 TODO
@@ -135,11 +151,13 @@ TODO
 <ul>
   <li><a href="http://hl7.org/fhir/R4/">FHIR R4</a> - The version of FHIR used as the base for this implementation guide.</li>
   <li><a href="http://hl7.org/fhir/us/core/STU3.1.1/index.html">US Core STU3.1</a> - The version of US Core based on FHIR R4.</li>
-  <li><a href="http://hl7.org/fhir/us/ccda/STU1.1/index.html">C-CDA on FHIR STU1.1</a> - The version of C-CDA on FHIR based on FHIR R4.</li>
+  <!--<li><a href="http://hl7.org/fhir/us/ccda/STU1.1/index.html">C-CDA on FHIR STU1.1</a> - The version of C-CDA on FHIR based on FHIR R4.</li>-->
 </ul>
 
 
 ### ADI Profiles
+
+<p>Table: ADI Profiles</p>
 <table border="1" style="border-spacing: 100px;">
     <tr>
         <th colspan="4" style="background-color: #DEEBF7; text-align:center; padding: 10px; padding: 10px;"><b>CONTENT TYPE I: Advance Directives Information</b> <i>(in STU1 scope)</i></th>
@@ -160,6 +178,13 @@ TODO
         <td style="padding: 7px;">2</td>
         <td style="padding: 7px;"><a href="StructureDefinition-PADI-Header.html">ADI Header</a></td>
         <td style="padding: 7px;"><p>This profile defines constraints that represent common administrative and demographic concepts for advance directives information used in US Realm clinical documents.</p>
+        <p>Known issues:
+            <ul>
+                <li>Currently extension:data_enterer_extension only allows reference to US Core Practitioner Profile | US Core PractitionerRole Profile.  Need to add RelatedPerson to CDA on FHIR of use.</li>
+                <li>Currently extension:information_recipient_extension allows reference to US Core Practitioner Profile | US Core PractitionerRole Profile | US Core Patient Profile.  Need to add  RelatedPerson and US Core Organization.</li>
+                <li>Currently attester:legal_attester.party--> allows reference to US Core Practitioner Profile | US Core PractitionerRole Profile.  Need to add  RelatedPerson and US Core Organization.</li>
+            </ul>
+        </p>
         <p><i>Development status: Initial draft available. Mapping in progress.</i></p></td>
         <td style="padding: 7px;"><a href="http://hl7.org/fhir/R4/clinicaldocument.html">ClinicalDocument</a></td>
     </tr>
@@ -168,7 +193,7 @@ TODO
         <td style="padding: 7px;"><a href="#">ADI Personal Advance Care Plan Composition</a></td>
         <td style="padding: 7px;"><p>This profile encompasses information that makes up the author’s advance care information plan.</p>
         <p><i>Development status: Mapping in progress.</i></p></td>
-        <td style="padding: 7px;"><a href="StructureDefinition-PADI-Composition.html">ADI Header</a></td>
+        <td style="padding: 7px;"><a href="StructureDefinition-PADI-Header.html">ADI Header</a></td>
     </tr>
     <tr>
         <td style="padding: 7px;">4</td>
@@ -235,14 +260,14 @@ TODO
     </tr>
     <tr>
         <td style="padding: 7px;">13</td>
-        <td style="padding: 7px;">ADI Consent for Healthcare Agent</td>
+        <td style="padding: 7px;"><a href="#">ADI Consent for Healthcare Agent</a></td>
         <td style="padding: 7px;"><p>This profile is used for the healthcare agent to consent/express acceptance of being appointed as the agent for the patient</p>
         <p><i>Development status: Not started.</i></p></td>
         <td style="padding: 7px;"><a href="http://hl7.org/fhir/R4/consent.html">Consent</a></td>
     </tr>
     <tr>
         <td style="padding: 7px;">14</td>
-        <td style="padding: 7px;"><a href="#"><a href="StructureDefinition-PADI-Provenance.html">ADI Provenance</a></td>
+        <td style="padding: 7px;"><a href="StructureDefinition-PADI-Provenance.html">ADI Provenance</a></td>
         <td style="padding: 7px;"><p>[TODO] This profile is used for tracking the provenance of the Advance Directive resources.</p>
         <p><i>Development status: Not started.</i></p></td>
         <td style="padding: 7px;"><a href="http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-provenance.html">US Core Provenance</a></td>
@@ -327,4 +352,3 @@ TODO
         <td style="padding: 7px;"><a href="http://hl7.org/fhir/R4/consent.html">Consent</a></td>
     </tr>
 </table>
-

@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "PACIOAdvanceDirectiveInteroperability"];
   fhir:ImplementationGuide.title [ fhir:value "PACIO Advance Directive Interoperability Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-03-17T10:15:25-07:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-03-22T09:58:28-07:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 Patient Empowerment Working Group"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -56,15 +56,6 @@
      ];
      fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "hl7.fhir.us.core" ];
      fhir:ImplementationGuide.dependsOn.version [ fhir:value "3.1.1" ]
-  ], [
-     fhir:index 1;
-     fhir:Element.id [ fhir:value "hl7_fhir_us_ccda" ];
-     fhir:ImplementationGuide.dependsOn.uri [
-       fhir:value "http://hl7.org/fhir/us/ccda/ImplementationGuide/hl7.fhir.us.ccda";
-       fhir:link <http://hl7.org/fhir/us/ccda/ImplementationGuide/hl7.fhir.us.ccda>
-     ];
-     fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "hl7.fhir.us.ccda" ];
-     fhir:ImplementationGuide.dependsOn.version [ fhir:value "1.1.0" ]
   ];
   fhir:ImplementationGuide.definition [
      fhir:Element.extension [
