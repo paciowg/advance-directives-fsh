@@ -158,6 +158,7 @@ Note: FHIR Resource versioning is only used for error corrections.
 ##### Use Case 5 Description
 <p>
 In Use Case 5, a Content Verifier has advance directive information which it previously received or retrieved. The Content Verifier therefore knows the setId identifier for the document. The Content Verifier needs or wants to confirm the information they have is still the person’s current wishes, goals, preferences and priorities, etc. To verify that the document they have is the current version (and get the current version if it is not), the Content Verifier queries the Content Custodian to retrieve the current version of the document already in their possession.
+</p>
 
 ##### Use Case 5 Actor Transition Diagram
 

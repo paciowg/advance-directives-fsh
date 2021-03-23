@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "43dbeba4-b3e6-461d-a93c-9a7c5c266c38-66",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/43dbeba4-b3e6-461d-a93c-9a7c5c266c38-66",
+  "id" : "dd4afaeb-7ccd-4b82-8d39-354c005f911d-66",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/dd4afaeb-7ccd-4b82-8d39-354c005f911d-66",
   "name" : "IntersectionUSCoreBloodPressureProfileAndPADICareExperiencePreference",
   "title" : "Intersection of US Core Blood Pressure Profile And ADI Care Experience Preference",
   "status" : "active",
-  "date" : "2021-03-23T14:25:58-07:00",
+  "date" : "2021-03-23T15:51:43-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "43dbeba4-b3e6-461d-a93c-9a7c5c266c38-218",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/43dbeba4-b3e6-461d-a93c-9a7c5c266c38-218",
+  "id" : "dd4afaeb-7ccd-4b82-8d39-354c005f911d-218",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/dd4afaeb-7ccd-4b82-8d39-354c005f911d-218",
   "name" : "UnionUSCoreHeadCircumferenceProfileAndPADIPOLSTObservation",
   "title" : "Union of US Core Head Circumference Profile And ADI POLST Observation",
   "status" : "active",
-  "date" : "2021-03-23T14:25:59-07:00",
+  "date" : "2021-03-23T15:51:44-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -562,7 +562,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "left: The vital sign codes from the base FHIR and US Core Vital Signs.; right: Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/43dbeba4-b3e6-461d-a93c-9a7c5c266c38-5"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/dd4afaeb-7ccd-4b82-8d39-354c005f911d-5"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -1763,7 +1763,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "left: The vital sign codes from the base FHIR and US Core Vital Signs.; right: Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/43dbeba4-b3e6-461d-a93c-9a7c5c266c38-5"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/dd4afaeb-7ccd-4b82-8d39-354c005f911d-5"
       },
       "mapping" : [{
         "identity" : "w5",
