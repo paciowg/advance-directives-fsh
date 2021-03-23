@@ -10,7 +10,7 @@
   "name": "PACIOAdvanceDirectiveInteroperability",
   "title": "PACIO Advance Directive Interoperability Implementation Guide",
   "status": "draft",
-  "date": "2021-03-22T09:58:28-07:00",
+  "date": "2021-03-23T14:25:49-07:00",
   "publisher": "HL7 Patient Empowerment Working Group",
   "contact": [
     {
@@ -336,6 +336,48 @@
           }
         ],
         "reference": {
+          "reference": "StructureDefinition/PADI-AutopsyObservation"
+        },
+        "name": "ADI Autopsy Observation",
+        "description": "This profile is used to represent the author's thoughts about autopsy.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/PADI-CareExperiencePreference"
+        },
+        "name": "ADI Care Experience Preference",
+        "description": "Care Experience Preference is a clinical statement that presents the author's personal thoughts about something he or she feels is relevant to his or her care experience and may be pertinent when planning his or her care.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/PADI-ConsentForHealthcareAgent"
+        },
+        "name": "ADI Consent for Healthcare Agent",
+        "description": "This profile is used for the healthcare agent to consent/express acceptance of being appointed as the agent for the patient.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
           "reference": "StructureDefinition/PADI-DocumentReference"
         },
         "name": "PACIO ADI Document Reference",
@@ -360,6 +402,20 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/PADI-Guardian"
+        },
+        "name": "ADI Guardian",
+        "description": "This profile will show a relationship to a ward.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "StructureDefinition:resource:abstract"
           }
         ],
@@ -378,10 +434,94 @@
           }
         ],
         "reference": {
+          "reference": "StructureDefinition/PADI-HealthcareAgent"
+        },
+        "name": "ADI Healthcare Agent",
+        "description": "This profile represents a person's appointment of a healthcare agent.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/PADI-HealthcareAgentAuthority"
+        },
+        "name": "ADI Healthcare Agent Authority",
+        "description": "This profile is used to represent a power or limitation granted to a person acting as a healthcare agent.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/PADI-OrganDonationObservation"
+        },
+        "name": "ADI Organ Donation",
+        "description": "This profile is used to represent the author's thoughts about organ donation.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
           "reference": "StructureDefinition/PADI-PACPComposition"
         },
         "name": "ADI Personal Advance Care Plan Composition",
         "description": "This profile encompasses information that makes up the author’s advance care information plan.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/PADI-POLSTObservation"
+        },
+        "name": "ADI POLST Observation",
+        "description": "This profile is used to indicate if a person has a medical order or physician order for life sustaining treatment (MOLST or POLST).",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/PADI-PersonalInterventionReference"
+        },
+        "name": "ADI Personal Intervention Reference",
+        "description": "This profile is used to represent a personal preference for a type of medical intervention (treatment).",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/PADI-PersonalPrioritiesOrganizer"
+        },
+        "name": "ADI Personal Priorities Organizer",
+        "description": "Personal Priorities Organizer is used to represent a set of personal goals, preferences or care experiences in a preferred ranked order.",
         "exampleBoolean": false
       },
       {

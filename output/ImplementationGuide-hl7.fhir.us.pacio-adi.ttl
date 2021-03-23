@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "PACIOAdvanceDirectiveInteroperability"];
   fhir:ImplementationGuide.title [ fhir:value "PACIO Advance Directive Interoperability Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-03-22T09:58:28-07:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-03-23T14:25:49-07:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 Patient Empowerment Working Group"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -319,6 +319,48 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-AutopsyObservation>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/PADI-AutopsyObservation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ADI Autopsy Observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This profile is used to represent the author's thoughts about autopsy." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/PADI-CareExperiencePreference" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ADI Care Experience Preference" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Care Experience Preference is a clinical statement that presents the author's personal thoughts about something he or she feels is relevant to his or her care experience and may be pertinent when planning his or her care." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 2;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-ConsentForHealthcareAgent>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/PADI-ConsentForHealthcareAgent" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ADI Consent for Healthcare Agent" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This profile is used for the healthcare agent to consent/express acceptance of being appointed as the agent for the patient." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
          fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-DocumentReference>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/PADI-DocumentReference" ]
        ];
@@ -326,7 +368,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "This profile defines constraints that represent the information needed to register an advance directive information document on a FHIR server." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 1;
+       fhir:index 4;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -340,7 +382,21 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "TODO A an Advance Directive Endpoint" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 2;
+       fhir:index 5;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-Guardian>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/PADI-Guardian" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ADI Guardian" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This profile will show a relationship to a ward." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 6;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -354,7 +410,49 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "This abstract profile defines constraints that represent common administrative and demographic concepts for advance directives information used in US Realm clinical documents." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 3;
+       fhir:index 7;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-HealthcareAgent>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/PADI-HealthcareAgent" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ADI Healthcare Agent" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This profile represents a person's appointment of a healthcare agent." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 8;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-HealthcareAgentAuthority>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/PADI-HealthcareAgentAuthority" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ADI Healthcare Agent Authority" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This profile is used to represent a power or limitation granted to a person acting as a healthcare agent." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 9;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-OrganDonationObservation>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/PADI-OrganDonationObservation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ADI Organ Donation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This profile is used to represent the author's thoughts about organ donation." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 10;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -368,7 +466,49 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "This profile encompasses information that makes up the author’s advance care information plan." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 4;
+       fhir:index 11;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-POLSTObservation>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/PADI-POLSTObservation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ADI POLST Observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This profile is used to indicate if a person has a medical order or physician order for life sustaining treatment (MOLST or POLST)." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 12;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionReference>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/PADI-PersonalInterventionReference" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ADI Personal Intervention Reference" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This profile is used to represent a personal preference for a type of medical intervention (treatment)." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 13;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalPrioritiesOrganizer>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/PADI-PersonalPrioritiesOrganizer" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ADI Personal Priorities Organizer" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Personal Priorities Organizer is used to represent a set of personal goals, preferences or care experiences in a preferred ranked order." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 14;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -382,7 +522,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "[TODO] Advance Directive Interoperability Provanance baed on US Core" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 5;
+       fhir:index 15;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -396,7 +536,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "The Advance Directive Information Authorization Extension contains the ADI Consent profile which represents information about a patient’s consents." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 6;
+       fhir:index 16;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -410,7 +550,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Data Enterer Extension represents the person who transferred the content, written or dictated, into the Advance Directive document. To clarify, an author provides the content, subject to their own interpretation; a dataEnterer adds an author’s information to the electronic system." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 7;
+       fhir:index 17;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -424,7 +564,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "The Advance Directive Information Informant Extension describes an information source for any content within the Advance Directive document. This informant is constrained for use when the source of information is an assigned health care provider for the patient." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 8;
+       fhir:index 18;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -438,7 +578,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value " The Information Recipient Extension records the intended recipient of the advance directive information at the time the document was created." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 9;
+       fhir:index 19;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -452,7 +592,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "The Advance Directive Information Order Extension represents orders that are fulfilled by this document such as a radiologists report of an x-ray." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 10;
+       fhir:index 20;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -466,7 +606,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "The Advance Directive Information Participant Extension identifies supporting entities, including parents, relatives, caregivers, insurance policyholders, guarantors, and others related in some way to the patient. A supporting person or organization is an individual or an organization with a relationship to the patient. A supporting person who is playing multiple roles would be recorded in multiple participants (e.g., emergency contact and next-of-kin)." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 11;
+       fhir:index 21;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -480,7 +620,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "The Advance Directive Information Performer Extension represents clinicians who actually and principally carry out the clinical services being documented. In a transfer of care this represents the healthcare providers involved in the current or pertinent historical care of the patient. Preferably, the patients key healthcare care team members would be listed, particularly their primary physician and any active consulting physicians, therapists, and counselors." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 12;
+       fhir:index 22;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -618,13 +758,33 @@
      ]
   ] .
 
+<http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-AutopsyObservation> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-ConsentForHealthcareAgent> a fhir:us .
+
 <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-DocumentReference> a fhir:us .
 
 <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-Endpoint> a fhir:us .
 
+<http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-Guardian> a fhir:us .
+
 <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-Header> a fhir:us .
 
+<http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-HealthcareAgent> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-HealthcareAgentAuthority> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-OrganDonationObservation> a fhir:us .
+
 <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PACPComposition> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-POLSTObservation> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionReference> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalPrioritiesOrganizer> a fhir:us .
 
 <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-Provenance> a fhir:us .
 

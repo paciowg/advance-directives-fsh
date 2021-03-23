@@ -26,7 +26,7 @@
   fhir:StructureDefinition.name [ fhir:value "PADIEndPoint"];
   fhir:StructureDefinition.title [ fhir:value "PACIO ADI Endpoint"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-03-22T09:58:28-07:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-03-23T14:25:49-07:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "HL7 Patient Empowerment Working Group"];
   fhir:StructureDefinition.contact [
      fhir:index 0;

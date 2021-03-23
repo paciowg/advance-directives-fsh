@@ -1,16 +1,26 @@
 ﻿PACIOAdvanceDirectiveInteroperability : Validation Results
 =========================================
 
-err = 9, warn = 14, info = 0
+err = 11, warn = 29, info = 0
 IG Publisher Version: 1.1.63 Out of date - current version is 1.1.64
-Generated Mon Mar 22 09:59:46 PDT 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio-adi#0.0.1 (canonical = http://hl7.org/fhir/us/pacio-adi)
+Generated Tue Mar 23 14:27:37 PDT 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio-adi#0.0.1 (canonical = http://hl7.org/fhir/us/pacio-adi)
 
  Build Errors : 1 / 0 / 0
  C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\ImplementationGuide-hl7.fhir.us.pacio-adi : 0 / 1 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-AutopsyObservation : 0 / 2 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-CareExperiencePreference : 0 / 2 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-ConsentForHealthcareAgent : 1 / 1 / 1
  C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-DocumentReference : 0 / 2 / 1
  C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-Endpoint : 0 / 1 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-Guardian : 0 / 1 / 1
  C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-Header : 0 / 0 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-HealthcareAgent : 0 / 1 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-HealthcareAgentAuthority : 1 / 1 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-OrganDonationObservation : 0 / 2 / 1
  C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-PACPComposition : 0 / 1 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-POLSTObservation : 0 / 2 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-PersonalInterventionReference : 0 / 2 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-PersonalPrioritiesOrganizer : 0 / 1 / 1
  C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-Provenance : 0 / 1 / 1
  C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-padi-authorization-extension : 1 / 1 / 1
  C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-padi-dataEnterer-extension : 1 / 1 / 1
@@ -25,7 +35,19 @@ Generated Mon Mar 22 09:59:46 PDT 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio
 ERROR: There is no jira specification file defined with the expected name of FHIR-us-pacio-adi in the xml folder of the  https://github.com/HL7/Jira-Spec-Artifacts project.  This must exist before ballot or publication.
 == C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\ImplementationGuide-hl7.fhir.us.pacio-adi.json ==
 INFORMATION: ImplementationGuide/hl7.fhir.us.pacio-adi: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
-WARNING: ImplementationGuide/hl7.fhir.us.pacio-adi: ImplementationGuide.definition.resource[8].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/hl7.fhir.us.pacio-adi: ImplementationGuide.definition.resource[18].description: value should not start or finish with whitespace
+== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-AutopsyObservation.json ==
+INFORMATION: StructureDefinition/PADI-AutopsyObservation: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-AutopsyObservation').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-AutopsyObservation'): The Implementation Guide contains no examples for this profile
+== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-CareExperiencePreference.json ==
+INFORMATION: StructureDefinition/PADI-CareExperiencePreference: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference'): The Implementation Guide contains no examples for this profile
+== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-ConsentForHealthcareAgent.json ==
+INFORMATION: StructureDefinition/PADI-ConsentForHealthcareAgent: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+ERROR: StructureDefinition/PADI-ConsentForHealthcareAgent: StructureDefinition.snapshot.element[9].example[0].value.ofType(Identifier): if identifier.system is ''urn:ietf:rfc:3986'', then the identifier.value must be a full URI (e.g. start with a scheme)
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-ConsentForHealthcareAgent'): The Implementation Guide contains no examples for this profile
 == C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-DocumentReference.json ==
 INFORMATION: StructureDefinition/PADI-DocumentReference: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-DocumentReference').baseDefinition: US FHIR Usage rules require that all profiles on DocumentReference derive from the core US profile
@@ -33,11 +55,36 @@ WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/Struc
 == C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-Endpoint.json ==
 INFORMATION: StructureDefinition/PADI-Endpoint: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-Endpoint'): The Implementation Guide contains no examples for this profile
+== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-Guardian.json ==
+INFORMATION: StructureDefinition/PADI-Guardian: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-Guardian'): The Implementation Guide contains no examples for this profile
 == C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-Header.json ==
 INFORMATION: StructureDefinition/PADI-Header: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-HealthcareAgent.json ==
+INFORMATION: StructureDefinition/PADI-HealthcareAgent: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-HealthcareAgent'): The Implementation Guide contains no examples for this profile
+== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-HealthcareAgentAuthority.json ==
+INFORMATION: StructureDefinition/PADI-HealthcareAgentAuthority: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+ERROR: StructureDefinition/PADI-HealthcareAgentAuthority: StructureDefinition.snapshot.element[9].example[0].value.ofType(Identifier): if identifier.system is ''urn:ietf:rfc:3986'', then the identifier.value must be a full URI (e.g. start with a scheme)
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-HealthcareAgentAuthority'): The Implementation Guide contains no examples for this profile
+== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-OrganDonationObservation.json ==
+INFORMATION: StructureDefinition/PADI-OrganDonationObservation: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-OrganDonationObservation').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-OrganDonationObservation'): The Implementation Guide contains no examples for this profile
 == C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-PACPComposition.json ==
 INFORMATION: StructureDefinition/PADI-PACPComposition: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PACPComposition'): The Implementation Guide contains no examples for this profile
+== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-POLSTObservation.json ==
+INFORMATION: StructureDefinition/PADI-POLSTObservation: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-POLSTObservation').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-POLSTObservation'): The Implementation Guide contains no examples for this profile
+== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-PersonalInterventionReference.json ==
+INFORMATION: StructureDefinition/PADI-PersonalInterventionReference: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionReference').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionReference'): The Implementation Guide contains no examples for this profile
+== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-PersonalPrioritiesOrganizer.json ==
+INFORMATION: StructureDefinition/PADI-PersonalPrioritiesOrganizer: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalPrioritiesOrganizer'): The Implementation Guide contains no examples for this profile
 == C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-Provenance.json ==
 INFORMATION: StructureDefinition/PADI-Provenance: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-Provenance'): The Implementation Guide contains no examples for this profile

@@ -7,6 +7,27 @@
     "name": "PACIOAdvanceDirectiveInteroperability"
   },
   {
+    "id": "PADI-AutopsyObservation",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-AutopsyObservation",
+    "version": "0.0.1",
+    "name": "PADIAutopsyObservation"
+  },
+  {
+    "id": "PADI-CareExperiencePreference",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference",
+    "version": "0.0.1",
+    "name": "PADICareExperiencePreference"
+  },
+  {
+    "id": "PADI-ConsentForHealthcareAgent",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-ConsentForHealthcareAgent",
+    "version": "0.0.1",
+    "name": "PADIConsentForHealthcareAgent"
+  },
+  {
     "id": "PADI-DocumentReference",
     "type": "StructureDefinition",
     "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-DocumentReference",
@@ -21,6 +42,13 @@
     "name": "PADIEndPoint"
   },
   {
+    "id": "PADI-Guardian",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-Guardian",
+    "version": "0.0.1",
+    "name": "PADIGuardian"
+  },
+  {
     "id": "PADI-Header",
     "type": "StructureDefinition",
     "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-Header",
@@ -28,11 +56,53 @@
     "name": "PADIHeader"
   },
   {
+    "id": "PADI-HealthcareAgent",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-HealthcareAgent",
+    "version": "0.0.1",
+    "name": "PADIHealthcareAgent"
+  },
+  {
+    "id": "PADI-HealthcareAgentAuthority",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-HealthcareAgentAuthority",
+    "version": "0.0.1",
+    "name": "PADIHealthcareAgentAuthority"
+  },
+  {
+    "id": "PADI-OrganDonationObservation",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-OrganDonationObservation",
+    "version": "0.0.1",
+    "name": "PADIOrganDonationObservation"
+  },
+  {
     "id": "PADI-PACPComposition",
     "type": "StructureDefinition",
     "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PACPComposition",
     "version": "0.0.1",
     "name": "PADIPACPComposition"
+  },
+  {
+    "id": "PADI-POLSTObservation",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-POLSTObservation",
+    "version": "0.0.1",
+    "name": "PADIPOLSTObservation"
+  },
+  {
+    "id": "PADI-PersonalInterventionReference",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionReference",
+    "version": "0.0.1",
+    "name": "PADIPersonalInterventionReference"
+  },
+  {
+    "id": "PADI-PersonalPrioritiesOrganizer",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalPrioritiesOrganizer",
+    "version": "0.0.1",
+    "name": "PADIPersonalPrioritiesOrganizer"
   },
   {
     "id": "PADI-Provenance",

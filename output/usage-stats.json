@@ -70,6 +70,22 @@
     }
   ],
   "profiles": {
+    "Observation": [
+      {
+        "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-POLSTObservation",
+        "title": "ADI POLST Observation"
+      },
+      {
+        "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionReference",
+        "title": "ADI Personal Intervention Reference"
+      }
+    ],
+    "Consent": [
+      {
+        "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-HealthcareAgentAuthority",
+        "title": "ADI Healthcare Agent Authority"
+      }
+    ],
     "DocumentReference": [
       {
         "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-DocumentReference",
@@ -82,14 +98,22 @@
         "title": "PACIO ADI Endpoint"
       }
     ],
-    "Composition": [
+    "RelatedPerson": [
       {
-        "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-Header",
-        "title": "PACIO ADI Header"
-      },
+        "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-HealthcareAgent",
+        "title": "ADI Healthcare Agent"
+      }
+    ],
+    "Composition": [
       {
         "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PACPComposition",
         "title": "ADI Personal Advance Care Plan Composition"
+      }
+    ],
+    "List": [
+      {
+        "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalPrioritiesOrganizer",
+        "title": "ADI Personal Priorities Organizer"
       }
     ],
     "Provenance": [
@@ -124,6 +148,9 @@
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-category": [
       "StructureDefinition"
     ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
+      "StructureDefinition.snapshot.element"
+    ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name": [
       "StructureDefinition.snapshot.element"
     ],
@@ -132,6 +159,9 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category": [
       "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status": [
+      "StructureDefinition.snapshot.element"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
       "ImplementationGuide.definition"
