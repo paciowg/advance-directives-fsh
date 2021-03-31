@@ -10,7 +10,7 @@
   "name": "PADIPACPComposition",
   "title": "ADI Personal Advance Care Plan Composition",
   "status": "active",
-  "date": "2021-03-23T15:51:36-07:00",
+  "date": "2021-03-30T21:25:09-07:00",
   "publisher": "HL7 Patient Empowerment Working Group",
   "contact": [
     {
@@ -1059,8 +1059,8 @@
         "definition": "A categorization for the type of the composition - helps for indexing and searching. This may be implied by or derived from the code specified in the Composition Type.",
         "comment": "This is a metadata field from [XDS/MHD](http://wiki.ihe.net/index.php?title=Mobile_access_to_Health_Documents_(MHD)).",
         "requirements": "Helps humans to assess whether the composition is of interest when viewing an index of compositions or documents.",
-        "min": 0,
-        "max": "*",
+        "min": 1,
+        "max": "1",
         "base": {
           "path": "Composition.category",
           "min": 0,
@@ -1081,6 +1081,7 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": true,
         "isModifier": false,
         "isSummary": true,
         "binding": {
@@ -1135,8 +1136,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient",
-              "http://hl7.org/fhir/StructureDefinition/Group"
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
             ]
           }
         ],
@@ -2087,7 +2087,8 @@
             "code": "Reference",
             "targetProfile": [
               "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner",
-              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole"
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole",
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
             ]
           }
         ],
@@ -2120,9 +2121,9 @@
         ]
       },
       {
-        "id": "Composition.attester:professional_attester",
+        "id": "Composition.attester:notary_attester",
         "path": "Composition.attester",
-        "sliceName": "professional_attester",
+        "sliceName": "notary_attester",
         "short": "Attests to accuracy of composition",
         "definition": "A participant who has attested to the accuracy of the composition/document.",
         "comment": "Only list each attester once.",
@@ -2168,7 +2169,7 @@
         ]
       },
       {
-        "id": "Composition.attester:professional_attester.id",
+        "id": "Composition.attester:notary_attester.id",
         "path": "Composition.attester.id",
         "representation": [
           "xmlAttr"
@@ -2203,7 +2204,7 @@
         ]
       },
       {
-        "id": "Composition.attester:professional_attester.extension",
+        "id": "Composition.attester:notary_attester.extension",
         "path": "Composition.attester.extension",
         "short": "Additional content defined by implementations",
         "definition": "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
@@ -2252,7 +2253,7 @@
         ]
       },
       {
-        "id": "Composition.attester:professional_attester.modifierExtension",
+        "id": "Composition.attester:notary_attester.modifierExtension",
         "path": "Composition.attester.modifierExtension",
         "short": "Extensions that cannot be ignored even if unrecognized",
         "definition": "May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).",
@@ -2304,7 +2305,7 @@
         ]
       },
       {
-        "id": "Composition.attester:professional_attester.mode",
+        "id": "Composition.attester:notary_attester.mode",
         "path": "Composition.attester.mode",
         "short": "personal | professional | legal | official",
         "definition": "The type of attestation the authenticator offers.",
@@ -2358,7 +2359,7 @@
         ]
       },
       {
-        "id": "Composition.attester:professional_attester.time",
+        "id": "Composition.attester:notary_attester.time",
         "path": "Composition.attester.time",
         "short": "When the composition was attested",
         "definition": "When the composition was attested by the party.",
@@ -2399,7 +2400,7 @@
         ]
       },
       {
-        "id": "Composition.attester:professional_attester.party",
+        "id": "Composition.attester:notary_attester.party",
         "path": "Composition.attester.party",
         "short": "Who attested the composition",
         "definition": "Who attested the composition in the specified way.",
@@ -2415,8 +2416,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner",
-              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole"
+              "http://hl7.org/fhir/StructureDefinition/RelatedPerson"
             ]
           }
         ],
@@ -2449,9 +2449,9 @@
         ]
       },
       {
-        "id": "Composition.attester:personal_attester",
+        "id": "Composition.attester:witness_attester",
         "path": "Composition.attester",
-        "sliceName": "personal_attester",
+        "sliceName": "witness_attester",
         "short": "Attests to accuracy of composition",
         "definition": "A participant who has attested to the accuracy of the composition/document.",
         "comment": "Only list each attester once.",
@@ -2497,7 +2497,7 @@
         ]
       },
       {
-        "id": "Composition.attester:personal_attester.id",
+        "id": "Composition.attester:witness_attester.id",
         "path": "Composition.attester.id",
         "representation": [
           "xmlAttr"
@@ -2532,7 +2532,7 @@
         ]
       },
       {
-        "id": "Composition.attester:personal_attester.extension",
+        "id": "Composition.attester:witness_attester.extension",
         "path": "Composition.attester.extension",
         "short": "Additional content defined by implementations",
         "definition": "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
@@ -2581,7 +2581,7 @@
         ]
       },
       {
-        "id": "Composition.attester:personal_attester.modifierExtension",
+        "id": "Composition.attester:witness_attester.modifierExtension",
         "path": "Composition.attester.modifierExtension",
         "short": "Extensions that cannot be ignored even if unrecognized",
         "definition": "May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).",
@@ -2633,7 +2633,7 @@
         ]
       },
       {
-        "id": "Composition.attester:personal_attester.mode",
+        "id": "Composition.attester:witness_attester.mode",
         "path": "Composition.attester.mode",
         "short": "personal | professional | legal | official",
         "definition": "The type of attestation the authenticator offers.",
@@ -2687,7 +2687,7 @@
         ]
       },
       {
-        "id": "Composition.attester:personal_attester.time",
+        "id": "Composition.attester:witness_attester.time",
         "path": "Composition.attester.time",
         "short": "When the composition was attested",
         "definition": "When the composition was attested by the party.",
@@ -2728,7 +2728,7 @@
         ]
       },
       {
-        "id": "Composition.attester:personal_attester.party",
+        "id": "Composition.attester:witness_attester.party",
         "path": "Composition.attester.party",
         "short": "Who attested the composition",
         "definition": "Who attested the composition in the specified way.",

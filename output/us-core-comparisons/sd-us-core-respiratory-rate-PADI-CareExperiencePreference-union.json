@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "dd4afaeb-7ccd-4b82-8d39-354c005f911d-92",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/dd4afaeb-7ccd-4b82-8d39-354c005f911d-92",
+  "id" : "8586ec0e-ef8c-4e8f-bd9b-e4382226e802-92",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/8586ec0e-ef8c-4e8f-bd9b-e4382226e802-92",
   "name" : "UnionUSCoreRespiratoryRateProfileAndPADICareExperiencePreference",
   "title" : "Union of US Core Respiratory Rate Profile And ADI Care Experience Preference",
   "status" : "active",
-  "date" : "2021-03-23T15:51:44-07:00",
+  "date" : "2021-03-30T21:25:17-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -562,7 +562,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "left: The vital sign codes from the base FHIR and US Core Vital Signs.; right: Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/dd4afaeb-7ccd-4b82-8d39-354c005f911d-5"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/8586ec0e-ef8c-4e8f-bd9b-e4382226e802-5"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -1763,7 +1763,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "left: The vital sign codes from the base FHIR and US Core Vital Signs.; right: Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/dd4afaeb-7ccd-4b82-8d39-354c005f911d-5"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/8586ec0e-ef8c-4e8f-bd9b-e4382226e802-5"
       },
       "mapping" : [{
         "identity" : "w5",

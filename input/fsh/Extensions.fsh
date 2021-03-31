@@ -32,7 +32,7 @@ Title: "Information Recipient"
 Description: " The Information Recipient Extension records the intended recipient of the advance directive information at the time the document was created."
 * value[x] only Reference
 * valueReference 1..1 MS
-* valueReference only Reference($USCorePractitioner or $USCorePractitionerRole or $USCorePatient)
+* valueReference only Reference($USCorePractitioner or $USCorePractitionerRole or $USCorePatient or RelatedPerson)
 
 
 Extension: ParticipantExtension
@@ -41,7 +41,7 @@ Title: "Participant"
 Description: "The Advance Directive Information Participant Extension identifies supporting entities, including parents, relatives, caregivers, insurance policyholders, guarantors, and others related in some way to the patient. A supporting person or organization is an individual or an organization with a relationship to the patient. A supporting person who is playing multiple roles would be recorded in multiple participants (e.g., emergency contact and next-of-kin)."
 * value[x] only Reference
 * valueReference 1..1 MS
-* valueReference only Reference($USCorePractitioner or $USCorePractitionerRole or $USCorePatient or RelatedPerson)
+* valueReference only Reference($USCorePractitioner or $USCorePractitionerRole or RelatedPerson)
 
 
 Extension: PerformerExtension

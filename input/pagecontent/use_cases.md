@@ -156,6 +156,7 @@ Note: FHIR Resource versioning is only used for error corrections.
 #### Use Case 5: Verify current version of AD [Content]
 
 ##### Use Case 5 Description
+
 <p>
 In Use Case 5, a Content Verifier has advance directive information which it previously received or retrieved. The Content Verifier therefore knows the setId identifier for the document. The Content Verifier needs or wants to confirm the information they have is still the person’s current wishes, goals, preferences and priorities, etc. To verify that the document they have is the current version (and get the current version if it is not), the Content Verifier queries the Content Custodian to retrieve the current version of the document already in their possession.
 </p>
@@ -175,6 +176,7 @@ In Use Case 5, a Content Verifier has advance directive information which it pre
 <br clear="all" />
 
 ###### Use Case 5 Process Steps
+
 <p>
 In Use Case 5, there are 2 parts with the second part required only if it is verified that the Content Verifier does not have the current version of the AD information. Part 1 is a DocumentReference Read.Query, where the Content VerifierRequester performs a GET DocumentReference request using the ID for the DocumentReference for the advance directive information in their possession from the desired patient ID to the FHIR server, that information’s Content Custodian. The Content Custodian returns the indicated DocumentReference all matching DocumentReference information. Part 2 is dependent on the DocumentReference that is returned to the Content Verifier. If the DocumentReference relatesTo.code= “replaces”, that is returned has a status of superseded then the Content Verifier does a second query. The second query retrieves the DocumentReference that references the superseded DocumentReference. This query returns the replacement document’s (current) DocumentReference. The Content Verifier then reads the attachment from the current DocumentReference.
 </p>

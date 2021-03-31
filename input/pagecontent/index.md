@@ -1,19 +1,19 @@
-This FHIR implementation guide (IG) ...
+This Advance Directive Interoperability (ADI) FHIR implementation guide (IG) is used for explaining how to represent, exchange, and verify a person’s goals, preferences and priorities for treatments and interventions regarding future medical care.
 
 ### Introduction 
 <p>
-This FHIR implementation guide (IG) describes how to use existing FHIR standards to exchange information about an individual's advance directives (e.g. a person’s advance medical treatment and intervention goals, preferences and priorities, regardless of the individual’s current health condition or physical location) regarding potential future medical care in the event the individual becomes a patient and can not speak for herself or himself.
+This ADI FHIR implementation guide (IG) describes how to use existing FHIR standards to exchange information about an individual's advance directives (e.g. a person’s advance medical treatment and intervention goals, preferences and priorities, regardless of the individual’s current health condition or physical location) regarding potential future medical care in the event the individual becomes a patient and can not speak for herself or himself.
 </p>
 <p>
-A subsequent version of this IG will define the minimum conformance requirements for digital representation and exchange of encounter-centric patient instructions regarding medical treatments and interventions for a specific period of time associated with the encounter in question.
+A subsequent version of this IG will define the minimum conformance requirements for digital representation and exchange of encounter-centric patient instructions regarding medical treatment and intervention preferences and priorities that apply to a specific encounter.
 </p>
 <p>
-A further subsequent version of this IG will define the minimum conformance requirements for digital composition, representation and exchange of medical treatment order sets used to record the life-sustaining medical treatments a patient does or does not want to receive. These order sets are established by a practitioner(i.e., portable medical orders for life-sustaining treatments).
+A further subsequent version of this IG will define the minimum conformance requirements for digital composition, representation and exchange of advance medical treatment order sets used to record the life-sustaining medical treatments a patient does or does not want to receive should they require life-sustaining treatments due to a health crisis or emergency. These order sets are established by a practitioner(i.e., portable medical orders for life-sustaining treatments).
 </p>
 
 ### Background
 <p>
-Advance directives interoperability is a complex area that involves many stakeholders. The HL7 sponsor for this IG is Patient Empowerment. HL7 Co-sponsor workgroups include Patient Care, Community Based Care and Privacy, and Orders & Observations. In order to reach out to a broader community, the Post-Acute Care Interoperability (PACIO) Community has adopted this IG as a project use case. The PACIO Community has a strong interest in the topic of advance directives and will support the community engagement and technical FHIR IG development needed for advance directives interoperability. PACIO is supported by MITRE, CMS, ONC and many other stakeholders (clinical, technical, and industry associations).
+Advance directives interoperability is a complex area that involves many stakeholders. The HL7 sponsor for this FHIR IG is Patient Empowerment. HL7 Co-sponsor workgroups include Patient Care, Community Based Care and Privacy, and Orders & Observations. As part of their main goal in establishing a framework for the development of FHIR IGs to facilitate health information exchange to support clinical practice and the management, delivery and evaluation of health services. The Post-Acute Care Interoperability (PACIO) Community has adopted this FHIR IG as a project use case. The PACIO Community has a strong interest in the topic of advance directives and will support the community engagement and technical FHIR IG development needed for advance directives interoperability. PACIO is supported by MITRE, CMS, ONC and many other stakeholders (clinical, technical, and industry associations).
 </p>
 <p>
 FHIR profiles have been developed for several existing FHIR resources to represent advance directive content such as: living will, durable medical power of attorney, personal health goals at end of life, care experience preferences, patient instructions (obligation, prohibitions, and consent), and portable medical orders for life sustaining treatments.
@@ -43,7 +43,7 @@ Systems used to create and update patient-generated advance care plans through a
 
 ### External drivers
 <p>
-The aging population receiving healthcare in skilled nursing facilities and assisted living communities have been under forced isolation to reduce the risk of contracting COVID-19. Additionally, due to the pandemic, those requiring medical care have found themselves during a transition of care without family or personal advocate to accompany them to influence medical care or be at their side; concerns about the viral transmission potential associated with paper advance directive documents further complicate transitions of care. The impact is a sense of disempowerment, isolation, and a disconnection with the world they can no longer safely interact freely with.
+The aging population receiving healthcare in skilled nursing facilities and assisted living communities have been under forced isolation to reduce the risk of contracting COVID-19. Additionally, due to the pandemic, those requiring medical care have found themselves during a transition of care without family or a personal advocate to accompany them in order to influence medical care or be at their side; concerns about the viral transmission potential associated with paper advance directive documents further complicate transitions of care. The impact is a sense of disempowerment, isolation, and a disconnection with the world they can no longer safely interact freely with.
 </p>
 <p>
 Never before has the availability of verifiable digital advance directive documents been so essential to delivering care.
@@ -57,7 +57,7 @@ The role of technology and expanded adoption by the aging population, providers,
 
 ### Audience/Expected Users
 <p>
-The audience for this IG includes architects and developers of healthcare information technology (HIT) systems in the US Realm that exchange clinical and non-clinical data. Business analysts and policy managers can also benefit from a basic understanding of the use of FHIR profiles across multiple implementation use cases. Finally, Quality Reporting Agencies, Standards Development Organizations (SDOs), Payors, Providers and Patients could benefit from this IG.
+The audience for this IG includes architects and developers of healthcare information technology (HIT) systems in the US Realm that exchange clinical and non-clinical data. Business analysts and policy managers can also benefit from a basic understanding of the use of FHIR profiles across multiple implementation use cases. Finally, Quality Reporting Agencies, Standards Development Organizations (SDOs), Payors, Providers and Patients will benefit from this IG.
 </p>
 
 ### How to read this Guide
@@ -66,9 +66,9 @@ This Guide is divided into several pages which are listed at the top of each pag
     <li>Home: The home page provides the introduction and background information to set context for the use of the HL7 FHIR® ADI Implementation Guide.</li>
     <li>Guidance: These pages provide overall guidance in using the profiles and transactions defined in this guide by detailing the business case, patient stories and personas and use cases.
         <ul>
-            <li>Business Case: </li>
-            <li>Patient Stories and Personas: </li>
-            <li>Use Cases: </li>
+            <li>Business Case: A business case summarizes the scope of information exchange covered by the IG.</li>
+            <li>Patient Stories and Personas: Patient stories and personas give context to the data exchange standards detailed in the technical areas of the IG.  They allow the non-technical reader to envision situations in which the IGs provisions would apply, and ensure that development aspects of conforming to the IG meet the intended needs for exchange of this type of information.</li>
+            <li>Use Cases: A use case is a list of technical actions or event steps typically defining the interactions between a role and a system to achieve a goal. The actor can be a human or other external system. Technical scenarios that describe systems interactions between technical actors to implement the business case.</li>
             <li>Security: General security requirements and recommendations for HL7 FHIR® ADI Implementation Guide actors.TBD: Security information will need to be described as needed.</li>
             <li>About ADI Examples: Descriptive examples that demonstrate the use of ADI profiles and exchange mechanisms.</li>
         </ul>
@@ -79,7 +79,7 @@ This Guide is divided into several pages which are listed at the top of each pag
             <li>Extensions: This section lists the set of Extensions that are defined in this guide that are used by the IG defined profiles. Each linked Extension  page includes a formal definition.</li>
             <li>Search Parameters and Operations: This section lists the HL7 FHIR® ADI Implementation Guide defined Operations and Search Parameters that are used in ADI transactions.</li>
             <li>Terminology: This section lists the value sets and code system defined for HL7 FHIR® ADI Implementation Guide profiles.</li>
-            <li>Capability Statement: The following artifacts define the specific capabilities that different types of systems are expected to have in order to comply with this implementation guide. Systems conforming to this implementation guide are expected to declare conformance to one or more of the included capability statement. </li>
+            <li>Capability Statement: The following artifacts define the specific capabilities that different types of systems are expected to have in order to comply with this implementation guide. Systems conforming to this implementation guide are expected to declare conformance to one or more of the included capability statements.</li>
         </ul>
     </li>
     <li>Downloads: This page provides links to downloadable artifacts.</li>
@@ -109,7 +109,11 @@ This Guide is divided into several pages which are listed at the top of each pag
     </tr>
     <tr>
         <td>Advance directive (AD)</td>
-        <td>Advance directive</td>
+        <td>Advance directives = is a concept. Living will (what you want), medical power of attorney (who speaks), combined living will and medical power of attorney. These documents have several names depending on where you are. “Advance directives” is the general term that people use to refer to all of these documents as a concept.</td>
+    </tr>
+    <tr>
+        <td>Advance directives</td>
+        <td>Advance directive = People have used “advance directive” to refer to any of these documents in the singular, e.g., instead of saying “living will,” someone will generally, abstractly refer to the document as “an advance directive.”</td>
     </tr>
     <tr>
         <td>ADI</td>

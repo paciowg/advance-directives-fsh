@@ -16,6 +16,8 @@
       <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-versionNumber-extension']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-versionNumber-extension': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-dataEnterer-extension']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-dataEnterer-extension': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:identifier) &gt;= 1">identifier: minimum cardinality of 'identifier' is 1</sch:assert>
+      <sch:assert test="count(f:category) &gt;= 1">category: minimum cardinality of 'category' is 1</sch:assert>
+      <sch:assert test="count(f:category) &lt;= 1">category: maximum cardinality of 'category' is 1</sch:assert>
       <sch:assert test="count(f:confidentiality) &lt;= 0">confidentiality: maximum cardinality of 'confidentiality' is 0</sch:assert>
       <sch:assert test="count(f:custodian) &gt;= 1">custodian: minimum cardinality of 'custodian' is 1</sch:assert>
     </sch:rule>

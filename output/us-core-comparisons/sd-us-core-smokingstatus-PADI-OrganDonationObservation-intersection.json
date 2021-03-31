@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "dd4afaeb-7ccd-4b82-8d39-354c005f911d-144",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/dd4afaeb-7ccd-4b82-8d39-354c005f911d-144",
+  "id" : "8586ec0e-ef8c-4e8f-bd9b-e4382226e802-144",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/8586ec0e-ef8c-4e8f-bd9b-e4382226e802-144",
   "name" : "IntersectionUSCoreSmokingStatusProfileAndPADIOrganDonationObservation",
   "title" : "Intersection of US Core Smoking Status Observation Profile And ADI Organ Donation",
   "status" : "active",
-  "date" : "2021-03-23T15:51:44-07:00",
+  "date" : "2021-03-30T21:25:18-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -486,7 +486,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "Codes providing the status of an observation.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/dd4afaeb-7ccd-4b82-8d39-354c005f911d-48"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/8586ec0e-ef8c-4e8f-bd9b-e4382226e802-48"
       },
       "mapping" : [{
         "identity" : "workflow",

@@ -36,8 +36,9 @@ Description: "This abstract profile defines constraints that represent common ad
 * language 1..1 MS
 * identifier 1..1 MS
 * type MS
+* category 1..1 MS
 * subject MS
-* subject only Reference($USCorePatient or Group)
+* subject only Reference($USCorePatient)
 * encounter MS
 * encounter only Reference($USCoreEncounter)
 * date MS
@@ -54,23 +55,25 @@ Description: "This abstract profile defines constraints that represent common ad
 * attester ^slicing.description = "Slice based on $this value"
 * attester contains
     legal_attester 0..1 MS and
-    professional_attester 0..* MS and
-    personal_attester 0..* MS
+    notary_attester 0..* MS and
+    witness_attester 0..* MS
 * attester[legal_attester].mode 1..1 MS
 * attester[legal_attester].mode = #legal
 * attester[legal_attester].party 1..1 MS
-* attester[legal_attester].party  only Reference ($USCorePractitioner or $USCorePractitionerRole)
-* attester[professional_attester].mode 1..1 MS
-* attester[professional_attester].mode = #professional
-* attester[professional_attester].party 1..1 MS
-* attester[professional_attester].party  only Reference ($USCorePractitioner or $USCorePractitionerRole)
-* attester[personal_attester].mode 1..1 MS
-* attester[personal_attester].mode = #personal
-* attester[personal_attester].party 1..1 MS
-* attester[personal_attester].party  only Reference ($USCorePatient or RelatedPerson)
+* attester[legal_attester].party  only Reference ($USCorePractitioner or $USCorePractitionerRole or $USCoreOrganization)
+* attester[notary_attester].mode 1..1 MS
+* attester[notary_attester].mode = #professional
+* attester[notary_attester].party 1..1 MS
+* attester[notary_attester].party  only Reference (RelatedPerson)
+* attester[witness_attester].mode 1..1 MS
+* attester[witness_attester].mode = #personal
+* attester[witness_attester].party 1..1 MS
+* attester[witness_attester].party  only Reference ($USCorePatient or RelatedPerson)
 
 * custodian 1..1 MS
 * custodian only Reference ($USCoreOrganization)
 
+// need to add notes on which attester roles there are. Change name of personal_attester to witness_attester professional_attester to notary_attester
+// Need to add an extension with a code that explains the role, witness or notary. Others?
 
 

@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "dd4afaeb-7ccd-4b82-8d39-354c005f911d-165",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/dd4afaeb-7ccd-4b82-8d39-354c005f911d-165",
+  "id" : "8586ec0e-ef8c-4e8f-bd9b-e4382226e802-165",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/8586ec0e-ef8c-4e8f-bd9b-e4382226e802-165",
   "name" : "IntersectionUSCoreBodyHeightProfileAndPADIPersonalInterventionReference",
   "title" : "Intersection of US Core Body Height Profile And ADI Personal Intervention Reference",
   "status" : "active",
-  "date" : "2021-03-23T15:51:44-07:00",
+  "date" : "2021-03-30T21:25:18-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

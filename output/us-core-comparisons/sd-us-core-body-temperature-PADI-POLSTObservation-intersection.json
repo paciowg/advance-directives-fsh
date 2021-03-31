@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "dd4afaeb-7ccd-4b82-8d39-354c005f911d-213",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/dd4afaeb-7ccd-4b82-8d39-354c005f911d-213",
+  "id" : "8586ec0e-ef8c-4e8f-bd9b-e4382226e802-213",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/8586ec0e-ef8c-4e8f-bd9b-e4382226e802-213",
   "name" : "IntersectionUSCoreBodyTemperatureProfileAndPADIPOLSTObservation",
   "title" : "Intersection of US Core Body Temperature Profile And ADI POLST Observation",
   "status" : "active",
-  "date" : "2021-03-23T15:51:44-07:00",
+  "date" : "2021-03-30T21:25:18-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

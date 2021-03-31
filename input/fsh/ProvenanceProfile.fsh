@@ -16,4 +16,4 @@ Description: "[TODO] Advance Directive Interoperability Provanance baed on US Co
 
 
 RuleSet: PADIProvenanceDescriptions
-* agent[assembler] ^short = "[TODO]"
+* agent[assembler] ^short = "Indicates the name of the system used to assemble the person's original advance care planning information into a document for exchange."

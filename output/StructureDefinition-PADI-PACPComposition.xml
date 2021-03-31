@@ -11,7 +11,7 @@
   <name value="PADIPACPComposition"/>
   <title value="ADI Personal Advance Care Plan Composition"/>
   <status value="active"/>
-  <date value="2021-03-23T15:51:36-07:00"/>
+  <date value="2021-03-30T21:25:09-07:00"/>
   <publisher value="HL7 Patient Empowerment Working Group"/>
   <contact>
     <name value="HL7 Patient Empowerment Working Group"/>
@@ -889,8 +889,8 @@
       <definition value="A categorization for the type of the composition - helps for indexing and searching. This may be implied by or derived from the code specified in the Composition Type."/>
       <comment value="This is a metadata field from [XDS/MHD](http://wiki.ihe.net/index.php?title=Mobile_access_to_Health_Documents_(MHD))."/>
       <requirements value="Helps humans to assess whether the composition is of interest when viewing an index of compositions or documents."/>
-      <min value="0"/>
-      <max value="*"/>
+      <min value="1"/>
+      <max value="1"/>
       <base>
         <path value="Composition.category"/>
         <min value="0"/>
@@ -907,6 +907,7 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
+      <mustSupport value="true"/>
       <isModifier value="false"/>
       <isSummary value="true"/>
       <binding>
@@ -954,7 +955,6 @@
       <type>
         <code value="Reference"/>
         <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Group"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -1740,6 +1740,7 @@
         <code value="Reference"/>
         <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
         <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole"/>
+        <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -1765,9 +1766,9 @@
         <map value=".authenticator.assignedEnttty"/>
       </mapping>
     </element>
-    <element id="Composition.attester:professional_attester">
+    <element id="Composition.attester:notary_attester">
       <path value="Composition.attester"/>
-      <sliceName value="professional_attester"/>
+      <sliceName value="notary_attester"/>
       <short value="Attests to accuracy of composition"/>
       <definition value="A participant who has attested to the accuracy of the composition/document."/>
       <comment value="Only list each attester once."/>
@@ -1806,7 +1807,7 @@
         <map value="DocumentReference.authenticator"/>
       </mapping>
     </element>
-    <element id="Composition.attester:professional_attester.id">
+    <element id="Composition.attester:notary_attester.id">
       <path value="Composition.attester.id"/>
       <representation value="xmlAttr"/>
       <short value="Unique id for inter-element referencing"/>
@@ -1831,7 +1832,7 @@
         <map value="n/a"/>
       </mapping>
     </element>
-    <element id="Composition.attester:professional_attester.extension">
+    <element id="Composition.attester:notary_attester.extension">
       <path value="Composition.attester.extension"/>
       <short value="Additional content defined by implementations"/>
       <definition value="May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
@@ -1871,7 +1872,7 @@
         <map value="n/a"/>
       </mapping>
     </element>
-    <element id="Composition.attester:professional_attester.modifierExtension">
+    <element id="Composition.attester:notary_attester.modifierExtension">
       <path value="Composition.attester.modifierExtension"/>
       <short value="Extensions that cannot be ignored even if unrecognized"/>
       <definition value="May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element&#39;s descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.&#xA;&#xA;Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)."/>
@@ -1914,7 +1915,7 @@
         <map value="N/A"/>
       </mapping>
     </element>
-    <element id="Composition.attester:professional_attester.mode">
+    <element id="Composition.attester:notary_attester.mode">
       <path value="Composition.attester.mode"/>
       <short value="personal | professional | legal | official"/>
       <definition value="The type of attestation the authenticator offers."/>
@@ -1958,7 +1959,7 @@
         <map value="implied by .authenticator/.legalAuthenticator"/>
       </mapping>
     </element>
-    <element id="Composition.attester:professional_attester.time">
+    <element id="Composition.attester:notary_attester.time">
       <path value="Composition.attester.time"/>
       <short value="When the composition was attested"/>
       <definition value="When the composition was attested by the party."/>
@@ -1992,7 +1993,7 @@
         <map value=".authenticator.time"/>
       </mapping>
     </element>
-    <element id="Composition.attester:professional_attester.party">
+    <element id="Composition.attester:notary_attester.party">
       <path value="Composition.attester.party"/>
       <short value="Who attested the composition"/>
       <definition value="Who attested the composition in the specified way."/>
@@ -2006,8 +2007,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
-        <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/RelatedPerson"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -2033,9 +2033,9 @@
         <map value=".authenticator.assignedEnttty"/>
       </mapping>
     </element>
-    <element id="Composition.attester:personal_attester">
+    <element id="Composition.attester:witness_attester">
       <path value="Composition.attester"/>
-      <sliceName value="personal_attester"/>
+      <sliceName value="witness_attester"/>
       <short value="Attests to accuracy of composition"/>
       <definition value="A participant who has attested to the accuracy of the composition/document."/>
       <comment value="Only list each attester once."/>
@@ -2074,7 +2074,7 @@
         <map value="DocumentReference.authenticator"/>
       </mapping>
     </element>
-    <element id="Composition.attester:personal_attester.id">
+    <element id="Composition.attester:witness_attester.id">
       <path value="Composition.attester.id"/>
       <representation value="xmlAttr"/>
       <short value="Unique id for inter-element referencing"/>
@@ -2099,7 +2099,7 @@
         <map value="n/a"/>
       </mapping>
     </element>
-    <element id="Composition.attester:personal_attester.extension">
+    <element id="Composition.attester:witness_attester.extension">
       <path value="Composition.attester.extension"/>
       <short value="Additional content defined by implementations"/>
       <definition value="May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
@@ -2139,7 +2139,7 @@
         <map value="n/a"/>
       </mapping>
     </element>
-    <element id="Composition.attester:personal_attester.modifierExtension">
+    <element id="Composition.attester:witness_attester.modifierExtension">
       <path value="Composition.attester.modifierExtension"/>
       <short value="Extensions that cannot be ignored even if unrecognized"/>
       <definition value="May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element&#39;s descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.&#xA;&#xA;Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)."/>
@@ -2182,7 +2182,7 @@
         <map value="N/A"/>
       </mapping>
     </element>
-    <element id="Composition.attester:personal_attester.mode">
+    <element id="Composition.attester:witness_attester.mode">
       <path value="Composition.attester.mode"/>
       <short value="personal | professional | legal | official"/>
       <definition value="The type of attestation the authenticator offers."/>
@@ -2226,7 +2226,7 @@
         <map value="implied by .authenticator/.legalAuthenticator"/>
       </mapping>
     </element>
-    <element id="Composition.attester:personal_attester.time">
+    <element id="Composition.attester:witness_attester.time">
       <path value="Composition.attester.time"/>
       <short value="When the composition was attested"/>
       <definition value="When the composition was attested by the party."/>
@@ -2260,7 +2260,7 @@
         <map value=".authenticator.time"/>
       </mapping>
     </element>
-    <element id="Composition.attester:personal_attester.party">
+    <element id="Composition.attester:witness_attester.party">
       <path value="Composition.attester.party"/>
       <short value="Who attested the composition"/>
       <definition value="Who attested the composition in the specified way."/>
