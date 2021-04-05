@@ -26,7 +26,7 @@
   fhir:StructureDefinition.name [ fhir:value "PADIGuardian"];
   fhir:StructureDefinition.title [ fhir:value "ADI Guardian"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-03-30T21:25:09-07:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-04-05T10:07:48-07:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "HL7 Patient Empowerment Working Group"];
   fhir:StructureDefinition.contact [
      fhir:index 0;

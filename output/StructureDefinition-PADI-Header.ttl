@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "PADIHeader"];
   fhir:StructureDefinition.title [ fhir:value "PACIO ADI Header"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-03-30T21:25:09-07:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-04-05T10:07:48-07:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "HL7 Patient Empowerment Working Group"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
@@ -666,7 +666,7 @@
        fhir:ElementDefinition.path [ fhir:value "Composition.extension" ];
        fhir:ElementDefinition.sliceName [ fhir:value "InformationRecipientExtension" ];
        fhir:ElementDefinition.short [ fhir:value "Information Recipient" ];
-       fhir:ElementDefinition.definition [ fhir:value " The Information Recipient Extension records the intended recipient of the advance directive information at the time the document was created." ];
+       fhir:ElementDefinition.definition [ fhir:value "The Information Recipient Extension records the intended recipient of the advance directive information at the time the document was created." ];
        fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
        fhir:ElementDefinition.max [ fhir:value "*" ];
        fhir:ElementDefinition.base [

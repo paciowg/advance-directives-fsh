@@ -10,7 +10,7 @@
   "name": "PADIHeader",
   "title": "PACIO ADI Header",
   "status": "active",
-  "date": "2021-03-30T21:25:09-07:00",
+  "date": "2021-04-05T10:07:48-07:00",
   "publisher": "HL7 Patient Empowerment Working Group",
   "contact": [
     {
@@ -605,7 +605,7 @@
         "path": "Composition.extension",
         "sliceName": "InformationRecipientExtension",
         "short": "Information Recipient",
-        "definition": " The Information Recipient Extension records the intended recipient of the advance directive information at the time the document was created.",
+        "definition": "The Information Recipient Extension records the intended recipient of the advance directive information at the time the document was created.",
         "min": 0,
         "max": "*",
         "base": {

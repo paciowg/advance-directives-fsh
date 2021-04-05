@@ -91,11 +91,11 @@
     "name": "PADIPOLSTObservation"
   },
   {
-    "id": "PADI-PersonalInterventionReference",
+    "id": "PADI-PersonalInterventionPreference",
     "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionReference",
+    "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference",
     "version": "0.0.1",
-    "name": "PADIPersonalInterventionReference"
+    "name": "PADIPersonalInterventionPreference"
   },
   {
     "id": "PADI-PersonalPrioritiesOrganizer",

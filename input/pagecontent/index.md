@@ -201,7 +201,7 @@ TODO
         <td style="padding: 7px;">3</td>
         <td style="padding: 7px;"><a href="StructureDefinition-PADI-PACPComposition.html">ADI Personal Advance Care Plan Composition</a></td>
         <td style="padding: 7px;"><p>This profile encompasses information that makes up the author’s advance care information plan.</p>
-        <p><i>Development status: Mapping in progress.</i></p></td>
+        <p><i>Development status: Initial draft available. Mapping in progress.</i></p></td>
         <td style="padding: 7px;"><a href="StructureDefinition-PADI-Header.html">ADI Header</a></td>
     </tr>
     <tr>
@@ -227,7 +227,7 @@ TODO
     </tr>
     <tr>    
         <td style="padding: 7px;">7</td>
-        <td style="padding: 7px;"><a href="StructureDefinition-PADI-PersonalInterventionReference.html">ADI Personal Intervention Preference</a></td>
+        <td style="padding: 7px;"><a href="StructureDefinition-PADI-PersonalInterventionPreference.html">ADI Personal Intervention Preference</a></td>
         <td style="padding: 7px;"><p>This profile is used to represent a personal preference for a type of medical intervention (treatment).</p>
         <p><i>Development status: Not started.</i></p></td>
         <td style="padding: 7px;"><a href="http://hl7.org/fhir/R4/observation.html">Observation</a></td>
@@ -354,7 +354,7 @@ TODO
         <th style="padding: 10px;"><b>Based On</b></th>
     </tr>
     <tr>
-        <td style="padding: 7px;">20</td>
+        <td style="padding: 7px;">21</td>
         <td style="padding: 7px;"><a href="#">ADI Consent to Share</a></td>
         <td style="padding: 7px;"><p>This profile is used to expresses the patient’s or healthcare agent consent to share Advance Directive information with others</p>
         <p><i>Development status: planned post STU1</i></p></td>

@@ -22,6 +22,11 @@ Alias: $HL7ProvenancePartcipantType = http://terminology.hl7.org/CodeSystem/prov
 
 Alias: $HL7CompositionAttestation = http://hl7.org/fhir/ValueSet/composition-attestation-mode
 
+
+Alias: $LOINC = http://loinc.org
+
+
+
 //Alias:   $USCoreProviderRole = http://hl7.org/fhir/us/core/ValueSet/us-core-provider-role
 //Alias:   $USCoreProviderSpecialty = http://hl7.org/fhir/us/core/ValueSet/us-core-provider-specialty
 /*

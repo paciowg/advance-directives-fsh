@@ -10,7 +10,7 @@
   "name": "PACIOAdvanceDirectiveInteroperability",
   "title": "PACIO Advance Directive Interoperability Implementation Guide",
   "status": "draft",
-  "date": "2021-03-30T21:25:09-07:00",
+  "date": "2021-04-05T10:07:48-07:00",
   "publisher": "HL7 Patient Empowerment Working Group",
   "contact": [
     {
@@ -504,9 +504,9 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/PADI-PersonalInterventionReference"
+          "reference": "StructureDefinition/PADI-PersonalInterventionPreference"
         },
-        "name": "ADI Personal Intervention Reference",
+        "name": "ADI Personal Intervention Preference",
         "description": "This profile is used to represent a personal preference for a type of medical intervention (treatment).",
         "exampleBoolean": false
       },
@@ -591,7 +591,7 @@
           "reference": "StructureDefinition/padi-informatioRecipient-extension"
         },
         "name": "Information Recipient",
-        "description": " The Information Recipient Extension records the intended recipient of the advance directive information at the time the document was created.",
+        "description": "The Information Recipient Extension records the intended recipient of the advance directive information at the time the document was created.",
         "exampleBoolean": false
       },
       {

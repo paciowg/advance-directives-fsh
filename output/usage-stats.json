@@ -76,8 +76,8 @@
         "title": "ADI POLST Observation"
       },
       {
-        "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionReference",
-        "title": "ADI Personal Intervention Reference"
+        "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference",
+        "title": "ADI Personal Intervention Preference"
       }
     ],
     "Consent": [

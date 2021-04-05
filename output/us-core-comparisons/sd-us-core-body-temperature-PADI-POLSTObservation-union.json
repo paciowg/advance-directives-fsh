@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "8586ec0e-ef8c-4e8f-bd9b-e4382226e802-212",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/8586ec0e-ef8c-4e8f-bd9b-e4382226e802-212",
+  "id" : "3c557bd2-25a7-46d4-af47-d8e18dd55a08-212",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/3c557bd2-25a7-46d4-af47-d8e18dd55a08-212",
   "name" : "UnionUSCoreBodyTemperatureProfileAndPADIPOLSTObservation",
   "title" : "Union of US Core Body Temperature Profile And ADI POLST Observation",
   "status" : "active",
-  "date" : "2021-03-30T21:25:18-07:00",
+  "date" : "2021-04-05T10:07:57-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -562,7 +562,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "left: The vital sign codes from the base FHIR and US Core Vital Signs.; right: Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/8586ec0e-ef8c-4e8f-bd9b-e4382226e802-5"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/3c557bd2-25a7-46d4-af47-d8e18dd55a08-5"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -723,7 +723,7 @@
       "comment" : "At least a date should be present unless this observation is a historical report.  For recording imprecise or \"fuzzy\" times (For example, a blood glucose measurement taken \"after breakfast\") use the [Timing] datatype which allow the measurement to be tied to regular life events.",
       "requirements" : "Knowing when an observation was deemed true is important to its relevance as well as determining trends.",
       "alias" : ["Occurrence"],
-      "min" : 0,
+      "min" : 1,
       "max" : "1",
       "type" : [{
         "extension" : [{
@@ -867,34 +867,7 @@
         "code" : "Quantity"
       },
       {
-        "code" : "CodeableConcept"
-      },
-      {
-        "code" : "string"
-      },
-      {
         "code" : "boolean"
-      },
-      {
-        "code" : "integer"
-      },
-      {
-        "code" : "Range"
-      },
-      {
-        "code" : "Ratio"
-      },
-      {
-        "code" : "SampledData"
-      },
-      {
-        "code" : "time"
-      },
-      {
-        "code" : "dateTime"
-      },
-      {
-        "code" : "Period"
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -1763,7 +1736,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "left: The vital sign codes from the base FHIR and US Core Vital Signs.; right: Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/8586ec0e-ef8c-4e8f-bd9b-e4382226e802-5"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/3c557bd2-25a7-46d4-af47-d8e18dd55a08-5"
       },
       "mapping" : [{
         "identity" : "w5",
