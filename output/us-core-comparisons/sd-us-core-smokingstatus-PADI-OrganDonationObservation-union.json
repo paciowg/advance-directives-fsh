@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "3c557bd2-25a7-46d4-af47-d8e18dd55a08-143",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/3c557bd2-25a7-46d4-af47-d8e18dd55a08-143",
+  "id" : "2b3672db-56ec-4344-8442-0a66e5f348c9-143",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/2b3672db-56ec-4344-8442-0a66e5f348c9-143",
   "name" : "UnionUSCoreSmokingStatusProfileAndPADIOrganDonationObservation",
   "title" : "Union of US Core Smoking Status Observation Profile And ADI Organ Donation",
   "status" : "active",
-  "date" : "2021-04-05T10:07:56-07:00",
+  "date" : "2021-04-06T16:06:40-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -474,7 +474,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "Codes providing the status of an observation.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/3c557bd2-25a7-46d4-af47-d8e18dd55a08-47"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/2b3672db-56ec-4344-8442-0a66e5f348c9-47"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -563,7 +563,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/3c557bd2-25a7-46d4-af47-d8e18dd55a08-50"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/2b3672db-56ec-4344-8442-0a66e5f348c9-50"
       },
       "mapping" : [{
         "identity" : "workflow",

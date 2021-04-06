@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "3c557bd2-25a7-46d4-af47-d8e18dd55a08-180",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/3c557bd2-25a7-46d4-af47-d8e18dd55a08-180",
+  "id" : "2b3672db-56ec-4344-8442-0a66e5f348c9-180",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/2b3672db-56ec-4344-8442-0a66e5f348c9-180",
   "name" : "IntersectionUSCoreLaboratoryResultObservationProfileAndPADIPersonalInterventionPreference",
   "title" : "Intersection of US Core Laboratory Result Observation Profile And ADI Personal Intervention Preference",
   "status" : "active",
-  "date" : "2021-04-05T10:07:56-07:00",
+  "date" : "2021-04-06T16:06:40-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

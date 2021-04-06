@@ -9,7 +9,7 @@ Description: "This profile represents a person's appointment of a healthcare age
 * relationship 1..* MS
 /*
 * relationship ^slicing.discriminator.type = #pattern 
-// TODO what is the discriminator?
+// TODO what is the discriminator? Probably the coding.system
 * relationship ^slicing.discriminator.path = "code"
 * relationship ^slicing.rules = #open
 * relationship ^slicing.ordered = false   // can be omitted, since false is the default

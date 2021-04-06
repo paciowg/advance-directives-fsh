@@ -41,21 +41,21 @@ Description: "This profile encompasses information that makes up the author’s 
 * section[personal_advance_care_plan].section[gpp_personal_care_experience].code = $LOINC#81338-6
 * section[personal_advance_care_plan].section[gpp_personal_care_experience].text 1..1
 * section[personal_advance_care_plan].section[gpp_personal_care_experience].entry MS
-* section[personal_advance_care_plan].section[gpp_personal_care_experience].entry only Reference(PADICareExperiencePreference or PADIPersonalPrioritiesOrganizer)
+* section[personal_advance_care_plan].section[gpp_personal_care_experience].entry only Reference(PADICareExperiencePreference or PADIPersonalPrioritiesOrganizer)  // Missing perfonal Health Goal
 
 * section[personal_advance_care_plan].section[gpp_for_end_of_life_or_severely_dibilitating_condition].title 1..1 MS
 * section[personal_advance_care_plan].section[gpp_for_end_of_life_or_severely_dibilitating_condition].code 1..1 MS
 * section[personal_advance_care_plan].section[gpp_for_end_of_life_or_severely_dibilitating_condition].code = $LOINC#81336-0
 * section[personal_advance_care_plan].section[gpp_for_end_of_life_or_severely_dibilitating_condition].text 1..1
 * section[personal_advance_care_plan].section[gpp_for_end_of_life_or_severely_dibilitating_condition].entry MS
-* section[personal_advance_care_plan].section[gpp_for_end_of_life_or_severely_dibilitating_condition].entry only Reference(PADIPOLSTObservation or PADIPersonalPrioritiesOrganizer)
+* section[personal_advance_care_plan].section[gpp_for_end_of_life_or_severely_dibilitating_condition].entry only Reference(PADIPersonalInterventionPreference or PADIPersonalPrioritiesOrganizer or PADIPMOLSTObservation)  // Missing perfonal Health Goal
 
 * section[personal_advance_care_plan].section[gpp_upon_death].title 1..1 MS
 * section[personal_advance_care_plan].section[gpp_upon_death].code 1..1 MS
 * section[personal_advance_care_plan].section[gpp_upon_death].code = $LOINC#81337-8
 * section[personal_advance_care_plan].section[gpp_upon_death].text 1..1
 * section[personal_advance_care_plan].section[gpp_upon_death].entry MS
-* section[personal_advance_care_plan].section[gpp_upon_death].entry only Reference(PADIAutopsyObservation or PADIOrganDonationObservation)
+* section[personal_advance_care_plan].section[gpp_upon_death].entry only Reference(PADIPersonalInterventionPreference or PADIPersonalPrioritiesOrganizer or PADIAutopsyObservation or PADIOrganDonationObservation)  // Missing perfonal Health Goal
 
 * section[personal_advance_care_plan].section[administrative_information].title 1..1 MS
 * section[personal_advance_care_plan].section[administrative_information].code 1..1 MS

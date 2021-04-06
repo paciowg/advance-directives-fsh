@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "PACIOAdvanceDirectiveInteroperability"];
   fhir:ImplementationGuide.title [ fhir:value "PACIO Advance Directive Interoperability Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-04-05T10:07:48-07:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-04-06T16:06:31-07:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 Patient Empowerment Working Group"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -473,10 +473,10 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-POLSTObservation>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/PADI-POLSTObservation" ]
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PMOLSTObservation>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/PADI-PMOLSTObservation" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ADI POLST Observation" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ADI PMOLST Observation" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "This profile is used to indicate if a person has a medical order or physician order for life sustaining treatment (MOLST or POLST)." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -780,7 +780,7 @@
 
 <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PACPComposition> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-POLSTObservation> a fhir:us .
+<http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PMOLSTObservation> a fhir:us .
 
 <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference> a fhir:us .
 

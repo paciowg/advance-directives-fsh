@@ -72,8 +72,8 @@
   "profiles": {
     "Observation": [
       {
-        "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-POLSTObservation",
-        "title": "ADI POLST Observation"
+        "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PMOLSTObservation",
+        "title": "ADI PMOLST Observation"
       },
       {
         "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference",

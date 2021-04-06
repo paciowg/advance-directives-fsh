@@ -194,21 +194,21 @@ TODO
                 <li>Currently attester:legal_attester.party--> allows reference to US Core Practitioner Profile | US Core PractitionerRole Profile.  Need to add  RelatedPerson and US Core Organization.</li>
             </ul>
         </p>
-        <p><i>Development status: Initial draft available. Mapping in progress.</i></p></td>
+        <p><i>Development status: Initial draft available. Initial Mapping complete.</i></p></td>
         <td style="padding: 7px;"><a href="http://hl7.org/fhir/R4/clinicaldocument.html">ClinicalDocument</a></td>
     </tr>
     <tr>
         <td style="padding: 7px;">3</td>
         <td style="padding: 7px;"><a href="StructureDefinition-PADI-PACPComposition.html">ADI Personal Advance Care Plan Composition</a></td>
         <td style="padding: 7px;"><p>This profile encompasses information that makes up the author’s advance care information plan.</p>
-        <p><i>Development status: Initial draft available. Mapping in progress.</i></p></td>
+        <p><i>Development status: Initial draft available. Initial Mapping complete.</i></p></td>
         <td style="padding: 7px;"><a href="StructureDefinition-PADI-Header.html">ADI Header</a></td>
     </tr>
     <tr>
         <td style="padding: 7px;">4</td>
         <td style="padding: 7px;"><a href="StructureDefinition-PADI-HealthcareAgent.html">ADI Healthcare Agent</a></td>
         <td style="padding: 7px;"><p>This profile represents a person's appointment of a healthcare agent.</p>
-        <p><i>Development status: Not started.</i></p></td>
+        <p><i>Development status: Mapping in progress.</i></p></td>
         <td style="padding: 7px;"><a href="http://hl7.org/fhir/R4/relatedperson.html">RelatedPerson</a></td>
     </tr>
     <tr>    
@@ -220,9 +220,9 @@ TODO
     </tr>
     <tr>    
         <td style="padding: 7px;">6</td>
-        <td style="padding: 7px;"><a href="StructureDefinition-PADI-POLSTObservation.html">ADI POLST Observation</a></td>
+        <td style="padding: 7px;"><a href="StructureDefinition-PADI-PMOLSTObservation.html">ADI PMOLST Observation</a></td>
         <td style="padding: 7px;"><p>This profile is used to indicate if a person has a medical order or physician order for life sustaining treatment (MOLST or POLST).</p>
-        <p><i>Development status: Not started.</i></p></td>
+        <p><i>Development status: Mapping in progress.</i></p></td>
         <td style="padding: 7px;"><a href="http://hl7.org/fhir/R4/observation.html">Observation</a></td>
     </tr>
     <tr>    
@@ -250,7 +250,7 @@ TODO
         <td style="padding: 7px;">10</td>
         <td style="padding: 7px;"><a href="StructureDefinition-PADI-PersonalPrioritiesOrganizer.html">ADI Personal Priorities Organizer</a></td>
         <td style="padding: 7px;"><p>This profile is used to represent a set of personal goals, preferences or care experiences in a preferred ranked order.</p>
-        <p><i>Development status: Not started.</i></p></td>
+        <p><i>Development status: Mapping in progress.</i></p></td>
         <td style="padding: 7px;"><a href="http://hl7.org/fhir/R4/list.html">List</a></td>
     </tr>
     <tr>    

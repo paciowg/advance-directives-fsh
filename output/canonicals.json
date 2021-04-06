@@ -84,11 +84,11 @@
     "name": "PADIPACPComposition"
   },
   {
-    "id": "PADI-POLSTObservation",
+    "id": "PADI-PMOLSTObservation",
     "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-POLSTObservation",
+    "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PMOLSTObservation",
     "version": "0.0.1",
-    "name": "PADIPOLSTObservation"
+    "name": "PADIPMOLSTObservation"
   },
   {
     "id": "PADI-PersonalInterventionPreference",

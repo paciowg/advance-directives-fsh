@@ -1,9 +1,9 @@
 ﻿PACIOAdvanceDirectiveInteroperability : Validation Results
 =========================================
 
-err = 11, warn = 30, info = 0
-IG Publisher Version: 1.1.63 Out of date - current version is 1.1.65
-Generated Mon Apr 05 10:09:22 PDT 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio-adi#0.0.1 (canonical = http://hl7.org/fhir/us/pacio-adi)
+err = 3, warn = 30, info = 0
+IG Publisher Version: 1.1.65
+Generated Tue Apr 06 16:08:26 PDT 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio-adi#0.0.1 (canonical = http://hl7.org/fhir/us/pacio-adi)
 
  Build Errors : 1 / 0 / 0
  C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\ImplementationGuide-hl7.fhir.us.pacio-adi : 0 / 0 / 1
@@ -18,18 +18,18 @@ Generated Mon Apr 05 10:09:22 PDT 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio
  C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-HealthcareAgentAuthority : 1 / 1 / 1
  C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-OrganDonationObservation : 0 / 2 / 1
  C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-PACPComposition : 0 / 1 / 1
- C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-POLSTObservation : 0 / 2 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-PMOLSTObservation : 0 / 2 / 1
  C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-PersonalInterventionPreference : 0 / 2 / 1
  C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-PersonalPrioritiesOrganizer : 0 / 3 / 1
  C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-Provenance : 0 / 1 / 1
- C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-padi-authorization-extension : 1 / 1 / 1
- C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-padi-dataEnterer-extension : 1 / 1 / 1
- C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-padi-informant-extension : 1 / 1 / 1
- C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-padi-informatioRecipient-extension : 1 / 1 / 1
- C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-padi-order-extension : 1 / 1 / 1
- C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-padi-participant-extension : 1 / 1 / 1
- C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-padi-performer-extension : 1 / 1 / 1
- C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-padi-versionNumber-extension : 1 / 1 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-padi-authorization-extension : 0 / 1 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-padi-dataEnterer-extension : 0 / 1 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-padi-informant-extension : 0 / 1 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-padi-informatioRecipient-extension : 0 / 1 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-padi-order-extension : 0 / 1 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-padi-participant-extension : 0 / 1 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-padi-performer-extension : 0 / 1 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-padi-versionNumber-extension : 0 / 1 / 1
 </table>
 == n/a ==
 ERROR: There is no jira specification file defined with the expected name of FHIR-us-pacio-adi in the xml folder of the  https://github.com/HL7/Jira-Spec-Artifacts project.  This must exist before ballot or publication.
@@ -73,10 +73,10 @@ WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/Struc
 == C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-PACPComposition.json ==
 INFORMATION: StructureDefinition/PADI-PACPComposition: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PACPComposition'): The Implementation Guide contains no examples for this profile
-== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-POLSTObservation.json ==
-INFORMATION: StructureDefinition/PADI-POLSTObservation: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-POLSTObservation').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-POLSTObservation'): The Implementation Guide contains no examples for this profile
+== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-PMOLSTObservation.json ==
+INFORMATION: StructureDefinition/PADI-PMOLSTObservation: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PMOLSTObservation').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PMOLSTObservation'): The Implementation Guide contains no examples for this profile
 == C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-PersonalInterventionPreference.json ==
 INFORMATION: StructureDefinition/PADI-PersonalInterventionPreference: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
@@ -91,33 +91,25 @@ INFORMATION: StructureDefinition/PADI-Provenance: StructureDefinition: Validate 
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-Provenance'): The Implementation Guide contains no examples for this profile
 == C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-padi-authorization-extension.json ==
 INFORMATION: StructureDefinition/padi-authorization-extension: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
-ERROR: StructureDefinition/padi-authorization-extension: StructureDefinition.snapshot.element[3].fixed.ofType(uri): The element Extension.url has a fixed of type uri, which is not in the list of allowed types ([http://hl7.org/fhirpath/System.String])
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-authorization-extension'): The Implementation Guide contains no examples for this extension
 == C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-padi-dataEnterer-extension.json ==
 INFORMATION: StructureDefinition/padi-dataEnterer-extension: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
-ERROR: StructureDefinition/padi-dataEnterer-extension: StructureDefinition.snapshot.element[3].fixed.ofType(uri): The element Extension.url has a fixed of type uri, which is not in the list of allowed types ([http://hl7.org/fhirpath/System.String])
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-dataEnterer-extension'): The Implementation Guide contains no examples for this extension
 == C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-padi-informant-extension.json ==
 INFORMATION: StructureDefinition/padi-informant-extension: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
-ERROR: StructureDefinition/padi-informant-extension: StructureDefinition.snapshot.element[3].fixed.ofType(uri): The element Extension.url has a fixed of type uri, which is not in the list of allowed types ([http://hl7.org/fhirpath/System.String])
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-informant-extension'): The Implementation Guide contains no examples for this extension
 == C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-padi-informatioRecipient-extension.json ==
 INFORMATION: StructureDefinition/padi-informatioRecipient-extension: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
-ERROR: StructureDefinition/padi-informatioRecipient-extension: StructureDefinition.snapshot.element[3].fixed.ofType(uri): The element Extension.url has a fixed of type uri, which is not in the list of allowed types ([http://hl7.org/fhirpath/System.String])
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-informatioRecipient-extension'): The Implementation Guide contains no examples for this extension
 == C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-padi-order-extension.json ==
 INFORMATION: StructureDefinition/padi-order-extension: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
-ERROR: StructureDefinition/padi-order-extension: StructureDefinition.snapshot.element[3].fixed.ofType(uri): The element Extension.url has a fixed of type uri, which is not in the list of allowed types ([http://hl7.org/fhirpath/System.String])
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-order-extension'): The Implementation Guide contains no examples for this extension
 == C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-padi-participant-extension.json ==
 INFORMATION: StructureDefinition/padi-participant-extension: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
-ERROR: StructureDefinition/padi-participant-extension: StructureDefinition.snapshot.element[3].fixed.ofType(uri): The element Extension.url has a fixed of type uri, which is not in the list of allowed types ([http://hl7.org/fhirpath/System.String])
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-participant-extension'): The Implementation Guide contains no examples for this extension
 == C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-padi-performer-extension.json ==
 INFORMATION: StructureDefinition/padi-performer-extension: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
-ERROR: StructureDefinition/padi-performer-extension: StructureDefinition.snapshot.element[3].fixed.ofType(uri): The element Extension.url has a fixed of type uri, which is not in the list of allowed types ([http://hl7.org/fhirpath/System.String])
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-performer-extension'): The Implementation Guide contains no examples for this extension
 == C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-padi-versionNumber-extension.json ==
 INFORMATION: StructureDefinition/padi-versionNumber-extension: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
-ERROR: StructureDefinition/padi-versionNumber-extension: StructureDefinition.snapshot.element[3].fixed.ofType(uri): The element Extension.url has a fixed of type uri, which is not in the list of allowed types ([http://hl7.org/fhirpath/System.String])
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-versionNumber-extension'): The Implementation Guide contains no examples for this extension
