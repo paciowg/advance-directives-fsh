@@ -1,0 +1,42 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <http://loinc.org/rdf#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-adi/Observation/CareExperiencePreference1> a fhir:Observation;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "CareExperiencePreference1"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference";
+       fhir:index 0;
+       fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "additional" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>My likes / joys:</b> Here are some examples of the things that I would like to have near me, music that I’d like to hear, and other details of my care that would help to keep me happy and relaxed:</p><p><i>Like Bach, especially the cantatas. St. Martin in the Fields</i></p></div>"
+  ];
+  fhir:Observation.status [ fhir:value "final"];
+  fhir:Observation.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a loinc:81360-0;
+       fhir:Coding.system [ fhir:value "http://loinc.org" ];
+       fhir:Coding.code [ fhir:value "81360-0" ];
+       fhir:Coding.display [ fhir:value "My likes and joys [Reported]" ]
+     ]
+  ];
+  fhir:Observation.valueString [ fhir:value "Here are some examples of the things that I would like to have near me, music that I’d like to hear, and other details of my care that would help to keep me happy and relaxed: Like Bach, especially the cantatas.  St. Martin in the Fields"] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-adi/Observation/CareExperiencePreference1.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/us/pacio-adi/Observation/CareExperiencePreference1.ttl> .
+
+# -------------------------------------------------------------------------------------
+

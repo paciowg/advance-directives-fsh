@@ -1,0 +1,61 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <http://loinc.org/rdf#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-adi/RelatedPerson/HealthcareAgentExample1> a fhir:RelatedPerson;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "HealthcareAgentExample1"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-HealthcareAgent";
+       fhir:index 0;
+       fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-HealthcareAgent>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "additional" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Primary Healthcare Agent</h2><p><b>The person I choose as my Primary Healthcare Agent is:</b></p><p><i>Sally Bobbins</i></p><p><i>lscottbrown@verizon.net</i></p><p><i>[SELECTED to act as a healthcare agent on 3/23/2018, at 9:13 AM CST]</i></p><p><i>[As of 12/6/2019, at 1:11 AM CDT, a response is still PENDING]</i></p></div>"
+  ];
+  fhir:RelatedPerson.patient [
+     fhir:link <http://hl7.org/fhir/us/pacio-adi/Patient/Patient1>;
+     fhir:Reference.reference [ fhir:value "Patient/Patient1" ]
+  ];
+  fhir:RelatedPerson.relationship [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a loinc:75783-1;
+       fhir:Coding.system [ fhir:value "http://loinc.org" ];
+       fhir:Coding.code [ fhir:value "75783-1" ];
+       fhir:Coding.display [ fhir:value "Primary healthcare agent [Reported]" ]
+     ]
+  ];
+  fhir:RelatedPerson.name [
+     fhir:index 0;
+     fhir:HumanName.family [ fhir:value "Sally" ];
+     fhir:HumanName.given [
+       fhir:value "Bobbins";
+       fhir:index 0
+     ]
+  ];
+  fhir:RelatedPerson.telecom [
+     fhir:index 0;
+     fhir:ContactPoint.system [ fhir:value "email" ];
+     fhir:ContactPoint.value [ fhir:value "lscottbrown@verizon.net" ];
+     fhir:ContactPoint.use [ fhir:value "home" ]
+  ] .
+
+<http://hl7.org/fhir/us/pacio-adi/Patient/Patient1> a fhir:us .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-adi/RelatedPerson/HealthcareAgentExample1.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/us/pacio-adi/RelatedPerson/HealthcareAgentExample1.ttl> .
+
+# -------------------------------------------------------------------------------------
+

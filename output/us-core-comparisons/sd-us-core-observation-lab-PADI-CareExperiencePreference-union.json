@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "2b3672db-56ec-4344-8442-0a66e5f348c9-86",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/2b3672db-56ec-4344-8442-0a66e5f348c9-86",
+  "id" : "e304b641-b2ed-40f5-8408-3e8d055ae770-89",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/e304b641-b2ed-40f5-8408-3e8d055ae770-89",
   "name" : "UnionUSCoreLaboratoryResultObservationProfileAndPADICareExperiencePreference",
   "title" : "Union of US Core Laboratory Result Observation Profile And ADI Care Experience Preference",
   "status" : "active",
-  "date" : "2021-04-06T16:06:40-07:00",
+  "date" : "2021-04-22T06:16:41-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -574,8 +574,8 @@
       "isSummary" : true,
       "binding" : {
         "strength" : "extensible",
-        "description" : "left: LOINC codes; right: Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/ValueSet/observation-codes"
+        "description" : "LOINC codes",
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/e304b641-b2ed-40f5-8408-3e8d055ae770-92"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -1086,7 +1086,7 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       }],
-      "mustSupport" : false,
+      "mustSupport" : true,
       "isModifier" : false,
       "isSummary" : false,
       "mapping" : [{

@@ -1,0 +1,156 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e304b641-b2ed-40f5-8408-3e8d055ae770-104",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e304b641-b2ed-40f5-8408-3e8d055ae770-104",
+  "name" : "UnionUSCoreSmokingStatusObservationCodesAndPADICareExperiencePreferencesVS",
+  "title" : "Union of US Core Smoking Status Observation Codes And Care Experience Preferences",
+  "status" : "active",
+  "date" : "2021-04-22T06:16:41-07:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "US"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "72166-2",
+        "display" : "Tobacco smoking status NHIS"
+      },
+      {
+        "code" : "75774-0",
+        "display" : "Allowance to change advance directive preferences in the future regardless of mental state [Reported]"
+      },
+      {
+        "code" : "75775-7",
+        "display" : "Decision to inform doctors and nurses about the role religion, faith, or spirituality play in my life [Reported]"
+      },
+      {
+        "code" : "75793-0",
+        "display" : "Other directives that have not otherwise been documented [Reported]"
+      },
+      {
+        "code" : "81356-8",
+        "display" : "Death arrangements [Reported]"
+      },
+      {
+        "code" : "81357-6",
+        "display" : "Messages to be delivered after death [Reported]"
+      },
+      {
+        "code" : "81358-4",
+        "display" : "Person(s) to notify upon death [Reported]"
+      },
+      {
+        "code" : "81359-2",
+        "display" : "Near death thoughts and feelings to be shared [Reported]"
+      },
+      {
+        "code" : "81360-0",
+        "display" : "My likes and joys [Reported]"
+      },
+      {
+        "code" : "81361-8",
+        "display" : "Things that make me laugh [Reported]"
+      },
+      {
+        "code" : "81362-6",
+        "display" : "My dislikes and fears [Reported]"
+      },
+      {
+        "code" : "81363-4",
+        "display" : "Things that matter to me [Reported]"
+      },
+      {
+        "code" : "81364-2",
+        "display" : "Religious beliefs [Reported]"
+      },
+      {
+        "code" : "81365-9",
+        "display" : "Religious affiliation contact to notify [Reported]"
+      },
+      {
+        "code" : "81366-7",
+        "display" : "Unfinished business [Reported]"
+      }]
+    }]
+  },
+  "expansion" : {
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "72166-2",
+      "display" : "Tobacco smoking status NHIS"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "75774-0",
+      "display" : "Allowance to change advance directive preferences in the future regardless of mental state [Reported]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "75775-7",
+      "display" : "Decision to inform doctors and nurses about the role religion, faith, or spirituality play in my life [Reported]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "75793-0",
+      "display" : "Other directives that have not otherwise been documented [Reported]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "81356-8",
+      "display" : "Death arrangements [Reported]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "81357-6",
+      "display" : "Messages to be delivered after death [Reported]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "81358-4",
+      "display" : "Person(s) to notify upon death [Reported]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "81359-2",
+      "display" : "Near death thoughts and feelings to be shared [Reported]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "81360-0",
+      "display" : "My likes and joys [Reported]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "81361-8",
+      "display" : "Things that make me laugh [Reported]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "81362-6",
+      "display" : "My dislikes and fears [Reported]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "81363-4",
+      "display" : "Things that matter to me [Reported]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "81364-2",
+      "display" : "Religious beliefs [Reported]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "81365-9",
+      "display" : "Religious affiliation contact to notify [Reported]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "81366-7",
+      "display" : "Unfinished business [Reported]"
+    }]
+  }
+}

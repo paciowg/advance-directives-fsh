@@ -1,0 +1,55 @@
+{
+  "resourceType": "ValueSet",
+  "id": "PADIHealthcareAgentRelationshipVS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Import all the codes that are contained in <a href=\"ValueSet-PADIHealthcareAgentOrProxyChoicesVS.html\">http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIHealthcareAgentOrProxyChoicesVS</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-PADIPersonalAndLegalRelationshipRoleTypeVS.html\">http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIPersonalAndLegalRelationshipRoleTypeVS</a></li></ul></div>"
+  },
+  "url": "http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIHealthcareAgentRelationshipVS",
+  "version": "0.0.1",
+  "name": "PADIHealthcareAgentRelationshipVS",
+  "title": "Healthcare Agent Relationships",
+  "status": "active",
+  "date": "2021-04-22T06:16:14-07:00",
+  "publisher": "HL7 Patient Empowerment Working Group",
+  "contact": [
+    {
+      "name": "HL7 Patient Empowerment Working Group",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org/Special/committees/patientempowerment/index.cfm"
+        },
+        {
+          "system": "email",
+          "value": "patients@lists.HL7.org"
+        }
+      ]
+    }
+  ],
+  "description": "[TODO] This value set identifies the healthcare agent or proxy roles that individuals commonly designate to empower surrogates to make medical treatment and care decisions when the individual is unable to effectively communicate with medical personnel or requires assistance with decision making.\r\n\r\nThis ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1046.35/expansion",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "US"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIHealthcareAgentOrProxyChoicesVS"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIPersonalAndLegalRelationshipRoleTypeVS"
+        ]
+      }
+    ]
+  }
+}

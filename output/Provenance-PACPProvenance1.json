@@ -1,0 +1,35 @@
+{
+  "resourceType": "Provenance",
+  "id": "PACPProvenance1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-Provenance"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>target</b>: <a href=\"Composition-PACPExample1.html\">Generated Summary: language: en-US; id: 20130607100315-CCDA-CCD; status: final; <span title=\"Codes: {http://loinc.org 81334-5}\">Patient Personal advance care plan</span>; <span title=\"Codes: {http://loinc.org 75320-2}\">Advance directive</span>; date: Aug 28, 2018, 5:49:58 AM; title: Personal Advance Care Plan Document for Roger McBee</a></p><p><b>recorded</b>: Dec 6, 2019, 6:11:30 AM</p><h3>Agents</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Who</b></td></tr><tr><td>*</td><td><span title=\"Codes: {http://terminology.hl7.org/CodeSystem/provenance-participant-type assembler}\">Assembler</span></td><td><a href=\"Organization-OrganizationAssembler1.html\">Generated Summary: id: 4; active; name: ADVault, Inc.; Phone: +1(202)776-7700</a></td></tr></table></div>"
+  },
+  "target": [
+    {
+      "reference": "Composition/PACPExample1"
+    }
+  ],
+  "recorded": "2019-12-06T10:11:30.001-04:00",
+  "agent": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+            "code": "assembler",
+            "display": "Assembler"
+          }
+        ]
+      },
+      "who": {
+        "reference": "Organization/OrganizationAssembler1"
+      }
+    }
+  ]
+}

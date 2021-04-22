@@ -1,0 +1,24 @@
+{
+  "resourceType": "Observation",
+  "id": "PersonalInterventionPreference7",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference"
+    ]
+  },
+  "text": {
+    "status": "additional",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>If it were possible to choose, here is where I would like to spend my final days:</p><p><i>At home.I would like to receive hospice care at home if possible.</i></p></div>"
+  },
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "75780-7",
+        "display": "Preferred location to spend final days if possible to choose [Reported]"
+      }
+    ]
+  },
+  "valueString": "If it were possible to choose, here is where I would like to spend my final days: At home.I would like to receive hospice care at home if possible."
+}

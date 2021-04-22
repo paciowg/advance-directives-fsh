@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="PersonalInterventionPreference6"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference"/>
+  </meta>
+  <text>
+    <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><p>Although I understand that, depending on the situation and circumstances, medical personnel may not be able to follow my wishes, here are my general thoughts on cardiopulmonary resuscitation (CPR):</p><p><i>I want my healthcare agent to make the decision, but if my chances are slim to none that I'll leave the hospital, even if they resuscitate me, then I absolutely do not want CPR.</i></p></div>
+  </text>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="75779-9"/>
+      <display value="Thoughts on cardiopulmonary resuscitation (CPR) [Reported]"/>
+    </coding>
+  </code>
+  <valueString value="Although I understand that, depending on the situation and circumstances, medical personnel may not be able to follow my wishes, here are my general thoughts on cardiopulmonary resuscitation (CPR): I want my healthcare agent to make the decision, but if my chances are slim to none that I&#39;ll leave the hospital, even if they resuscitate me, then I absolutely do not want CPR."/>
+</Observation>

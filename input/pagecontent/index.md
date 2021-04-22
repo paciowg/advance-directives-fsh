@@ -236,14 +236,14 @@ TODO
         <td style="padding: 7px;">8</td>
         <td style="padding: 7px;"><a href="StructureDefinition-PADI-OrganDonationObservation.html">ADI Organ Donation Observation</a></td>
         <td style="padding: 7px;"><p>This profile is used to represent the author's thoughts about organ donation.</p>
-        <p><i>Development status: Not started.</i></p></td>
+        <p><i>Development status: Initial draft available. Initial Mapping complete.</i></p></td>
         <td style="padding: 7px;"><a href="http://hl7.org/fhir/R4/observation.html">Observation</a></td>
     </tr>
     <tr>    
         <td style="padding: 7px;">9</td>
         <td style="padding: 7px;"><a href="StructureDefinition-PADI-AutopsyObservation.html">ADI Autopsy Observation</a></td>
         <td style="padding: 7px;"><p>This profile is used to represent the author's thoughts about autopsy.</p>
-        <p><i>Development status: Not started.</i></p></td>
+        <p><i>Development status: Initial draft available. Initial Mapping complete.</i></p></td>
         <td style="padding: 7px;"><a href="http://hl7.org/fhir/R4/observation.html">Observation</a></td>
     </tr>
     <tr>    

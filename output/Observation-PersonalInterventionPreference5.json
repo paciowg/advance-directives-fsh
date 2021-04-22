@@ -1,0 +1,24 @@
+{
+  "resourceType": "Observation",
+  "id": "PersonalInterventionPreference5",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference"
+    ]
+  },
+  "text": {
+    "status": "additional",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Although I understand that, depending on the situation and circumstances, medical personnel may not be able to follow my wishes, here are my general thoughts on cardiopulmonary resuscitation (CPR):</p><p><i>I want my healthcare agent to make the decision, but if my chances are slim to none that I'll leave the hospital, even if they resuscitate me, then I absolutely do not want CPR.</i></p></div>"
+  },
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "75779-9",
+        "display": "Thoughts on cardiopulmonary resuscitation (CPR) [Reported]"
+      }
+    ]
+  },
+  "valueString": "Although I understand that, depending on the situation and circumstances, medical personnel may not be able to follow my wishes, here are my general thoughts on cardiopulmonary resuscitation (CPR): I do not want CPR attempted."
+}

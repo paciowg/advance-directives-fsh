@@ -11,7 +11,7 @@
   <name value="PACIOAdvanceDirectiveInteroperability"/>
   <title value="PACIO Advance Directive Interoperability Implementation Guide"/>
   <status value="draft"/>
-  <date value="2021-04-06T16:06:31-07:00"/>
+  <date value="2021-04-22T06:16:14-07:00"/>
   <publisher value="HL7 Patient Empowerment Working Group"/>
   <contact>
     <name value="HL7 Patient Empowerment Working Group"/>
@@ -345,6 +345,17 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/PADI-PersonalHealthGoal"/>
+      </reference>
+      <name value="ADI Personal Health Goal"/>
+      <description value="[TODO] This profile is used to represent the author&#39;s personal health goals."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/PADI-PersonalInterventionPreference"/>
       </reference>
       <name value="ADI Personal Intervention Preference"/>
@@ -460,6 +471,402 @@
       <name value="Version Number"/>
       <description value="Advance Directive Information VersionNumber Extension represents a numeric value used to version successive replacement documents."/>
       <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/PADICareExperiencePreferencesVS"/>
+      </reference>
+      <name value="Care Experience Preferences"/>
+      <description value="This value set includes concepts representing an individual&#39;s care experience preferences at end of life which can be expressed by the individual in his or her advance care plan),(Data Element Scope: The intent of this value set is to identify personal care experience preferences that may be relevant and could be considered by clinicians when making a treatment/care plan for the person.&#xD;&#xA;&#xD;&#xA;This ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1115.11/expansion"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/PADIHealthGoalsVS"/>
+      </reference>
+      <name value="Health Goals"/>
+      <description value="Clinical Focus: This value set includes concepts representing an individual&#39;s goals at end of life which can be expressed by the individual in his or her advance care plan.),(Data Element Scope: The intent of this value set is to identify personal goals that may be relevant and could be considered by clinicians when making a treatment/care plan for the person.),(Inclusion Criteria: Include member value sets for Health Goals at end of life for LOINC and SNOMED CT.),(Exclusion Criteria: None.&#xD;&#xA;&#xD;&#xA;This ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1115.7/expansion"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/PADIHealthcareAgentOrProxyChoicesVS"/>
+      </reference>
+      <name value="Healthcare Agent or Proxy Choices"/>
+      <description value="This value set identifies the healthcare agent or proxy roles that individuals commonly designate to empower surrogates to make medical treatment and care decisions when the individual is unable to effectively communicate with medical personnel or requires assistance with decision making.&#xD;&#xA;&#xD;&#xA;This ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1046.35/expansion"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/PADIHealthcareAgentRelationshipVS"/>
+      </reference>
+      <name value="Healthcare Agent Relationships"/>
+      <description value="[TODO] This value set identifies the healthcare agent or proxy roles that individuals commonly designate to empower surrogates to make medical treatment and care decisions when the individual is unable to effectively communicate with medical personnel or requires assistance with decision making.&#xD;&#xA;&#xD;&#xA;This ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1046.35/expansion"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/PADIInterventionPreferencesVS"/>
+      </reference>
+      <name value="Intervention Preferences"/>
+      <description value="Clinical Focus: This value set includes concepts representing an individual&#39;s intervention preferences at end of life which can be expressed by the individual in his or her advance care plan.),(Data Element Scope: The intent of this value set is to identify personal intervention preferences that may be relevant and could be considered by clinicians when making a treatment/care plan for the person.),(Inclusion Criteria: Include member value sets for Intervention Preferences at End of Life for LOINC and SNOMED CT.),(Exclusion Criteria: None.)&#xD;&#xA;&#xD;&#xA;This ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1115.9/expansion"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/PADIPersonalAndLegalRelationshipRoleTypeVS"/>
+      </reference>
+      <name value="Personal And Legal Relationship Role Type"/>
+      <description value="Clinical Focus: A personal or legal relationship records the role of a person in relation to another person, or a person to himself or herself. This value set is to be used when recording relationships based on personal or family ties or through legal assignment of responsibility."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/AutopsyDonationObservation1"/>
+      </reference>
+      <name value="AutopsyDonationObservation1"/>
+      <description value="Autopsy Observation 1"/>
+      <exampleCanonical value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-AutopsyObservation"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/Bundle1"/>
+      </reference>
+      <name value="Bundle1"/>
+      <description value="ADI Document Bundle 1"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/CareExperiencePreference1"/>
+      </reference>
+      <name value="CareExperiencePreference1"/>
+      <description value="Care Experience Preference (My Joys)"/>
+      <exampleCanonical value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/CareExperiencePreference2"/>
+      </reference>
+      <name value="CareExperiencePreference2"/>
+      <description value="Care Experience Preference (How to care for me)"/>
+      <exampleCanonical value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/CareExperiencePreference3"/>
+      </reference>
+      <name value="CareExperiencePreference3"/>
+      <description value="Care Experience Preference (Religious affiliation contact)"/>
+      <exampleCanonical value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/CareExperiencePreference4"/>
+      </reference>
+      <name value="CareExperiencePreference4"/>
+      <description value="Care Experience Preference (My unfinished business)"/>
+      <exampleCanonical value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/CareExperiencePreference5"/>
+      </reference>
+      <name value="CareExperiencePreference5"/>
+      <description value="Care Experience Preference (Death arrangements)"/>
+      <exampleCanonical value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RelatedPerson"/>
+      </extension>
+      <reference>
+        <reference value="RelatedPerson/HealthcareAgentExample1"/>
+      </reference>
+      <name value="HealthcareAgentExample1"/>
+      <description value="Healthcare Agent 1"/>
+      <exampleCanonical value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-HealthcareAgent"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RelatedPerson"/>
+      </extension>
+      <reference>
+        <reference value="RelatedPerson/HealthcareAgentExample2"/>
+      </reference>
+      <name value="HealthcareAgentExample2"/>
+      <description value="Healthcare Agent 2"/>
+      <exampleCanonical value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-HealthcareAgent"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/OrganDonationObservation1"/>
+      </reference>
+      <name value="OrganDonationObservation1"/>
+      <description value="Organ Donation Observation 1"/>
+      <exampleCanonical value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-OrganDonationObservation"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/OrganizationAssembler1"/>
+      </reference>
+      <name value="OrganizationAssembler1"/>
+      <description value="Assembler Organization 1"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/OrganizationCustodian1"/>
+      </reference>
+      <name value="OrganizationCustodian1"/>
+      <description value="Custodian Organization 1"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Composition"/>
+      </extension>
+      <reference>
+        <reference value="Composition/PACPExample1"/>
+      </reference>
+      <name value="PACPExample1"/>
+      <description value="Personal AdvanceCare Plan Example 1"/>
+      <exampleCanonical value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PACPComposition"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Provenance"/>
+      </extension>
+      <reference>
+        <reference value="Provenance/PACPProvenance1"/>
+      </reference>
+      <name value="PACPProvenance1"/>
+      <description value="Provenance Example 1"/>
+      <exampleCanonical value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-Provenance"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/Patient1"/>
+      </reference>
+      <name value="Patient1"/>
+      <description value="Patient Example 1"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Goal"/>
+      </extension>
+      <reference>
+        <reference value="Goal/PersonalHealthGoal1"/>
+      </reference>
+      <name value="PersonalHealthGoal1"/>
+      <description value="Personal Health Goal 1"/>
+      <exampleCanonical value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Goal"/>
+      </extension>
+      <reference>
+        <reference value="Goal/PersonalHealthGoal2"/>
+      </reference>
+      <name value="PersonalHealthGoal2"/>
+      <description value="Personal Health Goal 2"/>
+      <exampleCanonical value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Goal"/>
+      </extension>
+      <reference>
+        <reference value="Goal/PersonalHealthGoal3"/>
+      </reference>
+      <name value="PersonalHealthGoal3"/>
+      <description value="Personal Health Goal 3"/>
+      <exampleCanonical value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Goal"/>
+      </extension>
+      <reference>
+        <reference value="Goal/PersonalHealthGoal4"/>
+      </reference>
+      <name value="PersonalHealthGoal4"/>
+      <description value="Personal Health Goal 4"/>
+      <exampleCanonical value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Goal"/>
+      </extension>
+      <reference>
+        <reference value="Goal/PersonalHealthGoal5"/>
+      </reference>
+      <name value="PersonalHealthGoal5"/>
+      <description value="Personal Health Goal 5"/>
+      <exampleCanonical value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Goal"/>
+      </extension>
+      <reference>
+        <reference value="Goal/PersonalHealthGoal6"/>
+      </reference>
+      <name value="PersonalHealthGoal6"/>
+      <description value="Personal Health Goal 6"/>
+      <exampleCanonical value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Goal"/>
+      </extension>
+      <reference>
+        <reference value="Goal/PersonalHealthGoal7"/>
+      </reference>
+      <name value="PersonalHealthGoal7"/>
+      <description value="Personal Health Goal 7"/>
+      <exampleCanonical value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/PersonalInterventionPreference1"/>
+      </reference>
+      <name value="PersonalInterventionPreference1"/>
+      <description value="Personal Intervention Preference 1"/>
+      <exampleCanonical value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/PersonalInterventionPreference2"/>
+      </reference>
+      <name value="PersonalInterventionPreference2"/>
+      <description value="Personal Intervention Preference 2"/>
+      <exampleCanonical value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/PersonalInterventionPreference3"/>
+      </reference>
+      <name value="PersonalInterventionPreference3"/>
+      <description value="Personal Intervention Preference 3"/>
+      <exampleCanonical value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/PersonalInterventionPreference4"/>
+      </reference>
+      <name value="PersonalInterventionPreference4"/>
+      <description value="Personal Intervention Preference 4"/>
+      <exampleCanonical value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/PersonalInterventionPreference5"/>
+      </reference>
+      <name value="PersonalInterventionPreference5"/>
+      <description value="Personal Intervention Preference 5"/>
+      <exampleCanonical value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/PersonalInterventionPreference6"/>
+      </reference>
+      <name value="PersonalInterventionPreference6"/>
+      <description value="Personal Intervention Preference 6"/>
+      <exampleCanonical value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/PersonalInterventionPreference7"/>
+      </reference>
+      <name value="PersonalInterventionPreference7"/>
+      <description value="Personal Intervention Preference 7"/>
+      <exampleCanonical value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="List"/>
+      </extension>
+      <reference>
+        <reference value="List/PersonalPrioritiesOrganizer1"/>
+      </reference>
+      <name value="PersonalPrioritiesOrganizer1"/>
+      <description value="Personal Priorities Organizer"/>
+      <exampleCanonical value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalPrioritiesOrganizer"/>
     </resource>
     <page>
       <nameUrl value="toc.html"/>

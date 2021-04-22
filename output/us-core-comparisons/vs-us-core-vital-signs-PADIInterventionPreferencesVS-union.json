@@ -1,0 +1,344 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e304b641-b2ed-40f5-8408-3e8d055ae770-161",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e304b641-b2ed-40f5-8408-3e8d055ae770-161",
+  "name" : "UnionUsCoreVitalSignsAndPADIInterventionPreferencesVS",
+  "title" : "Union of US Core Vital Signs ValueSet And Intervention Preferences",
+  "status" : "active",
+  "date" : "2021-04-22T06:16:42-07:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "US"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "59576-9"
+      },
+      {
+        "code" : "8289-1"
+      },
+      {
+        "code" : "77606-2"
+      },
+      {
+        "code" : "59408-5"
+      },
+      {
+        "code" : "3150-0"
+      },
+      {
+        "code" : "3151-8"
+      },
+      {
+        "code" : "75776-5",
+        "display" : "Preference on consulting a supportive and palliative care team to help treat physical, emotional, and spiritual discomfort and support family [Reported]"
+      },
+      {
+        "code" : "75777-3",
+        "display" : "Information to tell doctors if my health deteriorates due to a terminal illness and I am unable to interact meaningfully with family, friends, or surroundings [Reported]"
+      },
+      {
+        "code" : "75778-1",
+        "display" : "Information to tell doctors if I have a severe, irreversible brain injury or illness and can't dress, feed, or bathe myself, or communicate my medical wishes, but can be kept alive [Reported]"
+      },
+      {
+        "code" : "75780-7",
+        "display" : "Preferred location to spend final days if possible to choose [Reported]"
+      },
+      {
+        "code" : "75781-5",
+        "display" : "Thoughts on organ and tissue donations [Reported]"
+      },
+      {
+        "code" : "75782-3",
+        "display" : "Thoughts regarding autopsy [Reported]"
+      },
+      {
+        "code" : "75787-2",
+        "display" : "Advance directive - request for intubation"
+      },
+      {
+        "code" : "75788-0",
+        "display" : "Advance directive - request for tube feeding"
+      },
+      {
+        "code" : "75789-8",
+        "display" : "Advance directive - request for life support"
+      },
+      {
+        "code" : "75790-6",
+        "display" : "Advance directive - request for IV fluid and support"
+      },
+      {
+        "code" : "75791-4",
+        "display" : "Advance directive - request for antibiotics"
+      },
+      {
+        "code" : "75792-2",
+        "display" : "Advance directive - request for resuscitation that differs from cardiopulmonary resuscitation"
+      },
+      {
+        "code" : "75793-0",
+        "display" : "Other directives that have not otherwise been documented [Reported]"
+      },
+      {
+        "code" : "77352-3",
+        "display" : "Thoughts on artificial nutrition and hydration [Reported]"
+      },
+      {
+        "code" : "81329-5",
+        "display" : "Thoughts on resuscitation [Reported]"
+      },
+      {
+        "code" : "81330-3",
+        "display" : "Thoughts on intubation [Reported]"
+      },
+      {
+        "code" : "81331-1",
+        "display" : "Thoughts on tube feeding [Reported]"
+      },
+      {
+        "code" : "81332-9",
+        "display" : "Thoughts on IV fluid and support [Reported]"
+      },
+      {
+        "code" : "81333-7",
+        "display" : "Thoughts on antibiotics [Reported]"
+      },
+      {
+        "code" : "81349-3",
+        "display" : "Thoughts on life-sustaining procedures if pregnant [Reported]"
+      },
+      {
+        "code" : "81350-1",
+        "display" : "Thoughts on pain management [Reported]"
+      },
+      {
+        "code" : "81376-6",
+        "display" : "Mental health treatment preferences [Reported]"
+      },
+      {
+        "code" : "75779-9",
+        "display" : "Thoughts on cardiopulmonary resuscitation (CPR) [Reported]"
+      }]
+    },
+    {
+      "valueSet" : ["http://hl7.org/fhir/ValueSet/observation-vitalsignresult"]
+    }]
+  },
+  "expansion" : {
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "59576-9",
+      "display" : "Body mass index (BMI) [Percentile] Per age and sex"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "8289-1",
+      "display" : "Head Occipital-frontal circumference Percentile"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "77606-2",
+      "display" : "Weight-for-length Per age and sex"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "59408-5",
+      "display" : "Oxygen saturation in Arterial blood by Pulse oximetry"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "3150-0",
+      "display" : "Inhaled oxygen concentration"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "3151-8",
+      "display" : "Inhaled oxygen flow rate"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "85353-1",
+      "display" : "Vital signs, weight, height, head circumference, oxygen saturation and BMI panel"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "9279-1",
+      "display" : "Respiratory rate"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "8867-4",
+      "display" : "Heart rate"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "2708-6",
+      "display" : "Oxygen saturation in Arterial blood"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "8310-5",
+      "display" : "Body temperature"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "8302-2",
+      "display" : "Body height"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "9843-4",
+      "display" : "Head Occipital-frontal circumference"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "29463-7",
+      "display" : "Body weight"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "39156-5",
+      "display" : "Body mass index (BMI) [Ratio]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "85354-9",
+      "display" : "Blood pressure panel with all children optional"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "8480-6",
+      "display" : "Systolic blood pressure"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "8462-4",
+      "display" : "Diastolic blood pressure"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "8478-0",
+      "display" : "Mean blood pressure"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "75776-5",
+      "display" : "Preference on consulting a supportive and palliative care team to help treat physical, emotional, and spiritual discomfort and support family [Reported]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "75777-3",
+      "display" : "Information to tell doctors if my health deteriorates due to a terminal illness and I am unable to interact meaningfully with family, friends, or surroundings [Reported]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "75778-1",
+      "display" : "Information to tell doctors if I have a severe, irreversible brain injury or illness and can't dress, feed, or bathe myself, or communicate my medical wishes, but can be kept alive [Reported]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "75780-7",
+      "display" : "Preferred location to spend final days if possible to choose [Reported]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "75781-5",
+      "display" : "Thoughts on organ and tissue donations [Reported]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "75782-3",
+      "display" : "Thoughts regarding autopsy [Reported]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "75787-2",
+      "display" : "Advance directive - request for intubation"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "75788-0",
+      "display" : "Advance directive - request for tube feeding"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "75789-8",
+      "display" : "Advance directive - request for life support"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "75790-6",
+      "display" : "Advance directive - request for IV fluid and support"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "75791-4",
+      "display" : "Advance directive - request for antibiotics"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "75792-2",
+      "display" : "Advance directive - request for resuscitation that differs from cardiopulmonary resuscitation"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "75793-0",
+      "display" : "Other directives that have not otherwise been documented [Reported]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "77352-3",
+      "display" : "Thoughts on artificial nutrition and hydration [Reported]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "81329-5",
+      "display" : "Thoughts on resuscitation [Reported]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "81330-3",
+      "display" : "Thoughts on intubation [Reported]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "81331-1",
+      "display" : "Thoughts on tube feeding [Reported]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "81332-9",
+      "display" : "Thoughts on IV fluid and support [Reported]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "81333-7",
+      "display" : "Thoughts on antibiotics [Reported]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "81349-3",
+      "display" : "Thoughts on life-sustaining procedures if pregnant [Reported]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "81350-1",
+      "display" : "Thoughts on pain management [Reported]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "81376-6",
+      "display" : "Mental health treatment preferences [Reported]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "75779-9",
+      "display" : "Thoughts on cardiopulmonary resuscitation (CPR) [Reported]"
+    }]
+  }
+}

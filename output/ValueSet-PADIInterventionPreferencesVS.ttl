@@ -1,0 +1,151 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIInterventionPreferencesVS> a fhir:ValueSet;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "PADIInterventionPreferencesVS"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/75776-5.html\">75776-5</a></td><td>Preference on consulting a supportive and palliative care team to help treat physical, emotional, and spiritual discomfort and support family [Reported]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/75777-3.html\">75777-3</a></td><td>Information to tell doctors if my health deteriorates due to a terminal illness and I am unable to interact meaningfully with family, friends, or surroundings [Reported]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/75778-1.html\">75778-1</a></td><td>Information to tell doctors if I have a severe, irreversible brain injury or illness and can't dress, feed, or bathe myself, or communicate my medical wishes, but can be kept alive [Reported]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/75780-7.html\">75780-7</a></td><td>Preferred location to spend final days if possible to choose [Reported]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/75781-5.html\">75781-5</a></td><td>Thoughts on organ and tissue donations [Reported]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/75782-3.html\">75782-3</a></td><td>Thoughts regarding autopsy [Reported]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/75787-2.html\">75787-2</a></td><td>Advance directive - request for intubation</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/75788-0.html\">75788-0</a></td><td>Advance directive - request for tube feeding</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/75789-8.html\">75789-8</a></td><td>Advance directive - request for life support</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/75790-6.html\">75790-6</a></td><td>Advance directive - request for IV fluid and support</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/75791-4.html\">75791-4</a></td><td>Advance directive - request for antibiotics</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/75792-2.html\">75792-2</a></td><td>Advance directive - request for resuscitation that differs from cardiopulmonary resuscitation</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/75793-0.html\">75793-0</a></td><td>Other directives that have not otherwise been documented [Reported]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/77352-3.html\">77352-3</a></td><td>Thoughts on artificial nutrition and hydration [Reported]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/81329-5.html\">81329-5</a></td><td>Thoughts on resuscitation [Reported]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/81330-3.html\">81330-3</a></td><td>Thoughts on intubation [Reported]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/81331-1.html\">81331-1</a></td><td>Thoughts on tube feeding [Reported]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/81332-9.html\">81332-9</a></td><td>Thoughts on IV fluid and support [Reported]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/81333-7.html\">81333-7</a></td><td>Thoughts on antibiotics [Reported]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/81349-3.html\">81349-3</a></td><td>Thoughts on life-sustaining procedures if pregnant [Reported]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/81350-1.html\">81350-1</a></td><td>Thoughts on pain management [Reported]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/81376-6.html\">81376-6</a></td><td>Mental health treatment preferences [Reported]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/75779-9.html\">75779-9</a></td><td>Thoughts on cardiopulmonary resuscitation (CPR) [Reported]</td></tr></table></li></ul></div>"
+  ];
+  fhir:ValueSet.url [ fhir:value "http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIInterventionPreferencesVS"];
+  fhir:ValueSet.version [ fhir:value "0.0.1"];
+  fhir:ValueSet.name [ fhir:value "PADIInterventionPreferencesVS"];
+  fhir:ValueSet.title [ fhir:value "Intervention Preferences"];
+  fhir:ValueSet.status [ fhir:value "active"];
+  fhir:ValueSet.date [ fhir:value "2021-04-22T06:16:14-07:00"^^xsd:dateTime];
+  fhir:ValueSet.publisher [ fhir:value "HL7 Patient Empowerment Working Group"];
+  fhir:ValueSet.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "HL7 Patient Empowerment Working Group" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://www.hl7.org/Special/committees/patientempowerment/index.cfm" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "patients@lists.HL7.org" ]
+     ]
+  ];
+  fhir:ValueSet.description [ fhir:value "Clinical Focus: This value set includes concepts representing an individual's intervention preferences at end of life which can be expressed by the individual in his or her advance care plan.),(Data Element Scope: The intent of this value set is to identify personal intervention preferences that may be relevant and could be considered by clinicians when making a treatment/care plan for the person.),(Inclusion Criteria: Include member value sets for Intervention Preferences at End of Life for LOINC and SNOMED CT.),(Exclusion Criteria: None.)\r\n\r\nThis ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1115.9/expansion"];
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "US" ]
+     ]
+  ];
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://loinc.org" ];
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "75776-5" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Preference on consulting a supportive and palliative care team to help treat physical, emotional, and spiritual discomfort and support family [Reported]" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "75777-3" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Information to tell doctors if my health deteriorates due to a terminal illness and I am unable to interact meaningfully with family, friends, or surroundings [Reported]" ]
+       ], [
+         fhir:index 2;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "75778-1" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Information to tell doctors if I have a severe, irreversible brain injury or illness and can't dress, feed, or bathe myself, or communicate my medical wishes, but can be kept alive [Reported]" ]
+       ], [
+         fhir:index 3;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "75780-7" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Preferred location to spend final days if possible to choose [Reported]" ]
+       ], [
+         fhir:index 4;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "75781-5" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Thoughts on organ and tissue donations [Reported]" ]
+       ], [
+         fhir:index 5;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "75782-3" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Thoughts regarding autopsy [Reported]" ]
+       ], [
+         fhir:index 6;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "75787-2" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Advance directive - request for intubation" ]
+       ], [
+         fhir:index 7;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "75788-0" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Advance directive - request for tube feeding" ]
+       ], [
+         fhir:index 8;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "75789-8" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Advance directive - request for life support" ]
+       ], [
+         fhir:index 9;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "75790-6" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Advance directive - request for IV fluid and support" ]
+       ], [
+         fhir:index 10;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "75791-4" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Advance directive - request for antibiotics" ]
+       ], [
+         fhir:index 11;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "75792-2" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Advance directive - request for resuscitation that differs from cardiopulmonary resuscitation" ]
+       ], [
+         fhir:index 12;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "75793-0" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Other directives that have not otherwise been documented [Reported]" ]
+       ], [
+         fhir:index 13;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "77352-3" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Thoughts on artificial nutrition and hydration [Reported]" ]
+       ], [
+         fhir:index 14;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "81329-5" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Thoughts on resuscitation [Reported]" ]
+       ], [
+         fhir:index 15;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "81330-3" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Thoughts on intubation [Reported]" ]
+       ], [
+         fhir:index 16;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "81331-1" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Thoughts on tube feeding [Reported]" ]
+       ], [
+         fhir:index 17;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "81332-9" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Thoughts on IV fluid and support [Reported]" ]
+       ], [
+         fhir:index 18;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "81333-7" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Thoughts on antibiotics [Reported]" ]
+       ], [
+         fhir:index 19;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "81349-3" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Thoughts on life-sustaining procedures if pregnant [Reported]" ]
+       ], [
+         fhir:index 20;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "81350-1" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Thoughts on pain management [Reported]" ]
+       ], [
+         fhir:index 21;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "81376-6" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Mental health treatment preferences [Reported]" ]
+       ], [
+         fhir:index 22;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "75779-9" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Thoughts on cardiopulmonary resuscitation (CPR) [Reported]" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIInterventionPreferencesVS.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/us/pacio-adi/ValueSet/PADIInterventionPreferencesVS.ttl> .
+
+# -------------------------------------------------------------------------------------
+

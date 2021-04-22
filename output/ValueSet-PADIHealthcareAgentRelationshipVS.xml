@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="PADIHealthcareAgentRelationshipVS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set includes codes based on the following rules:</p><ul><li>Import all the codes that are contained in <a href="ValueSet-PADIHealthcareAgentOrProxyChoicesVS.html">http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIHealthcareAgentOrProxyChoicesVS</a></li><li>Import all the codes that are contained in <a href="ValueSet-PADIPersonalAndLegalRelationshipRoleTypeVS.html">http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIPersonalAndLegalRelationshipRoleTypeVS</a></li></ul></div>
+  </text>
+  <url value="http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIHealthcareAgentRelationshipVS"/>
+  <version value="0.0.1"/>
+  <name value="PADIHealthcareAgentRelationshipVS"/>
+  <title value="Healthcare Agent Relationships"/>
+  <status value="active"/>
+  <date value="2021-04-22T06:16:14-07:00"/>
+  <publisher value="HL7 Patient Empowerment Working Group"/>
+  <contact>
+    <name value="HL7 Patient Empowerment Working Group"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientempowerment/index.cfm"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="patients@lists.HL7.org"/>
+    </telecom>
+  </contact>
+  <description value="[TODO] This value set identifies the healthcare agent or proxy roles that individuals commonly designate to empower surrogates to make medical treatment and care decisions when the individual is unable to effectively communicate with medical personnel or requires assistance with decision making.&#xD;&#xA;&#xD;&#xA;This ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1046.35/expansion"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <valueSet value="http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIHealthcareAgentOrProxyChoicesVS"/>
+    </include>
+    <include>
+      <valueSet value="http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIPersonalAndLegalRelationshipRoleTypeVS"/>
+    </include>
+  </compose>
+</ValueSet>

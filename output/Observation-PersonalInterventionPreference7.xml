@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="PersonalInterventionPreference7"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference"/>
+  </meta>
+  <text>
+    <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><p>If it were possible to choose, here is where I would like to spend my final days:</p><p><i>At home.I would like to receive hospice care at home if possible.</i></p></div>
+  </text>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="75780-7"/>
+      <display value="Preferred location to spend final days if possible to choose [Reported]"/>
+    </coding>
+  </code>
+  <valueString value="If it were possible to choose, here is where I would like to spend my final days: At home.I would like to receive hospice care at home if possible."/>
+</Observation>

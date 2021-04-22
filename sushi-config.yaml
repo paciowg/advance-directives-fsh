@@ -48,6 +48,8 @@ menu:
   FHIR Artifacts:
     Profiles: artifacts.html#1
     Extensions: artifacts.html#3
+    Terminology: artifacts.html#4
+    Examples: artifacts.html#5
 #    Search Parameters: 6_searchparameters.html
     #Terminology: artifacts.html#5
     #Capability Statement: CapabilityStatement-padi.html

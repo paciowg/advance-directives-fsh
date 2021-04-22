@@ -91,6 +91,13 @@
     "name": "PADIPMOLSTObservation"
   },
   {
+    "id": "PADI-PersonalHealthGoal",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal",
+    "version": "0.0.1",
+    "name": "PADIPersonalHealthGoal"
+  },
+  {
     "id": "PADI-PersonalInterventionPreference",
     "type": "StructureDefinition",
     "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference",
@@ -166,5 +173,47 @@
     "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-versionNumber-extension",
     "version": "0.0.1",
     "name": "VersionNumber"
+  },
+  {
+    "id": "PADICareExperiencePreferencesVS",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/pacio-adi/ValueSet/PADICareExperiencePreferencesVS",
+    "version": "0.0.1",
+    "name": "PADICareExperiencePreferencesVS"
+  },
+  {
+    "id": "PADIHealthGoalsVS",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIHealthGoalsVS",
+    "version": "0.0.1",
+    "name": "PADIHealthGoalsVS"
+  },
+  {
+    "id": "PADIHealthcareAgentOrProxyChoicesVS",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIHealthcareAgentOrProxyChoicesVS",
+    "version": "0.0.1",
+    "name": "PADIHealthcareAgentOrProxyChoicesVS"
+  },
+  {
+    "id": "PADIHealthcareAgentRelationshipVS",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIHealthcareAgentRelationshipVS",
+    "version": "0.0.1",
+    "name": "PADIHealthcareAgentRelationshipVS"
+  },
+  {
+    "id": "PADIInterventionPreferencesVS",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIInterventionPreferencesVS",
+    "version": "0.0.1",
+    "name": "PADIInterventionPreferencesVS"
+  },
+  {
+    "id": "PADIPersonalAndLegalRelationshipRoleTypeVS",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIPersonalAndLegalRelationshipRoleTypeVS",
+    "version": "0.0.1",
+    "name": "PADIPersonalAndLegalRelationshipRoleTypeVS"
   }
 ]

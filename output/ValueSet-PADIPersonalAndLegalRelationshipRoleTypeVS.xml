@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="PADIPersonalAndLegalRelationshipRoleTypeVS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="http://terminology.hl7.org/2.0.0/CodeSystem-v3-RoleCode.html"><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></a></li></ul></div>
+  </text>
+  <url value="http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIPersonalAndLegalRelationshipRoleTypeVS"/>
+  <version value="0.0.1"/>
+  <name value="PADIPersonalAndLegalRelationshipRoleTypeVS"/>
+  <title value="Personal And Legal Relationship Role Type"/>
+  <status value="active"/>
+  <date value="2021-04-22T06:16:14-07:00"/>
+  <publisher value="HL7 Patient Empowerment Working Group"/>
+  <contact>
+    <name value="HL7 Patient Empowerment Working Group"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientempowerment/index.cfm"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="patients@lists.HL7.org"/>
+    </telecom>
+  </contact>
+  <description value="Clinical Focus: A personal or legal relationship records the role of a person in relation to another person, or a person to himself or herself. This value set is to be used when recording relationships based on personal or family ties or through legal assignment of responsibility."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+    </include>
+  </compose>
+</ValueSet>

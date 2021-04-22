@@ -1,0 +1,40 @@
+{
+  "resourceType": "Organization",
+  "id": "OrganizationAssembler1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 4</p><p><b>active</b>: true</p><p><b>name</b>: ADVault, Inc.</p><p><b>telecom</b>: <a href=\"tel:+1(202)776-7700\">+1(202)776-7700</a></p><p><b>address</b>: 740 E. Campbell Rd. Suite 825 Richardson TX 75081 US </p></div>"
+  },
+  "identifier": [
+    {
+      "system": "urn:oid:1.3.6.1.4.1.42424242.4.99930.4",
+      "value": "4"
+    }
+  ],
+  "active": true,
+  "name": "ADVault, Inc.",
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "+1(202)776-7700",
+      "use": "work"
+    }
+  ],
+  "address": [
+    {
+      "type": "physical",
+      "line": [
+        "740 E. Campbell Rd. Suite 825"
+      ],
+      "city": "Richardson",
+      "state": "TX",
+      "postalCode": "75081",
+      "country": "US"
+    }
+  ]
+}

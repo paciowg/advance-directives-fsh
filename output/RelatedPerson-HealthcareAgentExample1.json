@@ -1,0 +1,42 @@
+{
+  "resourceType": "RelatedPerson",
+  "id": "HealthcareAgentExample1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-HealthcareAgent"
+    ]
+  },
+  "text": {
+    "status": "additional",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Primary Healthcare Agent</h2><p><b>The person I choose as my Primary Healthcare Agent is:</b></p><p><i>Sally Bobbins</i></p><p><i>lscottbrown@verizon.net</i></p><p><i>[SELECTED to act as a healthcare agent on 3/23/2018, at 9:13 AM CST]</i></p><p><i>[As of 12/6/2019, at 1:11 AM CDT, a response is still PENDING]</i></p></div>"
+  },
+  "patient": {
+    "reference": "Patient/Patient1"
+  },
+  "relationship": [
+    {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "75783-1",
+          "display": "Primary healthcare agent [Reported]"
+        }
+      ]
+    }
+  ],
+  "name": [
+    {
+      "family": "Sally",
+      "given": [
+        "Bobbins"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "email",
+      "value": "lscottbrown@verizon.net",
+      "use": "home"
+    }
+  ]
+}

@@ -72,10 +72,6 @@
   "profiles": {
     "Observation": [
       {
-        "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PMOLSTObservation",
-        "title": "ADI PMOLST Observation"
-      },
-      {
         "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference",
         "title": "ADI Personal Intervention Preference"
       }
@@ -108,6 +104,12 @@
       {
         "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PACPComposition",
         "title": "ADI Personal Advance Care Plan Composition"
+      }
+    ],
+    "Goal": [
+      {
+        "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal",
+        "title": "ADI Personal Health Goal"
       }
     ],
     "List": [
@@ -173,6 +175,7 @@
       "Composition"
     ],
     "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-dataEnterer-extension": [
+      "Bundle.entry.resource",
       "Composition"
     ],
     "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-informant-extension": [

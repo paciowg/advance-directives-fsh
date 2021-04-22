@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Goal xmlns="http://hl7.org/fhir">
+  <id value="PersonalHealthGoal7"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal"/>
+  </meta>
+  <text>
+    <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml">Not being a financial burden to my family</div>
+  </text>
+  <lifecycleStatus value="proposed"/>
+  <category>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="81378-2"/>
+      <display value="Goals, preferences, and priorities under certain health conditions [Reported]"/>
+    </coding>
+  </category>
+  <description>
+    <text value="If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me: Not being a financial burden to my family"/>
+  </description>
+  <subject>
+    <reference value="Patient/Patient1"/>
+  </subject>
+</Goal>

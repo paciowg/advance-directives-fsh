@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="PADIHealthGoalsVS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="http://loinc.org"><code>http://loinc.org</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://details.loinc.org/LOINC/81378-2.html">81378-2</a></td><td>Goals, preferences, and priorities under certain health conditions [Reported]</td></tr><tr><td><a href="http://details.loinc.org/LOINC/87528-6.html">87528-6</a></td><td>Personal health goal</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIHealthGoalsVS"/>
+  <version value="0.0.1"/>
+  <name value="PADIHealthGoalsVS"/>
+  <title value="Health Goals"/>
+  <status value="active"/>
+  <date value="2021-04-22T06:16:14-07:00"/>
+  <publisher value="HL7 Patient Empowerment Working Group"/>
+  <contact>
+    <name value="HL7 Patient Empowerment Working Group"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientempowerment/index.cfm"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="patients@lists.HL7.org"/>
+    </telecom>
+  </contact>
+  <description value="Clinical Focus: This value set includes concepts representing an individual&#39;s goals at end of life which can be expressed by the individual in his or her advance care plan.),(Data Element Scope: The intent of this value set is to identify personal goals that may be relevant and could be considered by clinicians when making a treatment/care plan for the person.),(Inclusion Criteria: Include member value sets for Health Goals at end of life for LOINC and SNOMED CT.),(Exclusion Criteria: None.&#xD;&#xA;&#xD;&#xA;This ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1115.7/expansion"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://loinc.org"/>
+      <concept>
+        <code value="81378-2"/>
+        <display value="Goals, preferences, and priorities under certain health conditions [Reported]"/>
+      </concept>
+      <concept>
+        <code value="87528-6"/>
+        <display value="Personal health goal"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

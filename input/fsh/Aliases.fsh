@@ -26,6 +26,7 @@ Alias: $HL7CompositionAttestation = http://hl7.org/fhir/ValueSet/composition-att
 Alias: $LOINC = http://loinc.org
 
 
+Alias: $HL7RoleCode = http://terminology.hl7.org/CodeSystem/v3-RoleCode
 
 //Alias:   $USCoreProviderRole = http://hl7.org/fhir/us/core/ValueSet/us-core-provider-role
 //Alias:   $USCoreProviderSpecialty = http://hl7.org/fhir/us/core/ValueSet/us-core-provider-specialty

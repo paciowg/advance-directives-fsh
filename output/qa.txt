@@ -1,48 +1,212 @@
 ﻿PACIOAdvanceDirectiveInteroperability : Validation Results
 =========================================
 
-err = 3, warn = 30, info = 0
-IG Publisher Version: 1.1.65
-Generated Tue Apr 06 16:08:26 PDT 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio-adi#0.0.1 (canonical = http://hl7.org/fhir/us/pacio-adi)
+err = 3, warn = 20, info = 7
+IG Publisher Version: 1.1.65 Out of date - current version is 1.1.67
+Generated Thu Apr 22 06:19:18 PDT 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio-adi#0.0.1 (canonical = http://hl7.org/fhir/us/pacio-adi)
 
  Build Errors : 1 / 0 / 0
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Bundle-Bundle1 : 0 / 2 / 64
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Composition-PACPExample1 : 0 / 0 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Goal-PersonalHealthGoal1 : 0 / 0 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Goal-PersonalHealthGoal2 : 0 / 0 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Goal-PersonalHealthGoal3 : 0 / 0 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Goal-PersonalHealthGoal4 : 0 / 0 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Goal-PersonalHealthGoal5 : 0 / 0 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Goal-PersonalHealthGoal6 : 0 / 0 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Goal-PersonalHealthGoal7 : 0 / 0 / 1
  C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\ImplementationGuide-hl7.fhir.us.pacio-adi : 0 / 0 / 1
- C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-AutopsyObservation : 0 / 2 / 1
- C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-CareExperiencePreference : 0 / 2 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\List-PersonalPrioritiesOrganizer1 : 0 / 0 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Observation-AutopsyDonationObservation1 : 0 / 0 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Observation-CareExperiencePreference1 : 0 / 0 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Observation-CareExperiencePreference2 : 0 / 0 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Observation-CareExperiencePreference3 : 0 / 0 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Observation-CareExperiencePreference4 : 0 / 0 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Observation-CareExperiencePreference5 : 0 / 0 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Observation-OrganDonationObservation1 : 0 / 0 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Observation-PersonalInterventionPreference1 : 0 / 0 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Observation-PersonalInterventionPreference2 : 0 / 0 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Observation-PersonalInterventionPreference3 : 0 / 0 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Observation-PersonalInterventionPreference4 : 0 / 0 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Observation-PersonalInterventionPreference5 : 0 / 0 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Observation-PersonalInterventionPreference6 : 0 / 0 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Observation-PersonalInterventionPreference7 : 0 / 0 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Organization-OrganizationAssembler1 : 0 / 0 / 3
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Organization-OrganizationCustodian1 : 0 / 0 / 2
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Patient-Patient1 : 0 / 0 / 2
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Provenance-PACPProvenance1 : 0 / 0 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\RelatedPerson-HealthcareAgentExample1 : 0 / 0 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\RelatedPerson-HealthcareAgentExample2 : 0 / 0 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-AutopsyObservation : 0 / 1 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-CareExperiencePreference : 0 / 1 / 1
  C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-ConsentForHealthcareAgent : 1 / 1 / 1
  C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-DocumentReference : 0 / 2 / 1
  C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-Endpoint : 0 / 1 / 1
  C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-Guardian : 0 / 1 / 1
  C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-Header : 0 / 0 / 1
- C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-HealthcareAgent : 0 / 1 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-HealthcareAgent : 0 / 0 / 1
  C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-HealthcareAgentAuthority : 1 / 1 / 1
- C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-OrganDonationObservation : 0 / 2 / 1
- C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-PACPComposition : 0 / 1 / 1
- C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-PMOLSTObservation : 0 / 2 / 1
- C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-PersonalInterventionPreference : 0 / 2 / 1
- C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-PersonalPrioritiesOrganizer : 0 / 3 / 1
- C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-Provenance : 0 / 1 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-OrganDonationObservation : 0 / 1 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-PACPComposition : 0 / 0 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-PMOLSTObservation : 0 / 1 / 2
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-PersonalHealthGoal : 0 / 0 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-PersonalInterventionPreference : 0 / 1 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-PersonalPrioritiesOrganizer : 0 / 0 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-Provenance : 0 / 0 / 1
  C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-padi-authorization-extension : 0 / 1 / 1
- C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-padi-dataEnterer-extension : 0 / 1 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-padi-dataEnterer-extension : 0 / 0 / 1
  C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-padi-informant-extension : 0 / 1 / 1
  C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-padi-informatioRecipient-extension : 0 / 1 / 1
  C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-padi-order-extension : 0 / 1 / 1
  C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-padi-participant-extension : 0 / 1 / 1
  C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-padi-performer-extension : 0 / 1 / 1
  C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-padi-versionNumber-extension : 0 / 1 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\ValueSet-PADICareExperiencePreferencesVS : 0 / 0 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\ValueSet-PADIHealthGoalsVS : 0 / 0 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\ValueSet-PADIHealthcareAgentOrProxyChoicesVS : 0 / 0 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\ValueSet-PADIHealthcareAgentRelationshipVS : 0 / 0 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\ValueSet-PADIInterventionPreferencesVS : 0 / 0 / 1
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\ValueSet-PADIPersonalAndLegalRelationshipRoleTypeVS : 0 / 0 / 1
 </table>
 == n/a ==
 ERROR: There is no jira specification file defined with the expected name of FHIR-us-pacio-adi in the xml folder of the  https://github.com/HL7/Jira-Spec-Artifacts project.  This must exist before ballot or publication.
+== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Bundle-Bundle1.json ==
+INFORMATION: Bundle/Bundle1: Bundle: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Bundle
+INFORMATION: Bundle/Bundle1: Bundle.entry[0].resource.ofType(Composition): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Composition
+INFORMATION: Bundle/Bundle1: Bundle.entry[0].resource.ofType(Composition): Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PACPComposition - listed in meta
+WARNING: Bundle/Bundle1: Bundle.entry[0].resource.ofType(Composition).section[0].section[3].entry[0]: Found multiple matching profiles for Observation/OrganDonationObservation1 among choices: http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference, http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-OrganDonationObservation
+INFORMATION: Bundle/Bundle1: Bundle.entry[0].resource.ofType(Composition).section[0].section[3].entry[0]: Details for Observation/OrganDonationObservation1 matching against Profilehttp://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-AutopsyObservation
+WARNING: Bundle/Bundle1: Bundle.entry[0].resource.ofType(Composition).section[0].section[3].entry[1]: Found multiple matching profiles for Observation/AutopsyDonationObservation1 among choices: http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference, http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-AutopsyObservation
+INFORMATION: Bundle/Bundle1: Bundle.entry[0].resource.ofType(Composition).section[0].section[3].entry[1]: Details for Observation/AutopsyDonationObservation1 matching against Profilehttp://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-OrganDonationObservation
+INFORMATION: Bundle/Bundle1: Bundle.entry[1].resource.ofType(Patient): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Patient
+INFORMATION: Bundle/Bundle1: Bundle.entry[1].resource.ofType(Patient): Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient - listed in meta
+INFORMATION: Bundle/Bundle1: Bundle.entry[2].resource.ofType(RelatedPerson): Validate resource against profile http://hl7.org/fhir/StructureDefinition/RelatedPerson
+INFORMATION: Bundle/Bundle1: Bundle.entry[2].resource.ofType(RelatedPerson).relationship[0]: None of the codings provided are in the value set http://hl7.org/fhir/ValueSet/relatedperson-relationshiptype (http://hl7.org/fhir/ValueSet/relatedperson-relationshiptype), and a coding is recommended to come from this value set) (codes = http://loinc.org#75783-1)
+INFORMATION: Bundle/Bundle1: Bundle.entry[2].resource.ofType(RelatedPerson): Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-HealthcareAgent - listed in meta
+INFORMATION: Bundle/Bundle1: Bundle.entry[3].resource.ofType(RelatedPerson): Validate resource against profile http://hl7.org/fhir/StructureDefinition/RelatedPerson
+INFORMATION: Bundle/Bundle1: Bundle.entry[3].resource.ofType(RelatedPerson).relationship[0]: None of the codings provided are in the value set http://hl7.org/fhir/ValueSet/relatedperson-relationshiptype (http://hl7.org/fhir/ValueSet/relatedperson-relationshiptype), and a coding is recommended to come from this value set) (codes = http://loinc.org#75784-9)
+INFORMATION: Bundle/Bundle1: Bundle.entry[3].resource.ofType(RelatedPerson): Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-HealthcareAgent - listed in meta
+INFORMATION: Bundle/Bundle1: Bundle.entry[4].resource.ofType(Observation): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+INFORMATION: Bundle/Bundle1: Bundle.entry[4].resource.ofType(Observation): Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference - listed in meta
+INFORMATION: Bundle/Bundle1: Bundle.entry[5].resource.ofType(Observation): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+INFORMATION: Bundle/Bundle1: Bundle.entry[5].resource.ofType(Observation): Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference - listed in meta
+INFORMATION: Bundle/Bundle1: Bundle.entry[6].resource.ofType(Observation): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+INFORMATION: Bundle/Bundle1: Bundle.entry[6].resource.ofType(Observation): Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference - listed in meta
+INFORMATION: Bundle/Bundle1: Bundle.entry[7].resource.ofType(Observation): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+INFORMATION: Bundle/Bundle1: Bundle.entry[7].resource.ofType(Observation): Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference - listed in meta
+INFORMATION: Bundle/Bundle1: Bundle.entry[8].resource.ofType(List): Validate resource against profile http://hl7.org/fhir/StructureDefinition/List
+INFORMATION: Bundle/Bundle1: Bundle.entry[8].resource.ofType(List): Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalPrioritiesOrganizer - listed in meta
+INFORMATION: Bundle/Bundle1: Bundle.entry[9].resource.ofType(Observation): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+INFORMATION: Bundle/Bundle1: Bundle.entry[9].resource.ofType(Observation): Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference - listed in meta
+INFORMATION: Bundle/Bundle1: Bundle.entry[10].resource.ofType(Observation): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+INFORMATION: Bundle/Bundle1: Bundle.entry[10].resource.ofType(Observation): Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference - listed in meta
+INFORMATION: Bundle/Bundle1: Bundle.entry[11].resource.ofType(Observation): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+INFORMATION: Bundle/Bundle1: Bundle.entry[11].resource.ofType(Observation): Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference - listed in meta
+INFORMATION: Bundle/Bundle1: Bundle.entry[12].resource.ofType(Observation): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+INFORMATION: Bundle/Bundle1: Bundle.entry[12].resource.ofType(Observation): Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference - listed in meta
+INFORMATION: Bundle/Bundle1: Bundle.entry[13].resource.ofType(Observation): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+INFORMATION: Bundle/Bundle1: Bundle.entry[13].resource.ofType(Observation): Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference - listed in meta
+INFORMATION: Bundle/Bundle1: Bundle.entry[14].resource.ofType(Observation): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+INFORMATION: Bundle/Bundle1: Bundle.entry[14].resource.ofType(Observation): Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference - listed in meta
+INFORMATION: Bundle/Bundle1: Bundle.entry[15].resource.ofType(Observation): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+INFORMATION: Bundle/Bundle1: Bundle.entry[15].resource.ofType(Observation): Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference - listed in meta
+INFORMATION: Bundle/Bundle1: Bundle.entry[16].resource.ofType(Goal): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Goal
+INFORMATION: Bundle/Bundle1: Bundle.entry[16].resource.ofType(Goal): Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal - listed in meta
+INFORMATION: Bundle/Bundle1: Bundle.entry[17].resource.ofType(Goal): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Goal
+INFORMATION: Bundle/Bundle1: Bundle.entry[17].resource.ofType(Goal): Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal - listed in meta
+INFORMATION: Bundle/Bundle1: Bundle.entry[18].resource.ofType(Goal): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Goal
+INFORMATION: Bundle/Bundle1: Bundle.entry[18].resource.ofType(Goal): Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal - listed in meta
+INFORMATION: Bundle/Bundle1: Bundle.entry[19].resource.ofType(Goal): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Goal
+INFORMATION: Bundle/Bundle1: Bundle.entry[19].resource.ofType(Goal): Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal - listed in meta
+INFORMATION: Bundle/Bundle1: Bundle.entry[20].resource.ofType(Goal): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Goal
+INFORMATION: Bundle/Bundle1: Bundle.entry[20].resource.ofType(Goal): Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal - listed in meta
+INFORMATION: Bundle/Bundle1: Bundle.entry[21].resource.ofType(Goal): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Goal
+INFORMATION: Bundle/Bundle1: Bundle.entry[21].resource.ofType(Goal): Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal - listed in meta
+INFORMATION: Bundle/Bundle1: Bundle.entry[22].resource.ofType(Goal): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Goal
+INFORMATION: Bundle/Bundle1: Bundle.entry[22].resource.ofType(Goal): Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal - listed in meta
+INFORMATION: Bundle/Bundle1: Bundle.entry[23].resource.ofType(Observation): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+INFORMATION: Bundle/Bundle1: Bundle.entry[23].resource.ofType(Observation): Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-OrganDonationObservation - listed in meta
+INFORMATION: Bundle/Bundle1: Bundle.entry[24].resource.ofType(Observation): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+INFORMATION: Bundle/Bundle1: Bundle.entry[24].resource.ofType(Observation): Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-AutopsyObservation - listed in meta
+INFORMATION: Bundle/Bundle1: Bundle.entry[25].resource.ofType(Observation): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+INFORMATION: Bundle/Bundle1: Bundle.entry[25].resource.ofType(Observation): Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference - listed in meta
+INFORMATION: Bundle/Bundle1: Bundle.entry[26].resource.ofType(Organization): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Organization
+INFORMATION: Bundle/Bundle1: Bundle.entry[26].resource.ofType(Organization): Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization - listed in meta
+INFORMATION: Bundle/Bundle1: Bundle.entry[27].resource.ofType(Organization): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Organization
+INFORMATION: Bundle/Bundle1: Bundle.entry[27].resource.ofType(Organization): Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization - listed in meta
+INFORMATION: Bundle/Bundle1: Bundle.entry[27].resource.ofType(Organization).identifier[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization
+INFORMATION: Bundle/Bundle1: Bundle.entry[28].resource.ofType(Provenance): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Provenance
+INFORMATION: Bundle/Bundle1: Bundle.entry[28].resource.ofType(Provenance): Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-Provenance - listed in meta
+== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Composition-PACPExample1.json ==
+INFORMATION: Composition/PACPExample1: Composition: Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PACPComposition
+== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Goal-PersonalHealthGoal1.json ==
+INFORMATION: Goal/PersonalHealthGoal1: Goal: Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal
+== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Goal-PersonalHealthGoal2.json ==
+INFORMATION: Goal/PersonalHealthGoal2: Goal: Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal
+== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Goal-PersonalHealthGoal3.json ==
+INFORMATION: Goal/PersonalHealthGoal3: Goal: Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal
+== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Goal-PersonalHealthGoal4.json ==
+INFORMATION: Goal/PersonalHealthGoal4: Goal: Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal
+== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Goal-PersonalHealthGoal5.json ==
+INFORMATION: Goal/PersonalHealthGoal5: Goal: Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal
+== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Goal-PersonalHealthGoal6.json ==
+INFORMATION: Goal/PersonalHealthGoal6: Goal: Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal
+== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Goal-PersonalHealthGoal7.json ==
+INFORMATION: Goal/PersonalHealthGoal7: Goal: Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal
 == C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\ImplementationGuide-hl7.fhir.us.pacio-adi.json ==
 INFORMATION: ImplementationGuide/hl7.fhir.us.pacio-adi: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
+== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\List-PersonalPrioritiesOrganizer1.json ==
+INFORMATION: List/PersonalPrioritiesOrganizer1: List: Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalPrioritiesOrganizer
+== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Observation-AutopsyDonationObservation1.json ==
+INFORMATION: Observation/AutopsyDonationObservation1: Observation: Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-AutopsyObservation
+== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Observation-CareExperiencePreference1.json ==
+INFORMATION: Observation/CareExperiencePreference1: Observation: Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference
+== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Observation-CareExperiencePreference2.json ==
+INFORMATION: Observation/CareExperiencePreference2: Observation: Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference
+== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Observation-CareExperiencePreference3.json ==
+INFORMATION: Observation/CareExperiencePreference3: Observation: Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference
+== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Observation-CareExperiencePreference4.json ==
+INFORMATION: Observation/CareExperiencePreference4: Observation: Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference
+== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Observation-CareExperiencePreference5.json ==
+INFORMATION: Observation/CareExperiencePreference5: Observation: Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference
+== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Observation-OrganDonationObservation1.json ==
+INFORMATION: Observation/OrganDonationObservation1: Observation: Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-OrganDonationObservation
+== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Observation-PersonalInterventionPreference1.json ==
+INFORMATION: Observation/PersonalInterventionPreference1: Observation: Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference
+== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Observation-PersonalInterventionPreference2.json ==
+INFORMATION: Observation/PersonalInterventionPreference2: Observation: Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference
+== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Observation-PersonalInterventionPreference3.json ==
+INFORMATION: Observation/PersonalInterventionPreference3: Observation: Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference
+== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Observation-PersonalInterventionPreference4.json ==
+INFORMATION: Observation/PersonalInterventionPreference4: Observation: Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference
+== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Observation-PersonalInterventionPreference5.json ==
+INFORMATION: Observation/PersonalInterventionPreference5: Observation: Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference
+== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Observation-PersonalInterventionPreference6.json ==
+INFORMATION: Observation/PersonalInterventionPreference6: Observation: Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference
+== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Observation-PersonalInterventionPreference7.json ==
+INFORMATION: Observation/PersonalInterventionPreference7: Observation: Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference
+== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Organization-OrganizationAssembler1.json ==
+INFORMATION: Organization/OrganizationAssembler1: Organization: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Organization
+INFORMATION: Organization/OrganizationAssembler1: Organization: Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization - listed in meta
+INFORMATION: Organization/OrganizationAssembler1: Organization.identifier[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization
+== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Organization-OrganizationCustodian1.json ==
+INFORMATION: Organization/OrganizationCustodian1: Organization: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Organization
+INFORMATION: Organization/OrganizationCustodian1: Organization: Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization - listed in meta
+== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Patient-Patient1.json ==
+INFORMATION: Patient/Patient1: Patient: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Patient
+INFORMATION: Patient/Patient1: Patient: Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient - listed in meta
+== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Provenance-PACPProvenance1.json ==
+INFORMATION: Provenance/PACPProvenance1: Provenance: Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-Provenance
+== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\RelatedPerson-HealthcareAgentExample1.json ==
+INFORMATION: RelatedPerson/HealthcareAgentExample1: RelatedPerson: Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-HealthcareAgent
+== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\RelatedPerson-HealthcareAgentExample2.json ==
+INFORMATION: RelatedPerson/HealthcareAgentExample2: RelatedPerson: Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-HealthcareAgent
 == C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-AutopsyObservation.json ==
 INFORMATION: StructureDefinition/PADI-AutopsyObservation: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-AutopsyObservation').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-AutopsyObservation'): The Implementation Guide contains no examples for this profile
 == C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-CareExperiencePreference.json ==
 INFORMATION: StructureDefinition/PADI-CareExperiencePreference: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference'): The Implementation Guide contains no examples for this profile
 == C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-ConsentForHealthcareAgent.json ==
 INFORMATION: StructureDefinition/PADI-ConsentForHealthcareAgent: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 ERROR: StructureDefinition/PADI-ConsentForHealthcareAgent: StructureDefinition.snapshot.element[9].example[0].value.ofType(Identifier): if identifier.system is ''urn:ietf:rfc:3986'', then the identifier.value must be a full URI (e.g. start with a scheme)
@@ -61,7 +225,6 @@ WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/Struc
 INFORMATION: StructureDefinition/PADI-Header: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-HealthcareAgent.json ==
 INFORMATION: StructureDefinition/PADI-HealthcareAgent: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-HealthcareAgent'): The Implementation Guide contains no examples for this profile
 == C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-HealthcareAgentAuthority.json ==
 INFORMATION: StructureDefinition/PADI-HealthcareAgentAuthority: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 ERROR: StructureDefinition/PADI-HealthcareAgentAuthority: StructureDefinition.snapshot.element[9].example[0].value.ofType(Identifier): if identifier.system is ''urn:ietf:rfc:3986'', then the identifier.value must be a full URI (e.g. start with a scheme)
@@ -69,32 +232,26 @@ WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/Struc
 == C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-OrganDonationObservation.json ==
 INFORMATION: StructureDefinition/PADI-OrganDonationObservation: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-OrganDonationObservation').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-OrganDonationObservation'): The Implementation Guide contains no examples for this profile
 == C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-PACPComposition.json ==
 INFORMATION: StructureDefinition/PADI-PACPComposition: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PACPComposition'): The Implementation Guide contains no examples for this profile
 == C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-PMOLSTObservation.json ==
 INFORMATION: StructureDefinition/PADI-PMOLSTObservation: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PMOLSTObservation').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PMOLSTObservation'): The Implementation Guide contains no examples for this profile
+INFORMATION: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PMOLSTObservation'): The Implementation Guide contains no explicitly linked examples for this profile
+== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-PersonalHealthGoal.json ==
+INFORMATION: StructureDefinition/PADI-PersonalHealthGoal: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-PersonalInterventionPreference.json ==
 INFORMATION: StructureDefinition/PADI-PersonalInterventionPreference: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference'): The Implementation Guide contains no examples for this profile
 == C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-PersonalPrioritiesOrganizer.json ==
 INFORMATION: StructureDefinition/PADI-PersonalPrioritiesOrganizer: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
-WARNING: StructureDefinition/PADI-PersonalPrioritiesOrganizer: StructureDefinition.snapshot.element[18].pattern.ofType(CodeableConcept).coding[0]: A code with no system has no defined meaning. A system should be provided
-WARNING: StructureDefinition/PADI-PersonalPrioritiesOrganizer: StructureDefinition.differential.element[5].pattern.ofType(CodeableConcept).coding[0]: A code with no system has no defined meaning. A system should be provided
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalPrioritiesOrganizer'): The Implementation Guide contains no examples for this profile
 == C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-PADI-Provenance.json ==
 INFORMATION: StructureDefinition/PADI-Provenance: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-Provenance'): The Implementation Guide contains no examples for this profile
 == C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-padi-authorization-extension.json ==
 INFORMATION: StructureDefinition/padi-authorization-extension: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-authorization-extension'): The Implementation Guide contains no examples for this extension
 == C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-padi-dataEnterer-extension.json ==
 INFORMATION: StructureDefinition/padi-dataEnterer-extension: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-dataEnterer-extension'): The Implementation Guide contains no examples for this extension
 == C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-padi-informant-extension.json ==
 INFORMATION: StructureDefinition/padi-informant-extension: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-informant-extension'): The Implementation Guide contains no examples for this extension
@@ -113,3 +270,15 @@ WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/Struc
 == C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\StructureDefinition-padi-versionNumber-extension.json ==
 INFORMATION: StructureDefinition/padi-versionNumber-extension: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-versionNumber-extension'): The Implementation Guide contains no examples for this extension
+== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\ValueSet-PADICareExperiencePreferencesVS.json ==
+INFORMATION: ValueSet/PADICareExperiencePreferencesVS: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\ValueSet-PADIHealthGoalsVS.json ==
+INFORMATION: ValueSet/PADIHealthGoalsVS: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\ValueSet-PADIHealthcareAgentOrProxyChoicesVS.json ==
+INFORMATION: ValueSet/PADIHealthcareAgentOrProxyChoicesVS: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\ValueSet-PADIHealthcareAgentRelationshipVS.json ==
+INFORMATION: ValueSet/PADIHealthcareAgentRelationshipVS: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\ValueSet-PADIInterventionPreferencesVS.json ==
+INFORMATION: ValueSet/PADIInterventionPreferencesVS: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+== C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\ValueSet-PADIPersonalAndLegalRelationshipRoleTypeVS.json ==
+INFORMATION: ValueSet/PADIPersonalAndLegalRelationshipRoleTypeVS: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet

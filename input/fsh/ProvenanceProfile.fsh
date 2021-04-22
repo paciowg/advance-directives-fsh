@@ -11,6 +11,7 @@ Description: "[TODO] Advance Directive Interoperability Provanance baed on US Co
 * agent[assembler].type 1..1 MS 
 * agent[assembler].type = $HL7ProvenancePartcipantType#assembler
 
+// TODO US Core prevenance does not allow provenance agent.who of a device
 
 * insert PADIProvenanceDescriptions
 

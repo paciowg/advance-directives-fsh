@@ -23,7 +23,7 @@ Description: "This profile is used to indicate if a person has a medical order o
 * value[x] 1..1 MS  // CONF:4445-33127
 * value[x] only boolean  // CONF:4445-33127
 
-
+* note MS
 // TODO How to addess? CONF:4445-33123 for external document reference?
 
 

@@ -1,0 +1,42 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <http://loinc.org/rdf#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-adi/Observation/AutopsyDonationObservation1> a fhir:Observation;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "AutopsyDonationObservation1"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-AutopsyObservation";
+       fhir:index 0;
+       fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-AutopsyObservation>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "additional" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Autopsy</h2><p><i>I want an autopsy if my doctor thinks it will help others.</i></p></div>"
+  ];
+  fhir:Observation.status [ fhir:value "final"];
+  fhir:Observation.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a loinc:75782-3;
+       fhir:Coding.system [ fhir:value "http://loinc.org" ];
+       fhir:Coding.code [ fhir:value "75782-3" ];
+       fhir:Coding.display [ fhir:value "Thoughts regarding autopsy [Reported]" ]
+     ]
+  ];
+  fhir:Observation.valueString [ fhir:value "Autopsy: I want an autopsy if my doctor thinks it will help others."] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-adi/Observation/AutopsyDonationObservation1.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/us/pacio-adi/Observation/AutopsyDonationObservation1.ttl> .
+
+# -------------------------------------------------------------------------------------
+
