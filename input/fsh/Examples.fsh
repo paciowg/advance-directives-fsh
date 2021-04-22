@@ -564,7 +564,10 @@ InstanceOf: PADIPersonalHealthGoal
 Description: "Personal Health Goal 1"
 
 * text.status = #additional
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Being at peace with my God</div>"
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
+<p><b>If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me:</b></p>
+<p><i>Being at peace with my God</i></p>
+</div>"
 * lifecycleStatus = #proposed
 * category = $LOINC#81378-2 "Goals, preferences, and priorities under certain health conditions [Reported]"
 * description.text = "If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me: Being at peace with my God"
@@ -576,7 +579,10 @@ InstanceOf: PADIPersonalHealthGoal
 Description: "Personal Health Goal 2"
 
 * text.status = #additional
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Dying at home</div>"
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
+<p><b>If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me:</b></p>
+<p><i>Dying at home</i></p>
+</div>"
 * lifecycleStatus = #proposed
 * category = $LOINC#81378-2 "Goals, preferences, and priorities under certain health conditions [Reported]"
 * description.text = "If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me: Dying at home"
@@ -588,7 +594,10 @@ InstanceOf: PADIPersonalHealthGoal
 Description: "Personal Health Goal 3"
 
 * text.status = #additional
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Being able to feed, bathe, and take care of myself</div>"
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
+<p><b>If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me:</b></p>
+<p><i>Being able to feed, bathe, and take care of myself</i></p>
+</div>"
 * lifecycleStatus = #proposed
 * category = $LOINC#81378-2 "Goals, preferences, and priorities under certain health conditions [Reported]"
 * description.text = "If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me:  Being able to feed, bathe, and take care of myself"
@@ -600,7 +609,10 @@ InstanceOf: PADIPersonalHealthGoal
 Description: "Personal Health Goal 4"
 
 * text.status = #additional
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Being free from pain</div>"
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
+<p><b>If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me:</b></p>
+<p><i>Being free from pain</i></p>
+</div>"
 * lifecycleStatus = #proposed
 * category = $LOINC#81378-2 "Goals, preferences, and priorities under certain health conditions [Reported]"
 * description.text = "If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me: Being free from pain"
@@ -613,7 +625,10 @@ InstanceOf: PADIPersonalHealthGoal
 Description: "Personal Health Goal 5"
 
 * text.status = #additional
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Resolving conflicts</div>"
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
+<p><b>If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me:</b></p>
+<p><i>Resolving conflicts</i></p>
+</div>"
 * lifecycleStatus = #proposed
 * category = $LOINC#81378-2 "Goals, preferences, and priorities under certain health conditions [Reported]"
 * description.text = "If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me: Resolving conflicts"
@@ -626,7 +641,10 @@ InstanceOf: PADIPersonalHealthGoal
 Description: "Personal Health Goal 6"
 
 * text.status = #additional
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Being with my family</div>"
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
+<p><b>If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me:</b></p>
+<p><i>Being with my family</i></p>
+</div>"
 * lifecycleStatus = #proposed
 * category = $LOINC#81378-2 "Goals, preferences, and priorities under certain health conditions [Reported]"
 * description.text = "If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me: Being with my family"
@@ -639,7 +657,10 @@ InstanceOf: PADIPersonalHealthGoal
 Description: "Personal Health Goal 7"
 
 * text.status = #additional
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Not being a financial burden to my family</div>"
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
+<p><b>If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me:</b></p>
+<p><i>Not being a financial burden to my family</i></p>
+</div>"
 * lifecycleStatus = #proposed
 * category = $LOINC#81378-2 "Goals, preferences, and priorities under certain health conditions [Reported]"
 * description.text = "If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me: Not being a financial burden to my family"

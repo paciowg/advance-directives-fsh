@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "DataEntererExtension"];
   fhir:StructureDefinition.title [ fhir:value "Data Enterer"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-04-22T06:16:14-07:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-04-22T10:36:55-07:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "HL7 Patient Empowerment Working Group"];
   fhir:StructureDefinition.contact [
      fhir:index 0;

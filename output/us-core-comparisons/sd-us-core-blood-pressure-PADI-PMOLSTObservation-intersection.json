@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "e304b641-b2ed-40f5-8408-3e8d055ae770-222",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/e304b641-b2ed-40f5-8408-3e8d055ae770-222",
+  "id" : "c0a94381-a23e-41da-b35e-30b1c28101d5-222",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/c0a94381-a23e-41da-b35e-30b1c28101d5-222",
   "name" : "IntersectionUSCoreBloodPressureProfileAndPADIPMOLSTObservation",
   "title" : "Intersection of US Core Blood Pressure Profile And ADI PMOLST Observation",
   "status" : "active",
-  "date" : "2021-04-22T06:16:43-07:00",
+  "date" : "2021-04-22T10:37:19-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

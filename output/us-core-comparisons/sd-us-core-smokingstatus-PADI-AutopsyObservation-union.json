@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "e304b641-b2ed-40f5-8408-3e8d055ae770-44",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/e304b641-b2ed-40f5-8408-3e8d055ae770-44",
+  "id" : "c0a94381-a23e-41da-b35e-30b1c28101d5-44",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/c0a94381-a23e-41da-b35e-30b1c28101d5-44",
   "name" : "UnionUSCoreSmokingStatusProfileAndPADIAutopsyObservation",
   "title" : "Union of US Core Smoking Status Observation Profile And ADI Autopsy Observation",
   "status" : "active",
-  "date" : "2021-04-22T06:16:41-07:00",
+  "date" : "2021-04-22T10:37:18-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -474,7 +474,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "Codes providing the status of an observation.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/e304b641-b2ed-40f5-8408-3e8d055ae770-47"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/c0a94381-a23e-41da-b35e-30b1c28101d5-47"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -563,7 +563,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/e304b641-b2ed-40f5-8408-3e8d055ae770-50"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/c0a94381-a23e-41da-b35e-30b1c28101d5-50"
       },
       "mapping" : [{
         "identity" : "workflow",
