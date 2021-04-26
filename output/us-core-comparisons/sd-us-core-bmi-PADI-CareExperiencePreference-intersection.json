@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "c0a94381-a23e-41da-b35e-30b1c28101d5-72",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/c0a94381-a23e-41da-b35e-30b1c28101d5-72",
+  "id" : "1543fcb1-ceca-4d80-91c9-d14748f25ae0-72",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/1543fcb1-ceca-4d80-91c9-d14748f25ae0-72",
   "name" : "IntersectionUSCoreRespiratoryRateProfileAndPADICareExperiencePreference",
   "title" : "Intersection of US Core BMI Profile And ADI Care Experience Preference",
   "status" : "active",
-  "date" : "2021-04-22T10:37:18-07:00",
+  "date" : "2021-04-25T21:26:47-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -578,7 +578,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "The vital sign codes from the base FHIR and US Core Vital Signs.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/c0a94381-a23e-41da-b35e-30b1c28101d5-60"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/1543fcb1-ceca-4d80-91c9-d14748f25ae0-60"
       },
       "mapping" : [{
         "identity" : "workflow",

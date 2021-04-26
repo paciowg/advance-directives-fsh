@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "PACIOAdvanceDirectiveInteroperability"];
   fhir:ImplementationGuide.title [ fhir:value "PACIO Advance Directive Interoperability Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-04-22T10:36:55-07:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-04-25T21:26:31-07:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 Patient Empowerment Working Group"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -655,6 +655,20 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIAdvanceDirectiveCategoriesVS>;
+         fhir:Reference.reference [ fhir:value "ValueSet/PADIAdvanceDirectiveCategoriesVS" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Advance Directive Categories" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Kinds of Advance Directives\r\n\r\nThis ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113883.11.20.9.69.4/expansion" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 25;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
          fhir:link <http://hl7.org/fhir/us/pacio-adi/ValueSet/PADICareExperiencePreferencesVS>;
          fhir:Reference.reference [ fhir:value "ValueSet/PADICareExperiencePreferencesVS" ]
        ];
@@ -662,7 +676,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "This value set includes concepts representing an individual's care experience preferences at end of life which can be expressed by the individual in his or her advance care plan),(Data Element Scope: The intent of this value set is to identify personal care experience preferences that may be relevant and could be considered by clinicians when making a treatment/care plan for the person.\r\n\r\nThis ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1115.11/expansion" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 25;
+       fhir:index 26;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -676,7 +690,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Clinical Focus: This value set includes concepts representing an individual's goals at end of life which can be expressed by the individual in his or her advance care plan.),(Data Element Scope: The intent of this value set is to identify personal goals that may be relevant and could be considered by clinicians when making a treatment/care plan for the person.),(Inclusion Criteria: Include member value sets for Health Goals at end of life for LOINC and SNOMED CT.),(Exclusion Criteria: None.\r\n\r\nThis ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1115.7/expansion" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 26;
+       fhir:index 27;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -690,7 +704,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "This value set identifies the healthcare agent or proxy roles that individuals commonly designate to empower surrogates to make medical treatment and care decisions when the individual is unable to effectively communicate with medical personnel or requires assistance with decision making.\r\n\r\nThis ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1046.35/expansion" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 27;
+       fhir:index 28;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -704,7 +718,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "[TODO] This value set identifies the healthcare agent or proxy roles that individuals commonly designate to empower surrogates to make medical treatment and care decisions when the individual is unable to effectively communicate with medical personnel or requires assistance with decision making.\r\n\r\nThis ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1046.35/expansion" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 28;
+       fhir:index 29;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -718,7 +732,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Clinical Focus: This value set includes concepts representing an individual's intervention preferences at end of life which can be expressed by the individual in his or her advance care plan.),(Data Element Scope: The intent of this value set is to identify personal intervention preferences that may be relevant and could be considered by clinicians when making a treatment/care plan for the person.),(Inclusion Criteria: Include member value sets for Intervention Preferences at End of Life for LOINC and SNOMED CT.),(Exclusion Criteria: None.)\r\n\r\nThis ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1115.9/expansion" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 29;
+       fhir:index 30;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -732,53 +746,36 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Clinical Focus: A personal or legal relationship records the role of a person in relation to another person, or a person to himself or herself. This value set is to be used when recording relationships based on personal or family ties or through legal assignment of responsibility." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 30;
+       fhir:index 31;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "Observation" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-adi/Observation/AutopsyDonationObservation1>;
-         fhir:Reference.reference [ fhir:value "Observation/AutopsyDonationObservation1" ]
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/Observation/ExampleMcBeeAutopsyDonationObservation1>;
+         fhir:Reference.reference [ fhir:value "Observation/ExampleMcBeeAutopsyDonationObservation1" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "AutopsyDonationObservation1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Autopsy Observation 1" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ExampleMcBeeAutopsyDonationObservation1" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example Patient McBee Autopsy Observation (Thoughts Regarding Autopsy)" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-AutopsyObservation";
          fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-AutopsyObservation>
        ]
      ], [
-       fhir:index 31;
+       fhir:index 32;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "Bundle" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-adi/Bundle/Bundle1>;
-         fhir:Reference.reference [ fhir:value "Bundle/Bundle1" ]
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/Bundle/ExampleMcBeeBundle1>;
+         fhir:Reference.reference [ fhir:value "Bundle/ExampleMcBeeBundle1" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Bundle1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "ADI Document Bundle 1" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ExampleMcBeeBundle1" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example Patient McBee ADI Document Bundle McBee 1" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
-     ], [
-       fhir:index 32;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Observation" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-adi/Observation/CareExperiencePreference1>;
-         fhir:Reference.reference [ fhir:value "Observation/CareExperiencePreference1" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CareExperiencePreference1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Care Experience Preference (My Joys)" ];
-       fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference";
-         fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference>
-       ]
      ], [
        fhir:index 33;
        fhir:Element.extension [
@@ -787,11 +784,11 @@
          fhir:Extension.valueString [ fhir:value "Observation" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-adi/Observation/CareExperiencePreference2>;
-         fhir:Reference.reference [ fhir:value "Observation/CareExperiencePreference2" ]
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/Observation/ExampleMcBeeCareExperiencePreference1>;
+         fhir:Reference.reference [ fhir:value "Observation/ExampleMcBeeCareExperiencePreference1" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CareExperiencePreference2" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Care Experience Preference (How to care for me)" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ExampleMcBeeCareExperiencePreference1" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example Patient McBee Care Experience Preference (My Joys)" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference";
          fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference>
@@ -804,11 +801,11 @@
          fhir:Extension.valueString [ fhir:value "Observation" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-adi/Observation/CareExperiencePreference3>;
-         fhir:Reference.reference [ fhir:value "Observation/CareExperiencePreference3" ]
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/Observation/ExampleMcBeeCareExperiencePreference2>;
+         fhir:Reference.reference [ fhir:value "Observation/ExampleMcBeeCareExperiencePreference2" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CareExperiencePreference3" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Care Experience Preference (Religious affiliation contact)" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ExampleMcBeeCareExperiencePreference2" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example Patient McBee Care Experience Preference (How to care for me)" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference";
          fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference>
@@ -821,11 +818,11 @@
          fhir:Extension.valueString [ fhir:value "Observation" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-adi/Observation/CareExperiencePreference4>;
-         fhir:Reference.reference [ fhir:value "Observation/CareExperiencePreference4" ]
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/Observation/ExampleMcBeeCareExperiencePreference3>;
+         fhir:Reference.reference [ fhir:value "Observation/ExampleMcBeeCareExperiencePreference3" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CareExperiencePreference4" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Care Experience Preference (My unfinished business)" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ExampleMcBeeCareExperiencePreference3" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example Patient McBee Care Experience Preference (Religious affiliation contact)" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference";
          fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference>
@@ -838,11 +835,11 @@
          fhir:Extension.valueString [ fhir:value "Observation" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-adi/Observation/CareExperiencePreference5>;
-         fhir:Reference.reference [ fhir:value "Observation/CareExperiencePreference5" ]
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/Observation/ExampleMcBeeCareExperiencePreference4>;
+         fhir:Reference.reference [ fhir:value "Observation/ExampleMcBeeCareExperiencePreference4" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CareExperiencePreference5" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Care Experience Preference (Death arrangements)" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ExampleMcBeeCareExperiencePreference4" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example Patient McBee Care Experience Preference (My unfinished business)" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference";
          fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference>
@@ -852,17 +849,17 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "RelatedPerson" ]
+         fhir:Extension.valueString [ fhir:value "Observation" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-adi/RelatedPerson/HealthcareAgentExample1>;
-         fhir:Reference.reference [ fhir:value "RelatedPerson/HealthcareAgentExample1" ]
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/Observation/ExampleMcBeeCareExperiencePreference5>;
+         fhir:Reference.reference [ fhir:value "Observation/ExampleMcBeeCareExperiencePreference5" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "HealthcareAgentExample1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Healthcare Agent 1" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ExampleMcBeeCareExperiencePreference5" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example Patient McBee Care Experience Preference (Death arrangements)" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-HealthcareAgent";
-         fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-HealthcareAgent>
+         fhir:value "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference";
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference>
        ]
      ], [
        fhir:index 38;
@@ -872,11 +869,11 @@
          fhir:Extension.valueString [ fhir:value "RelatedPerson" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-adi/RelatedPerson/HealthcareAgentExample2>;
-         fhir:Reference.reference [ fhir:value "RelatedPerson/HealthcareAgentExample2" ]
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/RelatedPerson/ExampleMcBeeHealthcareAgent1>;
+         fhir:Reference.reference [ fhir:value "RelatedPerson/ExampleMcBeeHealthcareAgent1" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "HealthcareAgentExample2" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Healthcare Agent 2" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ExampleMcBeeHealthcareAgent1" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example Patient McBee Healthcare Agent (Sally Bobbins)" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-HealthcareAgent";
          fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-HealthcareAgent>
@@ -886,32 +883,35 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Observation" ]
+         fhir:Extension.valueString [ fhir:value "RelatedPerson" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-adi/Observation/OrganDonationObservation1>;
-         fhir:Reference.reference [ fhir:value "Observation/OrganDonationObservation1" ]
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/RelatedPerson/ExampleMcBeeHealthcareAgent2>;
+         fhir:Reference.reference [ fhir:value "RelatedPerson/ExampleMcBeeHealthcareAgent2" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "OrganDonationObservation1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Organ Donation Observation 1" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ExampleMcBeeHealthcareAgent2" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example Patient McBee Healthcare Agent (S. Leaonard Susskind)" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-OrganDonationObservation";
-         fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-OrganDonationObservation>
+         fhir:value "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-HealthcareAgent";
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-HealthcareAgent>
        ]
      ], [
        fhir:index 40;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Organization" ]
+         fhir:Extension.valueString [ fhir:value "Observation" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-adi/Organization/OrganizationAssembler1>;
-         fhir:Reference.reference [ fhir:value "Organization/OrganizationAssembler1" ]
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/Observation/ExampleMcBeeOrganDonationObservation1>;
+         fhir:Reference.reference [ fhir:value "Observation/ExampleMcBeeOrganDonationObservation1" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "OrganizationAssembler1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Assembler Organization 1" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ExampleMcBeeOrganDonationObservation1" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example Patient McBee Organ Donation Observation 1" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-OrganDonationObservation";
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-OrganDonationObservation>
+       ]
      ], [
        fhir:index 41;
        fhir:Element.extension [
@@ -920,77 +920,74 @@
          fhir:Extension.valueString [ fhir:value "Organization" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-adi/Organization/OrganizationCustodian1>;
-         fhir:Reference.reference [ fhir:value "Organization/OrganizationCustodian1" ]
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/Organization/ExampleMcBeeOrganizationAssembler1>;
+         fhir:Reference.reference [ fhir:value "Organization/ExampleMcBeeOrganizationAssembler1" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "OrganizationCustodian1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Custodian Organization 1" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ExampleMcBeeOrganizationAssembler1" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example Patient McBee Assembler Organization" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 42;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Composition" ]
+         fhir:Extension.valueString [ fhir:value "Organization" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-adi/Composition/PACPExample1>;
-         fhir:Reference.reference [ fhir:value "Composition/PACPExample1" ]
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/Organization/ExampleMcBeeOrganizationCustodian1>;
+         fhir:Reference.reference [ fhir:value "Organization/ExampleMcBeeOrganizationCustodian1" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PACPExample1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Personal AdvanceCare Plan Example 1" ];
-       fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PACPComposition";
-         fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PACPComposition>
-       ]
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ExampleMcBeeOrganizationCustodian1" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example Patient McBee Custodian Organization" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 43;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Provenance" ]
+         fhir:Extension.valueString [ fhir:value "Composition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-adi/Provenance/PACPProvenance1>;
-         fhir:Reference.reference [ fhir:value "Provenance/PACPProvenance1" ]
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/Composition/ExampleMcBeePACPComposition1>;
+         fhir:Reference.reference [ fhir:value "Composition/ExampleMcBeePACPComposition1" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PACPProvenance1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Provenance Example 1" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ExampleMcBeePACPComposition1" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example Patient McBee Personal AdvanceCare Plan Composition Example 1" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-Provenance";
-         fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-Provenance>
+         fhir:value "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PACPComposition";
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PACPComposition>
        ]
      ], [
        fhir:index 44;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Patient" ]
+         fhir:Extension.valueString [ fhir:value "Provenance" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-adi/Patient/Patient1>;
-         fhir:Reference.reference [ fhir:value "Patient/Patient1" ]
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/Provenance/ExampleMcBeePACPProvenance1>;
+         fhir:Reference.reference [ fhir:value "Provenance/ExampleMcBeePACPProvenance1" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Example 1" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ExampleMcBeePACPProvenance1" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example Patient McBee Provenance" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-Provenance";
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-Provenance>
+       ]
      ], [
        fhir:index 45;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Goal" ]
+         fhir:Extension.valueString [ fhir:value "Patient" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-adi/Goal/PersonalHealthGoal1>;
-         fhir:Reference.reference [ fhir:value "Goal/PersonalHealthGoal1" ]
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/Patient/ExampleMcBeePatient1>;
+         fhir:Reference.reference [ fhir:value "Patient/ExampleMcBeePatient1" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PersonalHealthGoal1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Personal Health Goal 1" ];
-       fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal";
-         fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal>
-       ]
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ExampleMcBeePatient1" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example Patient McBee Patient Example 1" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 46;
        fhir:Element.extension [
@@ -999,11 +996,11 @@
          fhir:Extension.valueString [ fhir:value "Goal" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-adi/Goal/PersonalHealthGoal2>;
-         fhir:Reference.reference [ fhir:value "Goal/PersonalHealthGoal2" ]
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/Goal/ExampleMcBeePersonalHealthGoal1>;
+         fhir:Reference.reference [ fhir:value "Goal/ExampleMcBeePersonalHealthGoal1" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PersonalHealthGoal2" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Personal Health Goal 2" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ExampleMcBeePersonalHealthGoal1" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example Patient McBee Personal Health Goal 1" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal";
          fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal>
@@ -1016,11 +1013,11 @@
          fhir:Extension.valueString [ fhir:value "Goal" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-adi/Goal/PersonalHealthGoal3>;
-         fhir:Reference.reference [ fhir:value "Goal/PersonalHealthGoal3" ]
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/Goal/ExampleMcBeePersonalHealthGoal2>;
+         fhir:Reference.reference [ fhir:value "Goal/ExampleMcBeePersonalHealthGoal2" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PersonalHealthGoal3" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Personal Health Goal 3" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ExampleMcBeePersonalHealthGoal2" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example Patient McBee Personal Health Goal 2" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal";
          fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal>
@@ -1033,11 +1030,11 @@
          fhir:Extension.valueString [ fhir:value "Goal" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-adi/Goal/PersonalHealthGoal4>;
-         fhir:Reference.reference [ fhir:value "Goal/PersonalHealthGoal4" ]
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/Goal/ExampleMcBeePersonalHealthGoal3>;
+         fhir:Reference.reference [ fhir:value "Goal/ExampleMcBeePersonalHealthGoal3" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PersonalHealthGoal4" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Personal Health Goal 4" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ExampleMcBeePersonalHealthGoal3" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example Patient McBee Personal Health Goal 3" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal";
          fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal>
@@ -1050,11 +1047,11 @@
          fhir:Extension.valueString [ fhir:value "Goal" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-adi/Goal/PersonalHealthGoal5>;
-         fhir:Reference.reference [ fhir:value "Goal/PersonalHealthGoal5" ]
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/Goal/ExampleMcBeePersonalHealthGoal4>;
+         fhir:Reference.reference [ fhir:value "Goal/ExampleMcBeePersonalHealthGoal4" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PersonalHealthGoal5" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Personal Health Goal 5" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ExampleMcBeePersonalHealthGoal4" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example Patient McBee Personal Health Goal 4" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal";
          fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal>
@@ -1067,11 +1064,11 @@
          fhir:Extension.valueString [ fhir:value "Goal" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-adi/Goal/PersonalHealthGoal6>;
-         fhir:Reference.reference [ fhir:value "Goal/PersonalHealthGoal6" ]
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/Goal/ExampleMcBeePersonalHealthGoal5>;
+         fhir:Reference.reference [ fhir:value "Goal/ExampleMcBeePersonalHealthGoal5" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PersonalHealthGoal6" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Personal Health Goal 6" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ExampleMcBeePersonalHealthGoal5" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example Patient McBee Personal Health Goal 5" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal";
          fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal>
@@ -1084,11 +1081,11 @@
          fhir:Extension.valueString [ fhir:value "Goal" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-adi/Goal/PersonalHealthGoal7>;
-         fhir:Reference.reference [ fhir:value "Goal/PersonalHealthGoal7" ]
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/Goal/ExampleMcBeePersonalHealthGoal6>;
+         fhir:Reference.reference [ fhir:value "Goal/ExampleMcBeePersonalHealthGoal6" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PersonalHealthGoal7" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Personal Health Goal 7" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ExampleMcBeePersonalHealthGoal6" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example Patient McBee Personal Health Goal 6" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal";
          fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal>
@@ -1098,17 +1095,17 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Observation" ]
+         fhir:Extension.valueString [ fhir:value "Goal" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-adi/Observation/PersonalInterventionPreference1>;
-         fhir:Reference.reference [ fhir:value "Observation/PersonalInterventionPreference1" ]
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/Goal/ExampleMcBeePersonalHealthGoal7>;
+         fhir:Reference.reference [ fhir:value "Goal/ExampleMcBeePersonalHealthGoal7" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PersonalInterventionPreference1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Personal Intervention Preference 1" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ExampleMcBeePersonalHealthGoal7" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example Patient McBee Personal Health Goal 7" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference";
-         fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference>
+         fhir:value "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal";
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal>
        ]
      ], [
        fhir:index 53;
@@ -1118,11 +1115,11 @@
          fhir:Extension.valueString [ fhir:value "Observation" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-adi/Observation/PersonalInterventionPreference2>;
-         fhir:Reference.reference [ fhir:value "Observation/PersonalInterventionPreference2" ]
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/Observation/ExampleMcBeePersonalInterventionPreference1>;
+         fhir:Reference.reference [ fhir:value "Observation/ExampleMcBeePersonalInterventionPreference1" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PersonalInterventionPreference2" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Personal Intervention Preference 2" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ExampleMcBeePersonalInterventionPreference1" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example Patient McBee Personal Intervention Preference (Palliative Care)" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference";
          fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference>
@@ -1135,11 +1132,11 @@
          fhir:Extension.valueString [ fhir:value "Observation" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-adi/Observation/PersonalInterventionPreference3>;
-         fhir:Reference.reference [ fhir:value "Observation/PersonalInterventionPreference3" ]
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/Observation/ExampleMcBeePersonalInterventionPreference2>;
+         fhir:Reference.reference [ fhir:value "Observation/ExampleMcBeePersonalInterventionPreference2" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PersonalInterventionPreference3" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Personal Intervention Preference 3" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ExampleMcBeePersonalInterventionPreference2" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example Patient McBee Personal Intervention Preference (Terminal Illness Health Deterioration)" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference";
          fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference>
@@ -1152,11 +1149,11 @@
          fhir:Extension.valueString [ fhir:value "Observation" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-adi/Observation/PersonalInterventionPreference4>;
-         fhir:Reference.reference [ fhir:value "Observation/PersonalInterventionPreference4" ]
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/Observation/ExampleMcBeePersonalInterventionPreference3>;
+         fhir:Reference.reference [ fhir:value "Observation/ExampleMcBeePersonalInterventionPreference3" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PersonalInterventionPreference4" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Personal Intervention Preference 4" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ExampleMcBeePersonalInterventionPreference3" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example Patient McBee Personal Intervention Preference (Artificial Nutrition and Hydration)" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference";
          fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference>
@@ -1169,11 +1166,11 @@
          fhir:Extension.valueString [ fhir:value "Observation" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-adi/Observation/PersonalInterventionPreference5>;
-         fhir:Reference.reference [ fhir:value "Observation/PersonalInterventionPreference5" ]
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/Observation/ExampleMcBeePersonalInterventionPreference4>;
+         fhir:Reference.reference [ fhir:value "Observation/ExampleMcBeePersonalInterventionPreference4" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PersonalInterventionPreference5" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Personal Intervention Preference 5" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ExampleMcBeePersonalInterventionPreference4" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example Patient McBee Personal Intervention Preference (Severe Illness or Injury)" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference";
          fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference>
@@ -1186,11 +1183,11 @@
          fhir:Extension.valueString [ fhir:value "Observation" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-adi/Observation/PersonalInterventionPreference6>;
-         fhir:Reference.reference [ fhir:value "Observation/PersonalInterventionPreference6" ]
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/Observation/ExampleMcBeePersonalInterventionPreference5>;
+         fhir:Reference.reference [ fhir:value "Observation/ExampleMcBeePersonalInterventionPreference5" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PersonalInterventionPreference6" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Personal Intervention Preference 6" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ExampleMcBeePersonalInterventionPreference5" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example Patient McBee Personal Intervention Preference (Thoughts on CPR 1)" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference";
          fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference>
@@ -1203,11 +1200,11 @@
          fhir:Extension.valueString [ fhir:value "Observation" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-adi/Observation/PersonalInterventionPreference7>;
-         fhir:Reference.reference [ fhir:value "Observation/PersonalInterventionPreference7" ]
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/Observation/ExampleMcBeePersonalInterventionPreference6>;
+         fhir:Reference.reference [ fhir:value "Observation/ExampleMcBeePersonalInterventionPreference6" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PersonalInterventionPreference7" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Personal Intervention Preference 7" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ExampleMcBeePersonalInterventionPreference6" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example Patient McBee Personal Intervention Preference (THoughts on CPR 2)" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference";
          fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference>
@@ -1217,14 +1214,31 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/Observation/ExampleMcBeePersonalInterventionPreference7>;
+         fhir:Reference.reference [ fhir:value "Observation/ExampleMcBeePersonalInterventionPreference7" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ExampleMcBeePersonalInterventionPreference7" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example Patient McBee Personal Intervention Preference (Preferred Location for Last Days)" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference";
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference>
+       ]
+     ], [
+       fhir:index 60;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "List" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-adi/List/PersonalPrioritiesOrganizer1>;
-         fhir:Reference.reference [ fhir:value "List/PersonalPrioritiesOrganizer1" ]
+         fhir:link <http://hl7.org/fhir/us/pacio-adi/List/ExampleMcBeePersonalPrioritiesOrganizer1>;
+         fhir:Reference.reference [ fhir:value "List/ExampleMcBeePersonalPrioritiesOrganizer1" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PersonalPrioritiesOrganizer1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Personal Priorities Organizer" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ExampleMcBeePersonalPrioritiesOrganizer1" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example Patient McBee Personal Priorities Organizer" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalPrioritiesOrganizer";
          fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalPrioritiesOrganizer>
@@ -1402,6 +1416,8 @@
 
 <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-versionNumber-extension> a fhir:us .
 
+<http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIAdvanceDirectiveCategoriesVS> a fhir:us .
+
 <http://hl7.org/fhir/us/pacio-adi/ValueSet/PADICareExperiencePreferencesVS> a fhir:us .
 
 <http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIHealthGoalsVS> a fhir:us .
@@ -1414,65 +1430,65 @@
 
 <http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIPersonalAndLegalRelationshipRoleTypeVS> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-adi/Observation/AutopsyDonationObservation1> a fhir:us .
+<http://hl7.org/fhir/us/pacio-adi/Observation/ExampleMcBeeAutopsyDonationObservation1> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-adi/Bundle/Bundle1> a fhir:us .
+<http://hl7.org/fhir/us/pacio-adi/Bundle/ExampleMcBeeBundle1> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-adi/Observation/CareExperiencePreference1> a fhir:us .
+<http://hl7.org/fhir/us/pacio-adi/Observation/ExampleMcBeeCareExperiencePreference1> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-adi/Observation/CareExperiencePreference2> a fhir:us .
+<http://hl7.org/fhir/us/pacio-adi/Observation/ExampleMcBeeCareExperiencePreference2> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-adi/Observation/CareExperiencePreference3> a fhir:us .
+<http://hl7.org/fhir/us/pacio-adi/Observation/ExampleMcBeeCareExperiencePreference3> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-adi/Observation/CareExperiencePreference4> a fhir:us .
+<http://hl7.org/fhir/us/pacio-adi/Observation/ExampleMcBeeCareExperiencePreference4> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-adi/Observation/CareExperiencePreference5> a fhir:us .
+<http://hl7.org/fhir/us/pacio-adi/Observation/ExampleMcBeeCareExperiencePreference5> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-adi/RelatedPerson/HealthcareAgentExample1> a fhir:us .
+<http://hl7.org/fhir/us/pacio-adi/RelatedPerson/ExampleMcBeeHealthcareAgent1> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-adi/RelatedPerson/HealthcareAgentExample2> a fhir:us .
+<http://hl7.org/fhir/us/pacio-adi/RelatedPerson/ExampleMcBeeHealthcareAgent2> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-adi/Observation/OrganDonationObservation1> a fhir:us .
+<http://hl7.org/fhir/us/pacio-adi/Observation/ExampleMcBeeOrganDonationObservation1> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-adi/Organization/OrganizationAssembler1> a fhir:us .
+<http://hl7.org/fhir/us/pacio-adi/Organization/ExampleMcBeeOrganizationAssembler1> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-adi/Organization/OrganizationCustodian1> a fhir:us .
+<http://hl7.org/fhir/us/pacio-adi/Organization/ExampleMcBeeOrganizationCustodian1> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-adi/Composition/PACPExample1> a fhir:us .
+<http://hl7.org/fhir/us/pacio-adi/Composition/ExampleMcBeePACPComposition1> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-adi/Provenance/PACPProvenance1> a fhir:us .
+<http://hl7.org/fhir/us/pacio-adi/Provenance/ExampleMcBeePACPProvenance1> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-adi/Patient/Patient1> a fhir:us .
+<http://hl7.org/fhir/us/pacio-adi/Patient/ExampleMcBeePatient1> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-adi/Goal/PersonalHealthGoal1> a fhir:us .
+<http://hl7.org/fhir/us/pacio-adi/Goal/ExampleMcBeePersonalHealthGoal1> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-adi/Goal/PersonalHealthGoal2> a fhir:us .
+<http://hl7.org/fhir/us/pacio-adi/Goal/ExampleMcBeePersonalHealthGoal2> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-adi/Goal/PersonalHealthGoal3> a fhir:us .
+<http://hl7.org/fhir/us/pacio-adi/Goal/ExampleMcBeePersonalHealthGoal3> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-adi/Goal/PersonalHealthGoal4> a fhir:us .
+<http://hl7.org/fhir/us/pacio-adi/Goal/ExampleMcBeePersonalHealthGoal4> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-adi/Goal/PersonalHealthGoal5> a fhir:us .
+<http://hl7.org/fhir/us/pacio-adi/Goal/ExampleMcBeePersonalHealthGoal5> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-adi/Goal/PersonalHealthGoal6> a fhir:us .
+<http://hl7.org/fhir/us/pacio-adi/Goal/ExampleMcBeePersonalHealthGoal6> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-adi/Goal/PersonalHealthGoal7> a fhir:us .
+<http://hl7.org/fhir/us/pacio-adi/Goal/ExampleMcBeePersonalHealthGoal7> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-adi/Observation/PersonalInterventionPreference1> a fhir:us .
+<http://hl7.org/fhir/us/pacio-adi/Observation/ExampleMcBeePersonalInterventionPreference1> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-adi/Observation/PersonalInterventionPreference2> a fhir:us .
+<http://hl7.org/fhir/us/pacio-adi/Observation/ExampleMcBeePersonalInterventionPreference2> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-adi/Observation/PersonalInterventionPreference3> a fhir:us .
+<http://hl7.org/fhir/us/pacio-adi/Observation/ExampleMcBeePersonalInterventionPreference3> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-adi/Observation/PersonalInterventionPreference4> a fhir:us .
+<http://hl7.org/fhir/us/pacio-adi/Observation/ExampleMcBeePersonalInterventionPreference4> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-adi/Observation/PersonalInterventionPreference5> a fhir:us .
+<http://hl7.org/fhir/us/pacio-adi/Observation/ExampleMcBeePersonalInterventionPreference5> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-adi/Observation/PersonalInterventionPreference6> a fhir:us .
+<http://hl7.org/fhir/us/pacio-adi/Observation/ExampleMcBeePersonalInterventionPreference6> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-adi/Observation/PersonalInterventionPreference7> a fhir:us .
+<http://hl7.org/fhir/us/pacio-adi/Observation/ExampleMcBeePersonalInterventionPreference7> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-adi/List/PersonalPrioritiesOrganizer1> a fhir:us .
+<http://hl7.org/fhir/us/pacio-adi/List/ExampleMcBeePersonalPrioritiesOrganizer1> a fhir:us .
 
 # - ontology header ------------------------------------------------------------
 

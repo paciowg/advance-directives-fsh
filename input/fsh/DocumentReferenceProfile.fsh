@@ -10,7 +10,7 @@ Description: "This profile defines constraints that represent the information ne
 * identifier MS
 * status MS
 * type 1..1 MS
-* type from $USCoreDocumentReferenceType (required)
+* type from PADIAdvanceDirectiveCategoriesVS (extensible)
 //* type short name "Advance Directives Categories"
 * category 1..* MS
 * category from $USCoreDocumentReferenceCategory (extensible)

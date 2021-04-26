@@ -10,7 +10,7 @@
   "name": "PACIOAdvanceDirectiveInteroperability",
   "title": "PACIO Advance Directive Interoperability Implementation Guide",
   "status": "draft",
-  "date": "2021-04-22T10:36:55-07:00",
+  "date": "2021-04-25T21:26:31-07:00",
   "publisher": "HL7 Patient Empowerment Working Group",
   "contact": [
     {
@@ -672,6 +672,20 @@
           }
         ],
         "reference": {
+          "reference": "ValueSet/PADIAdvanceDirectiveCategoriesVS"
+        },
+        "name": "Advance Directive Categories",
+        "description": "Kinds of Advance Directives\r\n\r\nThis ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113883.11.20.9.69.4/expansion",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
           "reference": "ValueSet/PADICareExperiencePreferencesVS"
         },
         "name": "Care Experience Preferences",
@@ -756,10 +770,10 @@
           }
         ],
         "reference": {
-          "reference": "Observation/AutopsyDonationObservation1"
+          "reference": "Observation/ExampleMcBeeAutopsyDonationObservation1"
         },
-        "name": "AutopsyDonationObservation1",
-        "description": "Autopsy Observation 1",
+        "name": "ExampleMcBeeAutopsyDonationObservation1",
+        "description": "Example Patient McBee Autopsy Observation (Thoughts Regarding Autopsy)",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-AutopsyObservation"
       },
       {
@@ -770,10 +784,10 @@
           }
         ],
         "reference": {
-          "reference": "Bundle/Bundle1"
+          "reference": "Bundle/ExampleMcBeeBundle1"
         },
-        "name": "Bundle1",
-        "description": "ADI Document Bundle 1",
+        "name": "ExampleMcBeeBundle1",
+        "description": "Example Patient McBee ADI Document Bundle McBee 1",
         "exampleBoolean": true
       },
       {
@@ -784,10 +798,10 @@
           }
         ],
         "reference": {
-          "reference": "Observation/CareExperiencePreference1"
+          "reference": "Observation/ExampleMcBeeCareExperiencePreference1"
         },
-        "name": "CareExperiencePreference1",
-        "description": "Care Experience Preference (My Joys)",
+        "name": "ExampleMcBeeCareExperiencePreference1",
+        "description": "Example Patient McBee Care Experience Preference (My Joys)",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
       },
       {
@@ -798,10 +812,10 @@
           }
         ],
         "reference": {
-          "reference": "Observation/CareExperiencePreference2"
+          "reference": "Observation/ExampleMcBeeCareExperiencePreference2"
         },
-        "name": "CareExperiencePreference2",
-        "description": "Care Experience Preference (How to care for me)",
+        "name": "ExampleMcBeeCareExperiencePreference2",
+        "description": "Example Patient McBee Care Experience Preference (How to care for me)",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
       },
       {
@@ -812,10 +826,10 @@
           }
         ],
         "reference": {
-          "reference": "Observation/CareExperiencePreference3"
+          "reference": "Observation/ExampleMcBeeCareExperiencePreference3"
         },
-        "name": "CareExperiencePreference3",
-        "description": "Care Experience Preference (Religious affiliation contact)",
+        "name": "ExampleMcBeeCareExperiencePreference3",
+        "description": "Example Patient McBee Care Experience Preference (Religious affiliation contact)",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
       },
       {
@@ -826,10 +840,10 @@
           }
         ],
         "reference": {
-          "reference": "Observation/CareExperiencePreference4"
+          "reference": "Observation/ExampleMcBeeCareExperiencePreference4"
         },
-        "name": "CareExperiencePreference4",
-        "description": "Care Experience Preference (My unfinished business)",
+        "name": "ExampleMcBeeCareExperiencePreference4",
+        "description": "Example Patient McBee Care Experience Preference (My unfinished business)",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
       },
       {
@@ -840,10 +854,10 @@
           }
         ],
         "reference": {
-          "reference": "Observation/CareExperiencePreference5"
+          "reference": "Observation/ExampleMcBeeCareExperiencePreference5"
         },
-        "name": "CareExperiencePreference5",
-        "description": "Care Experience Preference (Death arrangements)",
+        "name": "ExampleMcBeeCareExperiencePreference5",
+        "description": "Example Patient McBee Care Experience Preference (Death arrangements)",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
       },
       {
@@ -854,10 +868,10 @@
           }
         ],
         "reference": {
-          "reference": "RelatedPerson/HealthcareAgentExample1"
+          "reference": "RelatedPerson/ExampleMcBeeHealthcareAgent1"
         },
-        "name": "HealthcareAgentExample1",
-        "description": "Healthcare Agent 1",
+        "name": "ExampleMcBeeHealthcareAgent1",
+        "description": "Example Patient McBee Healthcare Agent (Sally Bobbins)",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-HealthcareAgent"
       },
       {
@@ -868,10 +882,10 @@
           }
         ],
         "reference": {
-          "reference": "RelatedPerson/HealthcareAgentExample2"
+          "reference": "RelatedPerson/ExampleMcBeeHealthcareAgent2"
         },
-        "name": "HealthcareAgentExample2",
-        "description": "Healthcare Agent 2",
+        "name": "ExampleMcBeeHealthcareAgent2",
+        "description": "Example Patient McBee Healthcare Agent (S. Leaonard Susskind)",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-HealthcareAgent"
       },
       {
@@ -882,10 +896,10 @@
           }
         ],
         "reference": {
-          "reference": "Observation/OrganDonationObservation1"
+          "reference": "Observation/ExampleMcBeeOrganDonationObservation1"
         },
-        "name": "OrganDonationObservation1",
-        "description": "Organ Donation Observation 1",
+        "name": "ExampleMcBeeOrganDonationObservation1",
+        "description": "Example Patient McBee Organ Donation Observation 1",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-OrganDonationObservation"
       },
       {
@@ -896,10 +910,10 @@
           }
         ],
         "reference": {
-          "reference": "Organization/OrganizationAssembler1"
+          "reference": "Organization/ExampleMcBeeOrganizationAssembler1"
         },
-        "name": "OrganizationAssembler1",
-        "description": "Assembler Organization 1",
+        "name": "ExampleMcBeeOrganizationAssembler1",
+        "description": "Example Patient McBee Assembler Organization",
         "exampleBoolean": true
       },
       {
@@ -910,10 +924,10 @@
           }
         ],
         "reference": {
-          "reference": "Organization/OrganizationCustodian1"
+          "reference": "Organization/ExampleMcBeeOrganizationCustodian1"
         },
-        "name": "OrganizationCustodian1",
-        "description": "Custodian Organization 1",
+        "name": "ExampleMcBeeOrganizationCustodian1",
+        "description": "Example Patient McBee Custodian Organization",
         "exampleBoolean": true
       },
       {
@@ -924,10 +938,10 @@
           }
         ],
         "reference": {
-          "reference": "Composition/PACPExample1"
+          "reference": "Composition/ExampleMcBeePACPComposition1"
         },
-        "name": "PACPExample1",
-        "description": "Personal AdvanceCare Plan Example 1",
+        "name": "ExampleMcBeePACPComposition1",
+        "description": "Example Patient McBee Personal AdvanceCare Plan Composition Example 1",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PACPComposition"
       },
       {
@@ -938,10 +952,10 @@
           }
         ],
         "reference": {
-          "reference": "Provenance/PACPProvenance1"
+          "reference": "Provenance/ExampleMcBeePACPProvenance1"
         },
-        "name": "PACPProvenance1",
-        "description": "Provenance Example 1",
+        "name": "ExampleMcBeePACPProvenance1",
+        "description": "Example Patient McBee Provenance",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-Provenance"
       },
       {
@@ -952,10 +966,10 @@
           }
         ],
         "reference": {
-          "reference": "Patient/Patient1"
+          "reference": "Patient/ExampleMcBeePatient1"
         },
-        "name": "Patient1",
-        "description": "Patient Example 1",
+        "name": "ExampleMcBeePatient1",
+        "description": "Example Patient McBee Patient Example 1",
         "exampleBoolean": true
       },
       {
@@ -966,10 +980,10 @@
           }
         ],
         "reference": {
-          "reference": "Goal/PersonalHealthGoal1"
+          "reference": "Goal/ExampleMcBeePersonalHealthGoal1"
         },
-        "name": "PersonalHealthGoal1",
-        "description": "Personal Health Goal 1",
+        "name": "ExampleMcBeePersonalHealthGoal1",
+        "description": "Example Patient McBee Personal Health Goal 1",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal"
       },
       {
@@ -980,10 +994,10 @@
           }
         ],
         "reference": {
-          "reference": "Goal/PersonalHealthGoal2"
+          "reference": "Goal/ExampleMcBeePersonalHealthGoal2"
         },
-        "name": "PersonalHealthGoal2",
-        "description": "Personal Health Goal 2",
+        "name": "ExampleMcBeePersonalHealthGoal2",
+        "description": "Example Patient McBee Personal Health Goal 2",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal"
       },
       {
@@ -994,10 +1008,10 @@
           }
         ],
         "reference": {
-          "reference": "Goal/PersonalHealthGoal3"
+          "reference": "Goal/ExampleMcBeePersonalHealthGoal3"
         },
-        "name": "PersonalHealthGoal3",
-        "description": "Personal Health Goal 3",
+        "name": "ExampleMcBeePersonalHealthGoal3",
+        "description": "Example Patient McBee Personal Health Goal 3",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal"
       },
       {
@@ -1008,10 +1022,10 @@
           }
         ],
         "reference": {
-          "reference": "Goal/PersonalHealthGoal4"
+          "reference": "Goal/ExampleMcBeePersonalHealthGoal4"
         },
-        "name": "PersonalHealthGoal4",
-        "description": "Personal Health Goal 4",
+        "name": "ExampleMcBeePersonalHealthGoal4",
+        "description": "Example Patient McBee Personal Health Goal 4",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal"
       },
       {
@@ -1022,10 +1036,10 @@
           }
         ],
         "reference": {
-          "reference": "Goal/PersonalHealthGoal5"
+          "reference": "Goal/ExampleMcBeePersonalHealthGoal5"
         },
-        "name": "PersonalHealthGoal5",
-        "description": "Personal Health Goal 5",
+        "name": "ExampleMcBeePersonalHealthGoal5",
+        "description": "Example Patient McBee Personal Health Goal 5",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal"
       },
       {
@@ -1036,10 +1050,10 @@
           }
         ],
         "reference": {
-          "reference": "Goal/PersonalHealthGoal6"
+          "reference": "Goal/ExampleMcBeePersonalHealthGoal6"
         },
-        "name": "PersonalHealthGoal6",
-        "description": "Personal Health Goal 6",
+        "name": "ExampleMcBeePersonalHealthGoal6",
+        "description": "Example Patient McBee Personal Health Goal 6",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal"
       },
       {
@@ -1050,10 +1064,10 @@
           }
         ],
         "reference": {
-          "reference": "Goal/PersonalHealthGoal7"
+          "reference": "Goal/ExampleMcBeePersonalHealthGoal7"
         },
-        "name": "PersonalHealthGoal7",
-        "description": "Personal Health Goal 7",
+        "name": "ExampleMcBeePersonalHealthGoal7",
+        "description": "Example Patient McBee Personal Health Goal 7",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal"
       },
       {
@@ -1064,10 +1078,10 @@
           }
         ],
         "reference": {
-          "reference": "Observation/PersonalInterventionPreference1"
+          "reference": "Observation/ExampleMcBeePersonalInterventionPreference1"
         },
-        "name": "PersonalInterventionPreference1",
-        "description": "Personal Intervention Preference 1",
+        "name": "ExampleMcBeePersonalInterventionPreference1",
+        "description": "Example Patient McBee Personal Intervention Preference (Palliative Care)",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference"
       },
       {
@@ -1078,10 +1092,10 @@
           }
         ],
         "reference": {
-          "reference": "Observation/PersonalInterventionPreference2"
+          "reference": "Observation/ExampleMcBeePersonalInterventionPreference2"
         },
-        "name": "PersonalInterventionPreference2",
-        "description": "Personal Intervention Preference 2",
+        "name": "ExampleMcBeePersonalInterventionPreference2",
+        "description": "Example Patient McBee Personal Intervention Preference (Terminal Illness Health Deterioration)",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference"
       },
       {
@@ -1092,10 +1106,10 @@
           }
         ],
         "reference": {
-          "reference": "Observation/PersonalInterventionPreference3"
+          "reference": "Observation/ExampleMcBeePersonalInterventionPreference3"
         },
-        "name": "PersonalInterventionPreference3",
-        "description": "Personal Intervention Preference 3",
+        "name": "ExampleMcBeePersonalInterventionPreference3",
+        "description": "Example Patient McBee Personal Intervention Preference (Artificial Nutrition and Hydration)",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference"
       },
       {
@@ -1106,10 +1120,10 @@
           }
         ],
         "reference": {
-          "reference": "Observation/PersonalInterventionPreference4"
+          "reference": "Observation/ExampleMcBeePersonalInterventionPreference4"
         },
-        "name": "PersonalInterventionPreference4",
-        "description": "Personal Intervention Preference 4",
+        "name": "ExampleMcBeePersonalInterventionPreference4",
+        "description": "Example Patient McBee Personal Intervention Preference (Severe Illness or Injury)",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference"
       },
       {
@@ -1120,10 +1134,10 @@
           }
         ],
         "reference": {
-          "reference": "Observation/PersonalInterventionPreference5"
+          "reference": "Observation/ExampleMcBeePersonalInterventionPreference5"
         },
-        "name": "PersonalInterventionPreference5",
-        "description": "Personal Intervention Preference 5",
+        "name": "ExampleMcBeePersonalInterventionPreference5",
+        "description": "Example Patient McBee Personal Intervention Preference (Thoughts on CPR 1)",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference"
       },
       {
@@ -1134,10 +1148,10 @@
           }
         ],
         "reference": {
-          "reference": "Observation/PersonalInterventionPreference6"
+          "reference": "Observation/ExampleMcBeePersonalInterventionPreference6"
         },
-        "name": "PersonalInterventionPreference6",
-        "description": "Personal Intervention Preference 6",
+        "name": "ExampleMcBeePersonalInterventionPreference6",
+        "description": "Example Patient McBee Personal Intervention Preference (THoughts on CPR 2)",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference"
       },
       {
@@ -1148,10 +1162,10 @@
           }
         ],
         "reference": {
-          "reference": "Observation/PersonalInterventionPreference7"
+          "reference": "Observation/ExampleMcBeePersonalInterventionPreference7"
         },
-        "name": "PersonalInterventionPreference7",
-        "description": "Personal Intervention Preference 7",
+        "name": "ExampleMcBeePersonalInterventionPreference7",
+        "description": "Example Patient McBee Personal Intervention Preference (Preferred Location for Last Days)",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference"
       },
       {
@@ -1162,10 +1176,10 @@
           }
         ],
         "reference": {
-          "reference": "List/PersonalPrioritiesOrganizer1"
+          "reference": "List/ExampleMcBeePersonalPrioritiesOrganizer1"
         },
-        "name": "PersonalPrioritiesOrganizer1",
-        "description": "Personal Priorities Organizer",
+        "name": "ExampleMcBeePersonalPrioritiesOrganizer1",
+        "description": "Example Patient McBee Personal Priorities Organizer",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalPrioritiesOrganizer"
       }
     ],

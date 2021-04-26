@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "c0a94381-a23e-41da-b35e-30b1c28101d5-252",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/c0a94381-a23e-41da-b35e-30b1c28101d5-252",
+  "id" : "1543fcb1-ceca-4d80-91c9-d14748f25ae0-255",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/1543fcb1-ceca-4d80-91c9-d14748f25ae0-255",
   "name" : "IntersectionUSCoreSmokingStatusProfileAndPADIPMOLSTObservation",
   "title" : "Intersection of US Core Smoking Status Observation Profile And ADI PMOLST Observation",
   "status" : "active",
-  "date" : "2021-04-22T10:37:19-07:00",
+  "date" : "2021-04-25T21:26:48-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -486,7 +486,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "Codes providing the status of an observation.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/c0a94381-a23e-41da-b35e-30b1c28101d5-48"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/1543fcb1-ceca-4d80-91c9-d14748f25ae0-48"
       },
       "mapping" : [{
         "identity" : "workflow",

@@ -175,6 +175,13 @@
     "name": "VersionNumber"
   },
   {
+    "id": "PADIAdvanceDirectiveCategoriesVS",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIAdvanceDirectiveCategoriesVS",
+    "version": "0.0.1",
+    "name": "PADIAdvanceDirectiveCategoriesVS"
+  },
+  {
     "id": "PADICareExperiencePreferencesVS",
     "type": "ValueSet",
     "url": "http://hl7.org/fhir/us/pacio-adi/ValueSet/PADICareExperiencePreferencesVS",

@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "c0a94381-a23e-41da-b35e-30b1c28101d5-111",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/c0a94381-a23e-41da-b35e-30b1c28101d5-111",
+  "id" : "1543fcb1-ceca-4d80-91c9-d14748f25ae0-111",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/1543fcb1-ceca-4d80-91c9-d14748f25ae0-111",
   "name" : "IntersectionUSCoreDocumentReferenceProfileAndPADIDocumentReference",
   "title" : "Intersection of US Core DocumentReference Profile And PACIO ADI Document Reference",
   "status" : "active",
-  "date" : "2021-04-22T10:37:18-07:00",
+  "date" : "2021-04-25T21:26:47-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -522,7 +522,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "All LOINC  values whose SCALE is DOC in the LOINC database and the HL7 v3 Code System NullFlavor concept 'unknown'",
-        "valueSet" : "http://hl7.org/fhir/us/core/ValueSet/us-core-documentreference-type"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/1543fcb1-ceca-4d80-91c9-d14748f25ae0-114"
       },
       "mapping" : [{
         "identity" : "workflow",

@@ -17,7 +17,7 @@
   fhir:ValueSet.name [ fhir:value "PADIHealthcareAgentRelationshipVS"];
   fhir:ValueSet.title [ fhir:value "Healthcare Agent Relationships"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2021-04-22T10:36:55-07:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2021-04-25T21:26:31-07:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "HL7 Patient Empowerment Working Group"];
   fhir:ValueSet.contact [
      fhir:index 0;

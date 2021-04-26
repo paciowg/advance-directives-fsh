@@ -1,11 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="c5926948-5dc1-46a4-afba-54f486b9f062"/>
+  <id value="ada43d7a-511e-4bc1-9588-6f0b67f69ccc"/>
   <meta>
-    <lastUpdated value="2021-04-22T10:36:55.528-07:00"/>
+    <lastUpdated value="2021-04-25T21:26:31.565-07:00"/>
   </meta>
   <type value="collection"/>
+  <entry>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 4 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on Loinc v2.69</p>
+            <p>All codes from system 
+              <a href="http://terminology.hl7.org/2.0.0/CodeSystem-v3-loinc.html">
+                <code>http://loinc.org</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---loinc.org-64298-3"> </a>
+                  <a href="http://details.loinc.org/LOINC/64298-3.html">64298-3</a>
+                </td>
+                <td>Power of attorney</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---loinc.org-81334-5"> </a>
+                  <a href="http://details.loinc.org/LOINC/81334-5.html">81334-5</a>
+                </td>
+                <td>Patient Personal advance care plan</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---loinc.org-86533-7"> </a>
+                  <a href="http://details.loinc.org/LOINC/86533-7.html">86533-7</a>
+                </td>
+                <td>Patient Living will</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---loinc.org-92664-2"> </a>
+                  <a href="http://details.loinc.org/LOINC/92664-2.html">92664-2</a>
+                </td>
+                <td>Power of attorney and Living will</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <status value="active"/>
+        <expansion>
+          <identifier value="urn:uuid:42321cd1-8781-4b2b-968c-d16bf40393a3"/>
+          <timestamp value="2021-04-26T03:55:39.693Z"/>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueString value="http://loinc.org|2.69"/>
+          </parameter>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="64298-3"/>
+            <display value="Power of attorney"/>
+          </contains>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="81334-5"/>
+            <display value="Patient Personal advance care plan"/>
+          </contains>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="86533-7"/>
+            <display value="Patient Living will"/>
+          </contains>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="92664-2"/>
+            <display value="Power of attorney and Living will"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
   <entry>
     <resource>
       <ValueSet>
@@ -4288,7 +4384,7 @@ Examples include: Physician, Nurse, Medical Technician, Respiratory Technician.<
         <name value="PADIHealthcareAgentRelationshipVS"/>
         <title value="Healthcare Agent Relationships"/>
         <status value="active"/>
-        <date value="2021-04-22T10:36:55-07:00"/>
+        <date value="2021-04-25T21:26:31-07:00"/>
         <publisher value="HL7 Patient Empowerment Working Group"/>
         <contact>
           <name value="HL7 Patient Empowerment Working Group"/>
@@ -4309,8 +4405,8 @@ Examples include: Physician, Nurse, Medical Technician, Respiratory Technician.<
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:f5246e07-486f-4b74-867d-2d75ed8ba279"/>
-          <timestamp value="2021-04-22T10:38:06-07:00"/>
+          <identifier value="urn:uuid:e6720834-32dc-4a0f-82d6-72a3adad6eb0"/>
+          <timestamp value="2021-04-25T21:27:24-07:00"/>
           <total value="417"/>
           <parameter>
             <name value="excludeNested"/>
@@ -10380,7 +10476,7 @@ Examples include: Physician, Nurse, Medical Technician, Respiratory Technician.<
         <name value="PADIPersonalAndLegalRelationshipRoleTypeVS"/>
         <title value="Personal And Legal Relationship Role Type"/>
         <status value="active"/>
-        <date value="2021-04-22T10:36:55-07:00"/>
+        <date value="2021-04-25T21:26:31-07:00"/>
         <publisher value="HL7 Patient Empowerment Working Group"/>
         <contact>
           <name value="HL7 Patient Empowerment Working Group"/>
@@ -10401,8 +10497,8 @@ Examples include: Physician, Nurse, Medical Technician, Respiratory Technician.<
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:8af008b2-6492-4a52-accf-30ac4fadd11a"/>
-          <timestamp value="2021-04-22T10:38:07-07:00"/>
+          <identifier value="urn:uuid:31361b29-9ebf-46d3-babb-49e38ebd58f5"/>
+          <timestamp value="2021-04-25T21:27:25-07:00"/>
           <total value="413"/>
           <parameter>
             <name value="excludeNested"/>

@@ -1,3 +1,16 @@
+
+ValueSet: PADIAdvanceDirectiveCategoriesVS
+Title: "Advance Directive Categories"
+Description: "Kinds of Advance Directives
+
+This ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113883.11.20.9.69.4/expansion"
+* include $LOINC#64298-3 "Power of attorney"
+* include $LOINC#81334-5 "Patient Personal advance care plan"
+* include $LOINC#86533-7 "Patient Living will"
+* include $LOINC#92664-2 "Power of attorney and Living will"
+
+
+
 ValueSet: PADIHealthcareAgentRelationshipVS
 Title: "Healthcare Agent Relationships"
 Description: "[TODO] This value set identifies the healthcare agent or proxy roles that individuals commonly designate to empower surrogates to make medical treatment and care decisions when the individual is unable to effectively communicate with medical personnel or requires assistance with decision making.

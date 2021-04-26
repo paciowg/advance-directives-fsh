@@ -1,11 +1,53 @@
 {
   "resourceType" : "Bundle",
-  "id" : "c5926948-5dc1-46a4-afba-54f486b9f062",
+  "id" : "ada43d7a-511e-4bc1-9588-6f0b67f69ccc",
   "meta" : {
-    "lastUpdated" : "2021-04-22T10:36:55.528-07:00"
+    "lastUpdated" : "2021-04-25T21:26:31.565-07:00"
   },
   "type" : "collection",
   "entry" : [{
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on Loinc v2.69</p><p>All codes from system <a href=\"http://terminology.hl7.org/2.0.0/CodeSystem-v3-loinc.html\"><code>http://loinc.org</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-64298-3\"> </a><a href=\"http://details.loinc.org/LOINC/64298-3.html\">64298-3</a></td><td>Power of attorney</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81334-5\"> </a><a href=\"http://details.loinc.org/LOINC/81334-5.html\">81334-5</a></td><td>Patient Personal advance care plan</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-86533-7\"> </a><a href=\"http://details.loinc.org/LOINC/86533-7.html\">86533-7</a></td><td>Patient Living will</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-92664-2\"> </a><a href=\"http://details.loinc.org/LOINC/92664-2.html\">92664-2</a></td><td>Power of attorney and Living will</td><td/></tr></table></div>"
+      },
+      "status" : "active",
+      "expansion" : {
+        "identifier" : "urn:uuid:42321cd1-8781-4b2b-968c-d16bf40393a3",
+        "timestamp" : "2021-04-26T03:55:39.693Z",
+        "parameter" : [{
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueString" : "http://loinc.org|2.69"
+        }],
+        "contains" : [{
+          "system" : "http://loinc.org",
+          "code" : "64298-3",
+          "display" : "Power of attorney"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "81334-5",
+          "display" : "Patient Personal advance care plan"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "86533-7",
+          "display" : "Patient Living will"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "92664-2",
+          "display" : "Power of attorney and Living will"
+        }]
+      }
+    }
+  },
+  {
     "resource" : {
       "resourceType" : "ValueSet",
       "text" : {
@@ -153,7 +195,7 @@
       "name" : "PADIHealthcareAgentRelationshipVS",
       "title" : "Healthcare Agent Relationships",
       "status" : "active",
-      "date" : "2021-04-22T10:36:55-07:00",
+      "date" : "2021-04-25T21:26:31-07:00",
       "publisher" : "HL7 Patient Empowerment Working Group",
       "contact" : [{
         "name" : "HL7 Patient Empowerment Working Group",
@@ -174,8 +216,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:f5246e07-486f-4b74-867d-2d75ed8ba279",
-        "timestamp" : "2021-04-22T10:38:06-07:00",
+        "identifier" : "urn:uuid:e6720834-32dc-4a0f-82d6-72a3adad6eb0",
+        "timestamp" : "2021-04-25T21:27:24-07:00",
         "total" : 417,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2513,7 +2555,7 @@
       "name" : "PADIPersonalAndLegalRelationshipRoleTypeVS",
       "title" : "Personal And Legal Relationship Role Type",
       "status" : "active",
-      "date" : "2021-04-22T10:36:55-07:00",
+      "date" : "2021-04-25T21:26:31-07:00",
       "publisher" : "HL7 Patient Empowerment Working Group",
       "contact" : [{
         "name" : "HL7 Patient Empowerment Working Group",
@@ -2534,8 +2576,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:8af008b2-6492-4a52-accf-30ac4fadd11a",
-        "timestamp" : "2021-04-22T10:38:07-07:00",
+        "identifier" : "urn:uuid:31361b29-9ebf-46d3-babb-49e38ebd58f5",
+        "timestamp" : "2021-04-25T21:27:25-07:00",
         "total" : 413,
         "parameter" : [{
           "name" : "excludeNested",

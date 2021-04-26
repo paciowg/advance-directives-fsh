@@ -3,7 +3,7 @@
   "name": "PACIOAdvanceDirectiveInteroperability",
   "package-id": "hl7.fhir.us.pacio-adi",
   "ig-ver": "0.0.1",
-  "date": "Thu, 22 Apr, 2021 10:36:55 -0700",
+  "date": "Sun, 25 Apr, 2021 21:26:31 -0700",
   "errs": 3,
   "warnings": 20,
   "hints": 7,
