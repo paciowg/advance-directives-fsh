@@ -2,7 +2,7 @@
   "resourceType": "Patient",
   "id": "Example-Smith-Johnson-Patient1",
   "meta": {
-    "lastUpdated": "2021-04-26T16:15:10+00:00",
+    "lastUpdated": "2021-03-29T14:25:34.001-05:00",
     "profile": [
       "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
     ]
@@ -10,7 +10,7 @@
   "language": "en-US",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 87f37989294a408897aacd1fc5d8fd16</p><p><b>active</b>: true</p><p><b>name</b>: Betsy Smith-Johnson (OFFICIAL)</p><p><b>telecom</b>: <a href=\"mailto:advault.test54@jettelabs.com\">advault.test54@jettelabs.com</a></p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1950-11-15</p><p><b>address</b>: 123 Somewhere street MOUNT AIRY MD 21771 US (HOME)</p><p><b>maritalStatus</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-NullFlavor UNK}\">unknown</span></p><h3>Communications</h3><table class=\"grid\"><tr><td>-</td><td><b>Language</b></td><td><b>Preferred</b></td></tr><tr><td>*</td><td><span title=\"Codes: {urn:ietf:bcp:47 en}\">English</span></td><td>true</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 87f37989294a408897aacd1fc5d8fd16</p><p><b>active</b>: true</p><p><b>name</b>: Betsy Smith-Johnson (OFFICIAL)</p><p><b>telecom</b>: <a href=\"mailto:advault.test54@jettelabs.com\">advault.test54@jettelabs.com</a></p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1950-11-15</p><p><b>address</b>: 111 Maple Court San Antonio TX 78212 US (HOME)</p><p><b>maritalStatus</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-NullFlavor UNK}\">unknown</span></p><h3>Communications</h3><table class=\"grid\"><tr><td>-</td><td><b>Language</b></td><td><b>Preferred</b></td></tr><tr><td>*</td><td><span title=\"Codes: {urn:ietf:bcp:47 en}\">English</span></td><td>true</td></tr></table></div>"
   },
   "identifier": [
     {
@@ -43,11 +43,11 @@
       "use": "home",
       "type": "physical",
       "line": [
-        "123 Somewhere street"
+        "111 Maple Court"
       ],
-      "city": "MOUNT AIRY",
-      "state": "MD",
-      "postalCode": "21771",
+      "city": "San Antonio",
+      "state": "TX",
+      "postalCode": "78212",
       "country": "US"
     }
   ],

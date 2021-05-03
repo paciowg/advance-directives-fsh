@@ -9,7 +9,7 @@
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "Example-Smith-Johnson-Patient1"];
   fhir:Resource.meta [
-     fhir:Meta.lastUpdated [ fhir:value "2021-04-26T16:15:10+00:00"^^xsd:dateTime ];
+     fhir:Meta.lastUpdated [ fhir:value "2021-03-29T14:25:34.001-05:00"^^xsd:dateTime ];
      fhir:Meta.profile [
        fhir:value "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient";
        fhir:index 0;
@@ -19,7 +19,7 @@
   fhir:Resource.language [ fhir:value "en-US"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 87f37989294a408897aacd1fc5d8fd16</p><p><b>active</b>: true</p><p><b>name</b>: Betsy Smith-Johnson (OFFICIAL)</p><p><b>telecom</b>: <a href=\"mailto:advault.test54@jettelabs.com\">advault.test54@jettelabs.com</a></p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1950-11-15</p><p><b>address</b>: 123 Somewhere street MOUNT AIRY MD 21771 US (HOME)</p><p><b>maritalStatus</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-NullFlavor UNK}\">unknown</span></p><h3>Communications</h3><table class=\"grid\"><tr><td>-</td><td><b>Language</b></td><td><b>Preferred</b></td></tr><tr><td>*</td><td><span title=\"Codes: {urn:ietf:bcp:47 en}\">English</span></td><td>true</td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 87f37989294a408897aacd1fc5d8fd16</p><p><b>active</b>: true</p><p><b>name</b>: Betsy Smith-Johnson (OFFICIAL)</p><p><b>telecom</b>: <a href=\"mailto:advault.test54@jettelabs.com\">advault.test54@jettelabs.com</a></p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1950-11-15</p><p><b>address</b>: 111 Maple Court San Antonio TX 78212 US (HOME)</p><p><b>maritalStatus</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-NullFlavor UNK}\">unknown</span></p><h3>Communications</h3><table class=\"grid\"><tr><td>-</td><td><b>Language</b></td><td><b>Preferred</b></td></tr><tr><td>*</td><td><span title=\"Codes: {urn:ietf:bcp:47 en}\">English</span></td><td>true</td></tr></table></div>"
   ];
   fhir:Patient.identifier [
      fhir:index 0;
@@ -50,12 +50,12 @@
      fhir:Address.use [ fhir:value "home" ];
      fhir:Address.type [ fhir:value "physical" ];
      fhir:Address.line [
-       fhir:value "123 Somewhere street";
+       fhir:value "111 Maple Court";
        fhir:index 0
      ];
-     fhir:Address.city [ fhir:value "MOUNT AIRY" ];
-     fhir:Address.state [ fhir:value "MD" ];
-     fhir:Address.postalCode [ fhir:value "21771" ];
+     fhir:Address.city [ fhir:value "San Antonio" ];
+     fhir:Address.state [ fhir:value "TX" ];
+     fhir:Address.postalCode [ fhir:value "78212" ];
      fhir:Address.country [ fhir:value "US" ]
   ];
   fhir:Patient.maritalStatus [

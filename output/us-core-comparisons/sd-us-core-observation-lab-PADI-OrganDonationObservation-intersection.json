@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "544b2390-e1a9-40d8-b109-20cd743c56d2-156",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/544b2390-e1a9-40d8-b109-20cd743c56d2-156",
+  "id" : "ce74457c-07ec-4b17-9b04-8cce3d0eb30c-156",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/ce74457c-07ec-4b17-9b04-8cce3d0eb30c-156",
   "name" : "IntersectionUSCoreLaboratoryResultObservationProfileAndPADIOrganDonationObservation",
   "title" : "Intersection of US Core Laboratory Result Observation Profile And ADI Organ Donation",
   "status" : "active",
-  "date" : "2021-05-02T13:40:06-07:00",
+  "date" : "2021-05-03T16:44:10-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -591,7 +591,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "LOINC codes",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/544b2390-e1a9-40d8-b109-20cd743c56d2-159"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/ce74457c-07ec-4b17-9b04-8cce3d0eb30c-159"
       },
       "mapping" : [{
         "identity" : "workflow",

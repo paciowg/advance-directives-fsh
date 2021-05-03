@@ -9,7 +9,7 @@
   "language": "en-US",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><p><b>Data Enterer</b>: <a href=\"Patient-Example-Smith-Johnson-Patient1.html\">Generated Summary: language: en-US; id: 87f37989294a408897aacd1fc5d8fd16; active; Betsy Smith-Johnson (OFFICIAL); advault.test54@jettelabs.com; gender: female; birthDate: 1950-11-15; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-NullFlavor UNK}\">unknown</span></a></p><p><b>identifier</b>: id: 20130607100315-CCDA-CCD</p><p><b>status</b>: final</p><p><b>type</b>: <span title=\"Codes: {http://loinc.org 81334-5}\">Personal Advance Care Plan Document</span></p><p><b>category</b>: <span title=\"Codes: {http://loinc.org 75320-2}\">Advance directive</span></p><p><b>date</b>: Aug 6, 2020, 6:45:30 AM</p><p><b>author</b>: <a href=\"Patient-Example-Smith-Johnson-Patient1.html\">Generated Summary: language: en-US; id: 87f37989294a408897aacd1fc5d8fd16; active; Betsy Smith-Johnson (OFFICIAL); advault.test54@jettelabs.com; gender: female; birthDate: 1950-11-15; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-NullFlavor UNK}\">unknown</span></a></p><p><b>title</b>: Personal Advance Care Plan</p><p><b>custodian</b>: <a href=\"Organization-Example-Smith-Johnson-OrganizationCustodian1.html\">Generated Summary: id: 44444; active; name: MyDirectives.com; Phone: +1(202)776-7700</a></p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><p><b>Data Enterer</b>: <a href=\"Patient-Example-Smith-Johnson-Patient1.html\">Generated Summary: language: en-US; id: 87f37989294a408897aacd1fc5d8fd16; active; Betsy Smith-Johnson (OFFICIAL); advault.test54@jettelabs.com; gender: female; birthDate: 1950-11-15; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-NullFlavor UNK}\">unknown</span></a></p><p><b>identifier</b>: id: 0-87f37989294a408897aacd1fc5d8fd16</p><p><b>status</b>: final</p><p><b>type</b>: <span title=\"Codes: {http://loinc.org 81334-5}\">Personal Advance Care Plan Document</span></p><p><b>category</b>: <span title=\"Codes: {http://loinc.org 75320-2}\">Advance directive</span></p><p><b>date</b>: Mar 29, 2021, 12:25:34 PM</p><p><b>author</b>: <a href=\"Patient-Example-Smith-Johnson-Patient1.html\">Generated Summary: language: en-US; id: 87f37989294a408897aacd1fc5d8fd16; active; Betsy Smith-Johnson (OFFICIAL); advault.test54@jettelabs.com; gender: female; birthDate: 1950-11-15; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-NullFlavor UNK}\">unknown</span></a></p><p><b>title</b>: Personal Advance Care Plan</p><p><b>custodian</b>: <a href=\"Organization-Example-Smith-Johnson-OrganizationCustodian1.html\">Generated Summary: id: 44444; active; name: MyDirectives.com; Phone: +1(202)776-7700</a></p></div>"
   },
   "extension": [
     {
@@ -20,8 +20,8 @@
     }
   ],
   "identifier": {
-    "system": "urn:oid:",
-    "value": "20130607100315-CCDA-CCD"
+    "system": "urn:oid:2.16.840.1.113883.4.823.1.7124",
+    "value": "0-87f37989294a408897aacd1fc5d8fd16"
   },
   "status": "final",
   "type": {
@@ -47,7 +47,7 @@
   "subject": {
     "reference": "Patient/Example-Smith-Johnson-Patient1"
   },
-  "date": "2020-08-06T09:45:30.001-04:00",
+  "date": "2021-03-29T14:25:34-05:00",
   "author": [
     {
       "reference": "Patient/Example-Smith-Johnson-Patient1"

@@ -9,7 +9,7 @@ Usage: #example
 * identifier.system = "urn:oid:2.16.840.1.113883.3.3208.101.1"
 * identifier.value = "20130607100315-CCDA-CCD"
 * type = #document
-* timestamp = "2019-12-06T10:11:30.001-04:00"
+* timestamp = "2021-03-29T14:25:34.001-05:00"
 
 * entry[+].fullUrl = "http://www.example.org/fhir/Composition/Example-Smith-Johnson-PACPComposition1"
 * entry[=].resource = Example-Smith-Johnson-PACPComposition1
@@ -85,7 +85,7 @@ InstanceOf: $USCorePatient
 Description: "Example Patient Smith-Johnson Patient Example 1"
 Usage: #example
 
-* meta.lastUpdated = "2021-04-26T16:15:10+00:00"
+* meta.lastUpdated = "2021-03-29T14:25:34.001-05:00"
 * language = #en-US
 
 //* extension[0].url = ""
@@ -104,10 +104,10 @@ Usage: #example
 * birthDate = "1950-11-15"
 * address[0].use = #home
 * address[0].type = http://hl7.org/fhir/address-type#physical
-* address[0].line[0] = "123 Somewhere street"
-* address[0].city = "MOUNT AIRY"
-* address[0].state = "MD"
-* address[0].postalCode = "21771"
+* address[0].line[0] = "111 Maple Court"
+* address[0].city = "San Antonio"
+* address[0].state = "TX"
+* address[0].postalCode = "78212"
 * address[0].country = "US"
 * maritalStatus = $HL7NullFlavor#UNK
 * identifier[0].value = "87f37989294a408897aacd1fc5d8fd16"
@@ -128,15 +128,15 @@ Usage: #example
 * extension[padi-dataEnterer-extension].valueReference = Reference(Example-Smith-Johnson-Patient1)
 // witness Sally Bobbins
 
-* identifier.system = "urn:oid:"
-* identifier.value = "20130607100315-CCDA-CCD"
+* identifier.system = "urn:oid:2.16.840.1.113883.4.823.1.7124"
+* identifier.value = "0-87f37989294a408897aacd1fc5d8fd16"
 
 
 * status = #final
 * type = $LOINC#81334-5 "Personal Advance Care Plan Document"
 * category = $LOINC#75320-2 "Advance directive"
 * subject = Reference(Example-Smith-Johnson-Patient1)
-* date = "2020-08-06T09:45:30.001-04:00"
+* date = "2021-03-29T14:25:34-05:00"
 * author = Reference(Example-Smith-Johnson-Patient1)
 * title = "Personal Advance Care Plan"
 
@@ -897,7 +897,7 @@ Description: "Example Patient Smith-Johnson Provenance"
 Usage: #example
 
 * target = Reference(Example-Smith-Johnson-PACPComposition1)
-* recorded = "2020-08-06T09:45:30.001-04:00"
+* recorded = "2021-03-29T14:25:34.001-05:00"
 
 * agent[assembler].type = http://terminology.hl7.org/CodeSystem/provenance-participant-type#assembler "Assembler"
 * agent[assembler].who = Reference(Example-Smith-Johnson-OrganizationAssembler1)
