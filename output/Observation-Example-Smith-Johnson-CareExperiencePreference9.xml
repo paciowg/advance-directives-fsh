@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="Example-Smith-Johnson-CareExperiencePreference9"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"/>
+  </meta>
+  <text>
+    <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Laughter:</b></p><p>These are some of my fondest memories from life that have always brought a smile to my face or made me laugh:</p><p><i>My dogs make me laugh when they play together, and my grandchildren make me laugh when they put on plays for me. They bring me great joy.</i></p></div>
+  </text>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="81361-8"/>
+      <display value="Things that make me laugh [Reported]"/>
+    </coding>
+  </code>
+  <valueString value="These are some of my fondest memories from life that have always brought a smile to my face or made me laugh: My dogs make me laugh when they play together, and my grandchildren make me laugh when they put on plays for me.  They bring me great joy."/>
+</Observation>

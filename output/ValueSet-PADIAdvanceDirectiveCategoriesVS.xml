@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="PADIAdvanceDirectiveCategoriesVS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="http://loinc.org"><code>http://loinc.org</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://details.loinc.org/LOINC/64298-3.html">64298-3</a></td><td>Power of attorney</td></tr><tr><td><a href="http://details.loinc.org/LOINC/81334-5.html">81334-5</a></td><td>Patient Personal advance care plan</td></tr><tr><td><a href="http://details.loinc.org/LOINC/86533-7.html">86533-7</a></td><td>Patient Living will</td></tr><tr><td><a href="http://details.loinc.org/LOINC/92664-2.html">92664-2</a></td><td>Power of attorney and Living will</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIAdvanceDirectiveCategoriesVS"/>
+  <version value="0.0.1"/>
+  <name value="PADIAdvanceDirectiveCategoriesVS"/>
+  <title value="Advance Directive Categories"/>
+  <status value="active"/>
+  <date value="2021-05-02T13:39:47-07:00"/>
+  <publisher value="HL7 Patient Empowerment Working Group"/>
+  <contact>
+    <name value="HL7 Patient Empowerment Working Group"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientempowerment/index.cfm"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="patients@lists.HL7.org"/>
+    </telecom>
+  </contact>
+  <description value="Kinds of Advance Directives&#xD;&#xA;&#xD;&#xA;This ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113883.11.20.9.69.4/expansion"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="This material contains content from LOINC (http://loinc.org). LOINC is copyright &#xA9; 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC&#xAE; is a registered United States trademark of Regenstrief Institute, Inc."/>
+  <compose>
+    <include>
+      <system value="http://loinc.org"/>
+      <concept>
+        <code value="64298-3"/>
+        <display value="Power of attorney"/>
+      </concept>
+      <concept>
+        <code value="81334-5"/>
+        <display value="Patient Personal advance care plan"/>
+      </concept>
+      <concept>
+        <code value="86533-7"/>
+        <display value="Patient Living will"/>
+      </concept>
+      <concept>
+        <code value="92664-2"/>
+        <display value="Power of attorney and Living will"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

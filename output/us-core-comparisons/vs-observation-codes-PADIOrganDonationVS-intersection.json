@@ -1,0 +1,9 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "544b2390-e1a9-40d8-b109-20cd743c56d2-159",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/544b2390-e1a9-40d8-b109-20cd743c56d2-159",
+  "name" : "IntersectionLOINCCodesAndPADIOrganDonationVS",
+  "title" : "Intersection of LOINC Codes And Organ Donation",
+  "status" : "draft",
+  "date" : "2021-05-02T13:40:06-07:00"
+}

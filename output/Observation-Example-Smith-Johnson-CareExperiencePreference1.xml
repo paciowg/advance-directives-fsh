@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="Example-Smith-Johnson-CareExperiencePreference1"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"/>
+  </meta>
+  <text>
+    <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><p>Here are some thoughts that I would like for my medical care team and my healthcare agent(s) to know about the role that religion, faith or spirituality play in my life:</p><p><i>I am Catholic, please call Father Mark at Saint Catherine's on Main Street.</i></p></div>
+  </text>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="75775-7"/>
+      <display value="Decision to inform doctors and nurses about the role religion, faith, or spirituality play in my life [Reported]"/>
+    </coding>
+  </code>
+  <valueString value="Here are some thoughts that I would like for my medical care team and my healthcare agent(s) to know about the role that religion, faith or spirituality play in my life: I am Catholic, please call Father Mark at Saint Catherine&#39;s on Main Street."/>
+</Observation>

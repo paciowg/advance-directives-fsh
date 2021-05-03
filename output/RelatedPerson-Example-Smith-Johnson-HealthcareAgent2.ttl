@@ -1,0 +1,69 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <http://loinc.org/rdf#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-adi/RelatedPerson/Example-Smith-Johnson-HealthcareAgent2> a fhir:RelatedPerson;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "Example-Smith-Johnson-HealthcareAgent2"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-HealthcareAgent";
+       fhir:index 0;
+       fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-HealthcareAgent>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "additional" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>First Alternate Healthcare Agent</b></p><p>If this healthcare agent is unable or unwilling to make medical treatment decisions for me, or if my spouse is designated as my primary healthcare agent and our marriage is annulled, or we are divorced or legally separated, then my next choice for a healthcare agent is:</p><p><i>Debra Johnson</i></p><p><i>(Daughter)</i></p><p><i>advault.test56@jettelabs.com</i></p><p>[SELECTED to act as a healthcare agent on 3/29/2021, at 2:25 PM CDT]</p><p>[As of 4/1/2021, at 3:40 PM CDT, a response is still PENDING]</p></div>"
+  ];
+  fhir:RelatedPerson.patient [
+     fhir:link <http://hl7.org/fhir/us/pacio-adi/Patient/Example-Smith-Johnson-Patient1>;
+     fhir:Reference.reference [ fhir:value "Patient/Example-Smith-Johnson-Patient1" ]
+  ];
+  fhir:RelatedPerson.relationship [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a loinc:75784-9;
+       fhir:Coding.system [ fhir:value "http://loinc.org" ];
+       fhir:Coding.code [ fhir:value "75784-9" ];
+       fhir:Coding.display [ fhir:value "First alternate healthcare agent [Reported]" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-RoleCode" ];
+       fhir:Coding.code [ fhir:value "DAU" ];
+       fhir:Coding.display [ fhir:value "natural daughter" ]
+     ]
+  ];
+  fhir:RelatedPerson.name [
+     fhir:index 0;
+     fhir:HumanName.family [ fhir:value "Johnson" ];
+     fhir:HumanName.given [
+       fhir:value "Debra";
+       fhir:index 0
+     ]
+  ];
+  fhir:RelatedPerson.telecom [
+     fhir:index 0;
+     fhir:ContactPoint.system [ fhir:value "email" ];
+     fhir:ContactPoint.value [ fhir:value "advault.test56@jettelabs.com" ];
+     fhir:ContactPoint.use [ fhir:value "home" ]
+  ] .
+
+<http://hl7.org/fhir/us/pacio-adi/Patient/Example-Smith-Johnson-Patient1> a fhir:us .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-adi/RelatedPerson/Example-Smith-Johnson-HealthcareAgent2.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/us/pacio-adi/RelatedPerson/Example-Smith-Johnson-HealthcareAgent2.ttl> .
+
+# -------------------------------------------------------------------------------------
+

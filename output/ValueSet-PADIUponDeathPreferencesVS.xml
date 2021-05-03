@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="PADIUponDeathPreferencesVS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="http://loinc.org"><code>http://loinc.org</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://details.loinc.org/LOINC/81356-8.html">81356-8</a></td><td>Death arrangements [Reported]</td></tr><tr><td><a href="http://details.loinc.org/LOINC/81357-6.html">81357-6</a></td><td>Messages to be delivered after death [Reported]</td></tr><tr><td><a href="http://details.loinc.org/LOINC/81358-4.html">81358-4</a></td><td>Person(s) to notify upon death [Reported]</td></tr><tr><td><a href="http://details.loinc.org/LOINC/81366-7.html">81366-7</a></td><td>Unfinished business [Reported]</td></tr><tr><td><a href="http://details.loinc.org/LOINC/81364-2.html">81364-2</a></td><td>Religious beliefs [Reported]</td></tr><tr><td><a href="http://details.loinc.org/LOINC/81365-9.html">81365-9</a></td><td>Religious affiliation contact to notify [Reported]</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIUponDeathPreferencesVS"/>
+  <version value="0.0.1"/>
+  <name value="PADIUponDeathPreferencesVS"/>
+  <title value="Upon Death Preferences"/>
+  <status value="active"/>
+  <date value="2021-05-02T13:39:47-07:00"/>
+  <publisher value="HL7 Patient Empowerment Working Group"/>
+  <contact>
+    <name value="HL7 Patient Empowerment Working Group"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientempowerment/index.cfm"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="patients@lists.HL7.org"/>
+    </telecom>
+  </contact>
+  <description value="This value set includes concepts representing an individual&#39;s preferences of treatment."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="This material contains content from LOINC (http://loinc.org). LOINC is copyright &#xA9; 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC&#xAE; is a registered United States trademark of Regenstrief Institute, Inc."/>
+  <compose>
+    <include>
+      <system value="http://loinc.org"/>
+      <concept>
+        <code value="81356-8"/>
+        <display value="Death arrangements [Reported]"/>
+      </concept>
+      <concept>
+        <code value="81357-6"/>
+        <display value="Messages to be delivered after death [Reported]"/>
+      </concept>
+      <concept>
+        <code value="81358-4"/>
+        <display value="Person(s) to notify upon death [Reported]"/>
+      </concept>
+      <concept>
+        <code value="81366-7"/>
+        <display value="Unfinished business [Reported]"/>
+      </concept>
+      <concept>
+        <code value="81364-2"/>
+        <display value="Religious beliefs [Reported]"/>
+      </concept>
+      <concept>
+        <code value="81365-9"/>
+        <display value="Religious affiliation contact to notify [Reported]"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

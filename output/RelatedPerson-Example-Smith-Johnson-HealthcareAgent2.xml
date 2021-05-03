@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelatedPerson xmlns="http://hl7.org/fhir">
+  <id value="Example-Smith-Johnson-HealthcareAgent2"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-HealthcareAgent"/>
+  </meta>
+  <text>
+    <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>First Alternate Healthcare Agent</b></p><p>If this healthcare agent is unable or unwilling to make medical treatment decisions for me, or if my spouse is designated as my primary healthcare agent and our marriage is annulled, or we are divorced or legally separated, then my next choice for a healthcare agent is:</p><p><i>Debra Johnson</i></p><p><i>(Daughter)</i></p><p><i>advault.test56@jettelabs.com</i></p><p>[SELECTED to act as a healthcare agent on 3/29/2021, at 2:25 PM CDT]</p><p>[As of 4/1/2021, at 3:40 PM CDT, a response is still PENDING]</p></div>
+  </text>
+  <patient>
+    <reference value="Patient/Example-Smith-Johnson-Patient1"/>
+  </patient>
+  <relationship>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="75784-9"/>
+      <display value="First alternate healthcare agent [Reported]"/>
+    </coding>
+  </relationship>
+  <relationship>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+      <code value="DAU"/>
+      <display value="natural daughter"/>
+    </coding>
+  </relationship>
+  <name>
+    <family value="Johnson"/>
+    <given value="Debra"/>
+  </name>
+  <telecom>
+    <system value="email"/>
+    <value value="advault.test56@jettelabs.com"/>
+    <use value="home"/>
+  </telecom>
+</RelatedPerson>

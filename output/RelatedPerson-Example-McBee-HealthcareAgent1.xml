@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelatedPerson xmlns="http://hl7.org/fhir">
+  <id value="Example-McBee-HealthcareAgent1"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-HealthcareAgent"/>
+  </meta>
+  <text>
+    <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Primary Healthcare Agent</b></p><p>The person I choose as my Primary Healthcare Agent is:</p><p><i>Sally Bobbins</i></p><p><i>lscottbrown@verizon.net</i></p><p><i>[SELECTED to act as a healthcare agent on 3/23/2018, at 9:13 AM CST]</i></p><p><i>[As of 12/6/2019, at 1:11 AM CDT, a response is still PENDING]</i></p></div>
+  </text>
+  <patient>
+    <reference value="Patient/Example-McBee-Patient1"/>
+  </patient>
+  <relationship>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="75783-1"/>
+      <display value="Primary healthcare agent [Reported]"/>
+    </coding>
+  </relationship>
+  <name>
+    <family value="Sally"/>
+    <given value="Bobbins"/>
+  </name>
+  <telecom>
+    <system value="email"/>
+    <value value="lscottbrown@verizon.net"/>
+    <use value="home"/>
+  </telecom>
+</RelatedPerson>

@@ -1,0 +1,69 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <http://loinc.org/rdf#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-adi/RelatedPerson/Example-Smith-Johnson-HealthcareAgent1> a fhir:RelatedPerson;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "Example-Smith-Johnson-HealthcareAgent1"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-HealthcareAgent";
+       fhir:index 0;
+       fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-HealthcareAgent>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "additional" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Primary Healthcare Agent</b></p><p>The person I choose as my Primary Healthcare Agent is:</p><p><i>Charles Johnson</i></p><p><i>(Son)</i></p><p><i>advault.test55@jettelabs.com</i></p><p>[SELECTED to act as a healthcare agent on 3/29/2021, at 2:25 PM CDT]</p><p>[ACCEPTED to act as a healthcare agent on 4/1/2021, at 3:39 PM CDT]</p></div>"
+  ];
+  fhir:RelatedPerson.patient [
+     fhir:link <http://hl7.org/fhir/us/pacio-adi/Patient/Example-Smith-Johnson-Patient1>;
+     fhir:Reference.reference [ fhir:value "Patient/Example-Smith-Johnson-Patient1" ]
+  ];
+  fhir:RelatedPerson.relationship [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a loinc:75783-1;
+       fhir:Coding.system [ fhir:value "http://loinc.org" ];
+       fhir:Coding.code [ fhir:value "75783-1" ];
+       fhir:Coding.display [ fhir:value "Primary healthcare agent [Reported]" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-RoleCode" ];
+       fhir:Coding.code [ fhir:value "SON" ];
+       fhir:Coding.display [ fhir:value "natural son" ]
+     ]
+  ];
+  fhir:RelatedPerson.name [
+     fhir:index 0;
+     fhir:HumanName.family [ fhir:value "Johnson" ];
+     fhir:HumanName.given [
+       fhir:value "Charles";
+       fhir:index 0
+     ]
+  ];
+  fhir:RelatedPerson.telecom [
+     fhir:index 0;
+     fhir:ContactPoint.system [ fhir:value "email" ];
+     fhir:ContactPoint.value [ fhir:value "lscottbrown@verizon.net" ];
+     fhir:ContactPoint.use [ fhir:value "home" ]
+  ] .
+
+<http://hl7.org/fhir/us/pacio-adi/Patient/Example-Smith-Johnson-Patient1> a fhir:us .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-adi/RelatedPerson/Example-Smith-Johnson-HealthcareAgent1.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/us/pacio-adi/RelatedPerson/Example-Smith-Johnson-HealthcareAgent1.ttl> .
+
+# -------------------------------------------------------------------------------------
+

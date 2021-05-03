@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="Example-Smith-Johnson-CareExperiencePreference2"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"/>
+  </meta>
+  <text>
+    <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Here are my thoughts on funeral or burial plans:</b></p><p><i>If I were to pass away:</i></p><p><i>Please call Jim Houston, my lawyer, for arrangements I have already made.</i></p></div>
+  </text>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="81356-8"/>
+      <display value="Death arrangements [Reported]"/>
+    </coding>
+  </code>
+  <valueString value="If I were to pass away: Please call Jim Houston, my lawyer, for arrangements I have already made."/>
+</Observation>

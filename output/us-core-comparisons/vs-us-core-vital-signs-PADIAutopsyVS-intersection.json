@@ -1,0 +1,15 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "544b2390-e1a9-40d8-b109-20cd743c56d2-6",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/544b2390-e1a9-40d8-b109-20cd743c56d2-6",
+  "name" : "IntersectionUsCoreVitalSignsAndPADIAutopsyVS",
+  "title" : "Intersection of US Core Vital Signs ValueSet And Autopsy Thoughts",
+  "status" : "active",
+  "date" : "2021-05-02T13:40:05-07:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "US"
+    }]
+  }]
+}

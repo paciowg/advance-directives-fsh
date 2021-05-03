@@ -1,0 +1,1120 @@
+{
+  "resourceType": "Bundle",
+  "id": "Example-Smith-Johnson-Bundle1",
+  "identifier": {
+    "system": "urn:oid:2.16.840.1.113883.3.3208.101.1",
+    "value": "20130607100315-CCDA-CCD"
+  },
+  "type": "document",
+  "timestamp": "2019-12-06T10:11:30.001-04:00",
+  "entry": [
+    {
+      "fullUrl": "http://www.example.org/fhir/Composition/Example-Smith-Johnson-PACPComposition1",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "Example-Smith-Johnson-PACPComposition1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PACPComposition"
+          ]
+        },
+        "language": "en-US",
+        "text": {
+          "status": "extensions",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><p><b>Data Enterer</b>: <a href=\"#Patient_Example-Smith-Johnson-Patient1\">See above (Patient/Example-Smith-Johnson-Patient1)</a></p><p><b>identifier</b>: id: 20130607100315-CCDA-CCD</p><p><b>status</b>: final</p><p><b>type</b>: <span title=\"Codes: {http://loinc.org 81334-5}\">Personal Advance Care Plan Document</span></p><p><b>category</b>: <span title=\"Codes: {http://loinc.org 75320-2}\">Advance directive</span></p><p><b>date</b>: Aug 6, 2020, 6:45:30 AM</p><p><b>author</b>: <a href=\"#Patient_Example-Smith-Johnson-Patient1\">See above (Patient/Example-Smith-Johnson-Patient1)</a></p><p><b>title</b>: Personal Advance Care Plan</p><p><b>custodian</b>: <a href=\"#Organization_Example-Smith-Johnson-OrganizationCustodian1\">See above (Organization/Example-Smith-Johnson-OrganizationCustodian1)</a></p></div>"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-dataEnterer-extension",
+            "valueReference": {
+              "reference": "Patient/Example-Smith-Johnson-Patient1"
+            }
+          }
+        ],
+        "identifier": {
+          "system": "urn:oid:",
+          "value": "20130607100315-CCDA-CCD"
+        },
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "81334-5",
+              "display": "Personal Advance Care Plan Document"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "75320-2",
+                "display": "Advance directive"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/Example-Smith-Johnson-Patient1"
+        },
+        "date": "2020-08-06T09:45:30.001-04:00",
+        "author": [
+          {
+            "reference": "Patient/Example-Smith-Johnson-Patient1"
+          }
+        ],
+        "title": "Personal Advance Care Plan",
+        "custodian": {
+          "reference": "Organization/Example-Smith-Johnson-OrganizationCustodian1"
+        },
+        "section": [
+          {
+            "title": "Appointment of a Primary Healthcare Agent and Alternate Healthcare Agents",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "81335-2",
+                  "display": "Healthcare Agent"
+                }
+              ]
+            },
+            "text": {
+              "status": "additional",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>IF THIS PART OF THE uADD™ IS LEFT BLANK, I DO NOT WANT TO DESIGNATE A HEALTHCARE AGENT AT THIS TIME, AND I DO NOT WANT A DEFAULT HEALTHCARE AGENT DESIGNATED FOR ME UNDER APPLICABLE LAW. I TRUST THE DOCTORS AND NURSES TREATING ME TO MAKE MEDICAL TREATMENT DECISIONS REGARDING MY TREATMENT AND CARE.</p><p>I am appointing the person or persons below as my healthcare agent and, if applicable, as my alternate healthcare agent(s), and I am granting to each of them the legal authority to make medical treatment decisions on my behalf and to consult with my physician and others. The power to make medical treatment decisions that I am granting to my healthcare agent(s) is expressly subject to, and limited by, the choices that I have expressed elsewhere in my uADD. If my medical treatment choices are not clear, I am authorizing and directing my healthcare agent to make decisions in my best interests and based on what is known of my wishes.</p><p><b>Primary Healthcare Agent</b></p><p>The person I choose as my Primary Healthcare Agent is:</p><p><i>Charles Johnson</i></p><p><i>(Son)</i></p><p><i>advault.test55@jettelabs.com</i></p><p>[SELECTED to act as a healthcare agent on 3/29/2021, at 2:25 PM CDT]</p><p>[ACCEPTED to act as a healthcare agent on 4/1/2021, at 3:39 PM CDT]</p><p></p><p><b>First Alternate Healthcare Agent</b></p><p>If this healthcare agent is unable or unwilling to make medical treatment decisions for me, or if my spouse is designated as my primary healthcare agent and our marriage is annulled, or we are divorced or legally separated, then my next choice for a healthcare agent is:</p><p><i>Debra Johnson</i></p><p><i>(Daughter)</i></p><p><i>advault.test56@jettelabs.com</i></p><p>[SELECTED to act as a healthcare agent on 3/29/2021, at 2:25 PM CDT]</p><p>[As of 4/1/2021, at 3:40 PM CDT, a response is still PENDING]</p><p></p><p><b>My Healthcare Agent’s General Authority</b></p><p>Subject to my medical treatment choices expressed elsewhere in this uADD™ and applicable law that requires otherwise, I grant to my healthcare agent the power to make all choices and medical treatment decisions for me.</p><p>If I cannot express my own wishes for medical treatment,</p><p>I would like the doctors treating me, as well as my healthcare agent if I have chosen one, to make decisions based as much as possible and appropriate on my instructions below.</p><p><i>If at some point in the future I am declared incompetent,</i></p><p><i>I DO NOT want to be allowed to override these preferences. I want my doctors to follow the preferences I express in this document.</i></p><p>Unless I have stated otherwise somewhere else in this uADD™, I understand that my healthcare agent may reconsider my medical treatment choices expressed above in light of my other instructions contained elsewhere in this uADD™ or new medical information.</p></div>"
+            },
+            "entry": [
+              {
+                "reference": "RelatedPerson/Example-Smith-Johnson-HealthcareAgent1"
+              },
+              {
+                "reference": "RelatedPerson/Example-Smith-Johnson-HealthcareAgent2"
+              }
+            ]
+          },
+          {
+            "title": "Expression of Healthcare Treatment Wishes and Desires",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "81338-6",
+                  "display": "Patient Goals, preferences, and priorities for care experience"
+                }
+              ]
+            },
+            "text": {
+              "status": "additional",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><i>MyDirectives® offers people a list of optional questions that can be answered by typing text in a text box or by uploading a video or audio file for each question. Only those questions answered by Betsy Smith-Johnson appear here. For a complete list of questions in My Thoughts, please visit www.MyDirectives.com.</i></p><p></p><p><b>In case I’m being cared for by a person(s) who doesn't know me very well, I’d like my following thoughts to be known.</b></p><p></p><p></p><p><b>My likes / joys:</b></p><p>Here are some examples of the things that I would like to have near me, music that I’d like to hear, and other details of my care that would help to keep me happy and relaxed:</p><p><i>I love the smell of lavender and the feeling of sunshine on my face.</i></p><p></p><p></p><p><b>My dislikes / fears:</b></p><p>Here is a list of things that I would like to avoid if at all possible, people that I don’t wish to see, and concerns I have about particular family members, pets, and so on:</p><p><i>I do not like my feet to be cold.</i></p><p></p><p></p><p><b>How to care for me:</b></p><p>If I become incapacitated and cannot express myself, here is what I would like to tell my healthcare agent, family and friends about how I would like for them to care for me:</p><p><i>I want photos of my family where I can see them.</i></p><p></p><p></p><p><b>My religion:</b></p><p>If I appear to be approaching the end of my life, here are some things that I would like for my caregivers to know about my faith and my religion.</p><p><i>Please call Father Mark if my condition warrants the services of a priest.</i></p><p></p><p></p><p><b>Please attempt to notify someone from my religion at the following phone number:</b></p><p>If I have included one</p><p><i>Catholic</i></p><p></p><p></p><p><b>My unfinished business:</b></p><p>If it appears that I am approaching the end of my life, and I cannot communicate with persons around me, I would want my doctors and nurses, my family, and my friends to know about some unfinished business that I need to address:</p><p><i>I want my sister and I to talk again, and miss her. I wish we hadn't disagreed all those years ago and regret the time it has cost us. I'd like to see her face if I were very ill and needed the comfort of family at my side.</i></p><p></p><p></p><p><b>Laughter:</b></p><p>These are some of my fondest memories from life that have always brought a smile to my face or made me laugh:</p><p><i>My dogs make me laugh when they play together, and my grandchildren make me laugh when they put on plays for me. They bring me great joy.</i></p></div>"
+            },
+            "entry": [
+              {
+                "reference": "Observation/Example-Smith-Johnson-CareExperiencePreference3"
+              },
+              {
+                "reference": "Observation/Example-Smith-Johnson-CareExperiencePreference4"
+              },
+              {
+                "reference": "Observation/Example-Smith-Johnson-CareExperiencePreference5"
+              },
+              {
+                "reference": "Observation/Example-Smith-Johnson-CareExperiencePreference6"
+              },
+              {
+                "reference": "Observation/Example-Smith-Johnson-CareExperiencePreference7"
+              },
+              {
+                "reference": "Observation/Example-Smith-Johnson-CareExperiencePreference8"
+              },
+              {
+                "reference": "Observation/Example-Smith-Johnson-CareExperiencePreference9"
+              }
+            ]
+          },
+          {
+            "title": "Expression of Healthcare Treatment Wishes and Desires",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "81336-0",
+                  "display": "GPP certain health cond"
+                }
+              ]
+            },
+            "text": {
+              "status": "additional",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>My Advance Care Goals</b></p><p>If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me:</p><ol><li><i>Avoiding prolonged dependence on machines</i></li><li><i>Not being a physical burden to my family</i></li><li><i>Dying at home</i></li></ol><p></p><p>Here are some thoughts that I would like for my medical care team and my healthcare agent(s) to know about the role that religion, faith or spirituality play in my life:</p><p><i>I am Catholic, please call Father Mark at Saint Catherine's on Main Street.</i></p><p></p><p>If I am having significant pain or suffering,</p><p><i>I would like my doctors to consult a Supportive and Palliative Care Team to help treat my physical, emotional and spiritual discomfort, and to support my family.</i></p><p></p><p><b>My Preferences in Specific Circumstances</b></p><p>In addition to the general advance care goals provided above, below are specific treatment preferences with respect to certain specific circumstances or situations.</p><p></p><p>If my health ever deteriorates due to a terminal illness, and my doctors believe I will not be able to interact meaningfully with my family, friends, or surroundings,</p><p><i>I would like for them to keep trying life-sustaining treatments until my healthcare agent decides it is time to stop and such treatments and let me die gently.</i></p><p></p><p>If I have a severe, irreversible brain injury or illness and can’t dress, feed, or bathe myself, or communicate my medical wishes, but doctors can keep me alive in this condition for a long period of time,</p><p><i>I would like for them to keep trying life-sustaining treatments until my healthcare agent decides it is time to stop and such treatments and let me die gently.</i></p><p></p><p>Although I understand that, depending on the situation and circumstances, medical personnel may not be able to follow my wishes, here are my general thoughts on cardiopulmonary resuscitation (CPR):</p><p><i>I want my healthcare agent to decide for me.</i></p><p></p><p><b>Other Instructions</b></p><p></p><p>If it were possible to choose, here is where I would like to spend my final days:</p><p><i>At home.I would like to receive hospice care at home if possible.</i></p><p></p><p>I understand that, in certain jurisdictions, if I have been diagnosed as pregnant and that diagnosis is known to my attending physician, medical treatment providers may refuse to follow my directives and provide life-sustaining treatment including artificially administered nutrition and hydration, as well as CPR and other resuscitation measures.</p></div>"
+            },
+            "entry": [
+              {
+                "reference": "List/Example-Smith-Johnson-PersonalPrioritiesOrganizer1"
+              },
+              {
+                "reference": "Observation/Example-Smith-Johnson-CareExperiencePreference1"
+              },
+              {
+                "reference": "Observation/Example-Smith-Johnson-PersonalInterventionPreference1"
+              },
+              {
+                "reference": "Observation/Example-Smith-Johnson-PersonalInterventionPreference2"
+              },
+              {
+                "reference": "Observation/Example-Smith-Johnson-PersonalInterventionPreference3"
+              },
+              {
+                "reference": "Observation/Example-Smith-Johnson-PersonalInterventionPreference4"
+              },
+              {
+                "reference": "Observation/Example-Smith-Johnson-PersonalInterventionPreference5"
+              }
+            ]
+          },
+          {
+            "title": "Goals, Preferences and Priorities upon Death",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "81337-8",
+                  "display": "Patient Goals, preferences, and priorities upon death"
+                }
+              ]
+            },
+            "text": {
+              "status": "additional",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Consent to Donate</b></p><p><i>I consent to donate all organs and tissues.</i></p><p></p><p><b>Autopsy</b></p><p><i>I want an autopsy</i></p><p><i>only if there are questions about my death.</i></p><p></p><p><b>Here are my thoughts on funeral or burial plans:</b></p><p><i>If I were to pass away:</i></p><p><i>Please call Jim Houston, my lawyer, for arrangements I have already made.</i></p></div>"
+            },
+            "entry": [
+              {
+                "reference": "Observation/Example-Smith-Johnson-OrganDonationObservation1"
+              },
+              {
+                "reference": "Observation/Example-Smith-Johnson-AutopsyObservation1"
+              },
+              {
+                "reference": "Observation/Example-Smith-Johnson-CareExperiencePreference2"
+              }
+            ]
+          },
+          {
+            "title": "Witnesses and Notary",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "81339-4",
+                  "display": "Witness and notary Document"
+                }
+              ]
+            },
+            "text": {
+              "status": "additional",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>I am emotionally and mentally competent to make this uADD. I understand the purpose and effect of this uADD, I agree with everything that is written in this uADD, and I have made this uADD knowingly, willingly and after careful deliberation.</p><table><tbody><tr><td><b>Signature:</b></td><td>Betsy Smith-Johnson</td></tr><tr><td><b>Date:</b></td><td>3/29/2021</td></tr></tbody></table><p></p><p><b>Statement of Witnesses</b></p><p></p><p>I declare that the person who signed this uADD, or who asked another to sign this uADD on his/her behalf, is the individual identified in the document, and he/she did so in my presence or otherwise provided satisfactory proof to me of his/her identity. I believe him/her to be of sound mind and at least 18 years of age. I personally witnessed him/her sign this document or ask the person indicated to do so, or I received proof of his/her identity that I believe is adequate, and I believe that he/she did so voluntarily. By signing this document as a witness, I certify that I am:</p><p></p><ul><li>At least 18 years of age.</li><li>Not related to the person signing this document by blood, marriage or adoption.</li><li>Not a healthcare agent appointed by the person signing this document.</li><li>Not directly financially responsible for that person’s healthcare.</li><li>Not a healthcare provider directly serving the person at this time.</li><li>Not an employee (other than a social worker or chaplain), officer, director, or partner of a healthcare provider (or any parent organization of such healthcare provider) directly serving the person at this time.</li><li>Not aware that I am entitled to or have a claim against the person’s estate.</li></ul><p></p><table><tbody><tr><td><b>Witness Number:</b></td><td></td></tr><tr><td><b>Signature:</b></td><td></td></tr><tr><td><b>Date:</b></td><td></td></tr></tbody></table></div>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "http://www.example.org/fhir/Patient/Example-Smith-Johnson-Patient1",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "Example-Smith-Johnson-Patient1",
+        "meta": {
+          "lastUpdated": "2021-04-26T16:15:10+00:00",
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
+          ]
+        },
+        "language": "en-US",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 87f37989294a408897aacd1fc5d8fd16</p><p><b>active</b>: true</p><p><b>name</b>: Betsy Smith-Johnson (OFFICIAL)</p><p><b>telecom</b>: <a href=\"mailto:advault.test54@jettelabs.com\">advault.test54@jettelabs.com</a></p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1950-11-15</p><p><b>address</b>: 123 Somewhere street MOUNT AIRY MD 21771 US (HOME)</p><p><b>maritalStatus</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-NullFlavor UNK}\">unknown</span></p><h3>Communications</h3><table class=\"grid\"><tr><td>-</td><td><b>Language</b></td><td><b>Preferred</b></td></tr><tr><td>*</td><td><span title=\"Codes: {urn:ietf:bcp:47 en}\">English</span></td><td>true</td></tr></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:oid:2.16.840.1.113883.4.823.1.7124",
+            "value": "87f37989294a408897aacd1fc5d8fd16"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Smith-Johnson",
+            "given": [
+              "Betsy"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "email",
+            "value": "advault.test54@jettelabs.com",
+            "use": "mobile",
+            "rank": 3
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1950-11-15",
+        "address": [
+          {
+            "use": "home",
+            "type": "physical",
+            "line": [
+              "123 Somewhere street"
+            ],
+            "city": "MOUNT AIRY",
+            "state": "MD",
+            "postalCode": "21771",
+            "country": "US"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+              "code": "UNK"
+            }
+          ]
+        },
+        "communication": [
+          {
+            "language": {
+              "coding": [
+                {
+                  "system": "urn:ietf:bcp:47",
+                  "code": "en",
+                  "display": "English"
+                }
+              ]
+            },
+            "preferred": true
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "http://www.example.org/fhir/RelatedPerson/Example-Smith-Johnson-HealthcareAgent1",
+      "resource": {
+        "resourceType": "RelatedPerson",
+        "id": "Example-Smith-Johnson-HealthcareAgent1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-HealthcareAgent"
+          ]
+        },
+        "text": {
+          "status": "additional",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Primary Healthcare Agent</b></p><p>The person I choose as my Primary Healthcare Agent is:</p><p><i>Charles Johnson</i></p><p><i>(Son)</i></p><p><i>advault.test55@jettelabs.com</i></p><p>[SELECTED to act as a healthcare agent on 3/29/2021, at 2:25 PM CDT]</p><p>[ACCEPTED to act as a healthcare agent on 4/1/2021, at 3:39 PM CDT]</p></div>"
+        },
+        "patient": {
+          "reference": "Patient/Example-Smith-Johnson-Patient1"
+        },
+        "relationship": [
+          {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "75783-1",
+                "display": "Primary healthcare agent [Reported]"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+                "code": "SON",
+                "display": "natural son"
+              }
+            ]
+          }
+        ],
+        "name": [
+          {
+            "family": "Johnson",
+            "given": [
+              "Charles"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "email",
+            "value": "lscottbrown@verizon.net",
+            "use": "home"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "http://www.example.org/fhir/RelatedPerson/Example-Smith-Johnson-HealthcareAgent2",
+      "resource": {
+        "resourceType": "RelatedPerson",
+        "id": "Example-Smith-Johnson-HealthcareAgent2",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-HealthcareAgent"
+          ]
+        },
+        "text": {
+          "status": "additional",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>First Alternate Healthcare Agent</b></p><p>If this healthcare agent is unable or unwilling to make medical treatment decisions for me, or if my spouse is designated as my primary healthcare agent and our marriage is annulled, or we are divorced or legally separated, then my next choice for a healthcare agent is:</p><p><i>Debra Johnson</i></p><p><i>(Daughter)</i></p><p><i>advault.test56@jettelabs.com</i></p><p>[SELECTED to act as a healthcare agent on 3/29/2021, at 2:25 PM CDT]</p><p>[As of 4/1/2021, at 3:40 PM CDT, a response is still PENDING]</p></div>"
+        },
+        "patient": {
+          "reference": "Patient/Example-Smith-Johnson-Patient1"
+        },
+        "relationship": [
+          {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "75784-9",
+                "display": "First alternate healthcare agent [Reported]"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+                "code": "DAU",
+                "display": "natural daughter"
+              }
+            ]
+          }
+        ],
+        "name": [
+          {
+            "family": "Johnson",
+            "given": [
+              "Debra"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "email",
+            "value": "advault.test56@jettelabs.com",
+            "use": "home"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "http://www.example.org/fhir/Observation/Example-Smith-Johnson-CareExperiencePreference1",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "Example-Smith-Johnson-CareExperiencePreference1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
+          ]
+        },
+        "text": {
+          "status": "additional",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Here are some thoughts that I would like for my medical care team and my healthcare agent(s) to know about the role that religion, faith or spirituality play in my life:</p><p><i>I am Catholic, please call Father Mark at Saint Catherine's on Main Street.</i></p></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "75775-7",
+              "display": "Decision to inform doctors and nurses about the role religion, faith, or spirituality play in my life [Reported]"
+            }
+          ]
+        },
+        "valueString": "Here are some thoughts that I would like for my medical care team and my healthcare agent(s) to know about the role that religion, faith or spirituality play in my life: I am Catholic, please call Father Mark at Saint Catherine's on Main Street."
+      }
+    },
+    {
+      "fullUrl": "http://www.example.org/fhir/Observation/Example-Smith-Johnson-CareExperiencePreference2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "Example-Smith-Johnson-CareExperiencePreference2",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
+          ]
+        },
+        "text": {
+          "status": "additional",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Here are my thoughts on funeral or burial plans:</b></p><p><i>If I were to pass away:</i></p><p><i>Please call Jim Houston, my lawyer, for arrangements I have already made.</i></p></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "81356-8",
+              "display": "Death arrangements [Reported]"
+            }
+          ]
+        },
+        "valueString": "If I were to pass away: Please call Jim Houston, my lawyer, for arrangements I have already made."
+      }
+    },
+    {
+      "fullUrl": "http://www.example.org/fhir/Observation/Example-Smith-Johnson-CareExperiencePreference3",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "Example-Smith-Johnson-CareExperiencePreference3",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
+          ]
+        },
+        "text": {
+          "status": "additional",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>My likes / joys:</b></p><p>Here are some examples of the things that I would like to have near me, music that I’d like to hear, and other details of my care that would help to keep me happy and relaxed:</p><p><i>I love the smell of lavender and the feeling of sunshine on my face.</i></p></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "81360-0",
+              "display": "Death arrangements [Reported]"
+            }
+          ]
+        },
+        "valueString": "Here are some examples of the things that I would like to have near me, music that I’d like to hear, and other details of my care that would help to keep me happy and relaxed: I love the smell of lavender and the feeling of sunshine on my face."
+      }
+    },
+    {
+      "fullUrl": "http://www.example.org/fhir/Observation/Example-Smith-Johnson-CareExperiencePreference4",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "Example-Smith-Johnson-CareExperiencePreference4",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
+          ]
+        },
+        "text": {
+          "status": "additional",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>My dislikes / fears:</b></p><p>Here is a list of things that I would like to avoid if at all possible, people that I don’t wish to see, and concerns I have about particular family members, pets, and so on:</p><p><i>I do not like my feet to be cold.</i></p></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "81362-6",
+              "display": "My dislikes and fears [Reported]"
+            }
+          ]
+        },
+        "valueString": "Here is a list of things that I would like to avoid if at all possible, people that I don’t wish to see, and concerns I have about particular family members, pets, and so on: I do not like my feet to be cold."
+      }
+    },
+    {
+      "fullUrl": "http://www.example.org/fhir/Observation/Example-Smith-Johnson-CareExperiencePreference5",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "Example-Smith-Johnson-CareExperiencePreference5",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
+          ]
+        },
+        "text": {
+          "status": "additional",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>How to care for me:</b></p><p>If I become incapacitated and cannot express myself, here is what I would like to tell my healthcare agent, family and friends about how I would like for them to care for me:</p><p><i>I want photos of my family where I can see them.</i></p></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "81380-8",
+              "display": "[TODO] A better code? Goals, preferences, and priorities for care experience"
+            }
+          ]
+        },
+        "valueString": "How to care for me: If I become incapacitated and cannot express myself, here is what I would like to tell my healthcare agent, family and friends about how I would like for them to care for me: I want photos of my family where I can see them."
+      }
+    },
+    {
+      "fullUrl": "http://www.example.org/fhir/Observation/Example-Smith-Johnson-CareExperiencePreference6",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "Example-Smith-Johnson-CareExperiencePreference6",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
+          ]
+        },
+        "text": {
+          "status": "additional",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>My religion:</b></p><p>If I appear to be approaching the end of my life, here are some things that I would like for my caregivers to know about my faith and my religion.</p><p><i>Please call Father Mark if my condition warrants the services of a priest.</i></p></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "81364-2",
+              "display": "Religious Beliefs"
+            }
+          ]
+        },
+        "valueString": "If I appear to be approaching the end of my life, here are some things that I would like for my caregivers to know about my faith and my religion. Please call Father Mark if my condition warrants the services of a priest."
+      }
+    },
+    {
+      "fullUrl": "http://www.example.org/fhir/Observation/Example-Smith-Johnson-CareExperiencePreference7",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "Example-Smith-Johnson-CareExperiencePreference7",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
+          ]
+        },
+        "text": {
+          "status": "additional",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Please attempt to notify someone from my religion at the following phone number:</b></p><p>If I have included one</p><p><i>Catholic</i></p></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "81365-9",
+              "display": "Religious affiliation contact to notify [Reported]"
+            }
+          ]
+        },
+        "valueString": "Please attempt to notify someone from my religion at the following phone number: If I have included one: Catholic"
+      }
+    },
+    {
+      "fullUrl": "http://www.example.org/fhir/Observation/Example-Smith-Johnson-CareExperiencePreference8",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "Example-Smith-Johnson-CareExperiencePreference8",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
+          ]
+        },
+        "text": {
+          "status": "additional",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>My unfinished business:</b></p><p>If it appears that I am approaching the end of my life, and I cannot communicate with persons around me, I would want my doctors and nurses, my family, and my friends to know about some unfinished business that I need to address:</p><p><i>I want my sister and I to talk again, and miss her. I wish we hadn't disagreed all those years ago and regret the time it has cost us. I'd like to see her face if I were very ill and needed the comfort of family at my side.</i></p></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "81366-7",
+              "display": "Unfinished business [Reported]"
+            }
+          ]
+        },
+        "valueString": "If it appears that I am approaching the end of my life, and I cannot communicate with persons around me, I would want my doctors and nurses, my family, and my friends to know about some unfinished business that I need to address: I want my sister and I to talk again, and miss her.  I wish we hadn't disagreed all those years ago and regret the time it has cost us.  I'd like to see her face if I were very ill and needed the comfort of family at my side."
+      }
+    },
+    {
+      "fullUrl": "http://www.example.org/fhir/Observation/Example-Smith-Johnson-CareExperiencePreference9",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "Example-Smith-Johnson-CareExperiencePreference9",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
+          ]
+        },
+        "text": {
+          "status": "additional",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Laughter:</b></p><p>These are some of my fondest memories from life that have always brought a smile to my face or made me laugh:</p><p><i>My dogs make me laugh when they play together, and my grandchildren make me laugh when they put on plays for me. They bring me great joy.</i></p></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "81361-8",
+              "display": "Things that make me laugh [Reported]"
+            }
+          ]
+        },
+        "valueString": "These are some of my fondest memories from life that have always brought a smile to my face or made me laugh: My dogs make me laugh when they play together, and my grandchildren make me laugh when they put on plays for me.  They bring me great joy."
+      }
+    },
+    {
+      "fullUrl": "http://www.example.org/fhir/List/Example-Smith-Johnson-PersonalPrioritiesOrganizer1",
+      "resource": {
+        "resourceType": "List",
+        "id": "Example-Smith-Johnson-PersonalPrioritiesOrganizer1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalPrioritiesOrganizer"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: current</p><p><b>mode</b>: working</p><p><b>title</b>: Priorities for Goals and Preferences</p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 81340-2}\">Goals AndOr preferences in order of priority [Reported]</span></p><p><b>orderedBy</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/list-order priority}\">Sorted by Priority</span></p><blockquote><p><b>entry</b></p><p><b>item</b>: <a href=\"#Goal_Example-Smith-Johnson-PersonalHealthGoal1\">See above (Goal/Example-Smith-Johnson-PersonalHealthGoal1)</a></p></blockquote><blockquote><p><b>entry</b></p><p><b>item</b>: <a href=\"#Goal_Example-Smith-Johnson-PersonalHealthGoal2\">See above (Goal/Example-Smith-Johnson-PersonalHealthGoal2)</a></p></blockquote><blockquote><p><b>entry</b></p><p><b>item</b>: <a href=\"#Goal_Example-Smith-Johnson-PersonalHealthGoal3\">See above (Goal/Example-Smith-Johnson-PersonalHealthGoal3)</a></p></blockquote></div>"
+        },
+        "status": "current",
+        "mode": "working",
+        "title": "Priorities for Goals and Preferences",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "81340-2",
+              "display": "Goals AndOr preferences in order of priority [Reported]"
+            }
+          ]
+        },
+        "orderedBy": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/list-order",
+              "code": "priority"
+            }
+          ]
+        },
+        "entry": [
+          {
+            "item": {
+              "reference": "Goal/Example-Smith-Johnson-PersonalHealthGoal1"
+            }
+          },
+          {
+            "item": {
+              "reference": "Goal/Example-Smith-Johnson-PersonalHealthGoal2"
+            }
+          },
+          {
+            "item": {
+              "reference": "Goal/Example-Smith-Johnson-PersonalHealthGoal3"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "http://www.example.org/fhir/Observation/Example-Smith-Johnson-PersonalInterventionPreference1",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "Example-Smith-Johnson-PersonalInterventionPreference1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
+          ]
+        },
+        "text": {
+          "status": "additional",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>If I am having significant pain or suffering,</p><p><i>I would like my doctors to consult a Supportive and Palliative Care Team to help treat my physical, emotional and spiritual discomfort, and to support my family.</i></p></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "75776-5",
+              "display": "Preference on consulting a supportive and palliative care team to help treat physical, emotional, and spiritual discomfort and support family [Reported]"
+            }
+          ]
+        },
+        "valueString": "If I am having significant pain or suffering, I would like my doctors to consult a Supportive and Palliative Care Team to help treat my physical, emotional and spiritual discomfort, and to support my family."
+      }
+    },
+    {
+      "fullUrl": "http://www.example.org/fhir/Observation/Example-Smith-Johnson-PersonalInterventionPreference2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "Example-Smith-Johnson-PersonalInterventionPreference2",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
+          ]
+        },
+        "text": {
+          "status": "additional",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>My Preferences in Specific Circumstances</b></p><p>In addition to the general advance care goals provided above, below are specific treatment preferences with respect to certain specific circumstances or situations.</p></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "75777-3",
+              "display": "Information to tell doctors if my health deteriorates due to a terminal illness and I am unable to interact meaningfully with family, friends, or surroundings [Reported]"
+            }
+          ]
+        },
+        "valueString": "My Preferences in Specific Circumstances: In addition to the general advance care goals provided above, below are specific treatment preferences with respect to certain specific circumstances or situations."
+      }
+    },
+    {
+      "fullUrl": "http://www.example.org/fhir/Observation/Example-Smith-Johnson-PersonalInterventionPreference3",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "Example-Smith-Johnson-PersonalInterventionPreference3",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
+          ]
+        },
+        "text": {
+          "status": "additional",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>If my health ever deteriorates due to a terminal illness, and my doctors believe I will not be able to interact meaningfully with my family, friends, or surroundings,</p><p><i>I would like for them to keep trying life-sustaining treatments until my healthcare agent decides it is time to stop and such treatments and let me die gently.</i></p></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "75778-1",
+              "display": "Information to tell doctors if I have a severe, irreversible brain injury or illness and can't dress, feed, or bathe myself, or communicate my medical wishes, but can be kept alive [Reported]"
+            }
+          ]
+        },
+        "valueString": "If my health ever deteriorates due to a terminal illness, and my doctors believe I will not be able to interact meaningfully with my family, friends, or surroundings, I would like for them to keep trying life-sustaining treatments until my healthcare agent decides it is time to stop and such treatments and let me die gently."
+      }
+    },
+    {
+      "fullUrl": "http://www.example.org/fhir/Observation/Example-Smith-Johnson-PersonalInterventionPreference4",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "Example-Smith-Johnson-PersonalInterventionPreference4",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
+          ]
+        },
+        "text": {
+          "status": "additional",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Although I understand that, depending on the situation and circumstances, medical personnel may not be able to follow my wishes, here are my general thoughts on cardiopulmonary resuscitation (CPR):</p><p><i>I want my healthcare agent to decide for me.</i></p></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "75779-9",
+              "display": "Thoughts on cardiopulmonary resuscitation (CPR) [Reported]"
+            }
+          ]
+        },
+        "valueString": "Although I understand that, depending on the situation and circumstances, medical personnel may not be able to follow my wishes, here are my general thoughts on cardiopulmonary resuscitation (CPR): I want my healthcare agent to decide for me."
+      }
+    },
+    {
+      "fullUrl": "http://www.example.org/fhir/Observation/Example-Smith-Johnson-PersonalInterventionPreference5",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "Example-Smith-Johnson-PersonalInterventionPreference5",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
+          ]
+        },
+        "text": {
+          "status": "additional",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>If it were possible to choose, here is where I would like to spend my final days:</p><p><i>At home.I would like to receive hospice care at home if possible.</i></p></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "75780-7",
+              "display": "Preferred location to spend final days if possible to choose [Reported]"
+            }
+          ]
+        },
+        "valueString": "If it were possible to choose, here is where I would like to spend my final days: At home.I would like to receive hospice care at home if possible."
+      }
+    },
+    {
+      "fullUrl": "http://www.example.org/fhir/Goal/Example-Smith-Johnson-PersonalHealthGoal1",
+      "resource": {
+        "resourceType": "Goal",
+        "id": "Example-Smith-Johnson-PersonalHealthGoal1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal"
+          ]
+        },
+        "text": {
+          "status": "additional",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me:</b></p><p><i>Avoiding prolonged dependence on machines</i></p></div>"
+        },
+        "lifecycleStatus": "proposed",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "81378-2",
+                "display": "Goals, preferences, and priorities under certain health conditions [Reported]"
+              }
+            ]
+          }
+        ],
+        "description": {
+          "text": "If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me: Avoiding prolonged dependence on machines"
+        },
+        "subject": {
+          "reference": "Patient/Example-Smith-Johnson-Patient1"
+        }
+      }
+    },
+    {
+      "fullUrl": "http://www.example.org/fhir/Goal/Example-Smith-Johnson-PersonalHealthGoal2",
+      "resource": {
+        "resourceType": "Goal",
+        "id": "Example-Smith-Johnson-PersonalHealthGoal2",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal"
+          ]
+        },
+        "text": {
+          "status": "additional",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me:</b></p><p><i>Not being a physical burden to my family</i></p></div>"
+        },
+        "lifecycleStatus": "proposed",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "81378-2",
+                "display": "Goals, preferences, and priorities under certain health conditions [Reported]"
+              }
+            ]
+          }
+        ],
+        "description": {
+          "text": "If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me: Not being a physical burden to my family"
+        },
+        "subject": {
+          "reference": "Patient/Example-Smith-Johnson-Patient1"
+        }
+      }
+    },
+    {
+      "fullUrl": "http://www.example.org/fhir/Goal/Example-Smith-Johnson-PersonalHealthGoal3",
+      "resource": {
+        "resourceType": "Goal",
+        "id": "Example-Smith-Johnson-PersonalHealthGoal3",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal"
+          ]
+        },
+        "text": {
+          "status": "additional",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me:</b></p><p><i>Dying at home</i></p></div>"
+        },
+        "lifecycleStatus": "proposed",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "81378-2",
+                "display": "Goals, preferences, and priorities under certain health conditions [Reported]"
+              }
+            ]
+          }
+        ],
+        "description": {
+          "text": "If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me:  Dying at home"
+        },
+        "subject": {
+          "reference": "Patient/Example-Smith-Johnson-Patient1"
+        }
+      }
+    },
+    {
+      "fullUrl": "http://www.example.org/fhir/Observation/Example-Smith-Johnson-OrganDonationObservation1",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "Example-Smith-Johnson-OrganDonationObservation1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-OrganDonationObservation"
+          ]
+        },
+        "text": {
+          "status": "additional",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Consent to Donate</b></p><p><i>I consent to donate all organs and tissues.</i></p></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "75781-5",
+              "display": "Thoughts on organ and tissue donations [Reported]"
+            }
+          ]
+        },
+        "valueString": "Consent to Donate: I consent to donate all organs and tissues."
+      }
+    },
+    {
+      "fullUrl": "http://www.example.org/fhir/Observation/Example-Smith-Johnson-AutopsyObservation1",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "Example-Smith-Johnson-AutopsyObservation1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-AutopsyObservation"
+          ]
+        },
+        "text": {
+          "status": "additional",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Autopsy</b></p><p><i>I want an autopsy</i></p><p><i>only if there are questions about my death.</i></p></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "75782-3",
+              "display": "Thoughts regarding autopsy [Reported]"
+            }
+          ]
+        },
+        "valueString": "Autopsy: I want an autopsy: only if there are questions about my death."
+      }
+    },
+    {
+      "fullUrl": "http://www.example.org/fhir/Organization/Example-Smith-Johnson-OrganizationCustodian1",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "Example-Smith-Johnson-OrganizationCustodian1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 44444</p><p><b>active</b>: true</p><p><b>name</b>: MyDirectives.com</p><p><b>telecom</b>: <a href=\"tel:+1(202)776-7700\">+1(202)776-7700</a></p><p><b>address</b>: 740 E. Campbell Rd. Suite 825 Richardson TX 75081 US </p></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "44444"
+          }
+        ],
+        "active": true,
+        "name": "MyDirectives.com",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1(202)776-7700",
+            "use": "work"
+          }
+        ],
+        "address": [
+          {
+            "type": "physical",
+            "line": [
+              "740 E. Campbell Rd. Suite 825"
+            ],
+            "city": "Richardson",
+            "state": "TX",
+            "postalCode": "75081",
+            "country": "US"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "http://www.example.org/fhir/Organization/Example-Smith-Johnson-OrganizationAssembler1",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "Example-Smith-Johnson-OrganizationAssembler1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 4</p><p><b>active</b>: true</p><p><b>name</b>: ADVault, Inc.</p><p><b>telecom</b>: <a href=\"tel:+1(202)776-7700\">+1(202)776-7700</a></p><p><b>address</b>: 740 E. Campbell Rd. Suite 825 Richardson TX 75081 US </p></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:oid:1.3.6.1.4.1.42424242.4.99930.4",
+            "value": "4"
+          }
+        ],
+        "active": true,
+        "name": "ADVault, Inc.",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1(202)776-7700",
+            "use": "work"
+          }
+        ],
+        "address": [
+          {
+            "type": "physical",
+            "line": [
+              "740 E. Campbell Rd. Suite 825"
+            ],
+            "city": "Richardson",
+            "state": "TX",
+            "postalCode": "75081",
+            "country": "US"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "http://www.example.org/fhir/Provenance/Example-Smith-Johnson-PACPProvenance1",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "Example-Smith-Johnson-PACPProvenance1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-Provenance"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>target</b>: <a href=\"#Composition_Example-Smith-Johnson-PACPComposition1\">See above (Composition/Example-Smith-Johnson-PACPComposition1)</a></p><p><b>recorded</b>: Aug 6, 2020, 6:45:30 AM</p><h3>Agents</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Who</b></td></tr><tr><td>*</td><td><span title=\"Codes: {http://terminology.hl7.org/CodeSystem/provenance-participant-type assembler}\">Assembler</span></td><td><a href=\"#Organization_Example-Smith-Johnson-OrganizationAssembler1\">See above (Organization/Example-Smith-Johnson-OrganizationAssembler1)</a></td></tr></table></div>"
+        },
+        "target": [
+          {
+            "reference": "Composition/Example-Smith-Johnson-PACPComposition1"
+          }
+        ],
+        "recorded": "2020-08-06T09:45:30.001-04:00",
+        "agent": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+                  "code": "assembler",
+                  "display": "Assembler"
+                }
+              ]
+            },
+            "who": {
+              "reference": "Organization/Example-Smith-Johnson-OrganizationAssembler1"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

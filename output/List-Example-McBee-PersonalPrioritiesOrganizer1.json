@@ -1,0 +1,70 @@
+{
+  "resourceType": "List",
+  "id": "Example-McBee-PersonalPrioritiesOrganizer1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalPrioritiesOrganizer"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>My Advance Care Goals</h2><table class=\"clstu\"><tr><td>Mode: workingStatus: currentCode: Goals AndOr preferences in order of priority [Reported]</td></tr><tr><td>Order: Sorted by Priority</td></tr></table><table class=\"grid\"><tr style=\"backgound-color: #eeeeee\"><td><b>Items</b></td></tr><tr><td><a href=\"Goal-Example-McBee-PersonalHealthGoal1.html\">Generated Summary: lifecycleStatus: proposed; <span title=\"Codes: {http://loinc.org 81378-2}\">Goals, preferences, and priorities under certain health conditions [Reported]</span>; <span title=\"Codes: \">If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me: Being at peace with my God</span></a></td></tr><tr><td><a href=\"Goal-Example-McBee-PersonalHealthGoal2.html\">Generated Summary: lifecycleStatus: proposed; <span title=\"Codes: {http://loinc.org 81378-2}\">Goals, preferences, and priorities under certain health conditions [Reported]</span>; <span title=\"Codes: \">If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me: Dying at home</span></a></td></tr><tr><td><a href=\"Goal-Example-McBee-PersonalHealthGoal3.html\">Generated Summary: lifecycleStatus: proposed; <span title=\"Codes: {http://loinc.org 81378-2}\">Goals, preferences, and priorities under certain health conditions [Reported]</span>; <span title=\"Codes: \">If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me:  Being able to feed, bathe, and take care of myself</span></a></td></tr><tr><td><a href=\"Goal-Example-McBee-PersonalHealthGoal4.html\">Generated Summary: lifecycleStatus: proposed; <span title=\"Codes: {http://loinc.org 81378-2}\">Goals, preferences, and priorities under certain health conditions [Reported]</span>; <span title=\"Codes: \">If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me: Being free from pain</span></a></td></tr><tr><td><a href=\"Goal-Example-McBee-PersonalHealthGoal5.html\">Generated Summary: lifecycleStatus: proposed; <span title=\"Codes: {http://loinc.org 81378-2}\">Goals, preferences, and priorities under certain health conditions [Reported]</span>; <span title=\"Codes: \">If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me: Resolving conflicts</span></a></td></tr><tr><td><a href=\"Goal-Example-McBee-PersonalHealthGoal6.html\">Generated Summary: lifecycleStatus: proposed; <span title=\"Codes: {http://loinc.org 81378-2}\">Goals, preferences, and priorities under certain health conditions [Reported]</span>; <span title=\"Codes: \">If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me: Being with my family</span></a></td></tr><tr><td><a href=\"Goal-Example-McBee-PersonalHealthGoal7.html\">Generated Summary: lifecycleStatus: proposed; <span title=\"Codes: {http://loinc.org 81378-2}\">Goals, preferences, and priorities under certain health conditions [Reported]</span>; <span title=\"Codes: \">If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me: Not being a financial burden to my family</span></a></td></tr></table></div>"
+  },
+  "status": "current",
+  "mode": "working",
+  "title": "My Advance Care Goals",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "81340-2",
+        "display": "Goals AndOr preferences in order of priority [Reported]"
+      }
+    ]
+  },
+  "orderedBy": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/list-order",
+        "code": "priority"
+      }
+    ]
+  },
+  "entry": [
+    {
+      "item": {
+        "reference": "Goal/Example-McBee-PersonalHealthGoal1"
+      }
+    },
+    {
+      "item": {
+        "reference": "Goal/Example-McBee-PersonalHealthGoal2"
+      }
+    },
+    {
+      "item": {
+        "reference": "Goal/Example-McBee-PersonalHealthGoal3"
+      }
+    },
+    {
+      "item": {
+        "reference": "Goal/Example-McBee-PersonalHealthGoal4"
+      }
+    },
+    {
+      "item": {
+        "reference": "Goal/Example-McBee-PersonalHealthGoal5"
+      }
+    },
+    {
+      "item": {
+        "reference": "Goal/Example-McBee-PersonalHealthGoal6"
+      }
+    },
+    {
+      "item": {
+        "reference": "Goal/Example-McBee-PersonalHealthGoal7"
+      }
+    }
+  ]
+}

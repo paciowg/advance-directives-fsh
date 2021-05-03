@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="Example-Smith-Johnson-CareExperiencePreference7"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"/>
+  </meta>
+  <text>
+    <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Please attempt to notify someone from my religion at the following phone number:</b></p><p>If I have included one</p><p><i>Catholic</i></p></div>
+  </text>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="81365-9"/>
+      <display value="Religious affiliation contact to notify [Reported]"/>
+    </coding>
+  </code>
+  <valueString value="Please attempt to notify someone from my religion at the following phone number: If I have included one: Catholic"/>
+</Observation>

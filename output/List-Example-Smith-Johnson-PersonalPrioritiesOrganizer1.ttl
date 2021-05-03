@@ -1,0 +1,75 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <http://loinc.org/rdf#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-adi/List/Example-Smith-Johnson-PersonalPrioritiesOrganizer1> a fhir:List;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "Example-Smith-Johnson-PersonalPrioritiesOrganizer1"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalPrioritiesOrganizer";
+       fhir:index 0;
+       fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalPrioritiesOrganizer>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Priorities for Goals and Preferences</h2><table class=\"clstu\"><tr><td>Mode: workingStatus: currentCode: Goals AndOr preferences in order of priority [Reported]</td></tr><tr><td>Order: Sorted by Priority</td></tr></table><table class=\"grid\"><tr style=\"backgound-color: #eeeeee\"><td><b>Items</b></td></tr><tr><td><a href=\"Goal-Example-Smith-Johnson-PersonalHealthGoal1.html\">Generated Summary: lifecycleStatus: proposed; <span title=\"Codes: {http://loinc.org 81378-2}\">Goals, preferences, and priorities under certain health conditions [Reported]</span>; <span title=\"Codes: \">If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me: Avoiding prolonged dependence on machines</span></a></td></tr><tr><td><a href=\"Goal-Example-Smith-Johnson-PersonalHealthGoal2.html\">Generated Summary: lifecycleStatus: proposed; <span title=\"Codes: {http://loinc.org 81378-2}\">Goals, preferences, and priorities under certain health conditions [Reported]</span>; <span title=\"Codes: \">If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me: Not being a physical burden to my family</span></a></td></tr><tr><td><a href=\"Goal-Example-Smith-Johnson-PersonalHealthGoal3.html\">Generated Summary: lifecycleStatus: proposed; <span title=\"Codes: {http://loinc.org 81378-2}\">Goals, preferences, and priorities under certain health conditions [Reported]</span>; <span title=\"Codes: \">If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me:  Dying at home</span></a></td></tr></table></div>"
+  ];
+  fhir:List.status [ fhir:value "current"];
+  fhir:List.mode [ fhir:value "working"];
+  fhir:List.title [ fhir:value "Priorities for Goals and Preferences"];
+  fhir:List.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a loinc:81340-2;
+       fhir:Coding.system [ fhir:value "http://loinc.org" ];
+       fhir:Coding.code [ fhir:value "81340-2" ];
+       fhir:Coding.display [ fhir:value "Goals AndOr preferences in order of priority [Reported]" ]
+     ]
+  ];
+  fhir:List.orderedBy [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/list-order" ];
+       fhir:Coding.code [ fhir:value "priority" ]
+     ]
+  ];
+  fhir:List.entry [
+     fhir:index 0;
+     fhir:List.entry.item [
+       fhir:link <http://hl7.org/fhir/us/pacio-adi/Goal/Example-Smith-Johnson-PersonalHealthGoal1>;
+       fhir:Reference.reference [ fhir:value "Goal/Example-Smith-Johnson-PersonalHealthGoal1" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:List.entry.item [
+       fhir:link <http://hl7.org/fhir/us/pacio-adi/Goal/Example-Smith-Johnson-PersonalHealthGoal2>;
+       fhir:Reference.reference [ fhir:value "Goal/Example-Smith-Johnson-PersonalHealthGoal2" ]
+     ]
+  ], [
+     fhir:index 2;
+     fhir:List.entry.item [
+       fhir:link <http://hl7.org/fhir/us/pacio-adi/Goal/Example-Smith-Johnson-PersonalHealthGoal3>;
+       fhir:Reference.reference [ fhir:value "Goal/Example-Smith-Johnson-PersonalHealthGoal3" ]
+     ]
+  ] .
+
+<http://hl7.org/fhir/us/pacio-adi/Goal/Example-Smith-Johnson-PersonalHealthGoal1> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-adi/Goal/Example-Smith-Johnson-PersonalHealthGoal2> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-adi/Goal/Example-Smith-Johnson-PersonalHealthGoal3> a fhir:us .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-adi/List/Example-Smith-Johnson-PersonalPrioritiesOrganizer1.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/us/pacio-adi/List/Example-Smith-Johnson-PersonalPrioritiesOrganizer1.ttl> .
+
+# -------------------------------------------------------------------------------------
+

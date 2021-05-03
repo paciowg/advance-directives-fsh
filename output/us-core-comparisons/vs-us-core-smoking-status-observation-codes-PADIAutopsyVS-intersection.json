@@ -1,0 +1,15 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "544b2390-e1a9-40d8-b109-20cd743c56d2-57",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/544b2390-e1a9-40d8-b109-20cd743c56d2-57",
+  "name" : "IntersectionUSCoreSmokingStatusObservationCodesAndPADIAutopsyVS",
+  "title" : "Intersection of US Core Smoking Status Observation Codes And Autopsy Thoughts",
+  "status" : "active",
+  "date" : "2021-05-02T13:40:05-07:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "US"
+    }]
+  }]
+}

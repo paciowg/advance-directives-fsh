@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="Example-Smith-Johnson-CareExperiencePreference4"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"/>
+  </meta>
+  <text>
+    <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>My dislikes / fears:</b></p><p>Here is a list of things that I would like to avoid if at all possible, people that I don’t wish to see, and concerns I have about particular family members, pets, and so on:</p><p><i>I do not like my feet to be cold.</i></p></div>
+  </text>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="81362-6"/>
+      <display value="My dislikes and fears [Reported]"/>
+    </coding>
+  </code>
+  <valueString value="Here is a list of things that I would like to avoid if at all possible, people that I don&#x2019;t wish to see, and concerns I have about particular family members, pets, and so on: I do not like my feet to be cold."/>
+</Observation>

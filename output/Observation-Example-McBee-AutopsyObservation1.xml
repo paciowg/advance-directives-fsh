@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="Example-McBee-AutopsyObservation1"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-AutopsyObservation"/>
+  </meta>
+  <text>
+    <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Autopsy</b></p><p><i>I want an autopsy if my doctor thinks it will help others.</i></p></div>
+  </text>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="75782-3"/>
+      <display value="Thoughts regarding autopsy [Reported]"/>
+    </coding>
+  </code>
+  <valueString value="Autopsy: I want an autopsy if my doctor thinks it will help others."/>
+</Observation>
