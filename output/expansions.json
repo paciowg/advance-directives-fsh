@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "ada43d7a-511e-4bc1-9588-6f0b67f69ccc",
+  "id" : "7f2c5f51-bb98-4234-8659-42ad6ba2d1e9",
   "meta" : {
-    "lastUpdated" : "2021-04-25T21:26:31.565-07:00"
+    "lastUpdated" : "2021-05-02T13:39:47.258-07:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -52,19 +52,46 @@
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 14 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on Loinc v2.68</p><p>All codes from system <a href=\"http://terminology.hl7.org/2.0.0/CodeSystem-v3-loinc.html\"><code>http://loinc.org</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-75774-0\"> </a><a href=\"http://details.loinc.org/LOINC/75774-0.html\">75774-0</a></td><td>Allowance to change advance directive preferences in the future regardless of mental state [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-75775-7\"> </a><a href=\"http://details.loinc.org/LOINC/75775-7.html\">75775-7</a></td><td>Decision to inform doctors and nurses about the role religion, faith, or spirituality play in my life [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-75793-0\"> </a><a href=\"http://details.loinc.org/LOINC/75793-0.html\">75793-0</a></td><td>Other directives that have not otherwise been documented [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81356-8\"> </a><a href=\"http://details.loinc.org/LOINC/81356-8.html\">81356-8</a></td><td>Death arrangements [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81357-6\"> </a><a href=\"http://details.loinc.org/LOINC/81357-6.html\">81357-6</a></td><td>Messages to be delivered after death [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81358-4\"> </a><a href=\"http://details.loinc.org/LOINC/81358-4.html\">81358-4</a></td><td>Person(s) to notify upon death [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81359-2\"> </a><a href=\"http://details.loinc.org/LOINC/81359-2.html\">81359-2</a></td><td>Near death thoughts and feelings to be shared [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81360-0\"> </a><a href=\"http://details.loinc.org/LOINC/81360-0.html\">81360-0</a></td><td>My likes and joys [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81361-8\"> </a><a href=\"http://details.loinc.org/LOINC/81361-8.html\">81361-8</a></td><td>Things that make me laugh [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81362-6\"> </a><a href=\"http://details.loinc.org/LOINC/81362-6.html\">81362-6</a></td><td>My dislikes and fears [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81363-4\"> </a><a href=\"http://details.loinc.org/LOINC/81363-4.html\">81363-4</a></td><td>Things that matter to me [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81364-2\"> </a><a href=\"http://details.loinc.org/LOINC/81364-2.html\">81364-2</a></td><td>Religious beliefs [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81365-9\"> </a><a href=\"http://details.loinc.org/LOINC/81365-9.html\">81365-9</a></td><td>Religious affiliation contact to notify [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81366-7\"> </a><a href=\"http://details.loinc.org/LOINC/81366-7.html\">81366-7</a></td><td>Unfinished business [Reported]</td><td/></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on Loinc v2.69</p><p>All codes from system <a href=\"http://terminology.hl7.org/2.0.0/CodeSystem-v3-loinc.html\"><code>http://loinc.org</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-75782-3\"> </a><a href=\"http://details.loinc.org/LOINC/75782-3.html\">75782-3</a></td><td>Thoughts regarding autopsy [Reported]</td><td/></tr></table></div>"
       },
       "status" : "active",
       "expansion" : {
-        "identifier" : "urn:uuid:50e18061-37b0-43e1-8c0f-29cb34c228ee",
-        "timestamp" : "2021-04-16T19:36:00.459Z",
+        "identifier" : "urn:uuid:99269be1-2658-471f-ac02-57bf3918060b",
+        "timestamp" : "2021-05-02T18:32:37.059Z",
         "parameter" : [{
           "name" : "limitedExpansion",
           "valueBoolean" : true
         },
         {
           "name" : "version",
-          "valueString" : "http://loinc.org|2.68"
+          "valueString" : "http://loinc.org|2.69"
+        }],
+        "contains" : [{
+          "system" : "http://loinc.org",
+          "code" : "75782-3",
+          "display" : "Thoughts regarding autopsy [Reported]"
+        }]
+      }
+    }
+  },
+  {
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 11 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on Loinc v2.69</p><p>All codes from system <a href=\"http://terminology.hl7.org/2.0.0/CodeSystem-v3-loinc.html\"><code>http://loinc.org</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-75774-0\"> </a><a href=\"http://details.loinc.org/LOINC/75774-0.html\">75774-0</a></td><td>Allowance to change advance directive preferences in the future regardless of mental state [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-75775-7\"> </a><a href=\"http://details.loinc.org/LOINC/75775-7.html\">75775-7</a></td><td>Decision to inform doctors and nurses about the role religion, faith, or spirituality play in my life [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-75793-0\"> </a><a href=\"http://details.loinc.org/LOINC/75793-0.html\">75793-0</a></td><td>Other directives that have not otherwise been documented [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81359-2\"> </a><a href=\"http://details.loinc.org/LOINC/81359-2.html\">81359-2</a></td><td>Near death thoughts and feelings to be shared [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81360-0\"> </a><a href=\"http://details.loinc.org/LOINC/81360-0.html\">81360-0</a></td><td>My likes and joys [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81361-8\"> </a><a href=\"http://details.loinc.org/LOINC/81361-8.html\">81361-8</a></td><td>Things that make me laugh [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81362-6\"> </a><a href=\"http://details.loinc.org/LOINC/81362-6.html\">81362-6</a></td><td>My dislikes and fears [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81363-4\"> </a><a href=\"http://details.loinc.org/LOINC/81363-4.html\">81363-4</a></td><td>Things that matter to me [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81364-2\"> </a><a href=\"http://details.loinc.org/LOINC/81364-2.html\">81364-2</a></td><td>Religious beliefs [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81365-9\"> </a><a href=\"http://details.loinc.org/LOINC/81365-9.html\">81365-9</a></td><td>Religious affiliation contact to notify [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81366-7\"> </a><a href=\"http://details.loinc.org/LOINC/81366-7.html\">81366-7</a></td><td>Unfinished business [Reported]</td><td/></tr></table></div>"
+      },
+      "status" : "active",
+      "expansion" : {
+        "identifier" : "urn:uuid:838ae6e8-46d0-40d5-98f8-7266e6b6cfe7",
+        "timestamp" : "2021-05-02T18:01:13.453Z",
+        "parameter" : [{
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueString" : "http://loinc.org|2.69"
         }],
         "contains" : [{
           "system" : "http://loinc.org",
@@ -80,21 +107,6 @@
           "system" : "http://loinc.org",
           "code" : "75793-0",
           "display" : "Other directives that have not otherwise been documented [Reported]"
-        },
-        {
-          "system" : "http://loinc.org",
-          "code" : "81356-8",
-          "display" : "Death arrangements [Reported]"
-        },
-        {
-          "system" : "http://loinc.org",
-          "code" : "81357-6",
-          "display" : "Messages to be delivered after death [Reported]"
-        },
-        {
-          "system" : "http://loinc.org",
-          "code" : "81358-4",
-          "display" : "Person(s) to notify upon death [Reported]"
         },
         {
           "system" : "http://loinc.org",
@@ -195,7 +207,7 @@
       "name" : "PADIHealthcareAgentRelationshipVS",
       "title" : "Healthcare Agent Relationships",
       "status" : "active",
-      "date" : "2021-04-25T21:26:31-07:00",
+      "date" : "2021-05-02T13:39:47-07:00",
       "publisher" : "HL7 Patient Empowerment Working Group",
       "contact" : [{
         "name" : "HL7 Patient Empowerment Working Group",
@@ -216,8 +228,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:e6720834-32dc-4a0f-82d6-72a3adad6eb0",
-        "timestamp" : "2021-04-25T21:27:24-07:00",
+        "identifier" : "urn:uuid:4b246865-78a5-453d-8d08-8f7343e0257b",
+        "timestamp" : "2021-05-02T13:40:48-07:00",
         "total" : 417,
         "parameter" : [{
           "name" : "excludeNested",
@@ -245,2127 +257,2918 @@
         }],
         "contains" : [{
           "system" : "http://loinc.org",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "75783-1",
           "display" : "Primary healthcare agent [Reported]"
         },
         {
           "system" : "http://loinc.org",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "75784-9",
           "display" : "First alternate healthcare agent [Reported]"
         },
         {
           "system" : "http://loinc.org",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "75785-6",
           "display" : "Second alternate healthcare agent [Reported]"
         },
         {
           "system" : "http://loinc.org",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "81335-2",
           "display" : "Patient Healthcare agent"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
           "abstract" : true,
+          "inactive" : false,
           "code" : "_AffiliationRoleType",
           "display" : "AffiliationRoleType"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
           "abstract" : true,
+          "inactive" : false,
           "code" : "_AgentRoleType",
           "display" : "AgentRoleType"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "AMENDER",
           "display" : "amender"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "CLASSIFIER",
           "display" : "classifier"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "CONSENTER",
           "display" : "consenter"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "CONSWIT",
           "display" : "consent witness"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "COPART",
           "display" : "co-participant"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "DECLASSIFIER",
           "display" : "declassifier"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "DELEGATEE",
           "display" : "delegatee"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "DELEGATOR",
           "display" : "delegator"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "DOWNGRDER",
           "display" : "downgrader"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "DRIVCLASSIFIER",
           "display" : "derivative classifier"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "GRANTEE",
           "display" : "grantee"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "GRANTOR",
           "display" : "grantor"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "INTPRTER",
           "display" : "interpreter"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "REVIEWER",
           "display" : "reviewer"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "UPGRDER",
           "display" : "upgrader"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "VALIDATOR",
           "display" : "validator"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
           "abstract" : true,
+          "inactive" : false,
           "code" : "_CoverageSponsorRoleType",
           "display" : "CoverageSponsorRoleType"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "FULLINS",
           "display" : "Fully insured coverage sponsor"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "SELFINS",
           "display" : "Self insured coverage sponsor"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
           "abstract" : true,
+          "inactive" : false,
           "code" : "_PayorRoleType",
           "display" : "PayorRoleType"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "ENROLBKR",
           "display" : "Enrollment Broker"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "TPA",
           "display" : "Third party administrator"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "UMO",
           "display" : "Utilization management organization"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "RESPRSN",
           "display" : "responsible party"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "EXCEST",
           "display" : "executor of estate"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "GUADLTM",
           "display" : "guardian ad lidem"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "GUARD",
           "display" : "guardian"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "POWATT",
           "display" : "power of attorney"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "DPOWATT",
           "display" : "durable power of attorney"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "HPOWATT",
           "display" : "healthcare power of attorney"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "SPOWATT",
           "display" : "special power of attorney"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
           "abstract" : true,
+          "inactive" : false,
           "code" : "_AssignedRoleType",
           "display" : "AssignedRoleType"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
           "abstract" : true,
+          "inactive" : false,
           "code" : "_AssignedNonPersonLivingSubjectRoleType",
           "display" : "AssignedNonPersonLivingSubjectRoleType"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "ASSIST",
           "display" : "Assistive non-person living subject"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "BIOTH",
           "display" : "Biotherapeutic non-person living subject"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "ANTIBIOT",
           "display" : "Antibiotic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "DEBR",
           "display" : "Debridement"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "CCO",
           "display" : "Clinical Companion"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "SEE",
           "display" : "Seeing"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "SNIFF",
           "display" : "Sniffing"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
           "abstract" : true,
+          "inactive" : false,
           "code" : "_CertifiedEntityType",
           "display" : "CertifiedEntityType"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
           "abstract" : true,
+          "inactive" : false,
           "code" : "_PractitionerCertifiedEntityType",
           "display" : "PractitionerCertifiedEntityType"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "_CitizenRoleType",
           "display" : "CitizenRoleType"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "CAS",
           "display" : "asylum seeker"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "CASM",
           "display" : "single minor asylum seeker"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "CN",
           "display" : "national"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "CNRP",
           "display" : "non-country member without residence permit"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "CNRPM",
           "display" : "non-country member minor without residence permit"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "CPCA",
           "display" : "permit card applicant"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "CRP",
           "display" : "non-country member with residence permit"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "CRPM",
           "display" : "non-country member minor with residence permit"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
           "abstract" : true,
+          "inactive" : false,
           "code" : "_ContactRoleType",
           "display" : "ContactRoleType"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
           "abstract" : true,
+          "inactive" : false,
           "code" : "_AdministrativeContactRoleType",
           "display" : "AdministrativeContactRoleType"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "BILL",
           "display" : "Billing Contact"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "ORG",
           "display" : "organizational contact"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "PAYOR",
           "display" : "Payor Contact"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "ECON",
           "display" : "emergency contact"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "NOK",
           "display" : "next of kin"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
           "abstract" : true,
+          "inactive" : false,
           "code" : "_IdentifiedEntityType",
           "display" : "IdentifiedEntityType"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
           "abstract" : true,
+          "inactive" : false,
           "code" : "_LocationIdentifiedEntityRoleCode",
           "display" : "LocationIdentifiedEntityRoleCode"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "ACHFID",
           "display" : "accreditation location identifier"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "JURID",
           "display" : "jurisdiction location identifier"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "LOCHFID",
           "display" : "local location identifier"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
           "abstract" : true,
+          "inactive" : false,
           "code" : "_LivingSubjectProductionClass",
           "display" : "LivingSubjectProductionClass"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "BF",
           "display" : "Beef"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "BL",
           "display" : "Broiler"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "BR",
           "display" : "Breeder"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "CO",
           "display" : "Companion"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "DA",
           "display" : "Dairy"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "DR",
           "display" : "Draft"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "DU",
           "display" : "Dual"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "FI",
           "display" : "Fiber"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "LY",
           "display" : "Layer"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "MT",
           "display" : "Meat"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "MU",
           "display" : "Multiplier"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "PL",
           "display" : "Pleasure"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "RC",
           "display" : "Racing"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "SH",
           "display" : "Show"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "VL",
           "display" : "Veal"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "WL",
           "display" : "Wool"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "WO",
           "display" : "Working"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
           "abstract" : true,
+          "inactive" : false,
           "code" : "_MedicationGeneralizationRoleType",
           "display" : "MedicationGeneralizationRoleType"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "DC",
           "display" : "therapeutic class"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "GD",
           "display" : "generic drug"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "GDF",
           "display" : "generic drug form"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "GDS",
           "display" : "generic drug strength"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "GDSF",
           "display" : "generic drug strength form"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "MGDSF",
           "display" : "manufactured drug strength form"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
           "abstract" : true,
+          "inactive" : false,
           "code" : "_MemberRoleType",
           "display" : "MemberRoleType"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "TRB",
           "display" : "Tribal Member"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
           "abstract" : true,
+          "inactive" : false,
           "code" : "_PersonalRelationshipRoleType",
           "display" : "PersonalRelationshipRoleType"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "FAMMEMB",
           "display" : "family member"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "CHILD",
           "display" : "child"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "CHLDADOPT",
           "display" : "adopted child"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "DAUADOPT",
           "display" : "adopted daughter"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "SONADOPT",
           "display" : "adopted son"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "CHLDFOST",
           "display" : "foster child"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "DAUFOST",
           "display" : "foster daughter"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "SONFOST",
           "display" : "foster son"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "DAUC",
           "display" : "daughter"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "DAU",
           "display" : "natural daughter"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "STPDAU",
           "display" : "stepdaughter"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "NCHILD",
           "display" : "natural child"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "SON",
           "display" : "natural son"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "SONC",
           "display" : "son"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "STPSON",
           "display" : "stepson"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "STPCHLD",
           "display" : "step child"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "EXT",
           "display" : "extended family member"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "AUNT",
           "display" : "aunt"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "MAUNT",
           "display" : "maternal aunt"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "PAUNT",
           "display" : "paternal aunt"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "COUSN",
           "display" : "cousin"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "MCOUSN",
           "display" : "maternal cousin"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "PCOUSN",
           "display" : "paternal cousin"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "GGRPRN",
           "display" : "great grandparent"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "GGRFTH",
           "display" : "great grandfather"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "MGGRFTH",
           "display" : "maternal great-grandfather"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "PGGRFTH",
           "display" : "paternal great-grandfather"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "GGRMTH",
           "display" : "great grandmother"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "MGGRMTH",
           "display" : "maternal great-grandmother"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "PGGRMTH",
           "display" : "paternal great-grandmother"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "MGGRPRN",
           "display" : "maternal great-grandparent"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "PGGRPRN",
           "display" : "paternal great-grandparent"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "GRNDCHILD",
           "display" : "grandchild"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "GRNDDAU",
           "display" : "granddaughter"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "GRNDSON",
           "display" : "grandson"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "GRPRN",
           "display" : "grandparent"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "GRFTH",
           "display" : "grandfather"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "MGRFTH",
           "display" : "maternal grandfather"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "PGRFTH",
           "display" : "paternal grandfather"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "GRMTH",
           "display" : "grandmother"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "MGRMTH",
           "display" : "maternal grandmother"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "PGRMTH",
           "display" : "paternal grandmother"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "MGRPRN",
           "display" : "maternal grandparent"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "PGRPRN",
           "display" : "paternal grandparent"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "INLAW",
           "display" : "inlaw"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "CHLDINLAW",
           "display" : "child-in-law"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "DAUINLAW",
           "display" : "daughter in-law"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "SONINLAW",
           "display" : "son in-law"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "PRNINLAW",
           "display" : "parent in-law"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "FTHINLAW",
           "display" : "father-in-law"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "MTHINLAW",
           "display" : "mother-in-law"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "MTHINLOAW",
           "display" : "mother-in-law"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "SIBINLAW",
           "display" : "sibling in-law"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "BROINLAW",
           "display" : "brother-in-law"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "SISINLAW",
           "display" : "sister-in-law"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "SISLINLAW",
           "display" : "sister-in-law"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "NIENEPH",
           "display" : "niece/nephew"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "NEPHEW",
           "display" : "nephew"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "NIECE",
           "display" : "niece"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "UNCLE",
           "display" : "uncle"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "MUNCLE",
           "display" : "maternal uncle"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "PUNCLE",
           "display" : "paternal uncle"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "PRN",
           "display" : "parent"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "ADOPTP",
           "display" : "adoptive parent"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "ADOPTF",
           "display" : "adoptive father"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "ADOPTM",
           "display" : "adoptive mother"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "FTH",
           "display" : "father"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "FTHFOST",
           "display" : "foster father"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "NFTH",
           "display" : "natural father"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "NFTHF",
           "display" : "natural father of fetus"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "STPFTH",
           "display" : "stepfather"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "MTH",
           "display" : "mother"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "GESTM",
           "display" : "gestational mother"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "MTHFOST",
           "display" : "foster mother"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "NMTH",
           "display" : "natural mother"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "NMTHF",
           "display" : "natural mother of fetus"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "STPMTH",
           "display" : "stepmother"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "NPRN",
           "display" : "natural parent"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "PRNFOST",
           "display" : "foster parent"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "STPPRN",
           "display" : "step parent"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "SIB",
           "display" : "sibling"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "BRO",
           "display" : "brother"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "HBRO",
           "display" : "half-brother"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "NBRO",
           "display" : "natural brother"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "TWINBRO",
           "display" : "twin brother"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "FTWINBRO",
           "display" : "fraternal twin brother"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "ITWINBRO",
           "display" : "identical twin brother"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "STPBRO",
           "display" : "stepbrother"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "HSIB",
           "display" : "half-sibling"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "HSIS",
           "display" : "half-sister"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "NSIB",
           "display" : "natural sibling"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "NSIS",
           "display" : "natural sister"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "TWINSIS",
           "display" : "twin sister"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "FTWINSIS",
           "display" : "fraternal twin sister"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "ITWINSIS",
           "display" : "identical twin sister"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "TWIN",
           "display" : "twin"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "FTWIN",
           "display" : "fraternal twin"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "ITWIN",
           "display" : "identical twin"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "SIS",
           "display" : "sister"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "STPSIS",
           "display" : "stepsister"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "STPSIB",
           "display" : "step sibling"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "SIGOTHR",
           "display" : "significant other"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "DOMPART",
           "display" : "domestic partner"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "FMRSPS",
           "display" : "former spouse"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "SPS",
           "display" : "spouse"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "HUSB",
           "display" : "husband"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "WIFE",
           "display" : "wife"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "FRND",
           "display" : "unrelated friend"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "NBOR",
           "display" : "neighbor"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "ONESELF",
           "display" : "self"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "ROOM",
           "display" : "Roommate"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
           "abstract" : true,
+          "inactive" : false,
           "code" : "_PolicyOrProgramCoverageRoleType",
           "display" : "PolicyOrProgramCoverageRoleType"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
           "abstract" : true,
+          "inactive" : false,
           "code" : "_CoverageRoleType",
           "display" : "CoverageRoleType"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "FAMDEP",
           "display" : "family dependent"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "HANDIC",
           "display" : "handicapped dependent"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "INJ",
           "display" : "injured plaintiff"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "SELF",
           "display" : "self"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "SPON",
           "display" : "sponsored dependent"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "STUD",
           "display" : "student"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "FSTUD",
           "display" : "full-time student"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "PSTUD",
           "display" : "part-time student"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "ADOPT",
           "display" : "adopted child"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "GCHILD",
           "display" : "grandchild"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "GPARNT",
           "display" : "grandparent"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "NAT",
           "display" : "natural child"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "NIENE",
           "display" : "niece/nephew"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "PARNT",
           "display" : "parent"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "SPSE",
           "display" : "spouse"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "STEP",
           "display" : "step child"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
           "abstract" : true,
+          "inactive" : false,
           "code" : "_CoveredPartyRoleType",
           "display" : "covered party role type"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
           "abstract" : true,
+          "inactive" : false,
           "code" : "_ClaimantCoveredPartyRoleType",
           "display" : "ClaimantCoveredPartyRoleType"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "CRIMEVIC",
           "display" : "crime victim"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "INJWKR",
           "display" : "injured worker"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
           "abstract" : true,
+          "inactive" : false,
           "code" : "_DependentCoveredPartyRoleType",
           "display" : "DependentCoveredPartyRoleType"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "COCBEN",
           "display" : "continuity of coverage beneficiary"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "DIFFABL",
           "display" : "differently abled"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "WARD",
           "display" : "ward"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
           "abstract" : true,
+          "inactive" : false,
           "code" : "_IndividualInsuredPartyRoleType",
           "display" : "IndividualInsuredPartyRoleType"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "RETIREE",
           "display" : "retiree"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
           "abstract" : true,
+          "inactive" : false,
           "code" : "_ProgramEligiblePartyRoleType",
           "display" : "ProgramEligiblePartyRoleType"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "INDIG",
           "display" : "member of an indigenous people"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "MIL",
           "display" : "military"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "ACTMIL",
           "display" : "active duty military"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "RETMIL",
           "display" : "retired military"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "VET",
           "display" : "veteran"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
           "abstract" : true,
+          "inactive" : false,
           "code" : "_SubscriberCoveredPartyRoleType",
           "display" : "SubscriberCoveredPartyRoleType"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
           "abstract" : true,
+          "inactive" : false,
           "code" : "_ResearchSubjectRoleBasis",
           "display" : "ResearchSubjectRoleBasis"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "ERL",
           "display" : "enrollment"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "SCN",
           "display" : "screening"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
           "abstract" : true,
+          "inactive" : false,
           "code" : "_ServiceDeliveryLocationRoleType",
           "display" : "ServiceDeliveryLocationRoleType"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
           "abstract" : true,
+          "inactive" : false,
           "code" : "_DedicatedServiceDeliveryLocationRoleType",
           "display" : "DedicatedServiceDeliveryLocationRoleType"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
           "abstract" : true,
+          "inactive" : false,
           "code" : "_DedicatedClinicalLocationRoleType",
           "display" : "DedicatedClinicalLocationRoleType"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "DX",
           "display" : "Diagnostics or therapeutics unit"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "CVDX",
           "display" : "Cardiovascular diagnostics or therapeutics unit"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "CATH",
           "display" : "Cardiac catheterization lab"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "ECHO",
           "display" : "Echocardiography lab"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "GIDX",
           "display" : "Gastroenterology diagnostics or therapeutics lab"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "ENDOS",
           "display" : "Endoscopy lab"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "RADDX",
           "display" : "Radiology diagnostics or therapeutics unit"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "RADO",
           "display" : "Radiation oncology unit"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "RNEU",
           "display" : "Neuroradiology unit"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "HOSP",
           "display" : "Hospital"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "CHR",
           "display" : "Chronic Care Facility"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "GACH",
           "display" : "Hospitals; General Acute Care Hospital"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "MHSP",
           "display" : "Military Hospital"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "PSYCHF",
           "display" : "Psychatric Care Facility"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "RH",
           "display" : "Rehabilitation hospital"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "RHAT",
           "display" : "addiction treatment center"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "RHII",
           "display" : "intellectual impairment center"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "RHMAD",
           "display" : "parents with adjustment difficulties center"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "RHPI",
           "display" : "physical impairment center"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "RHPIH",
           "display" : "physical impairment - hearing center"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "RHPIMS",
           "display" : "physical impairment - motor skills center"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "RHPIVS",
           "display" : "physical impairment - visual skills center"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "RHYAD",
           "display" : "youths with adjustment difficulties center"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "HU",
           "display" : "Hospital unit"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "BMTU",
           "display" : "Bone marrow transplant unit"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "CCU",
           "display" : "Coronary care unit"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "CHEST",
           "display" : "Chest unit"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "EPIL",
           "display" : "Epilepsy unit"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "ER",
           "display" : "Emergency room"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "ETU",
           "display" : "Emergency trauma unit"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "HD",
           "display" : "Hemodialysis unit"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "HLAB",
           "display" : "hospital laboratory"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "INLAB",
           "display" : "inpatient laboratory"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "OUTLAB",
           "display" : "outpatient laboratory"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "HRAD",
           "display" : "radiology unit"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "HUSCS",
           "display" : "specimen collection site"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "ICU",
           "display" : "Intensive care unit"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "PEDICU",
           "display" : "Pediatric intensive care unit"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "PEDNICU",
           "display" : "Pediatric neonatal intensive care unit"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "INPHARM",
           "display" : "inpatient pharmacy"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "MBL",
           "display" : "medical laboratory"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "NCCS",
           "display" : "Neurology critical care and stroke unit"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "NS",
           "display" : "Neurosurgery unit"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "OUTPHARM",
           "display" : "outpatient pharmacy"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "PEDU",
           "display" : "Pediatric unit"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "PHU",
           "display" : "Psychiatric hospital unit"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "RHU",
           "display" : "Rehabilitation hospital unit"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "SLEEP",
           "display" : "Sleep disorders unit"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "NCCF",
           "display" : "Nursing or custodial care facility"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "SNF",
           "display" : "Skilled nursing facility"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "OF",
           "display" : "Outpatient facility"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "ALL",
           "display" : "Allergy clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "AMPUT",
           "display" : "Amputee clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "BMTC",
           "display" : "Bone marrow transplant clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "BREAST",
           "display" : "Breast clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "CANC",
           "display" : "Child and adolescent neurology clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "CAPC",
           "display" : "Child and adolescent psychiatry clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "CARD",
           "display" : "Ambulatory Health Care Facilities; Clinic/Center; Rehabilitation: Cardiac Facilities"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "PEDCARD",
           "display" : "Pediatric cardiology clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "COAG",
           "display" : "Coagulation clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "CRS",
           "display" : "Colon and rectal surgery clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "DERM",
           "display" : "Dermatology clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "ENDO",
           "display" : "Endocrinology clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "PEDE",
           "display" : "Pediatric endocrinology clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "ENT",
           "display" : "Otorhinolaryngology clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "FMC",
           "display" : "Family medicine clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "GI",
           "display" : "Gastroenterology clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "PEDGI",
           "display" : "Pediatric gastroenterology clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "GIM",
           "display" : "General internal medicine clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "GYN",
           "display" : "Gynecology clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "HEM",
           "display" : "Hematology clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "PEDHEM",
           "display" : "Pediatric hematology clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "HTN",
           "display" : "Hypertension clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "IEC",
           "display" : "Impairment evaluation center"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "INFD",
           "display" : "Infectious disease clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "PEDID",
           "display" : "Pediatric infectious disease clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "INV",
           "display" : "Infertility clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "LYMPH",
           "display" : "Lympedema clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "MGEN",
           "display" : "Medical genetics clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "NEPH",
           "display" : "Nephrology clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "PEDNEPH",
           "display" : "Pediatric nephrology clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "NEUR",
           "display" : "Neurology clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "OB",
           "display" : "Obstetrics clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "OMS",
           "display" : "Oral and maxillofacial surgery clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "ONCL",
           "display" : "Medical oncology clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "PEDHO",
           "display" : "Pediatric oncology clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "OPH",
           "display" : "Opthalmology clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "OPTC",
           "display" : "optometry clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "ORTHO",
           "display" : "Orthopedics clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "HAND",
           "display" : "Hand clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "PAINCL",
           "display" : "Pain clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "PC",
           "display" : "Primary care clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "PEDC",
           "display" : "Pediatrics clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "PEDRHEUM",
           "display" : "Pediatric rheumatology clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "POD",
           "display" : "Podiatry clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "PREV",
           "display" : "Preventive medicine clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "PROCTO",
           "display" : "Proctology clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "PROFF",
           "display" : "Provider's Office"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "PROS",
           "display" : "Prosthodontics clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "PSI",
           "display" : "Psychology clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "PSY",
           "display" : "Psychiatry clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "RHEUM",
           "display" : "Rheumatology clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "SPMED",
           "display" : "Sports medicine clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "SU",
           "display" : "Surgery clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "PLS",
           "display" : "Plastic surgery clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "URO",
           "display" : "Urology clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "TR",
           "display" : "Transplant clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "TRAVEL",
           "display" : "Travel and geographic medicine clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "WND",
           "display" : "Wound clinic"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "RTF",
           "display" : "Residential treatment facility"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "PRC",
           "display" : "Pain rehabilitation center"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "SURF",
           "display" : "Substance use rehabilitation facility"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
           "abstract" : true,
+          "inactive" : false,
           "code" : "_DedicatedNonClinicalLocationRoleType",
           "display" : "DedicatedNonClinicalLocationRoleType"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "DADDR",
           "display" : "Delivery Address"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "MOBL",
           "display" : "Mobile Unit"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "AMB",
           "display" : "Ambulance"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "PHARM",
           "display" : "Pharmacy"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
           "abstract" : true,
+          "inactive" : false,
           "code" : "_IncidentalServiceDeliveryLocationRoleType",
           "display" : "IncidentalServiceDeliveryLocationRoleType"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "ACC",
           "display" : "accident site"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "COMM",
           "display" : "Community Location"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "CSC",
           "display" : "community service center"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "PTRES",
           "display" : "Patient's Residence"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "SCHOOL",
           "display" : "school"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "UPC",
           "display" : "underage protection center"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "WORK",
           "display" : "work site"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
           "abstract" : true,
+          "inactive" : false,
           "code" : "_SpecimenRoleType",
           "display" : "SpecimenRoleType"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "C",
           "display" : "Calibrator"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "G",
           "display" : "Group"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "L",
           "display" : "Pool"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "P",
           "display" : "Patient"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "Q",
           "display" : "Quality Control"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "B",
           "display" : "Blind"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "E",
           "display" : "Electronic QC"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "F",
           "display" : "Filler Proficiency"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "O",
           "display" : "Operator Proficiency"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "V",
           "display" : "Verifying"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "R",
           "display" : "Replicate"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "CLAIM",
           "display" : "claimant"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "communityLaboratory",
           "display" : "Community Laboratory"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "GT",
           "display" : "Guarantor"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "homeHealth",
           "display" : "Home Health"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "laboratory",
           "display" : "Laboratory"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "pathologist",
           "display" : "Pathologist"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "PH",
           "display" : "Policy Holder"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "phlebotomist",
           "display" : "Phlebotomist"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "PROG",
           "display" : "program eligible"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "PT",
           "display" : "Patient"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "subject",
           "display" : "Self"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "thirdParty",
           "display" : "Third Party"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
           "abstract" : true,
+          "inactive" : false,
           "code" : "_AdministrativeLocationRoleType",
           "display" : "AdministrativeLocationRoleType"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
           "abstract" : true,
+          "inactive" : false,
           "code" : "_ClinicalOrganizationRoleType",
           "display" : "ClinicalOrganizationRoleType"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
           "abstract" : true,
+          "inactive" : false,
           "code" : "_CommissioningPartyRoleType",
           "display" : "CommissioningPartyRoleType"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
           "abstract" : true,
+          "inactive" : false,
           "code" : "_DeviceOperatorType",
           "display" : "DeviceOperatorType"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
           "abstract" : true,
+          "inactive" : false,
           "code" : "_EmployeeRoleType",
           "display" : "EmployeeRoleType"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
           "abstract" : true,
+          "inactive" : false,
           "code" : "_HealthcareProviderRoleType",
           "display" : "HealthcareProviderRoleType"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
           "abstract" : true,
+          "inactive" : false,
           "code" : "_LicensedRoleType",
           "display" : "LicensedRoleType"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
           "abstract" : true,
+          "inactive" : false,
           "code" : "_NDCRelatedDrugEntityType",
           "display" : "NDCRelatedDrugEntityType"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
           "abstract" : true,
+          "inactive" : false,
           "code" : "_OrganizationPartRoleType",
           "display" : "OrganizationPartRoleType"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
           "abstract" : true,
+          "inactive" : false,
           "code" : "_ProductProcessingOrganizationRoleType",
           "display" : "ProductProcessingOrganizationRoleType"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
           "abstract" : true,
+          "inactive" : false,
           "code" : "_ProductSafetyReportPartyRoleType",
           "display" : "ProductSafetyReportPartyRoleType"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
           "abstract" : true,
+          "inactive" : false,
           "code" : "_QualifiedRoleType",
           "display" : "QualifiedRoleType"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "DEP"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "DEPEN",
           "display" : "dependent"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "FM",
           "display" : "Family Member"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "INDIV",
           "display" : "individual"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "NAMED",
           "display" : "named insured"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "PSYCHCF"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "abstract" : false,
+          "inactive" : false,
           "code" : "SUBSCR",
           "display" : "subscriber"
         }]
@@ -2405,23 +3208,59 @@
     }
   },
   {
+    "fullUrl" : "http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIInterventionPreferencesVS",
     "resource" : {
       "resourceType" : "ValueSet",
+      "id" : "PADIInterventionPreferencesVS",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 23 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on Loinc v2.69</p><p>All codes from system <a href=\"http://terminology.hl7.org/2.0.0/CodeSystem-v3-loinc.html\"><code>http://loinc.org</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-75776-5\"> </a><a href=\"http://details.loinc.org/LOINC/75776-5.html\">75776-5</a></td><td>Preference on consulting a supportive and palliative care team to help treat physical, emotional, and spiritual discomfort and support family [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-75777-3\"> </a><a href=\"http://details.loinc.org/LOINC/75777-3.html\">75777-3</a></td><td>Information to tell doctors if my health deteriorates due to a terminal illness and I am unable to interact meaningfully with family, friends, or surroundings [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-75778-1\"> </a><a href=\"http://details.loinc.org/LOINC/75778-1.html\">75778-1</a></td><td>Information to tell doctors if I have a severe, irreversible brain injury or illness and can't dress, feed, or bathe myself, or communicate my medical wishes, but can be kept alive [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-75780-7\"> </a><a href=\"http://details.loinc.org/LOINC/75780-7.html\">75780-7</a></td><td>Preferred location to spend final days if possible to choose [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-75781-5\"> </a><a href=\"http://details.loinc.org/LOINC/75781-5.html\">75781-5</a></td><td>Thoughts on organ and tissue donations [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-75782-3\"> </a><a href=\"http://details.loinc.org/LOINC/75782-3.html\">75782-3</a></td><td>Thoughts regarding autopsy [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-75787-2\"> </a><a href=\"http://details.loinc.org/LOINC/75787-2.html\">75787-2</a></td><td>Advance directive - request for intubation</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-75788-0\"> </a><a href=\"http://details.loinc.org/LOINC/75788-0.html\">75788-0</a></td><td>Advance directive - request for tube feeding</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-75789-8\"> </a><a href=\"http://details.loinc.org/LOINC/75789-8.html\">75789-8</a></td><td>Advance directive - request for life support</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-75790-6\"> </a><a href=\"http://details.loinc.org/LOINC/75790-6.html\">75790-6</a></td><td>Advance directive - request for IV fluid and support</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-75791-4\"> </a><a href=\"http://details.loinc.org/LOINC/75791-4.html\">75791-4</a></td><td>Advance directive - request for antibiotics</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-75792-2\"> </a><a href=\"http://details.loinc.org/LOINC/75792-2.html\">75792-2</a></td><td>Advance directive - request for resuscitation that differs from cardiopulmonary resuscitation</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-75793-0\"> </a><a href=\"http://details.loinc.org/LOINC/75793-0.html\">75793-0</a></td><td>Other directives that have not otherwise been documented [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-77352-3\"> </a><a href=\"http://details.loinc.org/LOINC/77352-3.html\">77352-3</a></td><td>Thoughts on artificial nutrition and hydration [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81329-5\"> </a><a href=\"http://details.loinc.org/LOINC/81329-5.html\">81329-5</a></td><td>Thoughts on resuscitation [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81330-3\"> </a><a href=\"http://details.loinc.org/LOINC/81330-3.html\">81330-3</a></td><td>Thoughts on intubation [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81331-1\"> </a><a href=\"http://details.loinc.org/LOINC/81331-1.html\">81331-1</a></td><td>Thoughts on tube feeding [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81332-9\"> </a><a href=\"http://details.loinc.org/LOINC/81332-9.html\">81332-9</a></td><td>Thoughts on IV fluid and support [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81333-7\"> </a><a href=\"http://details.loinc.org/LOINC/81333-7.html\">81333-7</a></td><td>Thoughts on antibiotics [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81349-3\"> </a><a href=\"http://details.loinc.org/LOINC/81349-3.html\">81349-3</a></td><td>Thoughts on life-sustaining procedures if pregnant [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81350-1\"> </a><a href=\"http://details.loinc.org/LOINC/81350-1.html\">81350-1</a></td><td>Thoughts on pain management [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81376-6\"> </a><a href=\"http://details.loinc.org/LOINC/81376-6.html\">81376-6</a></td><td>Mental health treatment preferences [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-75779-9\"> </a><a href=\"http://details.loinc.org/LOINC/75779-9.html\">75779-9</a></td><td>Thoughts on cardiopulmonary resuscitation (CPR) [Reported]</td><td/></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 27 concepts</p><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion based on: </p><ul><li><a href=\"ValueSet-PADIUponDeathPreferencesVS.html\">Upon Death Preferences v0.0.1 (ValueSet)</a></li><li>Loinc v2.69</li></ul></div><p>All codes from system <a href=\"http://terminology.hl7.org/2.0.0/CodeSystem-v3-loinc.html\"><code>http://loinc.org</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-75776-5\"> </a><a href=\"http://details.loinc.org/LOINC/75776-5.html\">75776-5</a></td><td>Preference on consulting a supportive and palliative care team to help treat physical, emotional, and spiritual discomfort and support family [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-75777-3\"> </a><a href=\"http://details.loinc.org/LOINC/75777-3.html\">75777-3</a></td><td>Information to tell doctors if my health deteriorates due to a terminal illness and I am unable to interact meaningfully with family, friends, or surroundings [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-75778-1\"> </a><a href=\"http://details.loinc.org/LOINC/75778-1.html\">75778-1</a></td><td>Information to tell doctors if I have a severe, irreversible brain injury or illness and can't dress, feed, or bathe myself, or communicate my medical wishes, but can be kept alive [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-75780-7\"> </a><a href=\"http://details.loinc.org/LOINC/75780-7.html\">75780-7</a></td><td>Preferred location to spend final days if possible to choose [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-75787-2\"> </a><a href=\"http://details.loinc.org/LOINC/75787-2.html\">75787-2</a></td><td>Advance directive - request for intubation</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-75788-0\"> </a><a href=\"http://details.loinc.org/LOINC/75788-0.html\">75788-0</a></td><td>Advance directive - request for tube feeding</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-75789-8\"> </a><a href=\"http://details.loinc.org/LOINC/75789-8.html\">75789-8</a></td><td>Advance directive - request for life support</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-75790-6\"> </a><a href=\"http://details.loinc.org/LOINC/75790-6.html\">75790-6</a></td><td>Advance directive - request for IV fluid and support</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-75791-4\"> </a><a href=\"http://details.loinc.org/LOINC/75791-4.html\">75791-4</a></td><td>Advance directive - request for antibiotics</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-75792-2\"> </a><a href=\"http://details.loinc.org/LOINC/75792-2.html\">75792-2</a></td><td>Advance directive - request for resuscitation that differs from cardiopulmonary resuscitation</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-75793-0\"> </a><a href=\"http://details.loinc.org/LOINC/75793-0.html\">75793-0</a></td><td>Other directives that have not otherwise been documented [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-77352-3\"> </a><a href=\"http://details.loinc.org/LOINC/77352-3.html\">77352-3</a></td><td>Thoughts on artificial nutrition and hydration [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81329-5\"> </a><a href=\"http://details.loinc.org/LOINC/81329-5.html\">81329-5</a></td><td>Thoughts on resuscitation [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81330-3\"> </a><a href=\"http://details.loinc.org/LOINC/81330-3.html\">81330-3</a></td><td>Thoughts on intubation [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81331-1\"> </a><a href=\"http://details.loinc.org/LOINC/81331-1.html\">81331-1</a></td><td>Thoughts on tube feeding [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81332-9\"> </a><a href=\"http://details.loinc.org/LOINC/81332-9.html\">81332-9</a></td><td>Thoughts on IV fluid and support [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81333-7\"> </a><a href=\"http://details.loinc.org/LOINC/81333-7.html\">81333-7</a></td><td>Thoughts on antibiotics [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81349-3\"> </a><a href=\"http://details.loinc.org/LOINC/81349-3.html\">81349-3</a></td><td>Thoughts on life-sustaining procedures if pregnant [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81350-1\"> </a><a href=\"http://details.loinc.org/LOINC/81350-1.html\">81350-1</a></td><td>Thoughts on pain management [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81376-6\"> </a><a href=\"http://details.loinc.org/LOINC/81376-6.html\">81376-6</a></td><td>Mental health treatment preferences [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-75779-9\"> </a><a href=\"http://details.loinc.org/LOINC/75779-9.html\">75779-9</a></td><td>Thoughts on cardiopulmonary resuscitation (CPR) [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81356-8\"> </a><a href=\"http://details.loinc.org/LOINC/81356-8.html\">81356-8</a></td><td>Death arrangements [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81357-6\"> </a><a href=\"http://details.loinc.org/LOINC/81357-6.html\">81357-6</a></td><td>Messages to be delivered after death [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81358-4\"> </a><a href=\"http://details.loinc.org/LOINC/81358-4.html\">81358-4</a></td><td>Person(s) to notify upon death [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81366-7\"> </a><a href=\"http://details.loinc.org/LOINC/81366-7.html\">81366-7</a></td><td>Unfinished business [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81364-2\"> </a><a href=\"http://details.loinc.org/LOINC/81364-2.html\">81364-2</a></td><td>Religious beliefs [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81365-9\"> </a><a href=\"http://details.loinc.org/LOINC/81365-9.html\">81365-9</a></td><td>Religious affiliation contact to notify [Reported]</td><td/></tr></table></div>"
       },
+      "url" : "http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIInterventionPreferencesVS",
+      "version" : "0.0.1",
+      "name" : "PADIInterventionPreferencesVS",
+      "title" : "Intervention Preferences",
       "status" : "active",
+      "date" : "2021-05-02T13:39:47-07:00",
+      "publisher" : "HL7 Patient Empowerment Working Group",
+      "contact" : [{
+        "name" : "HL7 Patient Empowerment Working Group",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/patientempowerment/index.cfm"
+        },
+        {
+          "system" : "email",
+          "value" : "patients@lists.HL7.org"
+        }]
+      }],
+      "description" : "Clinical Focus: This value set includes concepts representing an individual's intervention preferences which can be expressed by the individual in his or her advance care plan.),(Data Element Scope: The intent of this value set is to identify personal intervention preferences that may be relevant and could be considered by clinicians or any person or organization that is providing care, treatment, or performing any other type of act to or on behalf of the individual.)",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }]
+      }],
+      "copyright" : "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc.",
       "expansion" : {
-        "identifier" : "urn:uuid:a33be8cf-ef60-4f43-a201-4082443346a1",
-        "timestamp" : "2021-04-22T05:16:12.805Z",
+        "identifier" : "urn:uuid:e5fde034-a6a1-4bc3-b10d-7f3a4f11030f",
+        "timestamp" : "2021-05-02T13:40:48-07:00",
+        "total" : 27,
         "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
           "name" : "limitedExpansion",
           "valueBoolean" : true
         },
         {
           "name" : "version",
           "valueString" : "http://loinc.org|2.69"
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIUponDeathPreferencesVS|0.0.1"
         }],
         "contains" : [{
           "system" : "http://loinc.org",
@@ -2442,16 +3281,6 @@
           "system" : "http://loinc.org",
           "code" : "75780-7",
           "display" : "Preferred location to spend final days if possible to choose [Reported]"
-        },
-        {
-          "system" : "http://loinc.org",
-          "code" : "75781-5",
-          "display" : "Thoughts on organ and tissue donations [Reported]"
-        },
-        {
-          "system" : "http://loinc.org",
-          "code" : "75782-3",
-          "display" : "Thoughts regarding autopsy [Reported]"
         },
         {
           "system" : "http://loinc.org",
@@ -2537,6 +3366,75 @@
           "system" : "http://loinc.org",
           "code" : "75779-9",
           "display" : "Thoughts on cardiopulmonary resuscitation (CPR) [Reported]"
+        },
+        {
+          "system" : "http://loinc.org",
+          "abstract" : false,
+          "inactive" : false,
+          "code" : "81356-8",
+          "display" : "Death arrangements [Reported]"
+        },
+        {
+          "system" : "http://loinc.org",
+          "abstract" : false,
+          "inactive" : false,
+          "code" : "81357-6",
+          "display" : "Messages to be delivered after death [Reported]"
+        },
+        {
+          "system" : "http://loinc.org",
+          "abstract" : false,
+          "inactive" : false,
+          "code" : "81358-4",
+          "display" : "Person(s) to notify upon death [Reported]"
+        },
+        {
+          "system" : "http://loinc.org",
+          "abstract" : false,
+          "inactive" : false,
+          "code" : "81366-7",
+          "display" : "Unfinished business [Reported]"
+        },
+        {
+          "system" : "http://loinc.org",
+          "abstract" : false,
+          "inactive" : false,
+          "code" : "81364-2",
+          "display" : "Religious beliefs [Reported]"
+        },
+        {
+          "system" : "http://loinc.org",
+          "abstract" : false,
+          "inactive" : false,
+          "code" : "81365-9",
+          "display" : "Religious affiliation contact to notify [Reported]"
+        }]
+      }
+    }
+  },
+  {
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on Loinc v2.69</p><p>All codes from system <a href=\"http://terminology.hl7.org/2.0.0/CodeSystem-v3-loinc.html\"><code>http://loinc.org</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-75781-5\"> </a><a href=\"http://details.loinc.org/LOINC/75781-5.html\">75781-5</a></td><td>Thoughts on organ and tissue donations [Reported]</td><td/></tr></table></div>"
+      },
+      "status" : "active",
+      "expansion" : {
+        "identifier" : "urn:uuid:a71cbbaf-620e-443f-a969-f028b92a2eed",
+        "timestamp" : "2021-05-02T18:32:39.277Z",
+        "parameter" : [{
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueString" : "http://loinc.org|2.69"
+        }],
+        "contains" : [{
+          "system" : "http://loinc.org",
+          "code" : "75781-5",
+          "display" : "Thoughts on organ and tissue donations [Reported]"
         }]
       }
     }
@@ -2555,7 +3453,7 @@
       "name" : "PADIPersonalAndLegalRelationshipRoleTypeVS",
       "title" : "Personal And Legal Relationship Role Type",
       "status" : "active",
-      "date" : "2021-04-25T21:26:31-07:00",
+      "date" : "2021-05-02T13:39:47-07:00",
       "publisher" : "HL7 Patient Empowerment Working Group",
       "contact" : [{
         "name" : "HL7 Patient Empowerment Working Group",
@@ -2576,8 +3474,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:31361b29-9ebf-46d3-babb-49e38ebd58f5",
-        "timestamp" : "2021-04-25T21:27:25-07:00",
+        "identifier" : "urn:uuid:74bd857f-9af3-4649-b315-faff305d3972",
+        "timestamp" : "2021-05-02T13:40:48-07:00",
         "total" : 413,
         "parameter" : [{
           "name" : "excludeNested",
@@ -4692,6 +5590,58 @@
           "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
           "code" : "SUBSCR",
           "display" : "subscriber"
+        }]
+      }
+    }
+  },
+  {
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 6 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on Loinc v2.69</p><p>All codes from system <a href=\"http://terminology.hl7.org/2.0.0/CodeSystem-v3-loinc.html\"><code>http://loinc.org</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81356-8\"> </a><a href=\"http://details.loinc.org/LOINC/81356-8.html\">81356-8</a></td><td>Death arrangements [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81357-6\"> </a><a href=\"http://details.loinc.org/LOINC/81357-6.html\">81357-6</a></td><td>Messages to be delivered after death [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81358-4\"> </a><a href=\"http://details.loinc.org/LOINC/81358-4.html\">81358-4</a></td><td>Person(s) to notify upon death [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81366-7\"> </a><a href=\"http://details.loinc.org/LOINC/81366-7.html\">81366-7</a></td><td>Unfinished business [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81364-2\"> </a><a href=\"http://details.loinc.org/LOINC/81364-2.html\">81364-2</a></td><td>Religious beliefs [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81365-9\"> </a><a href=\"http://details.loinc.org/LOINC/81365-9.html\">81365-9</a></td><td>Religious affiliation contact to notify [Reported]</td><td/></tr></table></div>"
+      },
+      "status" : "active",
+      "expansion" : {
+        "identifier" : "urn:uuid:24a3e8c2-5f03-44d1-a783-67f3b82b3cd5",
+        "timestamp" : "2021-05-02T18:32:38.246Z",
+        "parameter" : [{
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueString" : "http://loinc.org|2.69"
+        }],
+        "contains" : [{
+          "system" : "http://loinc.org",
+          "code" : "81356-8",
+          "display" : "Death arrangements [Reported]"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "81357-6",
+          "display" : "Messages to be delivered after death [Reported]"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "81358-4",
+          "display" : "Person(s) to notify upon death [Reported]"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "81366-7",
+          "display" : "Unfinished business [Reported]"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "81364-2",
+          "display" : "Religious beliefs [Reported]"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "81365-9",
+          "display" : "Religious affiliation contact to notify [Reported]"
         }]
       }
     }

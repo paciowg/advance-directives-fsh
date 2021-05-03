@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "1543fcb1-ceca-4d80-91c9-d14748f25ae0-59",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/1543fcb1-ceca-4d80-91c9-d14748f25ae0-59",
+  "id" : "544b2390-e1a9-40d8-b109-20cd743c56d2-65",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/544b2390-e1a9-40d8-b109-20cd743c56d2-65",
   "name" : "UnionUsCoreVitalSignsAndPADICareExperiencePreferencesVS",
   "title" : "Union of US Core Vital Signs ValueSet And Care Experience Preferences",
   "status" : "active",
-  "date" : "2021-04-25T21:26:47-07:00",
+  "date" : "2021-05-02T13:40:06-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -43,18 +43,6 @@
       {
         "code" : "75793-0",
         "display" : "Other directives that have not otherwise been documented [Reported]"
-      },
-      {
-        "code" : "81356-8",
-        "display" : "Death arrangements [Reported]"
-      },
-      {
-        "code" : "81357-6",
-        "display" : "Messages to be delivered after death [Reported]"
-      },
-      {
-        "code" : "81358-4",
-        "display" : "Person(s) to notify upon death [Reported]"
       },
       {
         "code" : "81359-2",
@@ -126,66 +114,92 @@
     },
     {
       "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
       "code" : "85353-1",
       "display" : "Vital signs, weight, height, head circumference, oxygen saturation and BMI panel"
     },
     {
       "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
       "code" : "9279-1",
       "display" : "Respiratory rate"
     },
     {
       "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
       "code" : "8867-4",
       "display" : "Heart rate"
     },
     {
       "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
       "code" : "2708-6",
       "display" : "Oxygen saturation in Arterial blood"
     },
     {
       "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
       "code" : "8310-5",
       "display" : "Body temperature"
     },
     {
       "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
       "code" : "8302-2",
       "display" : "Body height"
     },
     {
       "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
       "code" : "9843-4",
       "display" : "Head Occipital-frontal circumference"
     },
     {
       "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
       "code" : "29463-7",
       "display" : "Body weight"
     },
     {
       "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
       "code" : "39156-5",
       "display" : "Body mass index (BMI) [Ratio]"
     },
     {
       "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
       "code" : "85354-9",
       "display" : "Blood pressure panel with all children optional"
     },
     {
       "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
       "code" : "8480-6",
       "display" : "Systolic blood pressure"
     },
     {
       "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
       "code" : "8462-4",
       "display" : "Diastolic blood pressure"
     },
     {
       "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
       "code" : "8478-0",
       "display" : "Mean blood pressure"
     },
@@ -203,21 +217,6 @@
       "system" : "http://loinc.org",
       "code" : "75793-0",
       "display" : "Other directives that have not otherwise been documented [Reported]"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "81356-8",
-      "display" : "Death arrangements [Reported]"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "81357-6",
-      "display" : "Messages to be delivered after death [Reported]"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "81358-4",
-      "display" : "Person(s) to notify upon death [Reported]"
     },
     {
       "system" : "http://loinc.org",

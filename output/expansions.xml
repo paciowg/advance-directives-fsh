@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="ada43d7a-511e-4bc1-9588-6f0b67f69ccc"/>
+  <id value="7f2c5f51-bb98-4234-8659-42ad6ba2d1e9"/>
   <meta>
-    <lastUpdated value="2021-04-25T21:26:31.565-07:00"/>
+    <lastUpdated value="2021-05-02T13:39:47.258-07:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -108,8 +108,65 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 14 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on Loinc v2.68</p>
+            <p>This value set contains 1 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on Loinc v2.69</p>
+            <p>All codes from system 
+              <a href="http://terminology.hl7.org/2.0.0/CodeSystem-v3-loinc.html">
+                <code>http://loinc.org</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---loinc.org-75782-3"> </a>
+                  <a href="http://details.loinc.org/LOINC/75782-3.html">75782-3</a>
+                </td>
+                <td>Thoughts regarding autopsy [Reported]</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <status value="active"/>
+        <expansion>
+          <identifier value="urn:uuid:99269be1-2658-471f-ac02-57bf3918060b"/>
+          <timestamp value="2021-05-02T18:32:37.059Z"/>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueString value="http://loinc.org|2.69"/>
+          </parameter>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="75782-3"/>
+            <display value="Thoughts regarding autopsy [Reported]"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 11 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on Loinc v2.69</p>
             <p>All codes from system 
               <a href="http://terminology.hl7.org/2.0.0/CodeSystem-v3-loinc.html">
                 <code>http://loinc.org</code>
@@ -149,30 +206,6 @@
                   <a href="http://details.loinc.org/LOINC/75793-0.html">75793-0</a>
                 </td>
                 <td>Other directives that have not otherwise been documented [Reported]</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-81356-8"> </a>
-                  <a href="http://details.loinc.org/LOINC/81356-8.html">81356-8</a>
-                </td>
-                <td>Death arrangements [Reported]</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-81357-6"> </a>
-                  <a href="http://details.loinc.org/LOINC/81357-6.html">81357-6</a>
-                </td>
-                <td>Messages to be delivered after death [Reported]</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-81358-4"> </a>
-                  <a href="http://details.loinc.org/LOINC/81358-4.html">81358-4</a>
-                </td>
-                <td>Person(s) to notify upon death [Reported]</td>
                 <td/>
               </tr>
               <tr>
@@ -244,15 +277,15 @@
         </text>
         <status value="active"/>
         <expansion>
-          <identifier value="urn:uuid:50e18061-37b0-43e1-8c0f-29cb34c228ee"/>
-          <timestamp value="2021-04-16T19:36:00.459Z"/>
+          <identifier value="urn:uuid:838ae6e8-46d0-40d5-98f8-7266e6b6cfe7"/>
+          <timestamp value="2021-05-02T18:01:13.453Z"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueString value="http://loinc.org|2.68"/>
+            <valueString value="http://loinc.org|2.69"/>
           </parameter>
           <contains>
             <system value="http://loinc.org"/>
@@ -268,21 +301,6 @@
             <system value="http://loinc.org"/>
             <code value="75793-0"/>
             <display value="Other directives that have not otherwise been documented [Reported]"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="81356-8"/>
-            <display value="Death arrangements [Reported]"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="81357-6"/>
-            <display value="Messages to be delivered after death [Reported]"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="81358-4"/>
-            <display value="Person(s) to notify upon death [Reported]"/>
           </contains>
           <contains>
             <system value="http://loinc.org"/>
@@ -4384,7 +4402,7 @@ Examples include: Physician, Nurse, Medical Technician, Respiratory Technician.<
         <name value="PADIHealthcareAgentRelationshipVS"/>
         <title value="Healthcare Agent Relationships"/>
         <status value="active"/>
-        <date value="2021-04-25T21:26:31-07:00"/>
+        <date value="2021-05-02T13:39:47-07:00"/>
         <publisher value="HL7 Patient Empowerment Working Group"/>
         <contact>
           <name value="HL7 Patient Empowerment Working Group"/>
@@ -4405,8 +4423,8 @@ Examples include: Physician, Nurse, Medical Technician, Respiratory Technician.<
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:e6720834-32dc-4a0f-82d6-72a3adad6eb0"/>
-          <timestamp value="2021-04-25T21:27:24-07:00"/>
+          <identifier value="urn:uuid:4b246865-78a5-453d-8d08-8f7343e0257b"/>
+          <timestamp value="2021-05-02T13:40:48-07:00"/>
           <total value="417"/>
           <parameter>
             <name value="excludeNested"/>
@@ -4434,2127 +4452,2918 @@ Examples include: Physician, Nurse, Medical Technician, Respiratory Technician.<
           </parameter>
           <contains>
             <system value="http://loinc.org"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="75783-1"/>
             <display value="Primary healthcare agent [Reported]"/>
           </contains>
           <contains>
             <system value="http://loinc.org"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="75784-9"/>
             <display value="First alternate healthcare agent [Reported]"/>
           </contains>
           <contains>
             <system value="http://loinc.org"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="75785-6"/>
             <display value="Second alternate healthcare agent [Reported]"/>
           </contains>
           <contains>
             <system value="http://loinc.org"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="81335-2"/>
             <display value="Patient Healthcare agent"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
             <abstract value="true"/>
+            <inactive value="false"/>
             <code value="_AffiliationRoleType"/>
             <display value="AffiliationRoleType"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
             <abstract value="true"/>
+            <inactive value="false"/>
             <code value="_AgentRoleType"/>
             <display value="AgentRoleType"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="AMENDER"/>
             <display value="amender"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="CLASSIFIER"/>
             <display value="classifier"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="CONSENTER"/>
             <display value="consenter"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="CONSWIT"/>
             <display value="consent witness"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="COPART"/>
             <display value="co-participant"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="DECLASSIFIER"/>
             <display value="declassifier"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="DELEGATEE"/>
             <display value="delegatee"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="DELEGATOR"/>
             <display value="delegator"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="DOWNGRDER"/>
             <display value="downgrader"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="DRIVCLASSIFIER"/>
             <display value="derivative classifier"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="GRANTEE"/>
             <display value="grantee"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="GRANTOR"/>
             <display value="grantor"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="INTPRTER"/>
             <display value="interpreter"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="REVIEWER"/>
             <display value="reviewer"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="UPGRDER"/>
             <display value="upgrader"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="VALIDATOR"/>
             <display value="validator"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
             <abstract value="true"/>
+            <inactive value="false"/>
             <code value="_CoverageSponsorRoleType"/>
             <display value="CoverageSponsorRoleType"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="FULLINS"/>
             <display value="Fully insured coverage sponsor"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="SELFINS"/>
             <display value="Self insured coverage sponsor"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
             <abstract value="true"/>
+            <inactive value="false"/>
             <code value="_PayorRoleType"/>
             <display value="PayorRoleType"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="ENROLBKR"/>
             <display value="Enrollment Broker"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="TPA"/>
             <display value="Third party administrator"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="UMO"/>
             <display value="Utilization management organization"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="RESPRSN"/>
             <display value="responsible party"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="EXCEST"/>
             <display value="executor of estate"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="GUADLTM"/>
             <display value="guardian ad lidem"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="GUARD"/>
             <display value="guardian"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="POWATT"/>
             <display value="power of attorney"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="DPOWATT"/>
             <display value="durable power of attorney"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="HPOWATT"/>
             <display value="healthcare power of attorney"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="SPOWATT"/>
             <display value="special power of attorney"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
             <abstract value="true"/>
+            <inactive value="false"/>
             <code value="_AssignedRoleType"/>
             <display value="AssignedRoleType"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
             <abstract value="true"/>
+            <inactive value="false"/>
             <code value="_AssignedNonPersonLivingSubjectRoleType"/>
             <display value="AssignedNonPersonLivingSubjectRoleType"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="ASSIST"/>
             <display value="Assistive non-person living subject"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="BIOTH"/>
             <display value="Biotherapeutic non-person living subject"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="ANTIBIOT"/>
             <display value="Antibiotic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="DEBR"/>
             <display value="Debridement"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="CCO"/>
             <display value="Clinical Companion"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="SEE"/>
             <display value="Seeing"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="SNIFF"/>
             <display value="Sniffing"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
             <abstract value="true"/>
+            <inactive value="false"/>
             <code value="_CertifiedEntityType"/>
             <display value="CertifiedEntityType"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
             <abstract value="true"/>
+            <inactive value="false"/>
             <code value="_PractitionerCertifiedEntityType"/>
             <display value="PractitionerCertifiedEntityType"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="_CitizenRoleType"/>
             <display value="CitizenRoleType"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="CAS"/>
             <display value="asylum seeker"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="CASM"/>
             <display value="single minor asylum seeker"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="CN"/>
             <display value="national"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="CNRP"/>
             <display value="non-country member without residence permit"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="CNRPM"/>
             <display value="non-country member minor without residence permit"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="CPCA"/>
             <display value="permit card applicant"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="CRP"/>
             <display value="non-country member with residence permit"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="CRPM"/>
             <display value="non-country member minor with residence permit"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
             <abstract value="true"/>
+            <inactive value="false"/>
             <code value="_ContactRoleType"/>
             <display value="ContactRoleType"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
             <abstract value="true"/>
+            <inactive value="false"/>
             <code value="_AdministrativeContactRoleType"/>
             <display value="AdministrativeContactRoleType"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="BILL"/>
             <display value="Billing Contact"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="ORG"/>
             <display value="organizational contact"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="PAYOR"/>
             <display value="Payor Contact"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="ECON"/>
             <display value="emergency contact"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="NOK"/>
             <display value="next of kin"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
             <abstract value="true"/>
+            <inactive value="false"/>
             <code value="_IdentifiedEntityType"/>
             <display value="IdentifiedEntityType"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
             <abstract value="true"/>
+            <inactive value="false"/>
             <code value="_LocationIdentifiedEntityRoleCode"/>
             <display value="LocationIdentifiedEntityRoleCode"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="ACHFID"/>
             <display value="accreditation location identifier"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="JURID"/>
             <display value="jurisdiction location identifier"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="LOCHFID"/>
             <display value="local location identifier"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
             <abstract value="true"/>
+            <inactive value="false"/>
             <code value="_LivingSubjectProductionClass"/>
             <display value="LivingSubjectProductionClass"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="BF"/>
             <display value="Beef"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="BL"/>
             <display value="Broiler"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="BR"/>
             <display value="Breeder"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="CO"/>
             <display value="Companion"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="DA"/>
             <display value="Dairy"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="DR"/>
             <display value="Draft"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="DU"/>
             <display value="Dual"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="FI"/>
             <display value="Fiber"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="LY"/>
             <display value="Layer"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="MT"/>
             <display value="Meat"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="MU"/>
             <display value="Multiplier"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="PL"/>
             <display value="Pleasure"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="RC"/>
             <display value="Racing"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="SH"/>
             <display value="Show"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="VL"/>
             <display value="Veal"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="WL"/>
             <display value="Wool"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="WO"/>
             <display value="Working"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
             <abstract value="true"/>
+            <inactive value="false"/>
             <code value="_MedicationGeneralizationRoleType"/>
             <display value="MedicationGeneralizationRoleType"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="DC"/>
             <display value="therapeutic class"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="GD"/>
             <display value="generic drug"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="GDF"/>
             <display value="generic drug form"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="GDS"/>
             <display value="generic drug strength"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="GDSF"/>
             <display value="generic drug strength form"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="MGDSF"/>
             <display value="manufactured drug strength form"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
             <abstract value="true"/>
+            <inactive value="false"/>
             <code value="_MemberRoleType"/>
             <display value="MemberRoleType"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="TRB"/>
             <display value="Tribal Member"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
             <abstract value="true"/>
+            <inactive value="false"/>
             <code value="_PersonalRelationshipRoleType"/>
             <display value="PersonalRelationshipRoleType"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="FAMMEMB"/>
             <display value="family member"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="CHILD"/>
             <display value="child"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="CHLDADOPT"/>
             <display value="adopted child"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="DAUADOPT"/>
             <display value="adopted daughter"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="SONADOPT"/>
             <display value="adopted son"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="CHLDFOST"/>
             <display value="foster child"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="DAUFOST"/>
             <display value="foster daughter"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="SONFOST"/>
             <display value="foster son"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="DAUC"/>
             <display value="daughter"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="DAU"/>
             <display value="natural daughter"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="STPDAU"/>
             <display value="stepdaughter"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="NCHILD"/>
             <display value="natural child"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="SON"/>
             <display value="natural son"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="SONC"/>
             <display value="son"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="STPSON"/>
             <display value="stepson"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="STPCHLD"/>
             <display value="step child"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="EXT"/>
             <display value="extended family member"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="AUNT"/>
             <display value="aunt"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="MAUNT"/>
             <display value="maternal aunt"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="PAUNT"/>
             <display value="paternal aunt"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="COUSN"/>
             <display value="cousin"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="MCOUSN"/>
             <display value="maternal cousin"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="PCOUSN"/>
             <display value="paternal cousin"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="GGRPRN"/>
             <display value="great grandparent"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="GGRFTH"/>
             <display value="great grandfather"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="MGGRFTH"/>
             <display value="maternal great-grandfather"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="PGGRFTH"/>
             <display value="paternal great-grandfather"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="GGRMTH"/>
             <display value="great grandmother"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="MGGRMTH"/>
             <display value="maternal great-grandmother"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="PGGRMTH"/>
             <display value="paternal great-grandmother"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="MGGRPRN"/>
             <display value="maternal great-grandparent"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="PGGRPRN"/>
             <display value="paternal great-grandparent"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="GRNDCHILD"/>
             <display value="grandchild"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="GRNDDAU"/>
             <display value="granddaughter"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="GRNDSON"/>
             <display value="grandson"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="GRPRN"/>
             <display value="grandparent"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="GRFTH"/>
             <display value="grandfather"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="MGRFTH"/>
             <display value="maternal grandfather"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="PGRFTH"/>
             <display value="paternal grandfather"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="GRMTH"/>
             <display value="grandmother"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="MGRMTH"/>
             <display value="maternal grandmother"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="PGRMTH"/>
             <display value="paternal grandmother"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="MGRPRN"/>
             <display value="maternal grandparent"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="PGRPRN"/>
             <display value="paternal grandparent"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="INLAW"/>
             <display value="inlaw"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="CHLDINLAW"/>
             <display value="child-in-law"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="DAUINLAW"/>
             <display value="daughter in-law"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="SONINLAW"/>
             <display value="son in-law"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="PRNINLAW"/>
             <display value="parent in-law"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="FTHINLAW"/>
             <display value="father-in-law"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="MTHINLAW"/>
             <display value="mother-in-law"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="MTHINLOAW"/>
             <display value="mother-in-law"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="SIBINLAW"/>
             <display value="sibling in-law"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="BROINLAW"/>
             <display value="brother-in-law"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="SISINLAW"/>
             <display value="sister-in-law"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="SISLINLAW"/>
             <display value="sister-in-law"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="NIENEPH"/>
             <display value="niece/nephew"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="NEPHEW"/>
             <display value="nephew"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="NIECE"/>
             <display value="niece"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="UNCLE"/>
             <display value="uncle"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="MUNCLE"/>
             <display value="maternal uncle"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="PUNCLE"/>
             <display value="paternal uncle"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="PRN"/>
             <display value="parent"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="ADOPTP"/>
             <display value="adoptive parent"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="ADOPTF"/>
             <display value="adoptive father"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="ADOPTM"/>
             <display value="adoptive mother"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="FTH"/>
             <display value="father"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="FTHFOST"/>
             <display value="foster father"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="NFTH"/>
             <display value="natural father"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="NFTHF"/>
             <display value="natural father of fetus"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="STPFTH"/>
             <display value="stepfather"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="MTH"/>
             <display value="mother"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="GESTM"/>
             <display value="gestational mother"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="MTHFOST"/>
             <display value="foster mother"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="NMTH"/>
             <display value="natural mother"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="NMTHF"/>
             <display value="natural mother of fetus"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="STPMTH"/>
             <display value="stepmother"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="NPRN"/>
             <display value="natural parent"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="PRNFOST"/>
             <display value="foster parent"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="STPPRN"/>
             <display value="step parent"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="SIB"/>
             <display value="sibling"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="BRO"/>
             <display value="brother"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="HBRO"/>
             <display value="half-brother"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="NBRO"/>
             <display value="natural brother"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="TWINBRO"/>
             <display value="twin brother"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="FTWINBRO"/>
             <display value="fraternal twin brother"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="ITWINBRO"/>
             <display value="identical twin brother"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="STPBRO"/>
             <display value="stepbrother"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="HSIB"/>
             <display value="half-sibling"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="HSIS"/>
             <display value="half-sister"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="NSIB"/>
             <display value="natural sibling"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="NSIS"/>
             <display value="natural sister"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="TWINSIS"/>
             <display value="twin sister"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="FTWINSIS"/>
             <display value="fraternal twin sister"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="ITWINSIS"/>
             <display value="identical twin sister"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="TWIN"/>
             <display value="twin"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="FTWIN"/>
             <display value="fraternal twin"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="ITWIN"/>
             <display value="identical twin"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="SIS"/>
             <display value="sister"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="STPSIS"/>
             <display value="stepsister"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="STPSIB"/>
             <display value="step sibling"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="SIGOTHR"/>
             <display value="significant other"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="DOMPART"/>
             <display value="domestic partner"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="FMRSPS"/>
             <display value="former spouse"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="SPS"/>
             <display value="spouse"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="HUSB"/>
             <display value="husband"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="WIFE"/>
             <display value="wife"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="FRND"/>
             <display value="unrelated friend"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="NBOR"/>
             <display value="neighbor"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="ONESELF"/>
             <display value="self"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="ROOM"/>
             <display value="Roommate"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
             <abstract value="true"/>
+            <inactive value="false"/>
             <code value="_PolicyOrProgramCoverageRoleType"/>
             <display value="PolicyOrProgramCoverageRoleType"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
             <abstract value="true"/>
+            <inactive value="false"/>
             <code value="_CoverageRoleType"/>
             <display value="CoverageRoleType"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="FAMDEP"/>
             <display value="family dependent"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="HANDIC"/>
             <display value="handicapped dependent"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="INJ"/>
             <display value="injured plaintiff"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="SELF"/>
             <display value="self"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="SPON"/>
             <display value="sponsored dependent"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="STUD"/>
             <display value="student"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="FSTUD"/>
             <display value="full-time student"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="PSTUD"/>
             <display value="part-time student"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="ADOPT"/>
             <display value="adopted child"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="GCHILD"/>
             <display value="grandchild"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="GPARNT"/>
             <display value="grandparent"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="NAT"/>
             <display value="natural child"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="NIENE"/>
             <display value="niece/nephew"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="PARNT"/>
             <display value="parent"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="SPSE"/>
             <display value="spouse"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="STEP"/>
             <display value="step child"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
             <abstract value="true"/>
+            <inactive value="false"/>
             <code value="_CoveredPartyRoleType"/>
             <display value="covered party role type"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
             <abstract value="true"/>
+            <inactive value="false"/>
             <code value="_ClaimantCoveredPartyRoleType"/>
             <display value="ClaimantCoveredPartyRoleType"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="CRIMEVIC"/>
             <display value="crime victim"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="INJWKR"/>
             <display value="injured worker"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
             <abstract value="true"/>
+            <inactive value="false"/>
             <code value="_DependentCoveredPartyRoleType"/>
             <display value="DependentCoveredPartyRoleType"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="COCBEN"/>
             <display value="continuity of coverage beneficiary"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="DIFFABL"/>
             <display value="differently abled"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="WARD"/>
             <display value="ward"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
             <abstract value="true"/>
+            <inactive value="false"/>
             <code value="_IndividualInsuredPartyRoleType"/>
             <display value="IndividualInsuredPartyRoleType"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="RETIREE"/>
             <display value="retiree"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
             <abstract value="true"/>
+            <inactive value="false"/>
             <code value="_ProgramEligiblePartyRoleType"/>
             <display value="ProgramEligiblePartyRoleType"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="INDIG"/>
             <display value="member of an indigenous people"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="MIL"/>
             <display value="military"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="ACTMIL"/>
             <display value="active duty military"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="RETMIL"/>
             <display value="retired military"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="VET"/>
             <display value="veteran"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
             <abstract value="true"/>
+            <inactive value="false"/>
             <code value="_SubscriberCoveredPartyRoleType"/>
             <display value="SubscriberCoveredPartyRoleType"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
             <abstract value="true"/>
+            <inactive value="false"/>
             <code value="_ResearchSubjectRoleBasis"/>
             <display value="ResearchSubjectRoleBasis"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="ERL"/>
             <display value="enrollment"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="SCN"/>
             <display value="screening"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
             <abstract value="true"/>
+            <inactive value="false"/>
             <code value="_ServiceDeliveryLocationRoleType"/>
             <display value="ServiceDeliveryLocationRoleType"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
             <abstract value="true"/>
+            <inactive value="false"/>
             <code value="_DedicatedServiceDeliveryLocationRoleType"/>
             <display value="DedicatedServiceDeliveryLocationRoleType"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
             <abstract value="true"/>
+            <inactive value="false"/>
             <code value="_DedicatedClinicalLocationRoleType"/>
             <display value="DedicatedClinicalLocationRoleType"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="DX"/>
             <display value="Diagnostics or therapeutics unit"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="CVDX"/>
             <display value="Cardiovascular diagnostics or therapeutics unit"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="CATH"/>
             <display value="Cardiac catheterization lab"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="ECHO"/>
             <display value="Echocardiography lab"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="GIDX"/>
             <display value="Gastroenterology diagnostics or therapeutics lab"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="ENDOS"/>
             <display value="Endoscopy lab"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="RADDX"/>
             <display value="Radiology diagnostics or therapeutics unit"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="RADO"/>
             <display value="Radiation oncology unit"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="RNEU"/>
             <display value="Neuroradiology unit"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="HOSP"/>
             <display value="Hospital"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="CHR"/>
             <display value="Chronic Care Facility"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="GACH"/>
             <display value="Hospitals; General Acute Care Hospital"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="MHSP"/>
             <display value="Military Hospital"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="PSYCHF"/>
             <display value="Psychatric Care Facility"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="RH"/>
             <display value="Rehabilitation hospital"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="RHAT"/>
             <display value="addiction treatment center"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="RHII"/>
             <display value="intellectual impairment center"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="RHMAD"/>
             <display value="parents with adjustment difficulties center"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="RHPI"/>
             <display value="physical impairment center"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="RHPIH"/>
             <display value="physical impairment - hearing center"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="RHPIMS"/>
             <display value="physical impairment - motor skills center"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="RHPIVS"/>
             <display value="physical impairment - visual skills center"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="RHYAD"/>
             <display value="youths with adjustment difficulties center"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="HU"/>
             <display value="Hospital unit"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="BMTU"/>
             <display value="Bone marrow transplant unit"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="CCU"/>
             <display value="Coronary care unit"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="CHEST"/>
             <display value="Chest unit"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="EPIL"/>
             <display value="Epilepsy unit"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="ER"/>
             <display value="Emergency room"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="ETU"/>
             <display value="Emergency trauma unit"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="HD"/>
             <display value="Hemodialysis unit"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="HLAB"/>
             <display value="hospital laboratory"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="INLAB"/>
             <display value="inpatient laboratory"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="OUTLAB"/>
             <display value="outpatient laboratory"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="HRAD"/>
             <display value="radiology unit"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="HUSCS"/>
             <display value="specimen collection site"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="ICU"/>
             <display value="Intensive care unit"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="PEDICU"/>
             <display value="Pediatric intensive care unit"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="PEDNICU"/>
             <display value="Pediatric neonatal intensive care unit"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="INPHARM"/>
             <display value="inpatient pharmacy"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="MBL"/>
             <display value="medical laboratory"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="NCCS"/>
             <display value="Neurology critical care and stroke unit"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="NS"/>
             <display value="Neurosurgery unit"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="OUTPHARM"/>
             <display value="outpatient pharmacy"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="PEDU"/>
             <display value="Pediatric unit"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="PHU"/>
             <display value="Psychiatric hospital unit"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="RHU"/>
             <display value="Rehabilitation hospital unit"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="SLEEP"/>
             <display value="Sleep disorders unit"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="NCCF"/>
             <display value="Nursing or custodial care facility"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="SNF"/>
             <display value="Skilled nursing facility"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="OF"/>
             <display value="Outpatient facility"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="ALL"/>
             <display value="Allergy clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="AMPUT"/>
             <display value="Amputee clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="BMTC"/>
             <display value="Bone marrow transplant clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="BREAST"/>
             <display value="Breast clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="CANC"/>
             <display value="Child and adolescent neurology clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="CAPC"/>
             <display value="Child and adolescent psychiatry clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="CARD"/>
             <display value="Ambulatory Health Care Facilities; Clinic/Center; Rehabilitation: Cardiac Facilities"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="PEDCARD"/>
             <display value="Pediatric cardiology clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="COAG"/>
             <display value="Coagulation clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="CRS"/>
             <display value="Colon and rectal surgery clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="DERM"/>
             <display value="Dermatology clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="ENDO"/>
             <display value="Endocrinology clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="PEDE"/>
             <display value="Pediatric endocrinology clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="ENT"/>
             <display value="Otorhinolaryngology clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="FMC"/>
             <display value="Family medicine clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="GI"/>
             <display value="Gastroenterology clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="PEDGI"/>
             <display value="Pediatric gastroenterology clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="GIM"/>
             <display value="General internal medicine clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="GYN"/>
             <display value="Gynecology clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="HEM"/>
             <display value="Hematology clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="PEDHEM"/>
             <display value="Pediatric hematology clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="HTN"/>
             <display value="Hypertension clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="IEC"/>
             <display value="Impairment evaluation center"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="INFD"/>
             <display value="Infectious disease clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="PEDID"/>
             <display value="Pediatric infectious disease clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="INV"/>
             <display value="Infertility clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="LYMPH"/>
             <display value="Lympedema clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="MGEN"/>
             <display value="Medical genetics clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="NEPH"/>
             <display value="Nephrology clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="PEDNEPH"/>
             <display value="Pediatric nephrology clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="NEUR"/>
             <display value="Neurology clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="OB"/>
             <display value="Obstetrics clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="OMS"/>
             <display value="Oral and maxillofacial surgery clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="ONCL"/>
             <display value="Medical oncology clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="PEDHO"/>
             <display value="Pediatric oncology clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="OPH"/>
             <display value="Opthalmology clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="OPTC"/>
             <display value="optometry clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="ORTHO"/>
             <display value="Orthopedics clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="HAND"/>
             <display value="Hand clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="PAINCL"/>
             <display value="Pain clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="PC"/>
             <display value="Primary care clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="PEDC"/>
             <display value="Pediatrics clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="PEDRHEUM"/>
             <display value="Pediatric rheumatology clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="POD"/>
             <display value="Podiatry clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="PREV"/>
             <display value="Preventive medicine clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="PROCTO"/>
             <display value="Proctology clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="PROFF"/>
             <display value="Provider&#39;s Office"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="PROS"/>
             <display value="Prosthodontics clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="PSI"/>
             <display value="Psychology clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="PSY"/>
             <display value="Psychiatry clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="RHEUM"/>
             <display value="Rheumatology clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="SPMED"/>
             <display value="Sports medicine clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="SU"/>
             <display value="Surgery clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="PLS"/>
             <display value="Plastic surgery clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="URO"/>
             <display value="Urology clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="TR"/>
             <display value="Transplant clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="TRAVEL"/>
             <display value="Travel and geographic medicine clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="WND"/>
             <display value="Wound clinic"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="RTF"/>
             <display value="Residential treatment facility"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="PRC"/>
             <display value="Pain rehabilitation center"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="SURF"/>
             <display value="Substance use rehabilitation facility"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
             <abstract value="true"/>
+            <inactive value="false"/>
             <code value="_DedicatedNonClinicalLocationRoleType"/>
             <display value="DedicatedNonClinicalLocationRoleType"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="DADDR"/>
             <display value="Delivery Address"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="MOBL"/>
             <display value="Mobile Unit"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="AMB"/>
             <display value="Ambulance"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="PHARM"/>
             <display value="Pharmacy"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
             <abstract value="true"/>
+            <inactive value="false"/>
             <code value="_IncidentalServiceDeliveryLocationRoleType"/>
             <display value="IncidentalServiceDeliveryLocationRoleType"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="ACC"/>
             <display value="accident site"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="COMM"/>
             <display value="Community Location"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="CSC"/>
             <display value="community service center"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="PTRES"/>
             <display value="Patient&#39;s Residence"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="SCHOOL"/>
             <display value="school"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="UPC"/>
             <display value="underage protection center"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="WORK"/>
             <display value="work site"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
             <abstract value="true"/>
+            <inactive value="false"/>
             <code value="_SpecimenRoleType"/>
             <display value="SpecimenRoleType"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="C"/>
             <display value="Calibrator"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="G"/>
             <display value="Group"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="L"/>
             <display value="Pool"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="P"/>
             <display value="Patient"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="Q"/>
             <display value="Quality Control"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="B"/>
             <display value="Blind"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="E"/>
             <display value="Electronic QC"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="F"/>
             <display value="Filler Proficiency"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="O"/>
             <display value="Operator Proficiency"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="V"/>
             <display value="Verifying"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="R"/>
             <display value="Replicate"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="CLAIM"/>
             <display value="claimant"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="communityLaboratory"/>
             <display value="Community Laboratory"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="GT"/>
             <display value="Guarantor"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="homeHealth"/>
             <display value="Home Health"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="laboratory"/>
             <display value="Laboratory"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="pathologist"/>
             <display value="Pathologist"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="PH"/>
             <display value="Policy Holder"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="phlebotomist"/>
             <display value="Phlebotomist"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="PROG"/>
             <display value="program eligible"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="PT"/>
             <display value="Patient"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="subject"/>
             <display value="Self"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="thirdParty"/>
             <display value="Third Party"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
             <abstract value="true"/>
+            <inactive value="false"/>
             <code value="_AdministrativeLocationRoleType"/>
             <display value="AdministrativeLocationRoleType"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
             <abstract value="true"/>
+            <inactive value="false"/>
             <code value="_ClinicalOrganizationRoleType"/>
             <display value="ClinicalOrganizationRoleType"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
             <abstract value="true"/>
+            <inactive value="false"/>
             <code value="_CommissioningPartyRoleType"/>
             <display value="CommissioningPartyRoleType"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
             <abstract value="true"/>
+            <inactive value="false"/>
             <code value="_DeviceOperatorType"/>
             <display value="DeviceOperatorType"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
             <abstract value="true"/>
+            <inactive value="false"/>
             <code value="_EmployeeRoleType"/>
             <display value="EmployeeRoleType"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
             <abstract value="true"/>
+            <inactive value="false"/>
             <code value="_HealthcareProviderRoleType"/>
             <display value="HealthcareProviderRoleType"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
             <abstract value="true"/>
+            <inactive value="false"/>
             <code value="_LicensedRoleType"/>
             <display value="LicensedRoleType"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
             <abstract value="true"/>
+            <inactive value="false"/>
             <code value="_NDCRelatedDrugEntityType"/>
             <display value="NDCRelatedDrugEntityType"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
             <abstract value="true"/>
+            <inactive value="false"/>
             <code value="_OrganizationPartRoleType"/>
             <display value="OrganizationPartRoleType"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
             <abstract value="true"/>
+            <inactive value="false"/>
             <code value="_ProductProcessingOrganizationRoleType"/>
             <display value="ProductProcessingOrganizationRoleType"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
             <abstract value="true"/>
+            <inactive value="false"/>
             <code value="_ProductSafetyReportPartyRoleType"/>
             <display value="ProductSafetyReportPartyRoleType"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
             <abstract value="true"/>
+            <inactive value="false"/>
             <code value="_QualifiedRoleType"/>
             <display value="QualifiedRoleType"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="DEP"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="DEPEN"/>
             <display value="dependent"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="FM"/>
             <display value="Family Member"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="INDIV"/>
             <display value="individual"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="NAMED"/>
             <display value="named insured"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="PSYCHCF"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
             <code value="SUBSCR"/>
             <display value="subscriber"/>
           </contains>
@@ -6633,13 +7442,23 @@ Examples include: Physician, Nurse, Medical Technician, Respiratory Technician.<
     </resource>
   </entry>
   <entry>
+    <fullUrl value="http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIInterventionPreferencesVS"/>
     <resource>
       <ValueSet>
+        <id value="PADIInterventionPreferencesVS"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 23 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on Loinc v2.69</p>
+            <p>This value set contains 27 concepts</p>
+            <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
+              <p>Expansion based on: </p>
+              <ul>
+                <li>
+                  <a href="ValueSet-PADIUponDeathPreferencesVS.html">Upon Death Preferences v0.0.1 (ValueSet)</a>
+                </li>
+                <li>Loinc v2.69</li>
+              </ul>
+            </div>
             <p>All codes from system 
               <a href="http://terminology.hl7.org/2.0.0/CodeSystem-v3-loinc.html">
                 <code>http://loinc.org</code>
@@ -6687,22 +7506,6 @@ Examples include: Physician, Nurse, Medical Technician, Respiratory Technician.<
                   <a href="http://details.loinc.org/LOINC/75780-7.html">75780-7</a>
                 </td>
                 <td>Preferred location to spend final days if possible to choose [Reported]</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-75781-5"> </a>
-                  <a href="http://details.loinc.org/LOINC/75781-5.html">75781-5</a>
-                </td>
-                <td>Thoughts on organ and tissue donations [Reported]</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-75782-3"> </a>
-                  <a href="http://details.loinc.org/LOINC/75782-3.html">75782-3</a>
-                </td>
-                <td>Thoughts regarding autopsy [Reported]</td>
                 <td/>
               </tr>
               <tr>
@@ -6841,13 +7644,91 @@ Examples include: Physician, Nurse, Medical Technician, Respiratory Technician.<
                 <td>Thoughts on cardiopulmonary resuscitation (CPR) [Reported]</td>
                 <td/>
               </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---loinc.org-81356-8"> </a>
+                  <a href="http://details.loinc.org/LOINC/81356-8.html">81356-8</a>
+                </td>
+                <td>Death arrangements [Reported]</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---loinc.org-81357-6"> </a>
+                  <a href="http://details.loinc.org/LOINC/81357-6.html">81357-6</a>
+                </td>
+                <td>Messages to be delivered after death [Reported]</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---loinc.org-81358-4"> </a>
+                  <a href="http://details.loinc.org/LOINC/81358-4.html">81358-4</a>
+                </td>
+                <td>Person(s) to notify upon death [Reported]</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---loinc.org-81366-7"> </a>
+                  <a href="http://details.loinc.org/LOINC/81366-7.html">81366-7</a>
+                </td>
+                <td>Unfinished business [Reported]</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---loinc.org-81364-2"> </a>
+                  <a href="http://details.loinc.org/LOINC/81364-2.html">81364-2</a>
+                </td>
+                <td>Religious beliefs [Reported]</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---loinc.org-81365-9"> </a>
+                  <a href="http://details.loinc.org/LOINC/81365-9.html">81365-9</a>
+                </td>
+                <td>Religious affiliation contact to notify [Reported]</td>
+                <td/>
+              </tr>
             </table>
           </div>
         </text>
+        <url value="http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIInterventionPreferencesVS"/>
+        <version value="0.0.1"/>
+        <name value="PADIInterventionPreferencesVS"/>
+        <title value="Intervention Preferences"/>
         <status value="active"/>
+        <date value="2021-05-02T13:39:47-07:00"/>
+        <publisher value="HL7 Patient Empowerment Working Group"/>
+        <contact>
+          <name value="HL7 Patient Empowerment Working Group"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/patientempowerment/index.cfm"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="patients@lists.HL7.org"/>
+          </telecom>
+        </contact>
+        <description value="Clinical Focus: This value set includes concepts representing an individual&#39;s intervention preferences which can be expressed by the individual in his or her advance care plan.),(Data Element Scope: The intent of this value set is to identify personal intervention preferences that may be relevant and could be considered by clinicians or any person or organization that is providing care, treatment, or performing any other type of act to or on behalf of the individual.)"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="US"/>
+          </coding>
+        </jurisdiction>
+        <copyright value="This material contains content from LOINC (http://loinc.org). LOINC is copyright &#xA9; 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC&#xAE; is a registered United States trademark of Regenstrief Institute, Inc."/>
         <expansion>
-          <identifier value="urn:uuid:a33be8cf-ef60-4f43-a201-4082443346a1"/>
-          <timestamp value="2021-04-22T05:16:12.805Z"/>
+          <identifier value="urn:uuid:e5fde034-a6a1-4bc3-b10d-7f3a4f11030f"/>
+          <timestamp value="2021-05-02T13:40:48-07:00"/>
+          <total value="27"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>
@@ -6855,6 +7736,10 @@ Examples include: Physician, Nurse, Medical Technician, Respiratory Technician.<
           <parameter>
             <name value="version"/>
             <valueString value="http://loinc.org|2.69"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIUponDeathPreferencesVS|0.0.1"/>
           </parameter>
           <contains>
             <system value="http://loinc.org"/>
@@ -6875,16 +7760,6 @@ Examples include: Physician, Nurse, Medical Technician, Respiratory Technician.<
             <system value="http://loinc.org"/>
             <code value="75780-7"/>
             <display value="Preferred location to spend final days if possible to choose [Reported]"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="75781-5"/>
-            <display value="Thoughts on organ and tissue donations [Reported]"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="75782-3"/>
-            <display value="Thoughts regarding autopsy [Reported]"/>
           </contains>
           <contains>
             <system value="http://loinc.org"/>
@@ -6970,6 +7845,105 @@ Examples include: Physician, Nurse, Medical Technician, Respiratory Technician.<
             <system value="http://loinc.org"/>
             <code value="75779-9"/>
             <display value="Thoughts on cardiopulmonary resuscitation (CPR) [Reported]"/>
+          </contains>
+          <contains>
+            <system value="http://loinc.org"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
+            <code value="81356-8"/>
+            <display value="Death arrangements [Reported]"/>
+          </contains>
+          <contains>
+            <system value="http://loinc.org"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
+            <code value="81357-6"/>
+            <display value="Messages to be delivered after death [Reported]"/>
+          </contains>
+          <contains>
+            <system value="http://loinc.org"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
+            <code value="81358-4"/>
+            <display value="Person(s) to notify upon death [Reported]"/>
+          </contains>
+          <contains>
+            <system value="http://loinc.org"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
+            <code value="81366-7"/>
+            <display value="Unfinished business [Reported]"/>
+          </contains>
+          <contains>
+            <system value="http://loinc.org"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
+            <code value="81364-2"/>
+            <display value="Religious beliefs [Reported]"/>
+          </contains>
+          <contains>
+            <system value="http://loinc.org"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
+            <code value="81365-9"/>
+            <display value="Religious affiliation contact to notify [Reported]"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 1 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on Loinc v2.69</p>
+            <p>All codes from system 
+              <a href="http://terminology.hl7.org/2.0.0/CodeSystem-v3-loinc.html">
+                <code>http://loinc.org</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---loinc.org-75781-5"> </a>
+                  <a href="http://details.loinc.org/LOINC/75781-5.html">75781-5</a>
+                </td>
+                <td>Thoughts on organ and tissue donations [Reported]</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <status value="active"/>
+        <expansion>
+          <identifier value="urn:uuid:a71cbbaf-620e-443f-a969-f028b92a2eed"/>
+          <timestamp value="2021-05-02T18:32:39.277Z"/>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueString value="http://loinc.org|2.69"/>
+          </parameter>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="75781-5"/>
+            <display value="Thoughts on organ and tissue donations [Reported]"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -10476,7 +11450,7 @@ Examples include: Physician, Nurse, Medical Technician, Respiratory Technician.<
         <name value="PADIPersonalAndLegalRelationshipRoleTypeVS"/>
         <title value="Personal And Legal Relationship Role Type"/>
         <status value="active"/>
-        <date value="2021-04-25T21:26:31-07:00"/>
+        <date value="2021-05-02T13:39:47-07:00"/>
         <publisher value="HL7 Patient Empowerment Working Group"/>
         <contact>
           <name value="HL7 Patient Empowerment Working Group"/>
@@ -10497,8 +11471,8 @@ Examples include: Physician, Nurse, Medical Technician, Respiratory Technician.<
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:31361b29-9ebf-46d3-babb-49e38ebd58f5"/>
-          <timestamp value="2021-04-25T21:27:25-07:00"/>
+          <identifier value="urn:uuid:74bd857f-9af3-4649-b315-faff305d3972"/>
+          <timestamp value="2021-05-02T13:40:48-07:00"/>
           <total value="413"/>
           <parameter>
             <name value="excludeNested"/>
@@ -12613,6 +13587,128 @@ Examples include: Physician, Nurse, Medical Technician, Respiratory Technician.<
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
             <code value="SUBSCR"/>
             <display value="subscriber"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 6 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on Loinc v2.69</p>
+            <p>All codes from system 
+              <a href="http://terminology.hl7.org/2.0.0/CodeSystem-v3-loinc.html">
+                <code>http://loinc.org</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---loinc.org-81356-8"> </a>
+                  <a href="http://details.loinc.org/LOINC/81356-8.html">81356-8</a>
+                </td>
+                <td>Death arrangements [Reported]</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---loinc.org-81357-6"> </a>
+                  <a href="http://details.loinc.org/LOINC/81357-6.html">81357-6</a>
+                </td>
+                <td>Messages to be delivered after death [Reported]</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---loinc.org-81358-4"> </a>
+                  <a href="http://details.loinc.org/LOINC/81358-4.html">81358-4</a>
+                </td>
+                <td>Person(s) to notify upon death [Reported]</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---loinc.org-81366-7"> </a>
+                  <a href="http://details.loinc.org/LOINC/81366-7.html">81366-7</a>
+                </td>
+                <td>Unfinished business [Reported]</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---loinc.org-81364-2"> </a>
+                  <a href="http://details.loinc.org/LOINC/81364-2.html">81364-2</a>
+                </td>
+                <td>Religious beliefs [Reported]</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---loinc.org-81365-9"> </a>
+                  <a href="http://details.loinc.org/LOINC/81365-9.html">81365-9</a>
+                </td>
+                <td>Religious affiliation contact to notify [Reported]</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <status value="active"/>
+        <expansion>
+          <identifier value="urn:uuid:24a3e8c2-5f03-44d1-a783-67f3b82b3cd5"/>
+          <timestamp value="2021-05-02T18:32:38.246Z"/>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueString value="http://loinc.org|2.69"/>
+          </parameter>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="81356-8"/>
+            <display value="Death arrangements [Reported]"/>
+          </contains>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="81357-6"/>
+            <display value="Messages to be delivered after death [Reported]"/>
+          </contains>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="81358-4"/>
+            <display value="Person(s) to notify upon death [Reported]"/>
+          </contains>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="81366-7"/>
+            <display value="Unfinished business [Reported]"/>
+          </contains>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="81364-2"/>
+            <display value="Religious beliefs [Reported]"/>
+          </contains>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="81365-9"/>
+            <display value="Religious affiliation contact to notify [Reported]"/>
           </contains>
         </expansion>
       </ValueSet>

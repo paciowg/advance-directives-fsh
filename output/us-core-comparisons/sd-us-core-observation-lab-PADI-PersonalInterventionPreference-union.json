@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "1543fcb1-ceca-4d80-91c9-d14748f25ae0-194",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/1543fcb1-ceca-4d80-91c9-d14748f25ae0-194",
+  "id" : "544b2390-e1a9-40d8-b109-20cd743c56d2-209",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/544b2390-e1a9-40d8-b109-20cd743c56d2-209",
   "name" : "UnionUSCoreLaboratoryResultObservationProfileAndPADIPersonalInterventionPreference",
   "title" : "Union of US Core Laboratory Result Observation Profile And ADI Personal Intervention Preference",
   "status" : "active",
-  "date" : "2021-04-25T21:26:48-07:00",
+  "date" : "2021-05-02T13:40:06-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -233,7 +233,7 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       }],
-      "mustSupport" : false,
+      "mustSupport" : true,
       "isModifier" : false,
       "isSummary" : false,
       "mapping" : [{
@@ -575,7 +575,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "LOINC codes",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/1543fcb1-ceca-4d80-91c9-d14748f25ae0-197"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/544b2390-e1a9-40d8-b109-20cd743c56d2-212"
       },
       "mapping" : [{
         "identity" : "workflow",

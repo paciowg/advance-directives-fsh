@@ -1,5 +1,5 @@
 // Bundle Examples
-Instance: ExampleMcBeeBundle1
+Instance: Example-McBee-Bundle1
 InstanceOf: Bundle
 Description: "Example Patient McBee ADI Document Bundle McBee 1"
 Usage: #example
@@ -9,73 +9,73 @@ Usage: #example
 * type = #document
 * timestamp = "2019-12-06T10:11:30.001-04:00"
 
-* entry[+].fullUrl = "http://www.example.org/fhir/Composition/ExampleMcBeePACPComposition1"
-* entry[=].resource = ExampleMcBeePACPComposition1
-* entry[+].fullUrl = "http://www.example.org/fhir/Patient/ExampleMcBeePatient1"
-* entry[=].resource = ExampleMcBeePatient1
-* entry[+].fullUrl = "http://www.example.org/fhir/RelatedPerson/ExampleMcBeeHealthcareAgent1"
-* entry[=].resource = ExampleMcBeeHealthcareAgent1
-* entry[+].fullUrl = "http://www.example.org/fhir/RelatedPerson/ExampleMcBeeHealthcareAgent2"
-* entry[=].resource = ExampleMcBeeHealthcareAgent2
-* entry[+].fullUrl = "http://www.example.org/fhir/Observation/ExampleMcBeeCareExperiencePreference1"
-* entry[=].resource = ExampleMcBeeCareExperiencePreference1
-* entry[+].fullUrl = "http://www.example.org/fhir/Observation/ExampleMcBeeCareExperiencePreference2"
-* entry[=].resource = ExampleMcBeeCareExperiencePreference2
-* entry[+].fullUrl = "http://www.example.org/fhir/Observation/ExampleMcBeeCareExperiencePreference3"
-* entry[=].resource = ExampleMcBeeCareExperiencePreference3
-* entry[+].fullUrl = "http://www.example.org/fhir/Observation/ExampleMcBeeCareExperiencePreference4"
-* entry[=].resource = ExampleMcBeeCareExperiencePreference4
-* entry[+].fullUrl = "http://www.example.org/fhir/List/ExampleMcBeePersonalPrioritiesOrganizer1"
-* entry[=].resource = ExampleMcBeePersonalPrioritiesOrganizer1
-* entry[+].fullUrl = "http://www.example.org/fhir/Observation/ExampleMcBeePersonalInterventionPreference1"
-* entry[=].resource = ExampleMcBeePersonalInterventionPreference1
-* entry[+].fullUrl = "http://www.example.org/fhir/Observation/ExampleMcBeePersonalInterventionPreference2"
-* entry[=].resource = ExampleMcBeePersonalInterventionPreference2
-* entry[+].fullUrl = "http://www.example.org/fhir/Observation/ExampleMcBeePersonalInterventionPreference3"
-* entry[=].resource = ExampleMcBeePersonalInterventionPreference3
-* entry[+].fullUrl = "http://www.example.org/fhir/Observation/ExampleMcBeePersonalInterventionPreference4"
-* entry[=].resource = ExampleMcBeePersonalInterventionPreference4
-* entry[+].fullUrl = "http://www.example.org/fhir/Observation/ExampleMcBeePersonalInterventionPreference5"
-* entry[=].resource = ExampleMcBeePersonalInterventionPreference5
-* entry[+].fullUrl = "http://www.example.org/fhir/Observation/ExampleMcBeePersonalInterventionPreference6"
-* entry[=].resource = ExampleMcBeePersonalInterventionPreference6
-* entry[+].fullUrl = "http://www.example.org/fhir/Observation/ExampleMcBeePersonalInterventionPreference7"
-* entry[=].resource = ExampleMcBeePersonalInterventionPreference7
-* entry[+].fullUrl = "http://www.example.org/fhir/Goal/ExampleMcBeePersonalHealthGoal1"
-* entry[=].resource = ExampleMcBeePersonalHealthGoal1
-* entry[+].fullUrl = "http://www.example.org/fhir/Goal/ExampleMcBeePersonalHealthGoal2"
-* entry[=].resource = ExampleMcBeePersonalHealthGoal2
-* entry[+].fullUrl = "http://www.example.org/fhir/Goal/ExampleMcBeePersonalHealthGoal3"
-* entry[=].resource = ExampleMcBeePersonalHealthGoal3
-* entry[+].fullUrl = "http://www.example.org/fhir/Goal/ExampleMcBeePersonalHealthGoal4"
-* entry[=].resource = ExampleMcBeePersonalHealthGoal4
-* entry[+].fullUrl = "http://www.example.org/fhir/Goal/ExampleMcBeePersonalHealthGoal5"
-* entry[=].resource = ExampleMcBeePersonalHealthGoal5
-* entry[+].fullUrl = "http://www.example.org/fhir/Goal/ExampleMcBeePersonalHealthGoal6"
-* entry[=].resource = ExampleMcBeePersonalHealthGoal6
-* entry[+].fullUrl = "http://www.example.org/fhir/Goal/ExampleMcBeePersonalHealthGoal7"
-* entry[=].resource = ExampleMcBeePersonalHealthGoal7
+* entry[+].fullUrl = "http://www.example.org/fhir/Composition/Example-McBee-PACPComposition1"
+* entry[=].resource = Example-McBee-PACPComposition1
+* entry[+].fullUrl = "http://www.example.org/fhir/Patient/Example-McBee-Patient1"
+* entry[=].resource = Example-McBee-Patient1
+* entry[+].fullUrl = "http://www.example.org/fhir/RelatedPerson/Example-McBee-HealthcareAgent1"
+* entry[=].resource = Example-McBee-HealthcareAgent1
+* entry[+].fullUrl = "http://www.example.org/fhir/RelatedPerson/Example-McBee-HealthcareAgent2"
+* entry[=].resource = Example-McBee-HealthcareAgent2
+* entry[+].fullUrl = "http://www.example.org/fhir/Observation/Example-McBee-CareExperiencePreference1"
+* entry[=].resource = Example-McBee-CareExperiencePreference1
+* entry[+].fullUrl = "http://www.example.org/fhir/Observation/Example-McBee-CareExperiencePreference2"
+* entry[=].resource = Example-McBee-CareExperiencePreference2
+* entry[+].fullUrl = "http://www.example.org/fhir/Observation/Example-McBee-CareExperiencePreference3"
+* entry[=].resource = Example-McBee-CareExperiencePreference3
+* entry[+].fullUrl = "http://www.example.org/fhir/Observation/Example-McBee-CareExperiencePreference4"
+* entry[=].resource = Example-McBee-CareExperiencePreference4
+* entry[+].fullUrl = "http://www.example.org/fhir/List/Example-McBee-PersonalPrioritiesOrganizer1"
+* entry[=].resource = Example-McBee-PersonalPrioritiesOrganizer1
+* entry[+].fullUrl = "http://www.example.org/fhir/Observation/Example-McBee-PersonalInterventionPreference1"
+* entry[=].resource = Example-McBee-PersonalInterventionPreference1
+* entry[+].fullUrl = "http://www.example.org/fhir/Observation/Example-McBee-PersonalInterventionPreference2"
+* entry[=].resource = Example-McBee-PersonalInterventionPreference2
+* entry[+].fullUrl = "http://www.example.org/fhir/Observation/Example-McBee-PersonalInterventionPreference3"
+* entry[=].resource = Example-McBee-PersonalInterventionPreference3
+* entry[+].fullUrl = "http://www.example.org/fhir/Observation/Example-McBee-PersonalInterventionPreference4"
+* entry[=].resource = Example-McBee-PersonalInterventionPreference4
+* entry[+].fullUrl = "http://www.example.org/fhir/Observation/Example-McBee-PersonalInterventionPreference5"
+* entry[=].resource = Example-McBee-PersonalInterventionPreference5
+* entry[+].fullUrl = "http://www.example.org/fhir/Observation/Example-McBee-PersonalInterventionPreference6"
+* entry[=].resource = Example-McBee-PersonalInterventionPreference6
+* entry[+].fullUrl = "http://www.example.org/fhir/Observation/Example-McBee-PersonalInterventionPreference7"
+* entry[=].resource = Example-McBee-PersonalInterventionPreference7
+* entry[+].fullUrl = "http://www.example.org/fhir/Goal/Example-McBee-PersonalHealthGoal1"
+* entry[=].resource = Example-McBee-PersonalHealthGoal1
+* entry[+].fullUrl = "http://www.example.org/fhir/Goal/Example-McBee-PersonalHealthGoal2"
+* entry[=].resource = Example-McBee-PersonalHealthGoal2
+* entry[+].fullUrl = "http://www.example.org/fhir/Goal/Example-McBee-PersonalHealthGoal3"
+* entry[=].resource = Example-McBee-PersonalHealthGoal3
+* entry[+].fullUrl = "http://www.example.org/fhir/Goal/Example-McBee-PersonalHealthGoal4"
+* entry[=].resource = Example-McBee-PersonalHealthGoal4
+* entry[+].fullUrl = "http://www.example.org/fhir/Goal/Example-McBee-PersonalHealthGoal5"
+* entry[=].resource = Example-McBee-PersonalHealthGoal5
+* entry[+].fullUrl = "http://www.example.org/fhir/Goal/Example-McBee-PersonalHealthGoal6"
+* entry[=].resource = Example-McBee-PersonalHealthGoal6
+* entry[+].fullUrl = "http://www.example.org/fhir/Goal/Example-McBee-PersonalHealthGoal7"
+* entry[=].resource = Example-McBee-PersonalHealthGoal7
 
 
-* entry[+].fullUrl = "http://www.example.org/fhir/Observation/ExampleMcBeeOrganDonationObservation1"
-* entry[=].resource = ExampleMcBeeOrganDonationObservation1
-* entry[+].fullUrl = "http://www.example.org/fhir/Observation/ExampleMcBeeAutopsyDonationObservation1"
-* entry[=].resource = ExampleMcBeeAutopsyDonationObservation1
-* entry[+].fullUrl = "http://www.example.org/fhir/Observation/ExampleMcBeeCareExperiencePreference5"
-* entry[=].resource = ExampleMcBeeCareExperiencePreference5
-* entry[+].fullUrl = "http://www.example.org/fhir/Organization/ExampleMcBeeOrganizationCustodian1"
-* entry[=].resource = ExampleMcBeeOrganizationCustodian1
-* entry[+].fullUrl = "http://www.example.org/fhir/Organization/ExampleMcBeeOrganizationAssembler1"
-* entry[=].resource = ExampleMcBeeOrganizationAssembler1
-* entry[+].fullUrl = "http://www.example.org/fhir/Provenance/ExampleMcBeePACPProvenance1"
-* entry[=].resource = ExampleMcBeePACPProvenance1
+* entry[+].fullUrl = "http://www.example.org/fhir/Observation/Example-McBee-OrganDonationObservation1"
+* entry[=].resource = Example-McBee-OrganDonationObservation1
+* entry[+].fullUrl = "http://www.example.org/fhir/Observation/Example-McBee-AutopsyObservation1"
+* entry[=].resource = Example-McBee-AutopsyObservation1
+* entry[+].fullUrl = "http://www.example.org/fhir/Observation/Example-McBee-CareExperiencePreference5"
+* entry[=].resource = Example-McBee-CareExperiencePreference5
+* entry[+].fullUrl = "http://www.example.org/fhir/Organization/Example-McBee-OrganizationCustodian1"
+* entry[=].resource = Example-McBee-OrganizationCustodian1
+* entry[+].fullUrl = "http://www.example.org/fhir/Organization/Example-McBee-OrganizationAssembler1"
+* entry[=].resource = Example-McBee-OrganizationAssembler1
+* entry[+].fullUrl = "http://www.example.org/fhir/Provenance/Example-McBee-PACPProvenance1"
+* entry[=].resource = Example-McBee-PACPProvenance1
 
 
 
 
 // Patient Examples
 
-Instance: ExampleMcBeePatient1
+Instance: Example-McBee-Patient1
 InstanceOf: $USCorePatient
 Description: "Example Patient McBee Patient Example 1"
 Usage: #example
@@ -83,7 +83,7 @@ Usage: #example
 //* meta.profile = Canonical(C4BBPatient)
 * meta.lastUpdated = "2021-04-07T19:55:22+00:00"
 * language = #en-US
-* id = "ExampleMcBeePatient1"
+* id = "Example-McBee-Patient1"
 * active = true
 * name[0].family = "McBee"
 * name[0].given[0] = "Roger"
@@ -125,15 +125,15 @@ Usage: #example
 
 //Composition Examples
 
-Instance: ExampleMcBeePACPComposition1
+Instance: Example-McBee-PACPComposition1
 InstanceOf: PADIPACPComposition
-Description: "Example Patient McBee Personal AdvanceCare Plan Composition Example 1"
+Description: "Example Patient McBee Personal Advance Care Plan Composition Example 1"
 Usage: #example
 
 * language = #en-US
 
 // Need to add extensions (mostly participants)
-* extension[padi-dataEnterer-extension].valueReference = Reference(ExampleMcBeePatient1)
+* extension[padi-dataEnterer-extension].valueReference = Reference(Example-McBee-Patient1)
 // witness Sally Bobbins
 
 * identifier.system = "urn:oid:"
@@ -143,12 +143,12 @@ Usage: #example
 * status = #final
 * type = $LOINC#81334-5 "Patient Personal advance care plan"
 * category = $LOINC#75320-2 "Advance directive"
-* subject = Reference(ExampleMcBeePatient1)
+* subject = Reference(Example-McBee-Patient1)
 * date = "2018-08-28T08:49:58.313-04:00"
-* author = Reference(ExampleMcBeePatient1)
+* author = Reference(Example-McBee-Patient1)
 * title = "Personal Advance Care Plan Document for Roger McBee"
 
-* custodian = Reference(ExampleMcBeeOrganizationCustodian1)
+* custodian = Reference(Example-McBee-OrganizationCustodian1)
 
 // Need to include attesters
 
@@ -163,23 +163,23 @@ Usage: #example
 
 <p>I am appointing the person or persons below as my healthcare agent and, if applicable, as my alternate healthcare agent(s), and I am granting to each of them the legal authority to make medical treatment decisions on my behalf and to consult with my physician and others.  The power to make medical treatment decisions that I am granting to my healthcare agent(s) is expressly subject to, and limited by, the choices that I have expressed elsewhere in my uADD.  If my medical treatment choices are not clear, I am authorizing and directing my healthcare agent to make decisions in my best interests and based on what is known of my wishes.</p>
 
-<h2>Primary Healthcare Agent</h2>
-<p><b>The person I choose as my Primary Healthcare Agent is:</b></p>
+<p><b>Primary Healthcare Agent</b></p>
+<p>The person I choose as my Primary Healthcare Agent is:</p>
 <p><i>Sally Bobbins</i></p>
 <p><i>lscottbrown@verizon.net</i></p>
 <p><i>[SELECTED to act as a healthcare agent on 3/23/2018, at 9:13 AM CST]</i></p>
 <p><i>[As of 12/6/2019, at 1:11 AM CDT, a response is still PENDING]</i></p>
 
 
-<h2>First Alternate Healthcare Agent</h2>
-<p><b>If this healthcare agent is unable or unwilling to make medical treatment decisions for me, or if my spouse is designated as my primary healthcare agent and our marriage is annulled, or we are divorced or legally separated, then my next choice for a healthcare agent is:</b></p>
+<p><b>First Alternate Healthcare Agent</b></p>
+<p>If this healthcare agent is unable or unwilling to make medical treatment decisions for me, or if my spouse is designated as my primary healthcare agent and our marriage is annulled, or we are divorced or legally separated, then my next choice for a healthcare agent is:</p>
 <p><i>S. Leonard Susskind (Friend)</i></p>
 <p><i>sbrown@advaultinc.com</i></p>
 <p><i>[SELECTED to act as a healthcare agent on 3/23/2018, at 9:13 AM CST]</i></p>
 <p><i>[ACCEPTED to act as a healthcare agent on 3/23/2018, at 9:14 AM CST]</i></p>
 
 
-<h2>My Healthcare Agent’s General Authority</h2>
+<p><b>My Healthcare Agent’s General Authority</b></p>
 <p>Subject to my medical treatment choices expressed elsewhere in this uADD™ and applicable law that requires otherwise, <i>I grant to my healthcare agent the power to make all choices and medical treatment decisions for me.</i></p>
 
 <p>Here are some specific instructions that expand or limit the powers I have just granted to my healthcare agent(s):</p>
@@ -193,8 +193,8 @@ Usage: #example
 
 </div>"
 
-* section[healthcare_agent_appointment].entry[+] = Reference(ExampleMcBeeHealthcareAgent1)
-* section[healthcare_agent_appointment].entry[+] = Reference(ExampleMcBeeHealthcareAgent2)
+* section[healthcare_agent_appointment].entry[+] = Reference(Example-McBee-HealthcareAgent1)
+* section[healthcare_agent_appointment].entry[+] = Reference(Example-McBee-HealthcareAgent2)
 // will need to add HCA authority when the profile is created
 
 
@@ -220,10 +220,10 @@ Usage: #example
 <p><b>My unfinished business:</b> If it appears that I am approaching the end of my life, and I cannot communicate with persons around me, I would want my doctors and nurses, my family, and my friends to know about some unfinished business that I need to address:</p>
 <p><i>I am awaiting a message from the Noble Committee. Please keep me alive if I look promising this year.</i></p>
 </div>"
-* section[gpp_personal_care_experience].entry[+] = Reference(ExampleMcBeeCareExperiencePreference1)
-* section[gpp_personal_care_experience].entry[+] = Reference(ExampleMcBeeCareExperiencePreference2)
-* section[gpp_personal_care_experience].entry[+] = Reference(ExampleMcBeeCareExperiencePreference3)
-* section[gpp_personal_care_experience].entry[+] = Reference(ExampleMcBeeCareExperiencePreference4)
+* section[gpp_personal_care_experience].entry[+] = Reference(Example-McBee-CareExperiencePreference1)
+* section[gpp_personal_care_experience].entry[+] = Reference(Example-McBee-CareExperiencePreference2)
+* section[gpp_personal_care_experience].entry[+] = Reference(Example-McBee-CareExperiencePreference3)
+* section[gpp_personal_care_experience].entry[+] = Reference(Example-McBee-CareExperiencePreference4)
 
 
 
@@ -232,7 +232,7 @@ Usage: #example
 * section[gpp_for_end_of_life_or_severely_dibilitating_condition].code = $LOINC#81336-0 "Patient Goals, preferences, and priorities under certain health conditions"
 * section[gpp_for_end_of_life_or_severely_dibilitating_condition].text.status = #additional
 * section[gpp_for_end_of_life_or_severely_dibilitating_condition].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
-<h2>My Advance Care Goals</h2>
+<p><b>My Advance Care Goals</b></p>
 
 <p>If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me:</p>
 <ol>
@@ -247,7 +247,7 @@ Usage: #example
 
 <p>If I am having significant pain or suffering, <i>I would like my doctors to consult a Supportive and Palliative Care Team to help treat my physical, emotional and spiritual discomfort, and to support my family.</i></p>
 
-<h2>My Preferences in Specific Circumstances</h2>
+<p><b>My Preferences in Specific Circumstances</b></p>
     
 <p>In addition to the general advance care goals provided above, below are specific treatment preferences with respect to certain specific circumstances or situations.</p>
 <p> </p>
@@ -264,21 +264,21 @@ Usage: #example
 <p><i>I want my healthcare agent to make the decision, but if my chances are slim to none that I'll leave the hospital, even if they resuscitate me, then I absolutely do not want CPR.</i></p>
 <p> </p>
 
-<h2>Other Instructions</h2>
+<p><b>Other Instructions</b></p>
 <p>If it were possible to choose, here is where I would like to spend my final days:</p>
 <p><i>At home.I would like to receive hospice care at home if possible.</i></p>
 </div>"
 
 
 // entries starting on 566
-* section[gpp_for_end_of_life_or_severely_dibilitating_condition].entry[+] = Reference(ExampleMcBeePersonalPrioritiesOrganizer1)
-* section[gpp_for_end_of_life_or_severely_dibilitating_condition].entry[+] = Reference(ExampleMcBeePersonalInterventionPreference1)
-* section[gpp_for_end_of_life_or_severely_dibilitating_condition].entry[+] = Reference(ExampleMcBeePersonalInterventionPreference2)
-* section[gpp_for_end_of_life_or_severely_dibilitating_condition].entry[+] = Reference(ExampleMcBeePersonalInterventionPreference3)
-* section[gpp_for_end_of_life_or_severely_dibilitating_condition].entry[+] = Reference(ExampleMcBeePersonalInterventionPreference4)
-* section[gpp_for_end_of_life_or_severely_dibilitating_condition].entry[+] = Reference(ExampleMcBeePersonalInterventionPreference5)
-* section[gpp_for_end_of_life_or_severely_dibilitating_condition].entry[+] = Reference(ExampleMcBeePersonalInterventionPreference6)
-* section[gpp_for_end_of_life_or_severely_dibilitating_condition].entry[+] = Reference(ExampleMcBeePersonalInterventionPreference7)
+* section[gpp_for_end_of_life_or_severely_dibilitating_condition].entry[+] = Reference(Example-McBee-PersonalPrioritiesOrganizer1)
+* section[gpp_for_end_of_life_or_severely_dibilitating_condition].entry[+] = Reference(Example-McBee-PersonalInterventionPreference1)
+* section[gpp_for_end_of_life_or_severely_dibilitating_condition].entry[+] = Reference(Example-McBee-PersonalInterventionPreference2)
+* section[gpp_for_end_of_life_or_severely_dibilitating_condition].entry[+] = Reference(Example-McBee-PersonalInterventionPreference3)
+* section[gpp_for_end_of_life_or_severely_dibilitating_condition].entry[+] = Reference(Example-McBee-PersonalInterventionPreference4)
+* section[gpp_for_end_of_life_or_severely_dibilitating_condition].entry[+] = Reference(Example-McBee-PersonalInterventionPreference5)
+* section[gpp_for_end_of_life_or_severely_dibilitating_condition].entry[+] = Reference(Example-McBee-PersonalInterventionPreference6)
+* section[gpp_for_end_of_life_or_severely_dibilitating_condition].entry[+] = Reference(Example-McBee-PersonalInterventionPreference7)
 
 
 
@@ -289,21 +289,21 @@ Usage: #example
 * section[gpp_upon_death].text.status = #additional
 * section[gpp_upon_death].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
 
-<h2>Consent to Donate</h2>
+<p><b>Consent to Donate</b></p>
 
 <p><i>I don’t want to donate my organs.</i></p>
 <p> </p>
-<h2>Autopsy</h2>
+<p><b>Autopsy</b></p>
 <p><i>I want an autopsy if my doctor thinks it will help others.</i></p>
 
-<h2>Here are my thoughts on funeral or burial plans:</h2>
-<p><b>If I were to pass away:</b> <i>I have a plot. My wife has the details, also my secretary, Ms. Williams, will know.</i></p>
+<p><b>Here are my thoughts on funeral or burial plans:</b></p>
+<p>If I were to pass away: <i>I have a plot. My wife has the details, also my secretary, Ms. Williams, will know.</i></p>
 
 </div>"
 
-* section[gpp_upon_death].entry[+] = Reference(ExampleMcBeeOrganDonationObservation1)
-* section[gpp_upon_death].entry[+] = Reference(ExampleMcBeeAutopsyDonationObservation1)
-* section[gpp_upon_death].entry[+] = Reference(ExampleMcBeeCareExperiencePreference5)
+* section[gpp_upon_death].entry[+] = Reference(Example-McBee-OrganDonationObservation1)
+* section[gpp_upon_death].entry[+] = Reference(Example-McBee-AutopsyObservation1)
+* section[gpp_upon_death].entry[+] = Reference(Example-McBee-CareExperiencePreference5)
 
 
 
@@ -330,7 +330,7 @@ Usage: #example
     </tbody>
 </table>
 <p> </p>
-<h2>Statement of Witnesses</h2>
+<p><b>Statement of Witnesses</b></p>
 <p> </p>
 <p>I declare that the person who signed this uADD, or who asked another to sign this uADD on his/her behalf, is the individual identified in the document, and he/she did so in my presence or otherwise provided satisfactory proof to me of his/her identity. I believe him/her to be of sound mind and at least 18 years of age. I personally witnessed him/her sign this document or ask the person indicated to do so, or I received proof of his/her identity that I believe is adequate, and I believe that he/she did so voluntarily.  By signing this document as a witness, I certify that I am:</p>
 
@@ -367,21 +367,21 @@ Usage: #example
 // Participant examples
 // Healthcare Agent examples
 
-Instance: ExampleMcBeeHealthcareAgent1
+Instance: Example-McBee-HealthcareAgent1
 InstanceOf: PADIHealthcareAgent
 Description: "Example Patient McBee Healthcare Agent (Sally Bobbins)"
 Usage: #example
 * text.status = #additional
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
-<h2>Primary Healthcare Agent</h2>
-<p><b>The person I choose as my Primary Healthcare Agent is:</b></p>
+<p><b>Primary Healthcare Agent</b></p>
+<p>The person I choose as my Primary Healthcare Agent is:</p>
 <p><i>Sally Bobbins</i></p>
 <p><i>lscottbrown@verizon.net</i></p>
 <p><i>[SELECTED to act as a healthcare agent on 3/23/2018, at 9:13 AM CST]</i></p>
 <p><i>[As of 12/6/2019, at 1:11 AM CDT, a response is still PENDING]</i></p>
 </div>"
 
-* patient = Reference(ExampleMcBeePatient1)
+* patient = Reference(Example-McBee-Patient1)
 * relationship[0] = $LOINC#75783-1 "Primary healthcare agent [Reported]"
 
 * name[0].family = "Sally"
@@ -392,21 +392,21 @@ Usage: #example
 
 
 
-Instance: ExampleMcBeeHealthcareAgent2
+Instance: Example-McBee-HealthcareAgent2
 InstanceOf: PADIHealthcareAgent
 Description: "Example Patient McBee Healthcare Agent (S. Leaonard Susskind)"
 Usage: #example
 * text.status = #additional
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
-<h2>First Alternate Healthcare Agent</h2>
-<p><b>If this healthcare agent is unable or unwilling to make medical treatment decisions for me, or if my spouse is designated as my primary healthcare agent and our marriage is annulled, or we are divorced or legally separated, then my next choice for a healthcare agent is:</b></p>
+<p><b>First Alternate Healthcare Agent</b></p>
+<p>If this healthcare agent is unable or unwilling to make medical treatment decisions for me, or if my spouse is designated as my primary healthcare agent and our marriage is annulled, or we are divorced or legally separated, then my next choice for a healthcare agent is:</p>
 <p><i>S. Leonard Susskind (Friend)</i></p>
 <p><i>sbrown@advaultinc.com</i></p>
 <p><i>[SELECTED to act as a healthcare agent on 3/23/2018, at 9:13 AM CST]</i></p>
 <p><i>[ACCEPTED to act as a healthcare agent on 3/23/2018, at 9:14 AM CST]</i></p>
 </div>"
 
-* patient = Reference(ExampleMcBeePatient1)
+* patient = Reference(Example-McBee-Patient1)
 * relationship[0] = $LOINC#75784-9 "First alternate healthcare agent [Reported]"
 * relationship[1] = $HL7RoleCode#FRND "unrelated friend"
 
@@ -420,7 +420,7 @@ Usage: #example
 
 // Observations
 // Care Experience Preferences
-Instance: ExampleMcBeeCareExperiencePreference1
+Instance: Example-McBee-CareExperiencePreference1
 InstanceOf: PADICareExperiencePreference
 Description: "Example Patient McBee Care Experience Preference (My Joys)"
 
@@ -435,7 +435,7 @@ Description: "Example Patient McBee Care Experience Preference (My Joys)"
 
 
 
-Instance: ExampleMcBeeCareExperiencePreference2
+Instance: Example-McBee-CareExperiencePreference2
 InstanceOf: PADICareExperiencePreference
 Description: "Example Patient McBee Care Experience Preference (How to care for me)"
 
@@ -449,7 +449,7 @@ Description: "Example Patient McBee Care Experience Preference (How to care for 
 * valueString = "How to care for me: If I become incapacitated and cannot express myself, here is what I would like to tell my healthcare agent, family and friends about how I would like for them to care for me: I don’t like being treated like an object. I would like to be greeted like a person before working on me."
 
 
-Instance: ExampleMcBeeCareExperiencePreference3
+Instance: Example-McBee-CareExperiencePreference3
 InstanceOf: PADICareExperiencePreference
 Description: "Example Patient McBee Care Experience Preference (Religious affiliation contact)"
 
@@ -463,7 +463,7 @@ Description: "Example Patient McBee Care Experience Preference (Religious affili
 * code = $LOINC#81365-9 "Religious affiliation contact to notify [Reported]"
 * valueString = "Please attempt to notify someone from my religion at the following phone number: If I have included one - Not Religious"
 
-Instance: ExampleMcBeeCareExperiencePreference4
+Instance: Example-McBee-CareExperiencePreference4
 InstanceOf: PADICareExperiencePreference
 Description: "Example Patient McBee Care Experience Preference (My unfinished business)"
 
@@ -477,14 +477,14 @@ Description: "Example Patient McBee Care Experience Preference (My unfinished bu
 * valueString = "If it appears that I am approaching the end of my life, and I cannot communicate with persons around me, I would want my doctors and nurses, my family, and my friends to know about some unfinished business that I need to address: I am awaiting a message from the Noble Committee. Please keep me alive if I look promising this year."
 
 
-Instance: ExampleMcBeeCareExperiencePreference5
+Instance: Example-McBee-CareExperiencePreference5
 InstanceOf: PADICareExperiencePreference
 Description: "Example Patient McBee Care Experience Preference (Death arrangements)"
 
 * text.status = #additional
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
-<h2>Here are my thoughts on funeral or burial plans:</h2>
-<p><b>If I were to pass away:</b> <i>I have a plot. My wife has the details, also my secretary, Ms. Williams, will know.</i></p>
+<p><b>Here are my thoughts on funeral or burial plans:</b></p>
+<p>If I were to pass away: <i>I have a plot. My wife has the details, also my secretary, Ms. Williams, will know.</i></p>
 </div>"
 * status = #final
 * code = $LOINC#81356-8 "Death arrangements [Reported]"
@@ -496,13 +496,13 @@ Description: "Example Patient McBee Care Experience Preference (Death arrangemen
 
 // Personal Priorities Organizer
 
-Instance: ExampleMcBeePersonalPrioritiesOrganizer1
+Instance: Example-McBee-PersonalPrioritiesOrganizer1
 InstanceOf: PADIPersonalPrioritiesOrganizer
 Description: "Example Patient McBee Personal Priorities Organizer"
-
+/* List.text is not currently required. Is this necessary? THe section.text and the entries all include the narrative. This is just an organizer with no additional narrative, but if retrieved outside the contect of a composition, it may not be clear what this is for.
 * text.status = #additional
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
-<h2>My Advance Care Goals</h2>
+<p><b>My Advance Care Goals</b></p>
 
 <p>If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me:</p>
 <ol>
@@ -517,7 +517,7 @@ Description: "Example Patient McBee Personal Priorities Organizer"
 
 <p>If I am having significant pain or suffering, <i>I would like my doctors to consult a Supportive and Palliative Care Team to help treat my physical, emotional and spiritual discomfort, and to support my family.</i></p>
 
-<h2>My Preferences in Specific Circumstances</h2>
+<p><b>My Preferences in Specific Circumstances</b></p>
     
 <p>In addition to the general advance care goals provided above, below are specific treatment preferences with respect to certain specific circumstances or situations.</p>
 <p> </p>
@@ -533,27 +533,27 @@ Description: "Example Patient McBee Personal Priorities Organizer"
 <p><i>I want my healthcare agent to make the decision, but if my chances are slim to none that I'll leave the hospital, even if they resuscitate me, then I absolutely do not want CPR.</i></p>
 <p> </p>
 
-<h2>Other Instructions</h2>
+<p><b>Other Instructions</b></p>
 <p>If it were possible to choose, here is where I would like to spend my final days:</p>
 <p><i>At home.I would like to receive hospice care at home if possible.</i></p>
 </div>"
-
+*/
 * status = #current
 * mode = #working
 * title = "My Advance Care Goals"
 * code = $LOINC#81340-2 "Goals AndOr preferences in order of priority [Reported]"
 * orderedBy = http://terminology.hl7.org/CodeSystem/list-order#priority
-* entry[0].item = Reference(ExampleMcBeePersonalHealthGoal1)
-* entry[1].item = Reference(ExampleMcBeePersonalHealthGoal2)
-* entry[2].item = Reference(ExampleMcBeePersonalHealthGoal3)
-* entry[3].item = Reference(ExampleMcBeePersonalHealthGoal4)
-* entry[4].item = Reference(ExampleMcBeePersonalHealthGoal5)
-* entry[5].item = Reference(ExampleMcBeePersonalHealthGoal6)
-* entry[6].item = Reference(ExampleMcBeePersonalHealthGoal7)
+* entry[0].item = Reference(Example-McBee-PersonalHealthGoal1)
+* entry[1].item = Reference(Example-McBee-PersonalHealthGoal2)
+* entry[2].item = Reference(Example-McBee-PersonalHealthGoal3)
+* entry[3].item = Reference(Example-McBee-PersonalHealthGoal4)
+* entry[4].item = Reference(Example-McBee-PersonalHealthGoal5)
+* entry[5].item = Reference(Example-McBee-PersonalHealthGoal6)
+* entry[6].item = Reference(Example-McBee-PersonalHealthGoal7)
 
 
 // Health Goal Examples
-Instance: ExampleMcBeePersonalHealthGoal1
+Instance: Example-McBee-PersonalHealthGoal1
 InstanceOf: PADIPersonalHealthGoal
 Description: "Example Patient McBee Personal Health Goal 1"
 
@@ -565,10 +565,10 @@ Description: "Example Patient McBee Personal Health Goal 1"
 * lifecycleStatus = #proposed
 * category = $LOINC#81378-2 "Goals, preferences, and priorities under certain health conditions [Reported]"
 * description.text = "If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me: Being at peace with my God"
-* subject = Reference(ExampleMcBeePatient1)
+* subject = Reference(Example-McBee-Patient1)
 
 
-Instance: ExampleMcBeePersonalHealthGoal2
+Instance: Example-McBee-PersonalHealthGoal2
 InstanceOf: PADIPersonalHealthGoal
 Description: "Example Patient McBee Personal Health Goal 2"
 
@@ -580,10 +580,10 @@ Description: "Example Patient McBee Personal Health Goal 2"
 * lifecycleStatus = #proposed
 * category = $LOINC#81378-2 "Goals, preferences, and priorities under certain health conditions [Reported]"
 * description.text = "If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me: Dying at home"
-* subject = Reference(ExampleMcBeePatient1)
+* subject = Reference(Example-McBee-Patient1)
 
 
-Instance: ExampleMcBeePersonalHealthGoal3
+Instance: Example-McBee-PersonalHealthGoal3
 InstanceOf: PADIPersonalHealthGoal
 Description: "Example Patient McBee Personal Health Goal 3"
 
@@ -595,10 +595,10 @@ Description: "Example Patient McBee Personal Health Goal 3"
 * lifecycleStatus = #proposed
 * category = $LOINC#81378-2 "Goals, preferences, and priorities under certain health conditions [Reported]"
 * description.text = "If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me:  Being able to feed, bathe, and take care of myself"
-* subject = Reference(ExampleMcBeePatient1)
+* subject = Reference(Example-McBee-Patient1)
 
 
-Instance: ExampleMcBeePersonalHealthGoal4
+Instance: Example-McBee-PersonalHealthGoal4
 InstanceOf: PADIPersonalHealthGoal
 Description: "Example Patient McBee Personal Health Goal 4"
 
@@ -610,11 +610,11 @@ Description: "Example Patient McBee Personal Health Goal 4"
 * lifecycleStatus = #proposed
 * category = $LOINC#81378-2 "Goals, preferences, and priorities under certain health conditions [Reported]"
 * description.text = "If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me: Being free from pain"
-* subject = Reference(ExampleMcBeePatient1)
+* subject = Reference(Example-McBee-Patient1)
 
 
 
-Instance: ExampleMcBeePersonalHealthGoal5
+Instance: Example-McBee-PersonalHealthGoal5
 InstanceOf: PADIPersonalHealthGoal
 Description: "Example Patient McBee Personal Health Goal 5"
 
@@ -626,11 +626,11 @@ Description: "Example Patient McBee Personal Health Goal 5"
 * lifecycleStatus = #proposed
 * category = $LOINC#81378-2 "Goals, preferences, and priorities under certain health conditions [Reported]"
 * description.text = "If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me: Resolving conflicts"
-* subject = Reference(ExampleMcBeePatient1)
+* subject = Reference(Example-McBee-Patient1)
 
 
 
-Instance: ExampleMcBeePersonalHealthGoal6
+Instance: Example-McBee-PersonalHealthGoal6
 InstanceOf: PADIPersonalHealthGoal
 Description: "Example Patient McBee Personal Health Goal 6"
 
@@ -642,11 +642,11 @@ Description: "Example Patient McBee Personal Health Goal 6"
 * lifecycleStatus = #proposed
 * category = $LOINC#81378-2 "Goals, preferences, and priorities under certain health conditions [Reported]"
 * description.text = "If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me: Being with my family"
-* subject = Reference(ExampleMcBeePatient1)
+* subject = Reference(Example-McBee-Patient1)
 
 
 
-Instance: ExampleMcBeePersonalHealthGoal7
+Instance: Example-McBee-PersonalHealthGoal7
 InstanceOf: PADIPersonalHealthGoal
 Description: "Example Patient McBee Personal Health Goal 7"
 
@@ -658,11 +658,11 @@ Description: "Example Patient McBee Personal Health Goal 7"
 * lifecycleStatus = #proposed
 * category = $LOINC#81378-2 "Goals, preferences, and priorities under certain health conditions [Reported]"
 * description.text = "If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me: Not being a financial burden to my family"
-* subject = Reference(ExampleMcBeePatient1)
+* subject = Reference(Example-McBee-Patient1)
 
 
 // Personal Intervention Preferences
-Instance: ExampleMcBeePersonalInterventionPreference1
+Instance: Example-McBee-PersonalInterventionPreference1
 InstanceOf: PADIPersonalInterventionPreference
 Description: "Example Patient McBee Personal Intervention Preference (Palliative Care)"
 
@@ -676,7 +676,7 @@ Description: "Example Patient McBee Personal Intervention Preference (Palliative
 
 
 
-Instance: ExampleMcBeePersonalInterventionPreference2
+Instance: Example-McBee-PersonalInterventionPreference2
 InstanceOf: PADIPersonalInterventionPreference
 Description: "Example Patient McBee Personal Intervention Preference (Terminal Illness Health Deterioration)"
 
@@ -689,7 +689,7 @@ Description: "Example Patient McBee Personal Intervention Preference (Terminal I
 * valueString = "If my health ever deteriorates due to a terminal illness, and my doctors believe I will not be able to interact meaningfully with my family, friends, or surroundings, I prefer that they stop all life-sustaining treatments and let me die as gently as possible.  I realize that I will not receive life-sustaining treatments including but not limited to breathing machines, blood transfusions, dialysis, heart machines, and IV drugs to keep my heart working.  I also realize that medical personnel will not attempt cardiopulmonary resuscitation (CPR), and they will allow me to die naturally."
 
 
-Instance: ExampleMcBeePersonalInterventionPreference3
+Instance: Example-McBee-PersonalInterventionPreference3
 InstanceOf: PADIPersonalInterventionPreference
 Description: "Example Patient McBee Personal Intervention Preference (Artificial Nutrition and Hydration)"
 
@@ -703,7 +703,7 @@ Description: "Example Patient McBee Personal Intervention Preference (Artificial
 * valueString = "If my response above indicates that I do not want life-sustaining treatments, I expressly authorize my attending physician to withhold or withdraw artificial nutrition and hydration and instruct my healthcare agent (or, if I have not designated a healthcare agent, my default surrogate), my family and the doctors and nurses who are taking care of me to respect this request."
 
 
-Instance: ExampleMcBeePersonalInterventionPreference4
+Instance: Example-McBee-PersonalInterventionPreference4
 InstanceOf: PADIPersonalInterventionPreference
 Description: "Example Patient McBee Personal Intervention Preference (Severe Illness or Injury)"
 
@@ -716,7 +716,7 @@ Description: "Example Patient McBee Personal Intervention Preference (Severe Ill
 * valueString = "If I have a severe, irreversible brain injury or illness and can’t dress, feed, or bathe myself, or communicate my medical wishes, but doctors can keep me alive in this condition for a long period of time, I would like for them to keep trying life-sustaining treatments for 2 months."
 
 
-Instance: ExampleMcBeePersonalInterventionPreference5
+Instance: Example-McBee-PersonalInterventionPreference5
 InstanceOf: PADIPersonalInterventionPreference
 Description: "Example Patient McBee Personal Intervention Preference (Thoughts on CPR 1)"
 
@@ -730,7 +730,7 @@ Description: "Example Patient McBee Personal Intervention Preference (Thoughts o
 * valueString = "Although I understand that, depending on the situation and circumstances, medical personnel may not be able to follow my wishes, here are my general thoughts on cardiopulmonary resuscitation (CPR): I do not want CPR attempted."
 
 
-Instance: ExampleMcBeePersonalInterventionPreference6
+Instance: Example-McBee-PersonalInterventionPreference6
 InstanceOf: PADIPersonalInterventionPreference
 Description: "Example Patient McBee Personal Intervention Preference (THoughts on CPR 2)"
 
@@ -744,7 +744,7 @@ Description: "Example Patient McBee Personal Intervention Preference (THoughts o
 * valueString = "Although I understand that, depending on the situation and circumstances, medical personnel may not be able to follow my wishes, here are my general thoughts on cardiopulmonary resuscitation (CPR): I want my healthcare agent to make the decision, but if my chances are slim to none that I'll leave the hospital, even if they resuscitate me, then I absolutely do not want CPR."
 
 
-Instance: ExampleMcBeePersonalInterventionPreference7
+Instance: Example-McBee-PersonalInterventionPreference7
 InstanceOf: PADIPersonalInterventionPreference
 Description: "Example Patient McBee Personal Intervention Preference (Preferred Location for Last Days)"
 
@@ -761,13 +761,13 @@ Description: "Example Patient McBee Personal Intervention Preference (Preferred 
 //Organ Donation Observation examples
 
 
-Instance: ExampleMcBeeOrganDonationObservation1
+Instance: Example-McBee-OrganDonationObservation1
 InstanceOf: PADIOrganDonationObservation
 Description: "Example Patient McBee Organ Donation Observation 1"
 
 * text.status = #additional
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
-<h2>Consent to Donate</h2>
+<p><b>Consent to Donate</b></p>
 <p><i>I don’t want to donate my organs.</i></p>
 </div>"
 * status = #final
@@ -777,13 +777,13 @@ Description: "Example Patient McBee Organ Donation Observation 1"
 
 // Autopsy Observation examples
 
-Instance: ExampleMcBeeAutopsyDonationObservation1
+Instance: Example-McBee-AutopsyObservation1
 InstanceOf: PADIAutopsyObservation
 Description: "Example Patient McBee Autopsy Observation (Thoughts Regarding Autopsy)"
 
 * text.status = #additional
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
-<h2>Autopsy</h2>
+<p><b>Autopsy</b></p>
 <p><i>I want an autopsy if my doctor thinks it will help others.</i></p>
 </div>"
 * status = #final
@@ -793,7 +793,7 @@ Description: "Example Patient McBee Autopsy Observation (Thoughts Regarding Auto
 
 // Organization Examples
 
-Instance: ExampleMcBeeOrganizationCustodian1
+Instance: Example-McBee-OrganizationCustodian1
 InstanceOf: $USCoreOrganization
 Description: "Example Patient McBee Custodian Organization"
 Usage: #example
@@ -815,7 +815,7 @@ Usage: #example
 * address[0].country = "US"
 
 // TODO where does assembler or provenance get referenced to by the Composition (or doesn't it)?
-Instance: ExampleMcBeeOrganizationAssembler1
+Instance: Example-McBee-OrganizationAssembler1
 InstanceOf: $USCoreOrganization
 Description: "Example Patient McBee Assembler Organization"
 Usage: #example
@@ -842,14 +842,14 @@ Usage: #example
 
 // Provenance Examples
 
-Instance: ExampleMcBeePACPProvenance1
+Instance: Example-McBee-PACPProvenance1
 InstanceOf: PADIProvenance
 Description: "Example Patient McBee Provenance"
 Usage: #example
 
-* target = Reference(ExampleMcBeePACPComposition1)
+* target = Reference(Example-McBee-PACPComposition1)
 * recorded = "2019-12-06T10:11:30.001-04:00"
 
 * agent[assembler].type = http://terminology.hl7.org/CodeSystem/provenance-participant-type#assembler "Assembler"
-* agent[assembler].who = Reference(ExampleMcBeeOrganizationAssembler1)
+* agent[assembler].who = Reference(Example-McBee-OrganizationAssembler1)
 

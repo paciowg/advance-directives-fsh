@@ -208,7 +208,7 @@ TODO
         <td style="padding: 7px;">4</td>
         <td style="padding: 7px;"><a href="StructureDefinition-PADI-HealthcareAgent.html">ADI Healthcare Agent</a></td>
         <td style="padding: 7px;"><p>This profile represents a person's appointment of a healthcare agent.</p>
-        <p><i>Development status: Mapping in progress.</i></p></td>
+        <p><i>Development status: Initial draft available. Initial Mapping complete.</i></p></td>
         <td style="padding: 7px;"><a href="http://hl7.org/fhir/R4/relatedperson.html">RelatedPerson</a></td>
     </tr>
     <tr>    
@@ -222,14 +222,14 @@ TODO
         <td style="padding: 7px;">6</td>
         <td style="padding: 7px;"><a href="StructureDefinition-PADI-PMOLSTObservation.html">ADI PMOLST Observation</a></td>
         <td style="padding: 7px;"><p>This profile is used to indicate if a person has a medical order or physician order for life sustaining treatment (MOLST or POLST).</p>
-        <p><i>Development status: Mapping in progress.</i></p></td>
+        <p><i>Development status: Initial draft available. Initial Mapping complete.</i></p></td>
         <td style="padding: 7px;"><a href="http://hl7.org/fhir/R4/observation.html">Observation</a></td>
     </tr>
     <tr>    
         <td style="padding: 7px;">7</td>
         <td style="padding: 7px;"><a href="StructureDefinition-PADI-PersonalInterventionPreference.html">ADI Personal Intervention Preference</a></td>
         <td style="padding: 7px;"><p>This profile is used to represent a personal preference for a type of medical intervention (treatment).</p>
-        <p><i>Development status: Not started.</i></p></td>
+        <p><i>Development status: Mapping in Progress.</i></p></td>
         <td style="padding: 7px;"><a href="http://hl7.org/fhir/R4/observation.html">Observation</a></td>
     </tr>
     <tr>    
@@ -250,14 +250,14 @@ TODO
         <td style="padding: 7px;">10</td>
         <td style="padding: 7px;"><a href="StructureDefinition-PADI-PersonalPrioritiesOrganizer.html">ADI Personal Priorities Organizer</a></td>
         <td style="padding: 7px;"><p>This profile is used to represent a set of personal goals, preferences or care experiences in a preferred ranked order.</p>
-        <p><i>Development status: Mapping in progress.</i></p></td>
+        <p><i>Development status: Initial draft available. Initial Mapping complete.</i></p></td>
         <td style="padding: 7px;"><a href="http://hl7.org/fhir/R4/list.html">List</a></td>
     </tr>
     <tr>    
         <td style="padding: 7px;">11</td>
         <td style="padding: 7px;"><a href="StructureDefinition-PADI-CareExperiencePreference.html">ADI Care Experience Preference</a></td>
         <td style="padding: 7px;"><p>This profile is a clinical statement that presents the author's personal thoughts about something he or she feels is relevant to his or her care experience and may be pertinent when planning his or her care.</p>
-        <p><i>Development status: Not started.</i></p></td>
+        <p><i>Development status: Initial draft available. Initial Mapping complete.</i></p></td>
         <td style="padding: 7px;"><a href="http://hl7.org/fhir/R4/observation.html">Observation</a></td>
     </tr>
     <tr>    
@@ -278,7 +278,7 @@ TODO
         <td style="padding: 7px;">14</td>
         <td style="padding: 7px;"><a href="StructureDefinition-PADI-Provenance.html">ADI Provenance</a></td>
         <td style="padding: 7px;"><p>[TODO] This profile is used for tracking the provenance of the Advance Directive resources.</p>
-        <p><i>Development status: Not started.</i></p></td>
+        <p><i>Development status: Mapping in Progress.</i></p></td>
         <td style="padding: 7px;"><a href="http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-provenance.html">US Core Provenance</a></td>
     </tr>
     <tr>

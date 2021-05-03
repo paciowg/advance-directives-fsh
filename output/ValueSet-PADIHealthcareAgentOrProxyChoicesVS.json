@@ -10,7 +10,7 @@
   "name": "PADIHealthcareAgentOrProxyChoicesVS",
   "title": "Healthcare Agent or Proxy Choices",
   "status": "active",
-  "date": "2021-04-25T21:26:31-07:00",
+  "date": "2021-05-02T13:39:47-07:00",
   "publisher": "HL7 Patient Empowerment Working Group",
   "contact": [
     {
@@ -38,6 +38,7 @@
       ]
     }
   ],
+  "copyright": "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc.",
   "compose": {
     "include": [
       {

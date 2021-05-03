@@ -4,7 +4,7 @@ Id: PADI-PMOLSTObservation
 Title: "ADI PMOLST Observation"
 Description: "This profile is used to indicate if a person has a medical order or physician order for life sustaining treatment (MOLST or POLST)."
 
-* text 1..1 // CONF:4445-33395  Should this be note instead?????
+* text 1..1 MS
 
 // TODO is this final?
 * status = #final
@@ -20,11 +20,10 @@ Description: "This profile is used to indicate if a person has a medical order o
 
 * effective[x] 1..1 MS  // CONF:4445-33113
 
-* value[x] 1..1 MS  // CONF:4445-33127
+* value[x] 1..1 MS
 * value[x] only boolean  // CONF:4445-33127
 
 * note MS
-// TODO How to addess? CONF:4445-33123 for external document reference?
 
 
 // Should note be required instead of text?

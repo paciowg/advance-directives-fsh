@@ -182,6 +182,13 @@
     "name": "PADIAdvanceDirectiveCategoriesVS"
   },
   {
+    "id": "PADIAutopsyVS",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIAutopsyVS",
+    "version": "0.0.1",
+    "name": "PADIAutopsyVS"
+  },
+  {
     "id": "PADICareExperiencePreferencesVS",
     "type": "ValueSet",
     "url": "http://hl7.org/fhir/us/pacio-adi/ValueSet/PADICareExperiencePreferencesVS",
@@ -217,10 +224,24 @@
     "name": "PADIInterventionPreferencesVS"
   },
   {
+    "id": "PADIOrganDonationVS",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIOrganDonationVS",
+    "version": "0.0.1",
+    "name": "PADIOrganDonationVS"
+  },
+  {
     "id": "PADIPersonalAndLegalRelationshipRoleTypeVS",
     "type": "ValueSet",
     "url": "http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIPersonalAndLegalRelationshipRoleTypeVS",
     "version": "0.0.1",
     "name": "PADIPersonalAndLegalRelationshipRoleTypeVS"
+  },
+  {
+    "id": "PADIUponDeathPreferencesVS",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIUponDeathPreferencesVS",
+    "version": "0.0.1",
+    "name": "PADIUponDeathPreferencesVS"
   }
 ]

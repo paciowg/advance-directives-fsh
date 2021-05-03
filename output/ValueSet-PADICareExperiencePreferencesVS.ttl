@@ -10,14 +10,14 @@
   fhir:Resource.id [ fhir:value "PADICareExperiencePreferencesVS"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/75774-0.html\">75774-0</a></td><td>Allowance to change advance directive preferences in the future regardless of mental state [Reported]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/75775-7.html\">75775-7</a></td><td>Decision to inform doctors and nurses about the role religion, faith, or spirituality play in my life [Reported]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/75793-0.html\">75793-0</a></td><td>Other directives that have not otherwise been documented [Reported]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/81356-8.html\">81356-8</a></td><td>Death arrangements [Reported]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/81357-6.html\">81357-6</a></td><td>Messages to be delivered after death [Reported]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/81358-4.html\">81358-4</a></td><td>Person(s) to notify upon death [Reported]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/81359-2.html\">81359-2</a></td><td>Near death thoughts and feelings to be shared [Reported]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/81360-0.html\">81360-0</a></td><td>My likes and joys [Reported]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/81361-8.html\">81361-8</a></td><td>Things that make me laugh [Reported]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/81362-6.html\">81362-6</a></td><td>My dislikes and fears [Reported]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/81363-4.html\">81363-4</a></td><td>Things that matter to me [Reported]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/81364-2.html\">81364-2</a></td><td>Religious beliefs [Reported]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/81365-9.html\">81365-9</a></td><td>Religious affiliation contact to notify [Reported]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/81366-7.html\">81366-7</a></td><td>Unfinished business [Reported]</td></tr></table></li></ul></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/75774-0.html\">75774-0</a></td><td>Allowance to change advance directive preferences in the future regardless of mental state [Reported]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/75775-7.html\">75775-7</a></td><td>Decision to inform doctors and nurses about the role religion, faith, or spirituality play in my life [Reported]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/75793-0.html\">75793-0</a></td><td>Other directives that have not otherwise been documented [Reported]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/81359-2.html\">81359-2</a></td><td>Near death thoughts and feelings to be shared [Reported]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/81360-0.html\">81360-0</a></td><td>My likes and joys [Reported]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/81361-8.html\">81361-8</a></td><td>Things that make me laugh [Reported]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/81362-6.html\">81362-6</a></td><td>My dislikes and fears [Reported]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/81363-4.html\">81363-4</a></td><td>Things that matter to me [Reported]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/81364-2.html\">81364-2</a></td><td>Religious beliefs [Reported]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/81365-9.html\">81365-9</a></td><td>Religious affiliation contact to notify [Reported]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/81366-7.html\">81366-7</a></td><td>Unfinished business [Reported]</td></tr></table></li></ul></div>"
   ];
   fhir:ValueSet.url [ fhir:value "http://hl7.org/fhir/us/pacio-adi/ValueSet/PADICareExperiencePreferencesVS"];
   fhir:ValueSet.version [ fhir:value "0.0.1"];
   fhir:ValueSet.name [ fhir:value "PADICareExperiencePreferencesVS"];
   fhir:ValueSet.title [ fhir:value "Care Experience Preferences"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2021-04-25T21:26:31-07:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2021-05-02T13:39:47-07:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "HL7 Patient Empowerment Working Group"];
   fhir:ValueSet.contact [
      fhir:index 0;
@@ -41,6 +41,7 @@
        fhir:Coding.code [ fhir:value "US" ]
      ]
   ];
+  fhir:ValueSet.copyright [ fhir:value "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc."];
   fhir:ValueSet.compose [
      fhir:ValueSet.compose.include [
        fhir:index 0;
@@ -59,46 +60,34 @@
          fhir:ValueSet.compose.include.concept.display [ fhir:value "Other directives that have not otherwise been documented [Reported]" ]
        ], [
          fhir:index 3;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "81356-8" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Death arrangements [Reported]" ]
-       ], [
-         fhir:index 4;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "81357-6" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Messages to be delivered after death [Reported]" ]
-       ], [
-         fhir:index 5;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "81358-4" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Person(s) to notify upon death [Reported]" ]
-       ], [
-         fhir:index 6;
          fhir:ValueSet.compose.include.concept.code [ fhir:value "81359-2" ];
          fhir:ValueSet.compose.include.concept.display [ fhir:value "Near death thoughts and feelings to be shared [Reported]" ]
        ], [
-         fhir:index 7;
+         fhir:index 4;
          fhir:ValueSet.compose.include.concept.code [ fhir:value "81360-0" ];
          fhir:ValueSet.compose.include.concept.display [ fhir:value "My likes and joys [Reported]" ]
        ], [
-         fhir:index 8;
+         fhir:index 5;
          fhir:ValueSet.compose.include.concept.code [ fhir:value "81361-8" ];
          fhir:ValueSet.compose.include.concept.display [ fhir:value "Things that make me laugh [Reported]" ]
        ], [
-         fhir:index 9;
+         fhir:index 6;
          fhir:ValueSet.compose.include.concept.code [ fhir:value "81362-6" ];
          fhir:ValueSet.compose.include.concept.display [ fhir:value "My dislikes and fears [Reported]" ]
        ], [
-         fhir:index 10;
+         fhir:index 7;
          fhir:ValueSet.compose.include.concept.code [ fhir:value "81363-4" ];
          fhir:ValueSet.compose.include.concept.display [ fhir:value "Things that matter to me [Reported]" ]
        ], [
-         fhir:index 11;
+         fhir:index 8;
          fhir:ValueSet.compose.include.concept.code [ fhir:value "81364-2" ];
          fhir:ValueSet.compose.include.concept.display [ fhir:value "Religious beliefs [Reported]" ]
        ], [
-         fhir:index 12;
+         fhir:index 9;
          fhir:ValueSet.compose.include.concept.code [ fhir:value "81365-9" ];
          fhir:ValueSet.compose.include.concept.display [ fhir:value "Religious affiliation contact to notify [Reported]" ]
        ], [
-         fhir:index 13;
+         fhir:index 10;
          fhir:ValueSet.compose.include.concept.code [ fhir:value "81366-7" ];
          fhir:ValueSet.compose.include.concept.display [ fhir:value "Unfinished business [Reported]" ]
        ]

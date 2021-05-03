@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "1543fcb1-ceca-4d80-91c9-d14748f25ae0-152",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/1543fcb1-ceca-4d80-91c9-d14748f25ae0-152",
+  "id" : "544b2390-e1a9-40d8-b109-20cd743c56d2-164",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/544b2390-e1a9-40d8-b109-20cd743c56d2-164",
   "name" : "UnionUSCoreRespiratoryRateProfileAndPADIOrganDonationObservation",
   "title" : "Union of US Core Respiratory Rate Profile And ADI Organ Donation",
   "status" : "active",
-  "date" : "2021-04-25T21:26:47-07:00",
+  "date" : "2021-05-02T13:40:06-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -230,7 +230,7 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       }],
-      "mustSupport" : false,
+      "mustSupport" : true,
       "isModifier" : false,
       "isSummary" : false,
       "mapping" : [{
@@ -561,8 +561,8 @@
       "isSummary" : true,
       "binding" : {
         "strength" : "extensible",
-        "description" : "left: The vital sign codes from the base FHIR and US Core Vital Signs.; right: Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/1543fcb1-ceca-4d80-91c9-d14748f25ae0-5"
+        "description" : "The vital sign codes from the base FHIR and US Core Vital Signs.",
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/544b2390-e1a9-40d8-b109-20cd743c56d2-125"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -1763,7 +1763,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "left: The vital sign codes from the base FHIR and US Core Vital Signs.; right: Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/1543fcb1-ceca-4d80-91c9-d14748f25ae0-5"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/544b2390-e1a9-40d8-b109-20cd743c56d2-8"
       },
       "mapping" : [{
         "identity" : "w5",

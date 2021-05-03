@@ -37,6 +37,7 @@ Description: "This abstract profile defines constraints that represent common ad
 * identifier 1..1 MS
 * type MS
 * type from PADIAdvanceDirectiveCategoriesVS (extensible)
+
 * category 1..1 MS
 * subject MS
 * subject only Reference($USCorePatient)

@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "1543fcb1-ceca-4d80-91c9-d14748f25ae0-209",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/1543fcb1-ceca-4d80-91c9-d14748f25ae0-209",
+  "id" : "544b2390-e1a9-40d8-b109-20cd743c56d2-224",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/544b2390-e1a9-40d8-b109-20cd743c56d2-224",
   "name" : "UnionUSCoreSmokingStatusObservationCodesAndPADIInterventionPreferencesVS",
   "title" : "Union of US Core Smoking Status Observation Codes And Intervention Preferences",
   "status" : "active",
-  "date" : "2021-04-25T21:26:48-07:00",
+  "date" : "2021-05-02T13:40:06-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -33,14 +33,6 @@
       {
         "code" : "75780-7",
         "display" : "Preferred location to spend final days if possible to choose [Reported]"
-      },
-      {
-        "code" : "75781-5",
-        "display" : "Thoughts on organ and tissue donations [Reported]"
-      },
-      {
-        "code" : "75782-3",
-        "display" : "Thoughts regarding autopsy [Reported]"
       },
       {
         "code" : "75787-2",
@@ -110,6 +102,9 @@
         "code" : "75779-9",
         "display" : "Thoughts on cardiopulmonary resuscitation (CPR) [Reported]"
       }]
+    },
+    {
+      "valueSet" : ["http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIUponDeathPreferencesVS"]
     }]
   },
   "expansion" : {
@@ -137,16 +132,6 @@
       "system" : "http://loinc.org",
       "code" : "75780-7",
       "display" : "Preferred location to spend final days if possible to choose [Reported]"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "75781-5",
-      "display" : "Thoughts on organ and tissue donations [Reported]"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "75782-3",
-      "display" : "Thoughts regarding autopsy [Reported]"
     },
     {
       "system" : "http://loinc.org",
@@ -232,6 +217,48 @@
       "system" : "http://loinc.org",
       "code" : "75779-9",
       "display" : "Thoughts on cardiopulmonary resuscitation (CPR) [Reported]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "81356-8",
+      "display" : "Death arrangements [Reported]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "81357-6",
+      "display" : "Messages to be delivered after death [Reported]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "81358-4",
+      "display" : "Person(s) to notify upon death [Reported]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "81366-7",
+      "display" : "Unfinished business [Reported]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "81364-2",
+      "display" : "Religious beliefs [Reported]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "81365-9",
+      "display" : "Religious affiliation contact to notify [Reported]"
     }]
   }
 }

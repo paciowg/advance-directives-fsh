@@ -18,15 +18,18 @@ Alias: $USRealmHeader = http://hl7.org/fhir/us/ccda/StructureDefinition/US-Realm
 
 
 Alias: $HL7ProvenancePartcipantType = http://terminology.hl7.org/CodeSystem/provenance-participant-type
+Alias: $HL7NullFlavor = http://terminology.hl7.org/CodeSystem/v3-NullFlavor
 
 
 Alias: $HL7CompositionAttestation = http://hl7.org/fhir/ValueSet/composition-attestation-mode
-
+Alias: $HL7ConsentScope = http://terminology.hl7.org/CodeSystem/consentscope
+Alias: $HL7ConsentCategoryCodes = http://terminology.hl7.org/CodeSystem/consentcategorycodes
 
 Alias: $LOINC = http://loinc.org
 
 
 Alias: $HL7RoleCode = http://terminology.hl7.org/CodeSystem/v3-RoleCode
+Alias: $HL7RoleClass = http://terminology.hl7.org/CodeSystem/v3-RoleClass
 
 //Alias:   $USCoreProviderRole = http://hl7.org/fhir/us/core/ValueSet/us-core-provider-role
 //Alias:   $USCoreProviderSpecialty = http://hl7.org/fhir/us/core/ValueSet/us-core-provider-specialty

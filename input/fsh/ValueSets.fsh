@@ -8,6 +8,7 @@ This ValueSet is managed at the US National Library of Medicine (NLM) Value Set 
 * include $LOINC#81334-5 "Patient Personal advance care plan"
 * include $LOINC#86533-7 "Patient Living will"
 * include $LOINC#92664-2 "Power of attorney and Living will"
+* insert LOINCCopyrightNotice
 
 
 
@@ -29,6 +30,7 @@ This ValueSet is managed at the US National Library of Medicine (NLM) Value Set 
 * include $LOINC#75784-9 "First alternate healthcare agent [Reported]"
 * include $LOINC#75785-6 "Second alternate healthcare agent [Reported]"
 * include $LOINC#81335-2 "Patient Healthcare agent"
+* insert LOINCCopyrightNotice
 
 
 ValueSet: PADIPersonalAndLegalRelationshipRoleTypeVS
@@ -44,6 +46,7 @@ Description: "Clinical Focus: This value set includes concepts representing an i
 This ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1115.7/expansion"
 * include $LOINC#81378-2 "Goals, preferences, and priorities under certain health conditions [Reported]"
 * include $LOINC#87528-6 "Personal health goal"
+* insert LOINCCopyrightNotice
 
 
 
@@ -55,9 +58,6 @@ This ValueSet is managed at the US National Library of Medicine (NLM) Value Set 
 * include $LOINC#75774-0 "Allowance to change advance directive preferences in the future regardless of mental state [Reported]"
 * include $LOINC#75775-7 "Decision to inform doctors and nurses about the role religion, faith, or spirituality play in my life [Reported]"
 * include $LOINC#75793-0 "Other directives that have not otherwise been documented [Reported]"
-* include $LOINC#81356-8 "Death arrangements [Reported]"
-* include $LOINC#81357-6 "Messages to be delivered after death [Reported]"
-* include $LOINC#81358-4 "Person(s) to notify upon death [Reported]"
 * include $LOINC#81359-2 "Near death thoughts and feelings to be shared [Reported]"
 * include $LOINC#81360-0 "My likes and joys [Reported]"
 * include $LOINC#81361-8 "Things that make me laugh [Reported]"
@@ -66,20 +66,17 @@ This ValueSet is managed at the US National Library of Medicine (NLM) Value Set 
 * include $LOINC#81364-2 "Religious beliefs [Reported]"
 * include $LOINC#81365-9 "Religious affiliation contact to notify [Reported]"
 * include $LOINC#81366-7 "Unfinished business [Reported]"
+* insert LOINCCopyrightNotice
 
 
 
 ValueSet: PADIInterventionPreferencesVS
 Title: "Intervention Preferences"
-Description: "Clinical Focus: This value set includes concepts representing an individual's intervention preferences at end of life which can be expressed by the individual in his or her advance care plan.),(Data Element Scope: The intent of this value set is to identify personal intervention preferences that may be relevant and could be considered by clinicians when making a treatment/care plan for the person.),(Inclusion Criteria: Include member value sets for Intervention Preferences at End of Life for LOINC and SNOMED CT.),(Exclusion Criteria: None.)
-
-This ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1115.9/expansion"
+Description: "Clinical Focus: This value set includes concepts representing an individual's intervention preferences which can be expressed by the individual in his or her advance care plan.),(Data Element Scope: The intent of this value set is to identify personal intervention preferences that may be relevant and could be considered by clinicians or any person or organization that is providing care, treatment, or performing any other type of act to or on behalf of the individual.)"
 * include $LOINC#75776-5 "Preference on consulting a supportive and palliative care team to help treat physical, emotional, and spiritual discomfort and support family [Reported]"
 * include $LOINC#75777-3 "Information to tell doctors if my health deteriorates due to a terminal illness and I am unable to interact meaningfully with family, friends, or surroundings [Reported]"
 * include $LOINC#75778-1 "Information to tell doctors if I have a severe, irreversible brain injury or illness and can't dress, feed, or bathe myself, or communicate my medical wishes, but can be kept alive [Reported]"
 * include $LOINC#75780-7 "Preferred location to spend final days if possible to choose [Reported]"
-* include $LOINC#75781-5 "Thoughts on organ and tissue donations [Reported]"
-* include $LOINC#75782-3 "Thoughts regarding autopsy [Reported]"
 * include $LOINC#75787-2 "Advance directive - request for intubation"
 * include $LOINC#75788-0 "Advance directive - request for tube feeding"
 * include $LOINC#75789-8 "Advance directive - request for life support"
@@ -97,11 +94,39 @@ This ValueSet is managed at the US National Library of Medicine (NLM) Value Set 
 * include $LOINC#81350-1 "Thoughts on pain management [Reported]"
 * include $LOINC#81376-6 "Mental health treatment preferences [Reported]"
 * include $LOINC#75779-9 "Thoughts on cardiopulmonary resuscitation (CPR) [Reported]"
+* codes from valueset PADIUponDeathPreferencesVS
+* insert LOINCCopyrightNotice
+
+
+
+ValueSet: PADIUponDeathPreferencesVS
+Title: "Upon Death Preferences"
+Description: "This value set includes concepts representing an individual's preferences of treatment."
+* include $LOINC#81356-8 "Death arrangements [Reported]"
+* include $LOINC#81357-6 "Messages to be delivered after death [Reported]"
+* include $LOINC#81358-4 "Person(s) to notify upon death [Reported]"
+* include $LOINC#81366-7 "Unfinished business [Reported]"
+* include $LOINC#81364-2 "Religious beliefs [Reported]"
+* include $LOINC#81365-9 "Religious affiliation contact to notify [Reported]"
+* insert LOINCCopyrightNotice
+
+ValueSet: PADIAutopsyVS
+Title: "Autopsy Thoughts"
+Description: "This value set includes the concept representing an individual's thoughts on autopsy after death."
+* include $LOINC#75782-3 "Thoughts regarding autopsy [Reported]"
+* insert LOINCCopyrightNotice
+
+
+ValueSet: PADIOrganDonationVS
+Title: "Organ Donation"
+Description: "This value set includes the concept representing an individual's thoughts on organ and tissue donation after death."
+* include $LOINC#75781-5 "Thoughts on organ and tissue donations [Reported]"
+* insert LOINCCopyrightNotice
 
 
 
 
-
-
+RuleSet: LOINCCopyrightNotice
+* ^copyright = "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc."
 
 
