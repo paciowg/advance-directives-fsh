@@ -11,9 +11,9 @@
   fhir:Resource.id [ fhir:value "Example-Smith-Johnson-PersonalInterventionPreference3"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference";
+       fhir:value "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference";
        fhir:index 0;
-       fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference>
+       fhir:link <http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference>
      ]
   ];
   fhir:DomainResource.text [

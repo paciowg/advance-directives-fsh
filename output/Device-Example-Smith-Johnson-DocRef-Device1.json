@@ -1,0 +1,24 @@
+{
+  "resourceType": "Device",
+  "id": "Example-Smith-Johnson-DocRef-Device1",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: ed6f4f50c6cb47dd89cb5d8f3007ecb0</p><p><b>modelNumber</b>: ADVault RR Portal</p><h3>Versions</h3><table class=\"grid\"><tr><td>-</td><td><b>Value</b></td></tr><tr><td>*</td><td>1.0</td></tr></table><p><b>owner</b>: <a href=\"Organization-Example-Smith-Johnson-OrganizationCustodian1.html\">ADVault, Inc.. Generated Summary: id: 44444; active; name: MyDirectives.com; Phone: +1(202)776-7700</a></p></div>"
+  },
+  "identifier": [
+    {
+      "system": "urn:oid:2.16.840.1.113883.4.6",
+      "value": "ed6f4f50c6cb47dd89cb5d8f3007ecb0"
+    }
+  ],
+  "modelNumber": "ADVault RR Portal",
+  "version": [
+    {
+      "value": "1.0"
+    }
+  ],
+  "owner": {
+    "reference": "Organization/Example-Smith-Johnson-OrganizationCustodian1",
+    "display": "ADVault, Inc."
+  }
+}

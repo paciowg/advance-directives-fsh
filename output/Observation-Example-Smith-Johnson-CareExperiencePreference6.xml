@@ -6,15 +6,15 @@
     <profile value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"/>
   </meta>
   <text>
-    <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>My religion:</b></p><p>If I appear to be approaching the end of my life, here are some things that I would like for my caregivers to know about my faith and my religion.</p><p><i>Please call Father Mark if my condition warrants the services of a priest.</i></p></div>
+    <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Please attempt to notify someone from my religion at the following phone number:</b></p><p>If I have included one</p><p><i>Catholic</i></p></div>
   </text>
   <status value="final"/>
   <code>
     <coding>
       <system value="http://loinc.org"/>
-      <code value="81364-2"/>
-      <display value="Religious Beliefs"/>
+      <code value="81365-9"/>
+      <display value="Religious affiliation contact to notify [Reported]"/>
     </coding>
   </code>
-  <valueString value="If I appear to be approaching the end of my life, here are some things that I would like for my caregivers to know about my faith and my religion. Please call Father Mark if my condition warrants the services of a priest."/>
+  <valueString value="Please attempt to notify someone from my religion at the following phone number: If I have included one: Catholic"/>
 </Observation>

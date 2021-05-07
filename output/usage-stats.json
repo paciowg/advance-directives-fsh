@@ -29,7 +29,7 @@
       ]
     },
     {
-      "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-informatioRecipient-extension",
+      "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-informationRecipient-extension",
       "title": "Information Recipient",
       "types": [
         "Reference",
@@ -112,6 +112,12 @@
         "title": "ADI Personal Health Goal"
       }
     ],
+    "ServiceRequest": [
+      {
+        "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionRequestPreference",
+        "title": "ADI Personal Intervention Request Preference"
+      }
+    ],
     "List": [
       {
         "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalPrioritiesOrganizer",
@@ -126,6 +132,11 @@
     ]
   },
   "usage": {
+    "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation": [
+      "CapabilityStatement.rest.resource",
+      "CapabilityStatement.rest.resource.interaction",
+      "CapabilityStatement.rest.resource.searchParam"
+    ],
     "http://hl7.org/fhir/StructureDefinition/composition-clinicaldocument-versionNumber": [
       "Composition"
     ],
@@ -181,7 +192,7 @@
     "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-informant-extension": [
       "Composition"
     ],
-    "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-informatioRecipient-extension": [
+    "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-informationRecipient-extension": [
       "Composition"
     ],
     "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-order-extension": [
@@ -194,6 +205,7 @@
       "Composition"
     ],
     "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-versionNumber-extension": [
+      "Bundle.entry.resource",
       "Composition"
     ]
   }

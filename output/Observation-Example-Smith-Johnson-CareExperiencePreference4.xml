@@ -6,15 +6,15 @@
     <profile value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"/>
   </meta>
   <text>
-    <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>My dislikes / fears:</b></p><p>Here is a list of things that I would like to avoid if at all possible, people that I don’t wish to see, and concerns I have about particular family members, pets, and so on:</p><p><i>I do not like my feet to be cold.</i></p></div>
+    <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>How to care for me:</b></p><p>If I become incapacitated and cannot express myself, here is what I would like to tell my healthcare agent, family and friends about how I would like for them to care for me:</p><p><i>I want photos of my family where I can see them.</i></p></div>
   </text>
   <status value="final"/>
   <code>
     <coding>
       <system value="http://loinc.org"/>
-      <code value="81362-6"/>
-      <display value="My dislikes and fears [Reported]"/>
+      <code value="81380-8"/>
+      <display value="[TODO] A better code? Goals, preferences, and priorities for care experience"/>
     </coding>
   </code>
-  <valueString value="Here is a list of things that I would like to avoid if at all possible, people that I don&#x2019;t wish to see, and concerns I have about particular family members, pets, and so on: I do not like my feet to be cold."/>
+  <valueString value="How to care for me: If I become incapacitated and cannot express myself, here is what I would like to tell my healthcare agent, family and friends about how I would like for them to care for me: I want photos of my family where I can see them."/>
 </Observation>

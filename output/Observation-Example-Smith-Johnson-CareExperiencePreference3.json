@@ -8,17 +8,17 @@
   },
   "text": {
     "status": "additional",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>My likes / joys:</b></p><p>Here are some examples of the things that I would like to have near me, music that I’d like to hear, and other details of my care that would help to keep me happy and relaxed:</p><p><i>I love the smell of lavender and the feeling of sunshine on my face.</i></p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>My dislikes / fears:</b></p><p>Here is a list of things that I would like to avoid if at all possible, people that I don’t wish to see, and concerns I have about particular family members, pets, and so on:</p><p><i>I do not like my feet to be cold.</i></p></div>"
   },
   "status": "final",
   "code": {
     "coding": [
       {
         "system": "http://loinc.org",
-        "code": "81360-0",
-        "display": "Death arrangements [Reported]"
+        "code": "81362-6",
+        "display": "My dislikes and fears [Reported]"
       }
     ]
   },
-  "valueString": "Here are some examples of the things that I would like to have near me, music that I’d like to hear, and other details of my care that would help to keep me happy and relaxed: I love the smell of lavender and the feeling of sunshine on my face."
+  "valueString": "Here is a list of things that I would like to avoid if at all possible, people that I don’t wish to see, and concerns I have about particular family members, pets, and so on: I do not like my feet to be cold."
 }

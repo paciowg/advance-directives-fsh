@@ -8,17 +8,17 @@
   },
   "text": {
     "status": "additional",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Please attempt to notify someone from my religion at the following phone number:</b></p><p>If I have included one</p><p><i>Catholic</i></p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>My unfinished business:</b></p><p>If it appears that I am approaching the end of my life, and I cannot communicate with persons around me, I would want my doctors and nurses, my family, and my friends to know about some unfinished business that I need to address:</p><p><i>I want my sister and I to talk again, and miss her. I wish we hadn't disagreed all those years ago and regret the time it has cost us. I'd like to see her face if I were very ill and needed the comfort of family at my side.</i></p></div>"
   },
   "status": "final",
   "code": {
     "coding": [
       {
         "system": "http://loinc.org",
-        "code": "81365-9",
-        "display": "Religious affiliation contact to notify [Reported]"
+        "code": "81366-7",
+        "display": "Unfinished business [Reported]"
       }
     ]
   },
-  "valueString": "Please attempt to notify someone from my religion at the following phone number: If I have included one: Catholic"
+  "valueString": "If it appears that I am approaching the end of my life, and I cannot communicate with persons around me, I would want my doctors and nurses, my family, and my friends to know about some unfinished business that I need to address: I want my sister and I to talk again, and miss her.  I wish we hadn't disagreed all those years ago and regret the time it has cost us.  I'd like to see her face if I were very ill and needed the comfort of family at my side."
 }

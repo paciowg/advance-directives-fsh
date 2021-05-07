@@ -1,0 +1,40 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-adi/Device/Example-Smith-Johnson-DocRef-Device1> a fhir:Device;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "Example-Smith-Johnson-DocRef-Device1"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: ed6f4f50c6cb47dd89cb5d8f3007ecb0</p><p><b>modelNumber</b>: ADVault RR Portal</p><h3>Versions</h3><table class=\"grid\"><tr><td>-</td><td><b>Value</b></td></tr><tr><td>*</td><td>1.0</td></tr></table><p><b>owner</b>: <a href=\"Organization-Example-Smith-Johnson-OrganizationCustodian1.html\">ADVault, Inc.. Generated Summary: id: 44444; active; name: MyDirectives.com; Phone: +1(202)776-7700</a></p></div>"
+  ];
+  fhir:Device.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "urn:oid:2.16.840.1.113883.4.6" ];
+     fhir:Identifier.value [ fhir:value "ed6f4f50c6cb47dd89cb5d8f3007ecb0" ]
+  ];
+  fhir:Device.modelNumber [ fhir:value "ADVault RR Portal"];
+  fhir:Device.version [
+     fhir:index 0;
+     fhir:Device.version.value [ fhir:value "1.0" ]
+  ];
+  fhir:Device.owner [
+     fhir:link <http://hl7.org/fhir/us/pacio-adi/Organization/Example-Smith-Johnson-OrganizationCustodian1>;
+     fhir:Reference.reference [ fhir:value "Organization/Example-Smith-Johnson-OrganizationCustodian1" ];
+     fhir:Reference.display [ fhir:value "ADVault, Inc." ]
+  ] .
+
+<http://hl7.org/fhir/us/pacio-adi/Organization/Example-Smith-Johnson-OrganizationCustodian1> a fhir:us .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-adi/Device/Example-Smith-Johnson-DocRef-Device1.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/us/pacio-adi/Device/Example-Smith-Johnson-DocRef-Device1.ttl> .
+
+# -------------------------------------------------------------------------------------
+

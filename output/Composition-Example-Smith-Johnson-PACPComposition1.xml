@@ -7,8 +7,11 @@
   </meta>
   <language value="en-US"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"><p><b>Generated Narrative</b></p><p><b>Data Enterer</b>: <a href="Patient-Example-Smith-Johnson-Patient1.html">Generated Summary: language: en-US; id: 87f37989294a408897aacd1fc5d8fd16; active; Betsy Smith-Johnson (OFFICIAL); advault.test54@jettelabs.com; gender: female; birthDate: 1950-11-15; <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-NullFlavor UNK}">unknown</span></a></p><p><b>identifier</b>: id: 0-87f37989294a408897aacd1fc5d8fd16</p><p><b>status</b>: final</p><p><b>type</b>: <span title="Codes: {http://loinc.org 81334-5}">Personal Advance Care Plan Document</span></p><p><b>category</b>: <span title="Codes: {http://loinc.org 75320-2}">Advance directive</span></p><p><b>date</b>: Mar 29, 2021, 12:25:34 PM</p><p><b>author</b>: <a href="Patient-Example-Smith-Johnson-Patient1.html">Generated Summary: language: en-US; id: 87f37989294a408897aacd1fc5d8fd16; active; Betsy Smith-Johnson (OFFICIAL); advault.test54@jettelabs.com; gender: female; birthDate: 1950-11-15; <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-NullFlavor UNK}">unknown</span></a></p><p><b>title</b>: Personal Advance Care Plan</p><p><b>custodian</b>: <a href="Organization-Example-Smith-Johnson-OrganizationCustodian1.html">Generated Summary: id: 44444; active; name: MyDirectives.com; Phone: +1(202)776-7700</a></p></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"><p><b>Generated Narrative</b></p><p><b>Version Number</b>: 1</p><p><b>Data Enterer</b>: <a href="Patient-Example-Smith-Johnson-Patient1.html">Generated Summary: language: en-US; id: 047e62ccf09d4b39a8add708a69b7f38; active; Betsy Smith-Johnson ; advault.test33@jettelabs.com; gender: female; birthDate: 1950-11-05; <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-NullFlavor UNK}">unknown</span></a></p><p><b>identifier</b>: id: 0-87f37989294a408897aacd1fc5d8fd16</p><p><b>status</b>: final</p><p><b>type</b>: <span title="Codes: {http://loinc.org 81334-5}">Personal Advance Care Plan Document</span></p><p><b>category</b>: <span title="Codes: {http://loinc.org 75320-2}">Advance directive</span></p><p><b>date</b>: Mar 29, 2021, 12:25:34 PM</p><p><b>author</b>: <a href="Patient-Example-Smith-Johnson-Patient1.html">Generated Summary: language: en-US; id: 047e62ccf09d4b39a8add708a69b7f38; active; Betsy Smith-Johnson ; advault.test33@jettelabs.com; gender: female; birthDate: 1950-11-05; <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-NullFlavor UNK}">unknown</span></a></p><p><b>title</b>: Personal Advance Care Plan</p><p><b>custodian</b>: <a href="Organization-Example-Smith-Johnson-OrganizationCustodian1.html">Generated Summary: id: 44444; active; name: MyDirectives.com; Phone: +1(202)776-7700</a></p></div>
   </text>
+  <extension url="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-versionNumber-extension">
+    <valueInteger value="1"/>
+  </extension>
   <extension url="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-dataEnterer-extension">
     <valueReference>
       <reference value="Patient/Example-Smith-Johnson-Patient1"/>
@@ -76,6 +79,9 @@
       <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><p><i>MyDirectives® offers people a list of optional questions that can be answered by typing text in a text box or by uploading a video or audio file for each question. Only those questions answered by Betsy Smith-Johnson appear here. For a complete list of questions in My Thoughts, please visit www.MyDirectives.com.</i></p><p></p><p><b>In case I’m being cared for by a person(s) who doesn't know me very well, I’d like my following thoughts to be known.</b></p><p></p><p></p><p><b>My likes / joys:</b></p><p>Here are some examples of the things that I would like to have near me, music that I’d like to hear, and other details of my care that would help to keep me happy and relaxed:</p><p><i>I love the smell of lavender and the feeling of sunshine on my face.</i></p><p></p><p></p><p><b>My dislikes / fears:</b></p><p>Here is a list of things that I would like to avoid if at all possible, people that I don’t wish to see, and concerns I have about particular family members, pets, and so on:</p><p><i>I do not like my feet to be cold.</i></p><p></p><p></p><p><b>How to care for me:</b></p><p>If I become incapacitated and cannot express myself, here is what I would like to tell my healthcare agent, family and friends about how I would like for them to care for me:</p><p><i>I want photos of my family where I can see them.</i></p><p></p><p></p><p><b>My religion:</b></p><p>If I appear to be approaching the end of my life, here are some things that I would like for my caregivers to know about my faith and my religion.</p><p><i>Please call Father Mark if my condition warrants the services of a priest.</i></p><p></p><p></p><p><b>Please attempt to notify someone from my religion at the following phone number:</b></p><p>If I have included one</p><p><i>Catholic</i></p><p></p><p></p><p><b>My unfinished business:</b></p><p>If it appears that I am approaching the end of my life, and I cannot communicate with persons around me, I would want my doctors and nurses, my family, and my friends to know about some unfinished business that I need to address:</p><p><i>I want my sister and I to talk again, and miss her. I wish we hadn't disagreed all those years ago and regret the time it has cost us. I'd like to see her face if I were very ill and needed the comfort of family at my side.</i></p><p></p><p></p><p><b>Laughter:</b></p><p>These are some of my fondest memories from life that have always brought a smile to my face or made me laugh:</p><p><i>My dogs make me laugh when they play together, and my grandchildren make me laugh when they put on plays for me. They bring me great joy.</i></p></div>
     </text>
     <entry>
+      <reference value="Observation/Example-Smith-Johnson-CareExperiencePreference2"/>
+    </entry>
+    <entry>
       <reference value="Observation/Example-Smith-Johnson-CareExperiencePreference3"/>
     </entry>
     <entry>
@@ -93,9 +99,6 @@
     <entry>
       <reference value="Observation/Example-Smith-Johnson-CareExperiencePreference8"/>
     </entry>
-    <entry>
-      <reference value="Observation/Example-Smith-Johnson-CareExperiencePreference9"/>
-    </entry>
   </section>
   <section>
     <title value="Expression of Healthcare Treatment Wishes and Desires"/>
@@ -111,9 +114,6 @@
     </text>
     <entry>
       <reference value="List/Example-Smith-Johnson-PersonalPrioritiesOrganizer1"/>
-    </entry>
-    <entry>
-      <reference value="Observation/Example-Smith-Johnson-CareExperiencePreference1"/>
     </entry>
     <entry>
       <reference value="Observation/Example-Smith-Johnson-PersonalInterventionPreference1"/>
@@ -150,7 +150,7 @@
       <reference value="Observation/Example-Smith-Johnson-AutopsyObservation1"/>
     </entry>
     <entry>
-      <reference value="Observation/Example-Smith-Johnson-CareExperiencePreference2"/>
+      <reference value="Observation/Example-Smith-Johnson-PersonalInterventionPreference6"/>
     </entry>
   </section>
   <section>

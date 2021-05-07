@@ -1,0 +1,24 @@
+{
+  "resourceType": "Observation",
+  "id": "Example-McBee-PersonalInterventionPreference8",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference"
+    ]
+  },
+  "text": {
+    "status": "additional",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Here are my thoughts on funeral or burial plans:</b></p><p>If I were to pass away: <i>I have a plot. My wife has the details, also my secretary, Ms. Williams, will know.</i></p></div>"
+  },
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "81356-8",
+        "display": "Death arrangements [Reported]"
+      }
+    ]
+  },
+  "valueString": "Here are my thoughts on funeral or burial plans: If I were to pass away:</b> <i>I have a plot. My wife has the details, also my secretary, Ms. Williams, will know."
+}

@@ -18,8 +18,11 @@
         </meta>
         <language value="en-US"/>
         <text>
-          <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"><p><b>Generated Narrative</b></p><p><b>Data Enterer</b>: <a href="#Patient_Example-Smith-Johnson-Patient1">See above (Patient/Example-Smith-Johnson-Patient1)</a></p><p><b>identifier</b>: id: 0-87f37989294a408897aacd1fc5d8fd16</p><p><b>status</b>: final</p><p><b>type</b>: <span title="Codes: {http://loinc.org 81334-5}">Personal Advance Care Plan Document</span></p><p><b>category</b>: <span title="Codes: {http://loinc.org 75320-2}">Advance directive</span></p><p><b>date</b>: Mar 29, 2021, 12:25:34 PM</p><p><b>author</b>: <a href="#Patient_Example-Smith-Johnson-Patient1">See above (Patient/Example-Smith-Johnson-Patient1)</a></p><p><b>title</b>: Personal Advance Care Plan</p><p><b>custodian</b>: <a href="#Organization_Example-Smith-Johnson-OrganizationCustodian1">See above (Organization/Example-Smith-Johnson-OrganizationCustodian1)</a></p></div>
+          <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"><p><b>Generated Narrative</b></p><p><b>Version Number</b>: 1</p><p><b>Data Enterer</b>: <a href="#Patient_Example-Smith-Johnson-Patient1">See above (Patient/Example-Smith-Johnson-Patient1)</a></p><p><b>identifier</b>: id: 0-87f37989294a408897aacd1fc5d8fd16</p><p><b>status</b>: final</p><p><b>type</b>: <span title="Codes: {http://loinc.org 81334-5}">Personal Advance Care Plan Document</span></p><p><b>category</b>: <span title="Codes: {http://loinc.org 75320-2}">Advance directive</span></p><p><b>date</b>: Mar 29, 2021, 12:25:34 PM</p><p><b>author</b>: <a href="#Patient_Example-Smith-Johnson-Patient1">See above (Patient/Example-Smith-Johnson-Patient1)</a></p><p><b>title</b>: Personal Advance Care Plan</p><p><b>custodian</b>: <a href="#Organization_Example-Smith-Johnson-OrganizationCustodian1">See above (Organization/Example-Smith-Johnson-OrganizationCustodian1)</a></p></div>
         </text>
+        <extension url="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-versionNumber-extension">
+          <valueInteger value="1"/>
+        </extension>
         <extension url="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-dataEnterer-extension">
           <valueReference>
             <reference value="Patient/Example-Smith-Johnson-Patient1"/>
@@ -87,6 +90,9 @@
             <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><p><i>MyDirectives® offers people a list of optional questions that can be answered by typing text in a text box or by uploading a video or audio file for each question. Only those questions answered by Betsy Smith-Johnson appear here. For a complete list of questions in My Thoughts, please visit www.MyDirectives.com.</i></p><p></p><p><b>In case I’m being cared for by a person(s) who doesn't know me very well, I’d like my following thoughts to be known.</b></p><p></p><p></p><p><b>My likes / joys:</b></p><p>Here are some examples of the things that I would like to have near me, music that I’d like to hear, and other details of my care that would help to keep me happy and relaxed:</p><p><i>I love the smell of lavender and the feeling of sunshine on my face.</i></p><p></p><p></p><p><b>My dislikes / fears:</b></p><p>Here is a list of things that I would like to avoid if at all possible, people that I don’t wish to see, and concerns I have about particular family members, pets, and so on:</p><p><i>I do not like my feet to be cold.</i></p><p></p><p></p><p><b>How to care for me:</b></p><p>If I become incapacitated and cannot express myself, here is what I would like to tell my healthcare agent, family and friends about how I would like for them to care for me:</p><p><i>I want photos of my family where I can see them.</i></p><p></p><p></p><p><b>My religion:</b></p><p>If I appear to be approaching the end of my life, here are some things that I would like for my caregivers to know about my faith and my religion.</p><p><i>Please call Father Mark if my condition warrants the services of a priest.</i></p><p></p><p></p><p><b>Please attempt to notify someone from my religion at the following phone number:</b></p><p>If I have included one</p><p><i>Catholic</i></p><p></p><p></p><p><b>My unfinished business:</b></p><p>If it appears that I am approaching the end of my life, and I cannot communicate with persons around me, I would want my doctors and nurses, my family, and my friends to know about some unfinished business that I need to address:</p><p><i>I want my sister and I to talk again, and miss her. I wish we hadn't disagreed all those years ago and regret the time it has cost us. I'd like to see her face if I were very ill and needed the comfort of family at my side.</i></p><p></p><p></p><p><b>Laughter:</b></p><p>These are some of my fondest memories from life that have always brought a smile to my face or made me laugh:</p><p><i>My dogs make me laugh when they play together, and my grandchildren make me laugh when they put on plays for me. They bring me great joy.</i></p></div>
           </text>
           <entry>
+            <reference value="Observation/Example-Smith-Johnson-CareExperiencePreference2"/>
+          </entry>
+          <entry>
             <reference value="Observation/Example-Smith-Johnson-CareExperiencePreference3"/>
           </entry>
           <entry>
@@ -104,9 +110,6 @@
           <entry>
             <reference value="Observation/Example-Smith-Johnson-CareExperiencePreference8"/>
           </entry>
-          <entry>
-            <reference value="Observation/Example-Smith-Johnson-CareExperiencePreference9"/>
-          </entry>
         </section>
         <section>
           <title value="Expression of Healthcare Treatment Wishes and Desires"/>
@@ -122,9 +125,6 @@
           </text>
           <entry>
             <reference value="List/Example-Smith-Johnson-PersonalPrioritiesOrganizer1"/>
-          </entry>
-          <entry>
-            <reference value="Observation/Example-Smith-Johnson-CareExperiencePreference1"/>
           </entry>
           <entry>
             <reference value="Observation/Example-Smith-Johnson-PersonalInterventionPreference1"/>
@@ -161,7 +161,7 @@
             <reference value="Observation/Example-Smith-Johnson-AutopsyObservation1"/>
           </entry>
           <entry>
-            <reference value="Observation/Example-Smith-Johnson-CareExperiencePreference2"/>
+            <reference value="Observation/Example-Smith-Johnson-PersonalInterventionPreference6"/>
           </entry>
         </section>
         <section>
@@ -191,26 +191,25 @@
         </meta>
         <language value="en-US"/>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 87f37989294a408897aacd1fc5d8fd16</p><p><b>active</b>: true</p><p><b>name</b>: Betsy Smith-Johnson (OFFICIAL)</p><p><b>telecom</b>: <a href="mailto:advault.test54@jettelabs.com">advault.test54@jettelabs.com</a></p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1950-11-15</p><p><b>address</b>: 111 Maple Court San Antonio TX 78212 US (HOME)</p><p><b>maritalStatus</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-NullFlavor UNK}">unknown</span></p><h3>Communications</h3><table class="grid"><tr><td>-</td><td><b>Language</b></td><td><b>Preferred</b></td></tr><tr><td>*</td><td><span title="Codes: {urn:ietf:bcp:47 en}">English</span></td><td>true</td></tr></table></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 047e62ccf09d4b39a8add708a69b7f38</p><p><b>active</b>: true</p><p><b>name</b>: Betsy Smith-Johnson </p><p><b>telecom</b>: <a href="mailto:advault.test33@jettelabs.com">advault.test33@jettelabs.com</a></p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1950-11-05</p><p><b>address</b>: 111 Maple Court San Antonio TX 78212 US (HOME)</p><p><b>maritalStatus</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-NullFlavor UNK}">unknown</span></p><h3>Communications</h3><table class="grid"><tr><td>-</td><td><b>Language</b></td><td><b>Preferred</b></td></tr><tr><td>*</td><td><span title="Codes: {urn:ietf:bcp:47 en}">English</span></td><td>true</td></tr></table></div>
         </text>
         <identifier>
-          <system value="urn:oid:2.16.840.1.113883.4.823.1.7124"/>
-          <value value="87f37989294a408897aacd1fc5d8fd16"/>
+          <system value="urn:oid:2.16.840.1.113883.4.823.1"/>
+          <value value="047e62ccf09d4b39a8add708a69b7f38"/>
         </identifier>
         <active value="true"/>
         <name>
-          <use value="official"/>
+          <use value="usual"/>
           <family value="Smith-Johnson"/>
           <given value="Betsy"/>
         </name>
         <telecom>
           <system value="email"/>
-          <value value="advault.test54@jettelabs.com"/>
-          <use value="mobile"/>
-          <rank value="3"/>
+          <value value="advault.test33@jettelabs.com"/>
+          <use value="home"/>
         </telecom>
         <gender value="female"/>
-        <birthDate value="1950-11-15"/>
+        <birthDate value="1950-11-05"/>
         <address>
           <use value="home"/>
           <type value="physical"/>
@@ -320,56 +319,10 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://www.example.org/fhir/Observation/Example-Smith-Johnson-CareExperiencePreference1"/>
-    <resource>
-      <Observation>
-        <id value="Example-Smith-Johnson-CareExperiencePreference1"/>
-        <meta>
-          <profile value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"/>
-        </meta>
-        <text>
-          <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><p>Here are some thoughts that I would like for my medical care team and my healthcare agent(s) to know about the role that religion, faith or spirituality play in my life:</p><p><i>I am Catholic, please call Father Mark at Saint Catherine's on Main Street.</i></p></div>
-        </text>
-        <status value="final"/>
-        <code>
-          <coding>
-            <system value="http://loinc.org"/>
-            <code value="75775-7"/>
-            <display value="Decision to inform doctors and nurses about the role religion, faith, or spirituality play in my life [Reported]"/>
-          </coding>
-        </code>
-        <valueString value="Here are some thoughts that I would like for my medical care team and my healthcare agent(s) to know about the role that religion, faith or spirituality play in my life: I am Catholic, please call Father Mark at Saint Catherine&#39;s on Main Street."/>
-      </Observation>
-    </resource>
-  </entry>
-  <entry>
     <fullUrl value="http://www.example.org/fhir/Observation/Example-Smith-Johnson-CareExperiencePreference2"/>
     <resource>
       <Observation>
         <id value="Example-Smith-Johnson-CareExperiencePreference2"/>
-        <meta>
-          <profile value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"/>
-        </meta>
-        <text>
-          <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Here are my thoughts on funeral or burial plans:</b></p><p><i>If I were to pass away:</i></p><p><i>Please call Jim Houston, my lawyer, for arrangements I have already made.</i></p></div>
-        </text>
-        <status value="final"/>
-        <code>
-          <coding>
-            <system value="http://loinc.org"/>
-            <code value="81356-8"/>
-            <display value="Death arrangements [Reported]"/>
-          </coding>
-        </code>
-        <valueString value="If I were to pass away: Please call Jim Houston, my lawyer, for arrangements I have already made."/>
-      </Observation>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="http://www.example.org/fhir/Observation/Example-Smith-Johnson-CareExperiencePreference3"/>
-    <resource>
-      <Observation>
-        <id value="Example-Smith-Johnson-CareExperiencePreference3"/>
         <meta>
           <profile value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"/>
         </meta>
@@ -389,10 +342,10 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://www.example.org/fhir/Observation/Example-Smith-Johnson-CareExperiencePreference4"/>
+    <fullUrl value="http://www.example.org/fhir/Observation/Example-Smith-Johnson-CareExperiencePreference3"/>
     <resource>
       <Observation>
-        <id value="Example-Smith-Johnson-CareExperiencePreference4"/>
+        <id value="Example-Smith-Johnson-CareExperiencePreference3"/>
         <meta>
           <profile value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"/>
         </meta>
@@ -412,10 +365,10 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://www.example.org/fhir/Observation/Example-Smith-Johnson-CareExperiencePreference5"/>
+    <fullUrl value="http://www.example.org/fhir/Observation/Example-Smith-Johnson-CareExperiencePreference4"/>
     <resource>
       <Observation>
-        <id value="Example-Smith-Johnson-CareExperiencePreference5"/>
+        <id value="Example-Smith-Johnson-CareExperiencePreference4"/>
         <meta>
           <profile value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"/>
         </meta>
@@ -435,10 +388,10 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://www.example.org/fhir/Observation/Example-Smith-Johnson-CareExperiencePreference6"/>
+    <fullUrl value="http://www.example.org/fhir/Observation/Example-Smith-Johnson-CareExperiencePreference5"/>
     <resource>
       <Observation>
-        <id value="Example-Smith-Johnson-CareExperiencePreference6"/>
+        <id value="Example-Smith-Johnson-CareExperiencePreference5"/>
         <meta>
           <profile value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"/>
         </meta>
@@ -458,10 +411,10 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://www.example.org/fhir/Observation/Example-Smith-Johnson-CareExperiencePreference7"/>
+    <fullUrl value="http://www.example.org/fhir/Observation/Example-Smith-Johnson-CareExperiencePreference6"/>
     <resource>
       <Observation>
-        <id value="Example-Smith-Johnson-CareExperiencePreference7"/>
+        <id value="Example-Smith-Johnson-CareExperiencePreference6"/>
         <meta>
           <profile value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"/>
         </meta>
@@ -481,10 +434,10 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://www.example.org/fhir/Observation/Example-Smith-Johnson-CareExperiencePreference8"/>
+    <fullUrl value="http://www.example.org/fhir/Observation/Example-Smith-Johnson-CareExperiencePreference7"/>
     <resource>
       <Observation>
-        <id value="Example-Smith-Johnson-CareExperiencePreference8"/>
+        <id value="Example-Smith-Johnson-CareExperiencePreference7"/>
         <meta>
           <profile value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"/>
         </meta>
@@ -504,10 +457,10 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://www.example.org/fhir/Observation/Example-Smith-Johnson-CareExperiencePreference9"/>
+    <fullUrl value="http://www.example.org/fhir/Observation/Example-Smith-Johnson-CareExperiencePreference8"/>
     <resource>
       <Observation>
-        <id value="Example-Smith-Johnson-CareExperiencePreference9"/>
+        <id value="Example-Smith-Johnson-CareExperiencePreference8"/>
         <meta>
           <profile value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"/>
         </meta>
@@ -577,7 +530,7 @@
       <Observation>
         <id value="Example-Smith-Johnson-PersonalInterventionPreference1"/>
         <meta>
-          <profile value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"/>
+          <profile value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference"/>
         </meta>
         <text>
           <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><p>If I am having significant pain or suffering,</p><p><i>I would like my doctors to consult a Supportive and Palliative Care Team to help treat my physical, emotional and spiritual discomfort, and to support my family.</i></p></div>
@@ -600,7 +553,7 @@
       <Observation>
         <id value="Example-Smith-Johnson-PersonalInterventionPreference2"/>
         <meta>
-          <profile value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"/>
+          <profile value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference"/>
         </meta>
         <text>
           <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>My Preferences in Specific Circumstances</b></p><p>In addition to the general advance care goals provided above, below are specific treatment preferences with respect to certain specific circumstances or situations.</p></div>
@@ -623,7 +576,7 @@
       <Observation>
         <id value="Example-Smith-Johnson-PersonalInterventionPreference3"/>
         <meta>
-          <profile value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"/>
+          <profile value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference"/>
         </meta>
         <text>
           <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><p>If my health ever deteriorates due to a terminal illness, and my doctors believe I will not be able to interact meaningfully with my family, friends, or surroundings,</p><p><i>I would like for them to keep trying life-sustaining treatments until my healthcare agent decides it is time to stop and such treatments and let me die gently.</i></p></div>
@@ -646,7 +599,7 @@
       <Observation>
         <id value="Example-Smith-Johnson-PersonalInterventionPreference4"/>
         <meta>
-          <profile value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"/>
+          <profile value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference"/>
         </meta>
         <text>
           <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><p>Although I understand that, depending on the situation and circumstances, medical personnel may not be able to follow my wishes, here are my general thoughts on cardiopulmonary resuscitation (CPR):</p><p><i>I want my healthcare agent to decide for me.</i></p></div>
@@ -669,7 +622,7 @@
       <Observation>
         <id value="Example-Smith-Johnson-PersonalInterventionPreference5"/>
         <meta>
-          <profile value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"/>
+          <profile value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference"/>
         </meta>
         <text>
           <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><p>If it were possible to choose, here is where I would like to spend my final days:</p><p><i>At home.I would like to receive hospice care at home if possible.</i></p></div>
@@ -683,6 +636,29 @@
           </coding>
         </code>
         <valueString value="If it were possible to choose, here is where I would like to spend my final days: At home.I would like to receive hospice care at home if possible."/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://www.example.org/fhir/Observation/Example-Smith-Johnson-PersonalInterventionPreference6"/>
+    <resource>
+      <Observation>
+        <id value="Example-Smith-Johnson-PersonalInterventionPreference6"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference"/>
+        </meta>
+        <text>
+          <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Here are my thoughts on funeral or burial plans:</b></p><p><i>If I were to pass away:</i></p><p><i>Please call Jim Houston, my lawyer, for arrangements I have already made.</i></p></div>
+        </text>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="81356-8"/>
+            <display value="Death arrangements [Reported]"/>
+          </coding>
+        </code>
+        <valueString value="If I were to pass away: Please call Jim Houston, my lawyer, for arrangements I have already made."/>
       </Observation>
     </resource>
   </entry>
@@ -858,11 +834,11 @@
           <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"/>
         </meta>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 4</p><p><b>active</b>: true</p><p><b>name</b>: ADVault, Inc.</p><p><b>telecom</b>: <a href="tel:+1(202)776-7700">+1(202)776-7700</a></p><p><b>address</b>: 740 E. Campbell Rd. Suite 825 Richardson TX 75081 US </p></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 12c5dcee5089494ca1ca0cb428ed3fff</p><p><b>active</b>: true</p><p><b>name</b>: ADVault, Inc.</p><p><b>telecom</b>: <a href="tel:+1(202)776-7700">+1(202)776-7700</a></p><p><b>address</b>: 740 E. Campbell Rd. Suite 825 Richardson TX 75081 US </p></div>
         </text>
         <identifier>
           <system value="urn:oid:1.3.6.1.4.1.42424242.4.99930.4"/>
-          <value value="4"/>
+          <value value="12c5dcee5089494ca1ca0cb428ed3fff"/>
         </identifier>
         <active value="true"/>
         <name value="ADVault, Inc."/>

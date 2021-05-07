@@ -26,7 +26,7 @@ Description: "This abstract profile defines constraints that represent common ad
     padi-versionNumber-extension named VersionNumber 0..1 MS and
     padi-dataEnterer-extension named DataEntererExtension 0..1 MS and
     padi-informant-extension named InformatExtension 0..* MS and
-    padi-informatioRecipient-extension named InformationRecipientExtension 0..* MS and
+    padi-informationRecipient-extension named InformationRecipientExtension 0..* MS and
     padi-participant-extension named ParticipantExtension 0..* MS and
     padi-performer-extension named PerformerExtension 0..* MS and
     padi-authorization-extension named AuthorizationExtension 0..* MS and

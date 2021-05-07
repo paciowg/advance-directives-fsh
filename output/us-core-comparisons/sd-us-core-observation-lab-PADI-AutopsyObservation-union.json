@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "ce74457c-07ec-4b17-9b04-8cce3d0eb30c-38",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/ce74457c-07ec-4b17-9b04-8cce3d0eb30c-38",
+  "id" : "f41b94cc-7bb1-47f7-b650-09ed649b2a6d-38",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/f41b94cc-7bb1-47f7-b650-09ed649b2a6d-38",
   "name" : "UnionUSCoreLaboratoryResultObservationProfileAndPADIAutopsyObservation",
   "title" : "Union of US Core Laboratory Result Observation Profile And ADI Autopsy Observation",
   "status" : "active",
-  "date" : "2021-05-03T16:44:10-07:00",
+  "date" : "2021-05-07T09:42:13-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -575,7 +575,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "LOINC codes",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/ce74457c-07ec-4b17-9b04-8cce3d0eb30c-41"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/f41b94cc-7bb1-47f7-b650-09ed649b2a6d-41"
       },
       "mapping" : [{
         "identity" : "workflow",

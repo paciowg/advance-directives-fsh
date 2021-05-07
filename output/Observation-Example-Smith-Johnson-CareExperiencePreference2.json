@@ -8,17 +8,17 @@
   },
   "text": {
     "status": "additional",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Here are my thoughts on funeral or burial plans:</b></p><p><i>If I were to pass away:</i></p><p><i>Please call Jim Houston, my lawyer, for arrangements I have already made.</i></p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>My likes / joys:</b></p><p>Here are some examples of the things that I would like to have near me, music that I’d like to hear, and other details of my care that would help to keep me happy and relaxed:</p><p><i>I love the smell of lavender and the feeling of sunshine on my face.</i></p></div>"
   },
   "status": "final",
   "code": {
     "coding": [
       {
         "system": "http://loinc.org",
-        "code": "81356-8",
+        "code": "81360-0",
         "display": "Death arrangements [Reported]"
       }
     ]
   },
-  "valueString": "If I were to pass away: Please call Jim Houston, my lawyer, for arrangements I have already made."
+  "valueString": "Here are some examples of the things that I would like to have near me, music that I’d like to hear, and other details of my care that would help to keep me happy and relaxed: I love the smell of lavender and the feeling of sunshine on my face."
 }

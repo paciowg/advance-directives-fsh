@@ -3,7 +3,7 @@
   "id": "Example-Smith-Johnson-PersonalInterventionPreference3",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
+      "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference"
     ]
   },
   "text": {

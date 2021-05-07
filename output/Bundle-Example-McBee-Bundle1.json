@@ -21,9 +21,13 @@
         "language": "en-US",
         "text": {
           "status": "extensions",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><p><b>Data Enterer</b>: <a href=\"#Patient_Example-McBee-Patient1\">See above (Patient/Example-McBee-Patient1)</a></p><p><b>identifier</b>: id: 20130607100315-CCDA-CCD</p><p><b>status</b>: final</p><p><b>type</b>: <span title=\"Codes: {http://loinc.org 81334-5}\">Patient Personal advance care plan</span></p><p><b>category</b>: <span title=\"Codes: {http://loinc.org 75320-2}\">Advance directive</span></p><p><b>date</b>: Aug 28, 2018, 5:49:58 AM</p><p><b>author</b>: <a href=\"#Patient_Example-McBee-Patient1\">See above (Patient/Example-McBee-Patient1)</a></p><p><b>title</b>: Personal Advance Care Plan Document for Roger McBee</p><p><b>custodian</b>: <a href=\"#Organization_Example-McBee-OrganizationCustodian1\">See above (Organization/Example-McBee-OrganizationCustodian1)</a></p></div>"
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><p><b>Version Number</b>: 1</p><p><b>Data Enterer</b>: <a href=\"#Patient_Example-McBee-Patient1\">See above (Patient/Example-McBee-Patient1)</a></p><p><b>identifier</b>: id: 20130607100315-CCDA-CCD</p><p><b>status</b>: final</p><p><b>type</b>: <span title=\"Codes: {http://loinc.org 81334-5}\">Patient Personal advance care plan</span></p><p><b>category</b>: <span title=\"Codes: {http://loinc.org 75320-2}\">Advance directive</span></p><p><b>date</b>: Aug 28, 2018, 5:49:58 AM</p><p><b>author</b>: <a href=\"#Patient_Example-McBee-Patient1\">See above (Patient/Example-McBee-Patient1)</a></p><p><b>title</b>: Personal Advance Care Plan Document for Roger McBee</p><p><b>custodian</b>: <a href=\"#Organization_Example-McBee-OrganizationCustodian1\">See above (Organization/Example-McBee-OrganizationCustodian1)</a></p></div>"
         },
         "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-versionNumber-extension",
+            "valueInteger": 1
+          },
           {
             "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-dataEnterer-extension",
             "valueReference": {
@@ -189,7 +193,7 @@
                 "reference": "Observation/Example-McBee-AutopsyObservation1"
               },
               {
-                "reference": "Observation/Example-McBee-CareExperiencePreference5"
+                "reference": "Observation/Example-McBee-PersonalInterventionPreference8"
               }
             ]
           },
@@ -780,6 +784,33 @@
       }
     },
     {
+      "fullUrl": "http://www.example.org/fhir/Observation/Example-McBee-PersonalInterventionPreference8",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "Example-McBee-PersonalInterventionPreference8",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference"
+          ]
+        },
+        "text": {
+          "status": "additional",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Here are my thoughts on funeral or burial plans:</b></p><p>If I were to pass away: <i>I have a plot. My wife has the details, also my secretary, Ms. Williams, will know.</i></p></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "81356-8",
+              "display": "Death arrangements [Reported]"
+            }
+          ]
+        },
+        "valueString": "Here are my thoughts on funeral or burial plans: If I were to pass away:</b> <i>I have a plot. My wife has the details, also my secretary, Ms. Williams, will know."
+      }
+    },
+    {
       "fullUrl": "http://www.example.org/fhir/Goal/Example-McBee-PersonalHealthGoal1",
       "resource": {
         "resourceType": "Goal",
@@ -1069,33 +1100,6 @@
           ]
         },
         "valueString": "Autopsy: I want an autopsy if my doctor thinks it will help others."
-      }
-    },
-    {
-      "fullUrl": "http://www.example.org/fhir/Observation/Example-McBee-CareExperiencePreference5",
-      "resource": {
-        "resourceType": "Observation",
-        "id": "Example-McBee-CareExperiencePreference5",
-        "meta": {
-          "profile": [
-            "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
-          ]
-        },
-        "text": {
-          "status": "additional",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Here are my thoughts on funeral or burial plans:</b></p><p>If I were to pass away: <i>I have a plot. My wife has the details, also my secretary, Ms. Williams, will know.</i></p></div>"
-        },
-        "status": "final",
-        "code": {
-          "coding": [
-            {
-              "system": "http://loinc.org",
-              "code": "81356-8",
-              "display": "Death arrangements [Reported]"
-            }
-          ]
-        },
-        "valueString": "Here are my thoughts on funeral or burial plans: If I were to pass away:</b> <i>I have a plot. My wife has the details, also my secretary, Ms. Williams, will know."
       }
     },
     {

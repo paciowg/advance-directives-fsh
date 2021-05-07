@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Device xmlns="http://hl7.org/fhir">
+  <id value="Example-Smith-Johnson-DocRef-Device1"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: ed6f4f50c6cb47dd89cb5d8f3007ecb0</p><p><b>modelNumber</b>: ADVault RR Portal</p><h3>Versions</h3><table class="grid"><tr><td>-</td><td><b>Value</b></td></tr><tr><td>*</td><td>1.0</td></tr></table><p><b>owner</b>: <a href="Organization-Example-Smith-Johnson-OrganizationCustodian1.html">ADVault, Inc.. Generated Summary: id: 44444; active; name: MyDirectives.com; Phone: +1(202)776-7700</a></p></div>
+  </text>
+  <identifier>
+    <system value="urn:oid:2.16.840.1.113883.4.6"/>
+    <value value="ed6f4f50c6cb47dd89cb5d8f3007ecb0"/>
+  </identifier>
+  <modelNumber value="ADVault RR Portal"/>
+  <version>
+    <value value="1.0"/>
+  </version>
+  <owner>
+    <reference value="Organization/Example-Smith-Johnson-OrganizationCustodian1"/>
+    <display value="ADVault, Inc."/>
+  </owner>
+</Device>

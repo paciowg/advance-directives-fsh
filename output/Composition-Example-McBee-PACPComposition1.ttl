@@ -19,10 +19,14 @@
   fhir:Resource.language [ fhir:value "en-US"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><p><b>Data Enterer</b>: <a href=\"Patient-Example-McBee-Patient1.html\">Generated Summary: language: en-US; Social Beneficiary Identifier: 555-12-1246, Driver's License Number: 33487; active; Roger Rienman McBee ; Phone: +1(469)238-2858, Phone: +1(214)497-9529, rogerb@testaccount.edu; gender: male; birthDate: 1945-04-01; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-NullFlavor NI}\">NoInformation</span></a></p><p><b>identifier</b>: id: 20130607100315-CCDA-CCD</p><p><b>status</b>: final</p><p><b>type</b>: <span title=\"Codes: {http://loinc.org 81334-5}\">Patient Personal advance care plan</span></p><p><b>category</b>: <span title=\"Codes: {http://loinc.org 75320-2}\">Advance directive</span></p><p><b>date</b>: Aug 28, 2018, 5:49:58 AM</p><p><b>author</b>: <a href=\"Patient-Example-McBee-Patient1.html\">Generated Summary: language: en-US; Social Beneficiary Identifier: 555-12-1246, Driver's License Number: 33487; active; Roger Rienman McBee ; Phone: +1(469)238-2858, Phone: +1(214)497-9529, rogerb@testaccount.edu; gender: male; birthDate: 1945-04-01; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-NullFlavor NI}\">NoInformation</span></a></p><p><b>title</b>: Personal Advance Care Plan Document for Roger McBee</p><p><b>custodian</b>: <a href=\"Organization-Example-McBee-OrganizationCustodian1.html\">Generated Summary: id: 44444; active; name: MyDirectives.com; Phone: +1(202)776-7700</a></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><p><b>Version Number</b>: 1</p><p><b>Data Enterer</b>: <a href=\"Patient-Example-McBee-Patient1.html\">Generated Summary: language: en-US; Social Beneficiary Identifier: 555-12-1246, Driver's License Number: 33487; active; Roger Rienman McBee ; Phone: +1(469)238-2858, Phone: +1(214)497-9529, rogerb@testaccount.edu; gender: male; birthDate: 1945-04-01; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-NullFlavor NI}\">NoInformation</span></a></p><p><b>identifier</b>: id: 20130607100315-CCDA-CCD</p><p><b>status</b>: final</p><p><b>type</b>: <span title=\"Codes: {http://loinc.org 81334-5}\">Patient Personal advance care plan</span></p><p><b>category</b>: <span title=\"Codes: {http://loinc.org 75320-2}\">Advance directive</span></p><p><b>date</b>: Aug 28, 2018, 5:49:58 AM</p><p><b>author</b>: <a href=\"Patient-Example-McBee-Patient1.html\">Generated Summary: language: en-US; Social Beneficiary Identifier: 555-12-1246, Driver's License Number: 33487; active; Roger Rienman McBee ; Phone: +1(469)238-2858, Phone: +1(214)497-9529, rogerb@testaccount.edu; gender: male; birthDate: 1945-04-01; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-NullFlavor NI}\">NoInformation</span></a></p><p><b>title</b>: Personal Advance Care Plan Document for Roger McBee</p><p><b>custodian</b>: <a href=\"Organization-Example-McBee-OrganizationCustodian1.html\">Generated Summary: id: 44444; active; name: MyDirectives.com; Phone: +1(202)776-7700</a></p></div>"
   ];
   fhir:DomainResource.extension [
      fhir:index 0;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-versionNumber-extension" ];
+     fhir:Extension.valueInteger [ fhir:value "1"^^xsd:integer ]
+  ], [
+     fhir:index 1;
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-dataEnterer-extension" ];
      fhir:Extension.valueReference [
        fhir:link <http://hl7.org/fhir/us/pacio-adi/Patient/Example-McBee-Patient1>;
@@ -201,8 +205,8 @@
        fhir:Reference.reference [ fhir:value "Observation/Example-McBee-AutopsyObservation1" ]
      ], [
        fhir:index 2;
-       fhir:link <http://hl7.org/fhir/us/pacio-adi/Observation/Example-McBee-CareExperiencePreference5>;
-       fhir:Reference.reference [ fhir:value "Observation/Example-McBee-CareExperiencePreference5" ]
+       fhir:link <http://hl7.org/fhir/us/pacio-adi/Observation/Example-McBee-PersonalInterventionPreference8>;
+       fhir:Reference.reference [ fhir:value "Observation/Example-McBee-PersonalInterventionPreference8" ]
      ]
   ], [
      fhir:index 4;
@@ -258,7 +262,7 @@
 
 <http://hl7.org/fhir/us/pacio-adi/Observation/Example-McBee-AutopsyObservation1> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-adi/Observation/Example-McBee-CareExperiencePreference5> a fhir:us .
+<http://hl7.org/fhir/us/pacio-adi/Observation/Example-McBee-PersonalInterventionPreference8> a fhir:us .
 
 # - ontology header ------------------------------------------------------------
 

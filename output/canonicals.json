@@ -105,6 +105,13 @@
     "name": "PADIPersonalInterventionPreference"
   },
   {
+    "id": "PADI-PersonalInterventionRequestPreference",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionRequestPreference",
+    "version": "0.0.1",
+    "name": "PADIPersonalInterventionRequestPreference"
+  },
+  {
     "id": "PADI-PersonalPrioritiesOrganizer",
     "type": "StructureDefinition",
     "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalPrioritiesOrganizer",
@@ -140,9 +147,9 @@
     "name": "InformantExtension"
   },
   {
-    "id": "padi-informatioRecipient-extension",
+    "id": "padi-informationRecipient-extension",
     "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-informatioRecipient-extension",
+    "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-informationRecipient-extension",
     "version": "0.0.1",
     "name": "InformationRecipientExtension"
   },
@@ -243,5 +250,12 @@
     "url": "http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIUponDeathPreferencesVS",
     "version": "0.0.1",
     "name": "PADIUponDeathPreferencesVS"
+  },
+  {
+    "id": "padi",
+    "type": "CapabilityStatement",
+    "url": "https://paciowg.github.io/advance-directives-igCapabilityStatement/padi",
+    "version": "0.0.1",
+    "name": "PacioAdiCapabilityStatement"
   }
 ]

@@ -6,15 +6,15 @@
     <profile value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"/>
   </meta>
   <text>
-    <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Here are my thoughts on funeral or burial plans:</b></p><p><i>If I were to pass away:</i></p><p><i>Please call Jim Houston, my lawyer, for arrangements I have already made.</i></p></div>
+    <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>My likes / joys:</b></p><p>Here are some examples of the things that I would like to have near me, music that I’d like to hear, and other details of my care that would help to keep me happy and relaxed:</p><p><i>I love the smell of lavender and the feeling of sunshine on my face.</i></p></div>
   </text>
   <status value="final"/>
   <code>
     <coding>
       <system value="http://loinc.org"/>
-      <code value="81356-8"/>
+      <code value="81360-0"/>
       <display value="Death arrangements [Reported]"/>
     </coding>
   </code>
-  <valueString value="If I were to pass away: Please call Jim Houston, my lawyer, for arrangements I have already made."/>
+  <valueString value="Here are some examples of the things that I would like to have near me, music that I&#x2019;d like to hear, and other details of my care that would help to keep me happy and relaxed: I love the smell of lavender and the feeling of sunshine on my face."/>
 </Observation>

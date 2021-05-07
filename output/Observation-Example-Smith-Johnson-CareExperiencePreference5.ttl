@@ -18,19 +18,19 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "additional" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>How to care for me:</b></p><p>If I become incapacitated and cannot express myself, here is what I would like to tell my healthcare agent, family and friends about how I would like for them to care for me:</p><p><i>I want photos of my family where I can see them.</i></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>My religion:</b></p><p>If I appear to be approaching the end of my life, here are some things that I would like for my caregivers to know about my faith and my religion.</p><p><i>Please call Father Mark if my condition warrants the services of a priest.</i></p></div>"
   ];
   fhir:Observation.status [ fhir:value "final"];
   fhir:Observation.code [
      fhir:CodeableConcept.coding [
        fhir:index 0;
-       a loinc:81380-8;
+       a loinc:81364-2;
        fhir:Coding.system [ fhir:value "http://loinc.org" ];
-       fhir:Coding.code [ fhir:value "81380-8" ];
-       fhir:Coding.display [ fhir:value "[TODO] A better code? Goals, preferences, and priorities for care experience" ]
+       fhir:Coding.code [ fhir:value "81364-2" ];
+       fhir:Coding.display [ fhir:value "Religious Beliefs" ]
      ]
   ];
-  fhir:Observation.valueString [ fhir:value "How to care for me: If I become incapacitated and cannot express myself, here is what I would like to tell my healthcare agent, family and friends about how I would like for them to care for me: I want photos of my family where I can see them."] .
+  fhir:Observation.valueString [ fhir:value "If I appear to be approaching the end of my life, here are some things that I would like for my caregivers to know about my faith and my religion. Please call Father Mark if my condition warrants the services of a priest."] .
 
 # - ontology header ------------------------------------------------------------
 

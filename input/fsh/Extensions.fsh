@@ -27,7 +27,7 @@ Description: "The Advance Directive Information Informant Extension describes an
 
 
 Extension: InformationRecipientExtension
-Id: padi-informatioRecipient-extension
+Id: padi-informationRecipient-extension
 Title: "Information Recipient"
 Description: "The Information Recipient Extension records the intended recipient of the advance directive information at the time the document was created."
 * value[x] only Reference

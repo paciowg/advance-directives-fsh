@@ -7,8 +7,11 @@
   </meta>
   <language value="en-US"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"><p><b>Generated Narrative</b></p><p><b>Data Enterer</b>: <a href="Patient-Example-McBee-Patient1.html">Generated Summary: language: en-US; Social Beneficiary Identifier: 555-12-1246, Driver's License Number: 33487; active; Roger Rienman McBee ; Phone: +1(469)238-2858, Phone: +1(214)497-9529, rogerb@testaccount.edu; gender: male; birthDate: 1945-04-01; <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-NullFlavor NI}">NoInformation</span></a></p><p><b>identifier</b>: id: 20130607100315-CCDA-CCD</p><p><b>status</b>: final</p><p><b>type</b>: <span title="Codes: {http://loinc.org 81334-5}">Patient Personal advance care plan</span></p><p><b>category</b>: <span title="Codes: {http://loinc.org 75320-2}">Advance directive</span></p><p><b>date</b>: Aug 28, 2018, 5:49:58 AM</p><p><b>author</b>: <a href="Patient-Example-McBee-Patient1.html">Generated Summary: language: en-US; Social Beneficiary Identifier: 555-12-1246, Driver's License Number: 33487; active; Roger Rienman McBee ; Phone: +1(469)238-2858, Phone: +1(214)497-9529, rogerb@testaccount.edu; gender: male; birthDate: 1945-04-01; <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-NullFlavor NI}">NoInformation</span></a></p><p><b>title</b>: Personal Advance Care Plan Document for Roger McBee</p><p><b>custodian</b>: <a href="Organization-Example-McBee-OrganizationCustodian1.html">Generated Summary: id: 44444; active; name: MyDirectives.com; Phone: +1(202)776-7700</a></p></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"><p><b>Generated Narrative</b></p><p><b>Version Number</b>: 1</p><p><b>Data Enterer</b>: <a href="Patient-Example-McBee-Patient1.html">Generated Summary: language: en-US; Social Beneficiary Identifier: 555-12-1246, Driver's License Number: 33487; active; Roger Rienman McBee ; Phone: +1(469)238-2858, Phone: +1(214)497-9529, rogerb@testaccount.edu; gender: male; birthDate: 1945-04-01; <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-NullFlavor NI}">NoInformation</span></a></p><p><b>identifier</b>: id: 20130607100315-CCDA-CCD</p><p><b>status</b>: final</p><p><b>type</b>: <span title="Codes: {http://loinc.org 81334-5}">Patient Personal advance care plan</span></p><p><b>category</b>: <span title="Codes: {http://loinc.org 75320-2}">Advance directive</span></p><p><b>date</b>: Aug 28, 2018, 5:49:58 AM</p><p><b>author</b>: <a href="Patient-Example-McBee-Patient1.html">Generated Summary: language: en-US; Social Beneficiary Identifier: 555-12-1246, Driver's License Number: 33487; active; Roger Rienman McBee ; Phone: +1(469)238-2858, Phone: +1(214)497-9529, rogerb@testaccount.edu; gender: male; birthDate: 1945-04-01; <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-NullFlavor NI}">NoInformation</span></a></p><p><b>title</b>: Personal Advance Care Plan Document for Roger McBee</p><p><b>custodian</b>: <a href="Organization-Example-McBee-OrganizationCustodian1.html">Generated Summary: id: 44444; active; name: MyDirectives.com; Phone: +1(202)776-7700</a></p></div>
   </text>
+  <extension url="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-versionNumber-extension">
+    <valueInteger value="1"/>
+  </extension>
   <extension url="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-dataEnterer-extension">
     <valueReference>
       <reference value="Patient/Example-McBee-Patient1"/>
@@ -144,7 +147,7 @@
       <reference value="Observation/Example-McBee-AutopsyObservation1"/>
     </entry>
     <entry>
-      <reference value="Observation/Example-McBee-CareExperiencePreference5"/>
+      <reference value="Observation/Example-McBee-PersonalInterventionPreference8"/>
     </entry>
   </section>
   <section>

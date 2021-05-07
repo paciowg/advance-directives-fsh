@@ -41,6 +41,8 @@ Usage: #example
 * entry[=].resource = Example-McBee-PersonalInterventionPreference6
 * entry[+].fullUrl = "http://www.example.org/fhir/Observation/Example-McBee-PersonalInterventionPreference7"
 * entry[=].resource = Example-McBee-PersonalInterventionPreference7
+* entry[+].fullUrl = "http://www.example.org/fhir/Observation/Example-McBee-PersonalInterventionPreference8"
+* entry[=].resource = Example-McBee-PersonalInterventionPreference8
 * entry[+].fullUrl = "http://www.example.org/fhir/Goal/Example-McBee-PersonalHealthGoal1"
 * entry[=].resource = Example-McBee-PersonalHealthGoal1
 * entry[+].fullUrl = "http://www.example.org/fhir/Goal/Example-McBee-PersonalHealthGoal2"
@@ -61,8 +63,6 @@ Usage: #example
 * entry[=].resource = Example-McBee-OrganDonationObservation1
 * entry[+].fullUrl = "http://www.example.org/fhir/Observation/Example-McBee-AutopsyObservation1"
 * entry[=].resource = Example-McBee-AutopsyObservation1
-* entry[+].fullUrl = "http://www.example.org/fhir/Observation/Example-McBee-CareExperiencePreference5"
-* entry[=].resource = Example-McBee-CareExperiencePreference5
 * entry[+].fullUrl = "http://www.example.org/fhir/Organization/Example-McBee-OrganizationCustodian1"
 * entry[=].resource = Example-McBee-OrganizationCustodian1
 * entry[+].fullUrl = "http://www.example.org/fhir/Organization/Example-McBee-OrganizationAssembler1"
@@ -133,6 +133,7 @@ Usage: #example
 * language = #en-US
 
 // Need to add extensions (mostly participants)
+* extension[padi-versionNumber-extension].valueInteger = 1
 * extension[padi-dataEnterer-extension].valueReference = Reference(Example-McBee-Patient1)
 // witness Sally Bobbins
 
@@ -303,7 +304,7 @@ Usage: #example
 
 * section[gpp_upon_death].entry[+] = Reference(Example-McBee-OrganDonationObservation1)
 * section[gpp_upon_death].entry[+] = Reference(Example-McBee-AutopsyObservation1)
-* section[gpp_upon_death].entry[+] = Reference(Example-McBee-CareExperiencePreference5)
+* section[gpp_upon_death].entry[+] = Reference(Example-McBee-PersonalInterventionPreference8)
 
 
 
@@ -476,19 +477,6 @@ Description: "Example Patient McBee Care Experience Preference (My unfinished bu
 * code = $LOINC#81366-7 "Unfinished business [Reported]"
 * valueString = "If it appears that I am approaching the end of my life, and I cannot communicate with persons around me, I would want my doctors and nurses, my family, and my friends to know about some unfinished business that I need to address: I am awaiting a message from the Noble Committee. Please keep me alive if I look promising this year."
 
-
-Instance: Example-McBee-CareExperiencePreference5
-InstanceOf: PADICareExperiencePreference
-Description: "Example Patient McBee Care Experience Preference (Death arrangements)"
-
-* text.status = #additional
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
-<p><b>Here are my thoughts on funeral or burial plans:</b></p>
-<p>If I were to pass away: <i>I have a plot. My wife has the details, also my secretary, Ms. Williams, will know.</i></p>
-</div>"
-* status = #final
-* code = $LOINC#81356-8 "Death arrangements [Reported]"
-* valueString = "Here are my thoughts on funeral or burial plans: If I were to pass away:</b> <i>I have a plot. My wife has the details, also my secretary, Ms. Williams, will know."
 
 
 
@@ -756,6 +744,21 @@ Description: "Example Patient McBee Personal Intervention Preference (Preferred 
 * status = #final
 * code = $LOINC#75780-7 "Preferred location to spend final days if possible to choose [Reported]"
 * valueString = "If it were possible to choose, here is where I would like to spend my final days: At home.I would like to receive hospice care at home if possible."
+
+
+
+Instance: Example-McBee-PersonalInterventionPreference8
+InstanceOf: PADIPersonalInterventionPreference
+Description: "Example Patient McBee Personal Intervention Preference (Death arrangements)"
+
+* text.status = #additional
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
+<p><b>Here are my thoughts on funeral or burial plans:</b></p>
+<p>If I were to pass away: <i>I have a plot. My wife has the details, also my secretary, Ms. Williams, will know.</i></p>
+</div>"
+* status = #final
+* code = $LOINC#81356-8 "Death arrangements [Reported]"
+* valueString = "Here are my thoughts on funeral or burial plans: If I were to pass away:</b> <i>I have a plot. My wife has the details, also my secretary, Ms. Williams, will know."
 
 
 //Organ Donation Observation examples

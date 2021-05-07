@@ -21,9 +21,13 @@
         "language": "en-US",
         "text": {
           "status": "extensions",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><p><b>Data Enterer</b>: <a href=\"#Patient_Example-Smith-Johnson-Patient1\">See above (Patient/Example-Smith-Johnson-Patient1)</a></p><p><b>identifier</b>: id: 0-87f37989294a408897aacd1fc5d8fd16</p><p><b>status</b>: final</p><p><b>type</b>: <span title=\"Codes: {http://loinc.org 81334-5}\">Personal Advance Care Plan Document</span></p><p><b>category</b>: <span title=\"Codes: {http://loinc.org 75320-2}\">Advance directive</span></p><p><b>date</b>: Mar 29, 2021, 12:25:34 PM</p><p><b>author</b>: <a href=\"#Patient_Example-Smith-Johnson-Patient1\">See above (Patient/Example-Smith-Johnson-Patient1)</a></p><p><b>title</b>: Personal Advance Care Plan</p><p><b>custodian</b>: <a href=\"#Organization_Example-Smith-Johnson-OrganizationCustodian1\">See above (Organization/Example-Smith-Johnson-OrganizationCustodian1)</a></p></div>"
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><p><b>Version Number</b>: 1</p><p><b>Data Enterer</b>: <a href=\"#Patient_Example-Smith-Johnson-Patient1\">See above (Patient/Example-Smith-Johnson-Patient1)</a></p><p><b>identifier</b>: id: 0-87f37989294a408897aacd1fc5d8fd16</p><p><b>status</b>: final</p><p><b>type</b>: <span title=\"Codes: {http://loinc.org 81334-5}\">Personal Advance Care Plan Document</span></p><p><b>category</b>: <span title=\"Codes: {http://loinc.org 75320-2}\">Advance directive</span></p><p><b>date</b>: Mar 29, 2021, 12:25:34 PM</p><p><b>author</b>: <a href=\"#Patient_Example-Smith-Johnson-Patient1\">See above (Patient/Example-Smith-Johnson-Patient1)</a></p><p><b>title</b>: Personal Advance Care Plan</p><p><b>custodian</b>: <a href=\"#Organization_Example-Smith-Johnson-OrganizationCustodian1\">See above (Organization/Example-Smith-Johnson-OrganizationCustodian1)</a></p></div>"
         },
         "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-versionNumber-extension",
+            "valueInteger": 1
+          },
           {
             "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-dataEnterer-extension",
             "valueReference": {
@@ -111,6 +115,9 @@
             },
             "entry": [
               {
+                "reference": "Observation/Example-Smith-Johnson-CareExperiencePreference2"
+              },
+              {
                 "reference": "Observation/Example-Smith-Johnson-CareExperiencePreference3"
               },
               {
@@ -127,9 +134,6 @@
               },
               {
                 "reference": "Observation/Example-Smith-Johnson-CareExperiencePreference8"
-              },
-              {
-                "reference": "Observation/Example-Smith-Johnson-CareExperiencePreference9"
               }
             ]
           },
@@ -151,9 +155,6 @@
             "entry": [
               {
                 "reference": "List/Example-Smith-Johnson-PersonalPrioritiesOrganizer1"
-              },
-              {
-                "reference": "Observation/Example-Smith-Johnson-CareExperiencePreference1"
               },
               {
                 "reference": "Observation/Example-Smith-Johnson-PersonalInterventionPreference1"
@@ -195,7 +196,7 @@
                 "reference": "Observation/Example-Smith-Johnson-AutopsyObservation1"
               },
               {
-                "reference": "Observation/Example-Smith-Johnson-CareExperiencePreference2"
+                "reference": "Observation/Example-Smith-Johnson-PersonalInterventionPreference6"
               }
             ]
           },
@@ -232,18 +233,18 @@
         "language": "en-US",
         "text": {
           "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 87f37989294a408897aacd1fc5d8fd16</p><p><b>active</b>: true</p><p><b>name</b>: Betsy Smith-Johnson (OFFICIAL)</p><p><b>telecom</b>: <a href=\"mailto:advault.test54@jettelabs.com\">advault.test54@jettelabs.com</a></p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1950-11-15</p><p><b>address</b>: 111 Maple Court San Antonio TX 78212 US (HOME)</p><p><b>maritalStatus</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-NullFlavor UNK}\">unknown</span></p><h3>Communications</h3><table class=\"grid\"><tr><td>-</td><td><b>Language</b></td><td><b>Preferred</b></td></tr><tr><td>*</td><td><span title=\"Codes: {urn:ietf:bcp:47 en}\">English</span></td><td>true</td></tr></table></div>"
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 047e62ccf09d4b39a8add708a69b7f38</p><p><b>active</b>: true</p><p><b>name</b>: Betsy Smith-Johnson </p><p><b>telecom</b>: <a href=\"mailto:advault.test33@jettelabs.com\">advault.test33@jettelabs.com</a></p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1950-11-05</p><p><b>address</b>: 111 Maple Court San Antonio TX 78212 US (HOME)</p><p><b>maritalStatus</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-NullFlavor UNK}\">unknown</span></p><h3>Communications</h3><table class=\"grid\"><tr><td>-</td><td><b>Language</b></td><td><b>Preferred</b></td></tr><tr><td>*</td><td><span title=\"Codes: {urn:ietf:bcp:47 en}\">English</span></td><td>true</td></tr></table></div>"
         },
         "identifier": [
           {
-            "system": "urn:oid:2.16.840.1.113883.4.823.1.7124",
-            "value": "87f37989294a408897aacd1fc5d8fd16"
+            "system": "urn:oid:2.16.840.1.113883.4.823.1",
+            "value": "047e62ccf09d4b39a8add708a69b7f38"
           }
         ],
         "active": true,
         "name": [
           {
-            "use": "official",
+            "use": "usual",
             "family": "Smith-Johnson",
             "given": [
               "Betsy"
@@ -253,13 +254,12 @@
         "telecom": [
           {
             "system": "email",
-            "value": "advault.test54@jettelabs.com",
-            "use": "mobile",
-            "rank": 3
+            "value": "advault.test33@jettelabs.com",
+            "use": "home"
           }
         ],
         "gender": "female",
-        "birthDate": "1950-11-15",
+        "birthDate": "1950-11-05",
         "address": [
           {
             "use": "home",
@@ -406,64 +406,10 @@
       }
     },
     {
-      "fullUrl": "http://www.example.org/fhir/Observation/Example-Smith-Johnson-CareExperiencePreference1",
-      "resource": {
-        "resourceType": "Observation",
-        "id": "Example-Smith-Johnson-CareExperiencePreference1",
-        "meta": {
-          "profile": [
-            "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
-          ]
-        },
-        "text": {
-          "status": "additional",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Here are some thoughts that I would like for my medical care team and my healthcare agent(s) to know about the role that religion, faith or spirituality play in my life:</p><p><i>I am Catholic, please call Father Mark at Saint Catherine's on Main Street.</i></p></div>"
-        },
-        "status": "final",
-        "code": {
-          "coding": [
-            {
-              "system": "http://loinc.org",
-              "code": "75775-7",
-              "display": "Decision to inform doctors and nurses about the role religion, faith, or spirituality play in my life [Reported]"
-            }
-          ]
-        },
-        "valueString": "Here are some thoughts that I would like for my medical care team and my healthcare agent(s) to know about the role that religion, faith or spirituality play in my life: I am Catholic, please call Father Mark at Saint Catherine's on Main Street."
-      }
-    },
-    {
       "fullUrl": "http://www.example.org/fhir/Observation/Example-Smith-Johnson-CareExperiencePreference2",
       "resource": {
         "resourceType": "Observation",
         "id": "Example-Smith-Johnson-CareExperiencePreference2",
-        "meta": {
-          "profile": [
-            "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
-          ]
-        },
-        "text": {
-          "status": "additional",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Here are my thoughts on funeral or burial plans:</b></p><p><i>If I were to pass away:</i></p><p><i>Please call Jim Houston, my lawyer, for arrangements I have already made.</i></p></div>"
-        },
-        "status": "final",
-        "code": {
-          "coding": [
-            {
-              "system": "http://loinc.org",
-              "code": "81356-8",
-              "display": "Death arrangements [Reported]"
-            }
-          ]
-        },
-        "valueString": "If I were to pass away: Please call Jim Houston, my lawyer, for arrangements I have already made."
-      }
-    },
-    {
-      "fullUrl": "http://www.example.org/fhir/Observation/Example-Smith-Johnson-CareExperiencePreference3",
-      "resource": {
-        "resourceType": "Observation",
-        "id": "Example-Smith-Johnson-CareExperiencePreference3",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
@@ -487,10 +433,10 @@
       }
     },
     {
-      "fullUrl": "http://www.example.org/fhir/Observation/Example-Smith-Johnson-CareExperiencePreference4",
+      "fullUrl": "http://www.example.org/fhir/Observation/Example-Smith-Johnson-CareExperiencePreference3",
       "resource": {
         "resourceType": "Observation",
-        "id": "Example-Smith-Johnson-CareExperiencePreference4",
+        "id": "Example-Smith-Johnson-CareExperiencePreference3",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
@@ -514,10 +460,10 @@
       }
     },
     {
-      "fullUrl": "http://www.example.org/fhir/Observation/Example-Smith-Johnson-CareExperiencePreference5",
+      "fullUrl": "http://www.example.org/fhir/Observation/Example-Smith-Johnson-CareExperiencePreference4",
       "resource": {
         "resourceType": "Observation",
-        "id": "Example-Smith-Johnson-CareExperiencePreference5",
+        "id": "Example-Smith-Johnson-CareExperiencePreference4",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
@@ -541,10 +487,10 @@
       }
     },
     {
-      "fullUrl": "http://www.example.org/fhir/Observation/Example-Smith-Johnson-CareExperiencePreference6",
+      "fullUrl": "http://www.example.org/fhir/Observation/Example-Smith-Johnson-CareExperiencePreference5",
       "resource": {
         "resourceType": "Observation",
-        "id": "Example-Smith-Johnson-CareExperiencePreference6",
+        "id": "Example-Smith-Johnson-CareExperiencePreference5",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
@@ -568,10 +514,10 @@
       }
     },
     {
-      "fullUrl": "http://www.example.org/fhir/Observation/Example-Smith-Johnson-CareExperiencePreference7",
+      "fullUrl": "http://www.example.org/fhir/Observation/Example-Smith-Johnson-CareExperiencePreference6",
       "resource": {
         "resourceType": "Observation",
-        "id": "Example-Smith-Johnson-CareExperiencePreference7",
+        "id": "Example-Smith-Johnson-CareExperiencePreference6",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
@@ -595,10 +541,10 @@
       }
     },
     {
-      "fullUrl": "http://www.example.org/fhir/Observation/Example-Smith-Johnson-CareExperiencePreference8",
+      "fullUrl": "http://www.example.org/fhir/Observation/Example-Smith-Johnson-CareExperiencePreference7",
       "resource": {
         "resourceType": "Observation",
-        "id": "Example-Smith-Johnson-CareExperiencePreference8",
+        "id": "Example-Smith-Johnson-CareExperiencePreference7",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
@@ -622,10 +568,10 @@
       }
     },
     {
-      "fullUrl": "http://www.example.org/fhir/Observation/Example-Smith-Johnson-CareExperiencePreference9",
+      "fullUrl": "http://www.example.org/fhir/Observation/Example-Smith-Johnson-CareExperiencePreference8",
       "resource": {
         "resourceType": "Observation",
-        "id": "Example-Smith-Johnson-CareExperiencePreference9",
+        "id": "Example-Smith-Johnson-CareExperiencePreference8",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
@@ -708,7 +654,7 @@
         "id": "Example-Smith-Johnson-PersonalInterventionPreference1",
         "meta": {
           "profile": [
-            "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
+            "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference"
           ]
         },
         "text": {
@@ -735,7 +681,7 @@
         "id": "Example-Smith-Johnson-PersonalInterventionPreference2",
         "meta": {
           "profile": [
-            "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
+            "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference"
           ]
         },
         "text": {
@@ -762,7 +708,7 @@
         "id": "Example-Smith-Johnson-PersonalInterventionPreference3",
         "meta": {
           "profile": [
-            "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
+            "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference"
           ]
         },
         "text": {
@@ -789,7 +735,7 @@
         "id": "Example-Smith-Johnson-PersonalInterventionPreference4",
         "meta": {
           "profile": [
-            "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
+            "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference"
           ]
         },
         "text": {
@@ -816,7 +762,7 @@
         "id": "Example-Smith-Johnson-PersonalInterventionPreference5",
         "meta": {
           "profile": [
-            "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
+            "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference"
           ]
         },
         "text": {
@@ -834,6 +780,33 @@
           ]
         },
         "valueString": "If it were possible to choose, here is where I would like to spend my final days: At home.I would like to receive hospice care at home if possible."
+      }
+    },
+    {
+      "fullUrl": "http://www.example.org/fhir/Observation/Example-Smith-Johnson-PersonalInterventionPreference6",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "Example-Smith-Johnson-PersonalInterventionPreference6",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference"
+          ]
+        },
+        "text": {
+          "status": "additional",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Here are my thoughts on funeral or burial plans:</b></p><p><i>If I were to pass away:</i></p><p><i>Please call Jim Houston, my lawyer, for arrangements I have already made.</i></p></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "81356-8",
+              "display": "Death arrangements [Reported]"
+            }
+          ]
+        },
+        "valueString": "If I were to pass away: Please call Jim Houston, my lawyer, for arrangements I have already made."
       }
     },
     {
@@ -1047,12 +1020,12 @@
         },
         "text": {
           "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 4</p><p><b>active</b>: true</p><p><b>name</b>: ADVault, Inc.</p><p><b>telecom</b>: <a href=\"tel:+1(202)776-7700\">+1(202)776-7700</a></p><p><b>address</b>: 740 E. Campbell Rd. Suite 825 Richardson TX 75081 US </p></div>"
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 12c5dcee5089494ca1ca0cb428ed3fff</p><p><b>active</b>: true</p><p><b>name</b>: ADVault, Inc.</p><p><b>telecom</b>: <a href=\"tel:+1(202)776-7700\">+1(202)776-7700</a></p><p><b>address</b>: 740 E. Campbell Rd. Suite 825 Richardson TX 75081 US </p></div>"
         },
         "identifier": [
           {
             "system": "urn:oid:1.3.6.1.4.1.42424242.4.99930.4",
-            "value": "4"
+            "value": "12c5dcee5089494ca1ca0cb428ed3fff"
           }
         ],
         "active": true,

@@ -10,7 +10,7 @@
   "name": "PACIOAdvanceDirectiveInteroperability",
   "title": "PACIO Advance Directive Interoperability Implementation Guide",
   "status": "draft",
-  "date": "2021-05-03T16:43:55-07:00",
+  "date": "2021-05-07T09:41:18-07:00",
   "publisher": "HL7 Patient Empowerment Working Group",
   "contact": [
     {
@@ -532,6 +532,20 @@
           }
         ],
         "reference": {
+          "reference": "StructureDefinition/PADI-PersonalInterventionRequestPreference"
+        },
+        "name": "ADI Personal Intervention Request Preference",
+        "description": "This profile is used to represent a personal preference for a type of medical intervention (treatment) request under certain conditions.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
           "reference": "StructureDefinition/PADI-PersonalPrioritiesOrganizer"
         },
         "name": "ADI Personal Priorities Organizer",
@@ -602,7 +616,7 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/padi-informatioRecipient-extension"
+          "reference": "StructureDefinition/padi-informationRecipient-extension"
         },
         "name": "Information Recipient",
         "description": "The Information Recipient Extension records the intended recipient of the advance directive information at the time the document was created.",
@@ -886,20 +900,6 @@
         },
         "name": "Example-McBee-CareExperiencePreference4",
         "description": "Example Patient McBee Care Experience Preference (My unfinished business)",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Observation"
-          }
-        ],
-        "reference": {
-          "reference": "Observation/Example-McBee-CareExperiencePreference5"
-        },
-        "name": "Example-McBee-CareExperiencePreference5",
-        "description": "Example Patient McBee Care Experience Preference (Death arrangements)",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
       },
       {
@@ -1214,6 +1214,20 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Example-McBee-PersonalInterventionPreference8"
+        },
+        "name": "Example-McBee-PersonalInterventionPreference8",
+        "description": "Example Patient McBee Personal Intervention Preference (Death arrangements)",
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "List"
           }
         ],
@@ -1277,7 +1291,7 @@
           "reference": "Observation/Example-Smith-Johnson-CareExperiencePreference2"
         },
         "name": "Example-Smith-Johnson-CareExperiencePreference2",
-        "description": "Example Patient Smith-Johnson Care Experience Preference (Death Arrangements)",
+        "description": "Example Patient Smith-Johnson Care Experience Preference (My Likes and Joys)",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
       },
       {
@@ -1291,7 +1305,7 @@
           "reference": "Observation/Example-Smith-Johnson-CareExperiencePreference3"
         },
         "name": "Example-Smith-Johnson-CareExperiencePreference3",
-        "description": "Example Patient Smith-Johnson Care Experience Preference (My Likes and Joys)",
+        "description": "Example Patient Smith-Johnson Care Experience Preference (My Dislikes and Fears)",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
       },
       {
@@ -1305,7 +1319,7 @@
           "reference": "Observation/Example-Smith-Johnson-CareExperiencePreference4"
         },
         "name": "Example-Smith-Johnson-CareExperiencePreference4",
-        "description": "Example Patient Smith-Johnson Care Experience Preference (My Dislikes and Fears)",
+        "description": "Example Patient Smith-Johnson Care Experience Preference (How to Care for Me)",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
       },
       {
@@ -1319,7 +1333,7 @@
           "reference": "Observation/Example-Smith-Johnson-CareExperiencePreference5"
         },
         "name": "Example-Smith-Johnson-CareExperiencePreference5",
-        "description": "Example Patient Smith-Johnson Care Experience Preference (How to Care for Me)",
+        "description": "Example Patient Smith-Johnson Care Experience Preference (My Religion)",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
       },
       {
@@ -1333,7 +1347,7 @@
           "reference": "Observation/Example-Smith-Johnson-CareExperiencePreference6"
         },
         "name": "Example-Smith-Johnson-CareExperiencePreference6",
-        "description": "Example Patient Smith-Johnson Care Experience Preference (My Religion)",
+        "description": "Example Patient Smith-Johnson Care Experience Preference (Religious Contact)",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
       },
       {
@@ -1368,15 +1382,43 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Observation"
+            "valueString": "Binary"
           }
         ],
         "reference": {
-          "reference": "Observation/Example-Smith-Johnson-CareExperiencePreference9"
+          "reference": "Binary/Example-Smith-Johnson-DocRef-Binary1"
         },
-        "name": "Example-Smith-Johnson-CareExperiencePreference9",
-        "description": "Example Patient Smith-Johnson Care Experience Preference (Religious Contact)",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
+        "name": "Example-Smith-Johnson-DocRef-Binary1",
+        "description": "Example Patient Smith-Johnson DocumentReference Binary Data Attachment",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Device"
+          }
+        ],
+        "reference": {
+          "reference": "Device/Example-Smith-Johnson-DocRef-Device1"
+        },
+        "name": "Example-Smith-Johnson-DocRef-Device1",
+        "description": "Example Patient Smith-Johnson DocumentReference Device",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "DocumentReference"
+          }
+        ],
+        "reference": {
+          "reference": "DocumentReference/Example-Smith-Johnson-DocRef-DocumentReference"
+        },
+        "name": "Example-Smith-Johnson-DocRef-DocumentReference",
+        "description": "Example Patient Smith-Johnson DocumentReference DocumentReference",
+        "exampleBoolean": true
       },
       {
         "extension": [
@@ -1544,7 +1586,7 @@
         },
         "name": "Example-Smith-Johnson-PersonalInterventionPreference1",
         "description": "Example Patient Smith-Johnson Personal Intervention Preference (Significant Pain or Suffering)",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference"
       },
       {
         "extension": [
@@ -1558,7 +1600,7 @@
         },
         "name": "Example-Smith-Johnson-PersonalInterventionPreference2",
         "description": "Example Patient Smith-Johnson Personal Intervention Preference (Specific Circumstance)",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference"
       },
       {
         "extension": [
@@ -1572,7 +1614,7 @@
         },
         "name": "Example-Smith-Johnson-PersonalInterventionPreference3",
         "description": "Example Patient Smith-Johnson Personal Intervention Preference (Mental Illness Detioration)",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference"
       },
       {
         "extension": [
@@ -1586,7 +1628,7 @@
         },
         "name": "Example-Smith-Johnson-PersonalInterventionPreference4",
         "description": "Example Patient Smith-Johnson Personal Intervention Preference (Severe Irreversable Brain Injury or Illness)",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference"
       },
       {
         "extension": [
@@ -1600,7 +1642,21 @@
         },
         "name": "Example-Smith-Johnson-PersonalInterventionPreference5",
         "description": "Example Patient Smith-Johnson Personal Intervention Preference (Final Days Location)",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Example-Smith-Johnson-PersonalInterventionPreference6"
+        },
+        "name": "Example-Smith-Johnson-PersonalInterventionPreference6",
+        "description": "Example Patient Smith-Johnson Personal Intervention Preference (Death Arrangements)",
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference"
       },
       {
         "extension": [
@@ -1615,6 +1671,20 @@
         "name": "Example-Smith-Johnson-PersonalPrioritiesOrganizer1",
         "description": "Example Patient Smith-Johnson Personal Priorities Organizer",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalPrioritiesOrganizer"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CapabilityStatement"
+          }
+        ],
+        "reference": {
+          "reference": "CapabilityStatement/padi"
+        },
+        "name": "PADI CapabilityStatement",
+        "description": "This Section describes the expected capabilities of the PACIO Advance Directive Interoperability (ADI) Server actor which is responsible for providing responses to the queries submitted by the ADI Requestors. \n\nThere are two primary vehicles in which Advance Directive Information can be conveyed: DocumentReference and Composition. Through a DocumentReference, the ADI may be encoded inside directly as content data or referred to through a content reference (pointing to the ADI included in a resource like Binary). Through a Composition, the complete document may be retrieved through a $document operation or its referred to entries retrieved directly.\nThe resources referred to by the composition resource include Observation, Organization, RelatedPerson, Consent, List, and Provenance.\n\n[TODO] Additional guidance on general use",
+        "exampleBoolean": false
       }
     ],
     "page": {

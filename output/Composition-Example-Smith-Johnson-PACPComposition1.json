@@ -9,9 +9,13 @@
   "language": "en-US",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><p><b>Data Enterer</b>: <a href=\"Patient-Example-Smith-Johnson-Patient1.html\">Generated Summary: language: en-US; id: 87f37989294a408897aacd1fc5d8fd16; active; Betsy Smith-Johnson (OFFICIAL); advault.test54@jettelabs.com; gender: female; birthDate: 1950-11-15; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-NullFlavor UNK}\">unknown</span></a></p><p><b>identifier</b>: id: 0-87f37989294a408897aacd1fc5d8fd16</p><p><b>status</b>: final</p><p><b>type</b>: <span title=\"Codes: {http://loinc.org 81334-5}\">Personal Advance Care Plan Document</span></p><p><b>category</b>: <span title=\"Codes: {http://loinc.org 75320-2}\">Advance directive</span></p><p><b>date</b>: Mar 29, 2021, 12:25:34 PM</p><p><b>author</b>: <a href=\"Patient-Example-Smith-Johnson-Patient1.html\">Generated Summary: language: en-US; id: 87f37989294a408897aacd1fc5d8fd16; active; Betsy Smith-Johnson (OFFICIAL); advault.test54@jettelabs.com; gender: female; birthDate: 1950-11-15; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-NullFlavor UNK}\">unknown</span></a></p><p><b>title</b>: Personal Advance Care Plan</p><p><b>custodian</b>: <a href=\"Organization-Example-Smith-Johnson-OrganizationCustodian1.html\">Generated Summary: id: 44444; active; name: MyDirectives.com; Phone: +1(202)776-7700</a></p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><p><b>Version Number</b>: 1</p><p><b>Data Enterer</b>: <a href=\"Patient-Example-Smith-Johnson-Patient1.html\">Generated Summary: language: en-US; id: 047e62ccf09d4b39a8add708a69b7f38; active; Betsy Smith-Johnson ; advault.test33@jettelabs.com; gender: female; birthDate: 1950-11-05; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-NullFlavor UNK}\">unknown</span></a></p><p><b>identifier</b>: id: 0-87f37989294a408897aacd1fc5d8fd16</p><p><b>status</b>: final</p><p><b>type</b>: <span title=\"Codes: {http://loinc.org 81334-5}\">Personal Advance Care Plan Document</span></p><p><b>category</b>: <span title=\"Codes: {http://loinc.org 75320-2}\">Advance directive</span></p><p><b>date</b>: Mar 29, 2021, 12:25:34 PM</p><p><b>author</b>: <a href=\"Patient-Example-Smith-Johnson-Patient1.html\">Generated Summary: language: en-US; id: 047e62ccf09d4b39a8add708a69b7f38; active; Betsy Smith-Johnson ; advault.test33@jettelabs.com; gender: female; birthDate: 1950-11-05; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-NullFlavor UNK}\">unknown</span></a></p><p><b>title</b>: Personal Advance Care Plan</p><p><b>custodian</b>: <a href=\"Organization-Example-Smith-Johnson-OrganizationCustodian1.html\">Generated Summary: id: 44444; active; name: MyDirectives.com; Phone: +1(202)776-7700</a></p></div>"
   },
   "extension": [
+    {
+      "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-versionNumber-extension",
+      "valueInteger": 1
+    },
     {
       "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-dataEnterer-extension",
       "valueReference": {
@@ -99,6 +103,9 @@
       },
       "entry": [
         {
+          "reference": "Observation/Example-Smith-Johnson-CareExperiencePreference2"
+        },
+        {
           "reference": "Observation/Example-Smith-Johnson-CareExperiencePreference3"
         },
         {
@@ -115,9 +122,6 @@
         },
         {
           "reference": "Observation/Example-Smith-Johnson-CareExperiencePreference8"
-        },
-        {
-          "reference": "Observation/Example-Smith-Johnson-CareExperiencePreference9"
         }
       ]
     },
@@ -139,9 +143,6 @@
       "entry": [
         {
           "reference": "List/Example-Smith-Johnson-PersonalPrioritiesOrganizer1"
-        },
-        {
-          "reference": "Observation/Example-Smith-Johnson-CareExperiencePreference1"
         },
         {
           "reference": "Observation/Example-Smith-Johnson-PersonalInterventionPreference1"
@@ -183,7 +184,7 @@
           "reference": "Observation/Example-Smith-Johnson-AutopsyObservation1"
         },
         {
-          "reference": "Observation/Example-Smith-Johnson-CareExperiencePreference2"
+          "reference": "Observation/Example-Smith-Johnson-PersonalInterventionPreference6"
         }
       ]
     },
