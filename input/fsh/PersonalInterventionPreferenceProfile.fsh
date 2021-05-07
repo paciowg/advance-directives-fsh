@@ -29,11 +29,11 @@ Description: "This profile is used to represent a personal preference for a type
 // Need to think about how better to structurally amp.
 * text 1..1 MS
 * status = #active
-// [TODO] Need to determine if it should be a proposal or a plan
-* intent = #proposal
+// [TODO] Need to determine if it should be a proposal, plan, or directive
+* intent = #directive
 
 * doNotPerform MS
-//[TODO] Guidance that if code is not available that there would be text. Could this be a valueset that includes LOIN and Snomed examples (extensible)?
+//[TODO] Guidance that if code is not available that there would be text. Could this be a valueset that includes LOINC and Snomed examples (extensible)?
 * code 1..1 MS
 // [TODO] How do we handle items where there is more expected information (e.g. [Reported]). Perhaps Order detail. That needs guidance and or/binding
 * code from PADIInterventionPreferencesVS (extensible)
@@ -47,3 +47,8 @@ Description: "This profile is used to represent a personal preference for a type
 * requester 1..1
 * requester only Reference($USCorePatient)
 
+* reasonCode MS
+
+* supportingInfo MS
+
+* note MS

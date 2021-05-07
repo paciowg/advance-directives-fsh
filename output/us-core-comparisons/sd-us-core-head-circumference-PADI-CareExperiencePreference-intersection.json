@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "f41b94cc-7bb1-47f7-b650-09ed649b2a6d-90",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/f41b94cc-7bb1-47f7-b650-09ed649b2a6d-90",
+  "id" : "3ef4db78-9816-4004-91df-8f839fc9165f-90",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/3ef4db78-9816-4004-91df-8f839fc9165f-90",
   "name" : "IntersectionUSCoreHeadCircumferenceProfileAndPADICareExperiencePreference",
   "title" : "Intersection of US Core Head Circumference Profile And ADI Care Experience Preference",
   "status" : "active",
-  "date" : "2021-05-07T09:42:14-07:00",
+  "date" : "2021-05-07T11:56:37-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -578,7 +578,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "The vital sign codes from the base FHIR and US Core Vital Signs.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/f41b94cc-7bb1-47f7-b650-09ed649b2a6d-66"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/3ef4db78-9816-4004-91df-8f839fc9165f-66"
       },
       "mapping" : [{
         "identity" : "workflow",

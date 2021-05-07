@@ -1,9 +1,9 @@
 ﻿PACIOAdvanceDirectiveInteroperability : Validation Results
 =========================================
 
-err = 3, warn = 33, info = 14
+err = 3, warn = 34, info = 13
 IG Publisher Version: 1.1.68
-Generated Fri May 07 09:46:15 PDT 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio-adi#0.0.1 (canonical = http://hl7.org/fhir/us/pacio-adi)
+Generated Fri May 07 11:58:56 PDT 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio-adi#0.0.1 (canonical = http://hl7.org/fhir/us/pacio-adi)
 
  Build Errors : 1 / 0 / 0
  C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Binary-Example-Smith-Johnson-DocRef-Binary1 : 0 / 0 / 1
@@ -12,7 +12,7 @@ Generated Fri May 07 09:46:15 PDT 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio
  C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Composition-Example-McBee-PACPComposition1 : 0 / 0 / 1
  C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Composition-Example-Smith-Johnson-PACPComposition1 : 0 / 1 / 1
  C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Device-Example-Smith-Johnson-DocRef-Device1 : 0 / 0 / 1
- C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\DocumentReference-Example-Smith-Johnson-DocRef-DocumentReference : 0 / 1 / 2
+ C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\DocumentReference-Example-Smith-Johnson-DocRef-DocumentReference : 0 / 2 / 1
  C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Goal-Example-McBee-PersonalHealthGoal1 : 0 / 0 / 1
  C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Goal-Example-McBee-PersonalHealthGoal2 : 0 / 0 / 1
  C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Goal-Example-McBee-PersonalHealthGoal3 : 0 / 0 / 1
@@ -252,8 +252,8 @@ WARNING: Composition/Example-Smith-Johnson-PACPComposition1: Composition/Example
 INFORMATION: Device/Example-Smith-Johnson-DocRef-Device1: Device/Example-Smith-Johnson-DocRef-Device1: Device: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Device
 == C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\DocumentReference-Example-Smith-Johnson-DocRef-DocumentReference.json ==
 INFORMATION: DocumentReference/Example-Smith-Johnson-DocRef-DocumentReference: DocumentReference/Example-Smith-Johnson-DocRef-DocumentReference: DocumentReference: Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentReference
-INFORMATION: DocumentReference/Example-Smith-Johnson-DocRef-DocumentReference: DocumentReference/Example-Smith-Johnson-DocRef-DocumentReference: DocumentReference.type: None of the codings provided are in the value set http://hl7.org/fhir/ValueSet/c80-doc-typecodes (http://hl7.org/fhir/ValueSet/c80-doc-typecodes), and a coding is recommended to come from this value set) (codes = http://loinc.org#86533-7)
-WARNING: DocumentReference/Example-Smith-Johnson-DocRef-DocumentReference: DocumentReference/Example-Smith-Johnson-DocRef-DocumentReference: DocumentReference.type.coding[0]: The display "Living Will" is not a valid display for the code {http://loinc.org}86533-7 - should be one of ["Patient Living will","Patient Living will"] (from http://tx.fhir.org/r4) for 'http://loinc.org#86533-7'
+WARNING: DocumentReference/Example-Smith-Johnson-DocRef-DocumentReference: DocumentReference/Example-Smith-Johnson-DocRef-DocumentReference: DocumentReference.type: [Unable to determine whether the provided codes are in the value set http://hl7.org/fhir/ValueSet/c80-doc-typecodes because the value set or code system is not known to the validator]
+WARNING: DocumentReference/Example-Smith-Johnson-DocRef-DocumentReference: DocumentReference/Example-Smith-Johnson-DocRef-DocumentReference: DocumentReference.type: The display "Living Will" is not a valid display for the code {http://loinc.org}86533-7 - should be one of ["Patient Living will","Patient Living will"] (from http://tx.fhir.org/r4)
 == C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Goal-Example-McBee-PersonalHealthGoal1.json ==
 INFORMATION: Goal/Example-McBee-PersonalHealthGoal1: Goal/Example-McBee-PersonalHealthGoal1: Goal: Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal
 == C:\Dev\FHIR\FSH\PACIO\main\advance-directives-fsh\fsh-generated\resources\Goal-Example-McBee-PersonalHealthGoal2.json ==

@@ -562,6 +562,15 @@ Description: "Example Patient Smith-Johnson Care Experience Preference (Religiou
 Instance: Example-Smith-Johnson-PersonalPrioritiesOrganizer1
 InstanceOf: PADIPersonalPrioritiesOrganizer
 Description: "Example Patient Smith-Johnson Personal Priorities Organizer"
+* text.status = #additional
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
+<p>If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me:</p>
+<ol>
+	<li><i>Avoiding prolonged dependence on machines</i></li>
+	<li><i>Not being a physical burden to my family</i></li>
+	<li><i>Dying at home</i></li>
+</ol>
+</div>"
 
 * status = #current
 * mode = #working

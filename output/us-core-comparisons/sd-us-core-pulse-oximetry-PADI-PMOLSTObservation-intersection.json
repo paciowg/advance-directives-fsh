@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "f41b94cc-7bb1-47f7-b650-09ed649b2a6d-264",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/f41b94cc-7bb1-47f7-b650-09ed649b2a6d-264",
+  "id" : "3ef4db78-9816-4004-91df-8f839fc9165f-264",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/3ef4db78-9816-4004-91df-8f839fc9165f-264",
   "name" : "IntersectionUSCorePulseOximetryProfileAndPADIPMOLSTObservation",
   "title" : "Intersection of US Core Pulse Oximetry Profile And ADI PMOLST Observation",
   "status" : "active",
-  "date" : "2021-05-07T09:42:16-07:00",
+  "date" : "2021-05-07T11:56:37-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

@@ -740,8 +740,8 @@
      ]
   ];
   fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: current</p><p><b>mode</b>: working</p><p><b>title</b>: Priorities for Goals and Preferences</p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 81340-2}\">Goals AndOr preferences in order of priority [Reported]</span></p><p><b>orderedBy</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/list-order priority}\">Sorted by Priority</span></p><blockquote><p><b>entry</b></p><p><b>item</b>: <a href=\"#Goal_Example-Smith-Johnson-PersonalHealthGoal1\">See above (Goal/Example-Smith-Johnson-PersonalHealthGoal1)</a></p></blockquote><blockquote><p><b>entry</b></p><p><b>item</b>: <a href=\"#Goal_Example-Smith-Johnson-PersonalHealthGoal2\">See above (Goal/Example-Smith-Johnson-PersonalHealthGoal2)</a></p></blockquote><blockquote><p><b>entry</b></p><p><b>item</b>: <a href=\"#Goal_Example-Smith-Johnson-PersonalHealthGoal3\">See above (Goal/Example-Smith-Johnson-PersonalHealthGoal3)</a></p></blockquote></div>"
+     fhir:Narrative.status [ fhir:value "additional" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me:</p><ol><li><i>Avoiding prolonged dependence on machines</i></li><li><i>Not being a physical burden to my family</i></li><li><i>Dying at home</i></li></ol></div>"
   ];
   fhir:List.status [ fhir:value "current"];
   fhir:List.mode [ fhir:value "working"];

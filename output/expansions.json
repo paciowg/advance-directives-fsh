@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "1c62d74c-0507-489a-b323-1ff4a31e70ec",
+  "id" : "88b4a8c7-75ea-4251-b00d-5bfc3189b06e",
   "meta" : {
-    "lastUpdated" : "2021-05-07T09:41:18.227-07:00"
+    "lastUpdated" : "2021-05-07T11:56:18.683-07:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -207,7 +207,7 @@
       "name" : "PADIHealthcareAgentRelationshipVS",
       "title" : "Healthcare Agent Relationships",
       "status" : "active",
-      "date" : "2021-05-07T09:41:18-07:00",
+      "date" : "2021-05-07T11:56:18-07:00",
       "publisher" : "HL7 Patient Empowerment Working Group",
       "contact" : [{
         "name" : "HL7 Patient Empowerment Working Group",
@@ -228,8 +228,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:32eb9cb4-6a07-4f5d-8c79-be35c810e0a0",
-        "timestamp" : "2021-05-07T09:43:38-07:00",
+        "identifier" : "urn:uuid:c674607d-a63e-45b1-bd90-36533ea84ffe",
+        "timestamp" : "2021-05-07T11:57:29-07:00",
         "total" : 417,
         "parameter" : [{
           "name" : "excludeNested",
@@ -3221,7 +3221,7 @@
       "name" : "PADIInterventionPreferencesVS",
       "title" : "Intervention Preferences",
       "status" : "active",
-      "date" : "2021-05-07T09:41:18-07:00",
+      "date" : "2021-05-07T11:56:18-07:00",
       "publisher" : "HL7 Patient Empowerment Working Group",
       "contact" : [{
         "name" : "HL7 Patient Empowerment Working Group",
@@ -3243,8 +3243,8 @@
       }],
       "copyright" : "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc.",
       "expansion" : {
-        "identifier" : "urn:uuid:5f4559b5-451d-425d-a5a7-c852c3cbe91c",
-        "timestamp" : "2021-05-07T09:43:39-07:00",
+        "identifier" : "urn:uuid:9e676fc5-4b29-44bf-a915-542459c1b9e7",
+        "timestamp" : "2021-05-07T11:57:29-07:00",
         "total" : 27,
         "parameter" : [{
           "name" : "excludeNested",
@@ -3453,7 +3453,7 @@
       "name" : "PADIPersonalAndLegalRelationshipRoleTypeVS",
       "title" : "Personal And Legal Relationship Role Type",
       "status" : "active",
-      "date" : "2021-05-07T09:41:18-07:00",
+      "date" : "2021-05-07T11:56:18-07:00",
       "publisher" : "HL7 Patient Empowerment Working Group",
       "contact" : [{
         "name" : "HL7 Patient Empowerment Working Group",
@@ -3474,8 +3474,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:2f9ab872-2995-4786-b7e2-d68013a99710",
-        "timestamp" : "2021-05-07T09:43:40-07:00",
+        "identifier" : "urn:uuid:9966a85c-493e-4e4c-85d1-b399cdebd97c",
+        "timestamp" : "2021-05-07T11:57:29-07:00",
         "total" : 413,
         "parameter" : [{
           "name" : "excludeNested",
