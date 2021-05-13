@@ -4178,8 +4178,7 @@
             "in": "query",
             "schema": {
               "type": "string"
-            },
-            "description": "Logical id of this artifact\u003cbr /\u003e\n\u003cem\u003eNOTE\u003c/em\u003e: This US Core SearchParameter definition extends the usage context of\n\u003ca href\u003d\"http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html\"\u003ecapabilitystatement-expectation\u003c/a\u003e\n extension to formally express implementer conformance expectations for these elements:\u003cbr /\u003e\n - multipleAnd\u003cbr /\u003e\n - multipleOr\u003cbr /\u003e\n - comparator\u003cbr /\u003e\n - modifier\u003cbr /\u003e\n - chain\u003cbr /\u003e\n\n "
+            }
           },
           {
             "name": "active",
@@ -4243,8 +4242,7 @@
             "schema": {
               "type": "string",
               "pattern": "([0-9]([0-9]([0-9][1-9]|[1-9]0)|[1-9]00)|[1-9]000)(-(0[1-9]|1[0-2])(-(0[1-9]|[1-2][0-9]|3[0-1])(T([01][0-9]|2[0-3]):[0-5][0-9]:([0-5][0-9]|60)(\\.[0-9]+)?(Z|(\\+|-)((0[0-9]|1[0-3]):[0-5][0-9]|14:00)))?)?)?"
-            },
-            "description": "The patient\u0027s date of birth\u003cbr /\u003e\n\u003cem\u003eNOTE\u003c/em\u003e: This US Core SearchParameter definition extends the usage context of\n\u003ca href\u003d\"http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html\"\u003ecapabilitystatement-expectation\u003c/a\u003e\n extension to formally express implementer conformance expectations for these elements:\u003cbr /\u003e\n - multipleAnd\u003cbr /\u003e\n - multipleOr\u003cbr /\u003e\n - comparator\u003cbr /\u003e\n - modifier\u003cbr /\u003e\n - chain\u003cbr /\u003e\n\n "
+            }
           },
           {
             "name": "death-date",
@@ -4276,16 +4274,14 @@
             "in": "query",
             "schema": {
               "type": "string"
-            },
-            "description": "A portion of the family name of the patient\u003cbr /\u003e\n\u003cem\u003eNOTE\u003c/em\u003e: This US Core SearchParameter definition extends the usage context of\n\u003ca href\u003d\"http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html\"\u003ecapabilitystatement-expectation\u003c/a\u003e\n extension to formally express implementer conformance expectations for these elements:\u003cbr /\u003e\n - multipleAnd\u003cbr /\u003e\n - multipleOr\u003cbr /\u003e\n - comparator\u003cbr /\u003e\n - modifier\u003cbr /\u003e\n - chain\u003cbr /\u003e\n\n "
+            }
           },
           {
             "name": "gender",
             "in": "query",
             "schema": {
               "type": "string"
-            },
-            "description": "Gender of the patient\u003cbr /\u003e\n\u003cem\u003eNOTE\u003c/em\u003e: This US Core SearchParameter definition extends the usage context of\n\u003ca href\u003d\"http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html\"\u003ecapabilitystatement-expectation\u003c/a\u003e\n extension to formally express implementer conformance expectations for these elements:\u003cbr /\u003e\n - multipleAnd\u003cbr /\u003e\n - multipleOr\u003cbr /\u003e\n - comparator\u003cbr /\u003e\n - modifier\u003cbr /\u003e\n - chain\u003cbr /\u003e\n\n "
+            }
           },
           {
             "name": "general-practitioner",
@@ -4300,16 +4296,14 @@
             "in": "query",
             "schema": {
               "type": "string"
-            },
-            "description": "A portion of the given name of the patient\u003cbr /\u003e\n\u003cem\u003eNOTE\u003c/em\u003e: This US Core SearchParameter definition extends the usage context of\n\u003ca href\u003d\"http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html\"\u003ecapabilitystatement-expectation\u003c/a\u003e\n extension to formally express implementer conformance expectations for these elements:\u003cbr /\u003e\n - multipleAnd\u003cbr /\u003e\n - multipleOr\u003cbr /\u003e\n - comparator\u003cbr /\u003e\n - modifier\u003cbr /\u003e\n - chain\u003cbr /\u003e\n\n "
+            }
           },
           {
             "name": "identifier",
             "in": "query",
             "schema": {
               "type": "string"
-            },
-            "description": "A patient identifier\u003cbr /\u003e\n\u003cem\u003eNOTE\u003c/em\u003e: This US Core SearchParameter definition extends the usage context of\n\u003ca href\u003d\"http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html\"\u003ecapabilitystatement-expectation\u003c/a\u003e\n extension to formally express implementer conformance expectations for these elements:\u003cbr /\u003e\n - multipleAnd\u003cbr /\u003e\n - multipleOr\u003cbr /\u003e\n - comparator\u003cbr /\u003e\n - modifier\u003cbr /\u003e\n - chain\u003cbr /\u003e\n\n "
+            }
           },
           {
             "name": "language",
@@ -4332,8 +4326,7 @@
             "in": "query",
             "schema": {
               "type": "string"
-            },
-            "description": "A server defined search that may match any of the string fields in the HumanName, including family, give, prefix, suffix, suffix, and/or text\u003cbr /\u003e\n\u003cem\u003eNOTE\u003c/em\u003e: This US Core SearchParameter definition extends the usage context of\n\u003ca href\u003d\"http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html\"\u003ecapabilitystatement-expectation\u003c/a\u003e\n extension to formally express implementer conformance expectations for these elements:\u003cbr /\u003e\n - multipleAnd\u003cbr /\u003e\n - multipleOr\u003cbr /\u003e\n - comparator\u003cbr /\u003e\n - modifier\u003cbr /\u003e\n - chain\u003cbr /\u003e\n\n "
+            }
           },
           {
             "name": "organization",
@@ -4372,16 +4365,14 @@
             "in": "query",
             "schema": {
               "type": "string"
-            },
-            "description": "Returns patients with a race extension matching the specified code."
+            }
           },
           {
             "name": "ethnicity",
             "in": "query",
             "schema": {
               "type": "string"
-            },
-            "description": "Returns patients with an ethnicity extension matching the specified code."
+            }
           }
         ]
       },

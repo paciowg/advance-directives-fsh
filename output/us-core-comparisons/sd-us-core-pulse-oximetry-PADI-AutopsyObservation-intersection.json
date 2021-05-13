@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "2da77faf-56a6-490a-a294-2130e401bfb7-150",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/2da77faf-56a6-490a-a294-2130e401bfb7-150",
+  "id" : "ea7b1123-2bd4-4a47-8cfc-645ee306e63e-150",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/ea7b1123-2bd4-4a47-8cfc-645ee306e63e-150",
   "name" : "IntersectionUSCorePulseOximetryProfileAndPADIAutopsyObservation",
   "title" : "Intersection of US Core Pulse Oximetry Profile And ADI Autopsy Observation",
   "status" : "active",
-  "date" : "2021-05-12T21:51:37-07:00",
+  "date" : "2021-05-13T12:41:10-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -578,7 +578,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "The vital sign codes from the base FHIR and US Core Vital Signs.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/2da77faf-56a6-490a-a294-2130e401bfb7-114"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/ea7b1123-2bd4-4a47-8cfc-645ee306e63e-114"
       },
       "mapping" : [{
         "identity" : "workflow",

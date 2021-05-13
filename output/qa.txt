@@ -1,9 +1,9 @@
 ﻿PACIOAdvanceDirectiveInteroperability : Validation Results
 =========================================
 
-err = 3, warn = 34, info = 13
+err = 3, warn = 33, info = 14
 IG Publisher Version: 1.1.68
-Generated Wed May 12 21:52:26 PDT 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio-adi#0.0.1 (canonical = http://hl7.org/fhir/us/pacio-adi)
+Generated Thu May 13 12:42:05 PDT 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio-adi#0.0.1 (canonical = http://hl7.org/fhir/us/pacio-adi)
 
  Build Errors : 1 / 0 / 0
  /Users/cspears/dev/fhir/fsh/PACIO/advance-directives-fsh/fsh-generated/resources/Binary-Example-Smith-Johnson-DocRef-Binary1 : 0 / 0 / 1
@@ -12,7 +12,7 @@ Generated Wed May 12 21:52:26 PDT 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio
  /Users/cspears/dev/fhir/fsh/PACIO/advance-directives-fsh/fsh-generated/resources/Composition-Example-McBee-PACPComposition1 : 0 / 0 / 1
  /Users/cspears/dev/fhir/fsh/PACIO/advance-directives-fsh/fsh-generated/resources/Composition-Example-Smith-Johnson-PACPComposition1 : 0 / 1 / 1
  /Users/cspears/dev/fhir/fsh/PACIO/advance-directives-fsh/fsh-generated/resources/Device-Example-Smith-Johnson-DocRef-Device1 : 0 / 0 / 1
- /Users/cspears/dev/fhir/fsh/PACIO/advance-directives-fsh/fsh-generated/resources/DocumentReference-Example-Smith-Johnson-DocRef-DocumentReference : 0 / 2 / 1
+ /Users/cspears/dev/fhir/fsh/PACIO/advance-directives-fsh/fsh-generated/resources/DocumentReference-Example-Smith-Johnson-DocRef-DocumentReference : 0 / 1 / 2
  /Users/cspears/dev/fhir/fsh/PACIO/advance-directives-fsh/fsh-generated/resources/Goal-Example-McBee-PersonalHealthGoal1 : 0 / 0 / 1
  /Users/cspears/dev/fhir/fsh/PACIO/advance-directives-fsh/fsh-generated/resources/Goal-Example-McBee-PersonalHealthGoal2 : 0 / 0 / 1
  /Users/cspears/dev/fhir/fsh/PACIO/advance-directives-fsh/fsh-generated/resources/Goal-Example-McBee-PersonalHealthGoal3 : 0 / 0 / 1
@@ -115,7 +115,7 @@ INFORMATION: Bundle/Example-McBee-Bundle1: Bundle/Example-McBee-Bundle1: Bundle.
 INFORMATION: Bundle/Example-McBee-Bundle1: Bundle/Example-McBee-Bundle1: Bundle.entry[0].resource.ofType(Composition): Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PACPComposition - listed in meta
 WARNING: Bundle/Example-McBee-Bundle1: Bundle/Example-McBee-Bundle1: Bundle.entry[0].resource.ofType(Composition).section[3].entry[0]: Found multiple matching profiles for Observation/Example-McBee-OrganDonationObservation1 among choices: http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-OrganDonationObservation, http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference
 INFORMATION: Bundle/Example-McBee-Bundle1: Bundle/Example-McBee-Bundle1: Bundle.entry[0].resource.ofType(Composition).section[3].entry[0]: Details for Observation/Example-McBee-OrganDonationObservation1 matching against Profilehttp://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-AutopsyObservation
-WARNING: Bundle/Example-McBee-Bundle1: Bundle/Example-McBee-Bundle1: Bundle.entry[0].resource.ofType(Composition).section[3].entry[1]: Found multiple matching profiles for Observation/Example-McBee-AutopsyObservation1 among choices: http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference, http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-AutopsyObservation
+WARNING: Bundle/Example-McBee-Bundle1: Bundle/Example-McBee-Bundle1: Bundle.entry[0].resource.ofType(Composition).section[3].entry[1]: Found multiple matching profiles for Observation/Example-McBee-AutopsyObservation1 among choices: http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-AutopsyObservation, http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference
 INFORMATION: Bundle/Example-McBee-Bundle1: Bundle/Example-McBee-Bundle1: Bundle.entry[0].resource.ofType(Composition).section[3].entry[1]: Details for Observation/Example-McBee-AutopsyObservation1 matching against Profilehttp://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-OrganDonationObservation
 INFORMATION: Bundle/Example-McBee-Bundle1: Bundle/Example-McBee-Bundle1: Bundle.entry[1].resource.ofType(Patient): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Patient
 INFORMATION: Bundle/Example-McBee-Bundle1: Bundle/Example-McBee-Bundle1: Bundle.entry[1].resource.ofType(Patient): Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient - listed in meta
@@ -183,7 +183,7 @@ WARNING: Bundle/Example-Smith-Johnson-Bundle1: Bundle/Example-Smith-Johnson-Bund
 INFORMATION: Bundle/Example-Smith-Johnson-Bundle1: Bundle/Example-Smith-Johnson-Bundle1: Bundle.entry[0].resource.ofType(Composition): Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PACPComposition - listed in meta
 WARNING: Bundle/Example-Smith-Johnson-Bundle1: Bundle/Example-Smith-Johnson-Bundle1: Bundle.entry[0].resource.ofType(Composition).section[3].entry[0]: Found multiple matching profiles for Observation/Example-Smith-Johnson-OrganDonationObservation1 among choices: http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-OrganDonationObservation, http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference
 INFORMATION: Bundle/Example-Smith-Johnson-Bundle1: Bundle/Example-Smith-Johnson-Bundle1: Bundle.entry[0].resource.ofType(Composition).section[3].entry[0]: Details for Observation/Example-Smith-Johnson-OrganDonationObservation1 matching against Profilehttp://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-AutopsyObservation
-WARNING: Bundle/Example-Smith-Johnson-Bundle1: Bundle/Example-Smith-Johnson-Bundle1: Bundle.entry[0].resource.ofType(Composition).section[3].entry[1]: Found multiple matching profiles for Observation/Example-Smith-Johnson-AutopsyObservation1 among choices: http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference, http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-AutopsyObservation
+WARNING: Bundle/Example-Smith-Johnson-Bundle1: Bundle/Example-Smith-Johnson-Bundle1: Bundle.entry[0].resource.ofType(Composition).section[3].entry[1]: Found multiple matching profiles for Observation/Example-Smith-Johnson-AutopsyObservation1 among choices: http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-AutopsyObservation, http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference
 INFORMATION: Bundle/Example-Smith-Johnson-Bundle1: Bundle/Example-Smith-Johnson-Bundle1: Bundle.entry[0].resource.ofType(Composition).section[3].entry[1]: Details for Observation/Example-Smith-Johnson-AutopsyObservation1 matching against Profilehttp://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-OrganDonationObservation
 INFORMATION: Bundle/Example-Smith-Johnson-Bundle1: Bundle/Example-Smith-Johnson-Bundle1: Bundle.entry[1].resource.ofType(Patient): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Patient
 INFORMATION: Bundle/Example-Smith-Johnson-Bundle1: Bundle/Example-Smith-Johnson-Bundle1: Bundle.entry[1].resource.ofType(Patient): Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient - listed in meta
@@ -252,8 +252,8 @@ WARNING: Composition/Example-Smith-Johnson-PACPComposition1: Composition/Example
 INFORMATION: Device/Example-Smith-Johnson-DocRef-Device1: Device/Example-Smith-Johnson-DocRef-Device1: Device: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Device
 == /Users/cspears/dev/fhir/fsh/PACIO/advance-directives-fsh/fsh-generated/resources/DocumentReference-Example-Smith-Johnson-DocRef-DocumentReference.json ==
 INFORMATION: DocumentReference/Example-Smith-Johnson-DocRef-DocumentReference: DocumentReference/Example-Smith-Johnson-DocRef-DocumentReference: DocumentReference: Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentReference
-WARNING: DocumentReference/Example-Smith-Johnson-DocRef-DocumentReference: DocumentReference/Example-Smith-Johnson-DocRef-DocumentReference: DocumentReference.type: [Unable to determine whether the provided codes are in the value set http://hl7.org/fhir/ValueSet/c80-doc-typecodes because the value set or code system is not known to the validator]
-WARNING: DocumentReference/Example-Smith-Johnson-DocRef-DocumentReference: DocumentReference/Example-Smith-Johnson-DocRef-DocumentReference: DocumentReference.type: The display "Living Will" is not a valid display for the code {http://loinc.org}86533-7 - should be one of ["Patient Living will","Patient Living will"] (from http://tx.fhir.org/r4)
+INFORMATION: DocumentReference/Example-Smith-Johnson-DocRef-DocumentReference: DocumentReference/Example-Smith-Johnson-DocRef-DocumentReference: DocumentReference.type: None of the codings provided are in the value set http://hl7.org/fhir/ValueSet/c80-doc-typecodes (http://hl7.org/fhir/ValueSet/c80-doc-typecodes), and a coding is recommended to come from this value set) (codes = http://loinc.org#86533-7)
+WARNING: DocumentReference/Example-Smith-Johnson-DocRef-DocumentReference: DocumentReference/Example-Smith-Johnson-DocRef-DocumentReference: DocumentReference.type.coding[0]: The display "Living Will" is not a valid display for the code {http://loinc.org}86533-7 - should be one of ["Patient Living will","Patient Living will"] (from http://tx.fhir.org/r4) for 'http://loinc.org#86533-7'
 == /Users/cspears/dev/fhir/fsh/PACIO/advance-directives-fsh/fsh-generated/resources/Goal-Example-McBee-PersonalHealthGoal1.json ==
 INFORMATION: Goal/Example-McBee-PersonalHealthGoal1: Goal/Example-McBee-PersonalHealthGoal1: Goal: Validate resource against profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalHealthGoal
 == /Users/cspears/dev/fhir/fsh/PACIO/advance-directives-fsh/fsh-generated/resources/Goal-Example-McBee-PersonalHealthGoal2.json ==
