@@ -3,14 +3,14 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="PADIPersonalAndLegalRelationshipRoleTypeVS"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="http://terminology.hl7.org/2.0.0/CodeSystem-v3-RoleCode.html"><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></a></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-RoleCode.html"><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></a></li></ul></div>
   </text>
   <url value="http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIPersonalAndLegalRelationshipRoleTypeVS"/>
   <version value="0.0.1"/>
   <name value="PADIPersonalAndLegalRelationshipRoleTypeVS"/>
   <title value="Personal And Legal Relationship Role Type"/>
   <status value="active"/>
-  <date value="2021-05-07T11:56:18-07:00"/>
+  <date value="2021-05-12T21:51:30-07:00"/>
   <publisher value="HL7 Patient Empowerment Working Group"/>
   <contact>
     <name value="HL7 Patient Empowerment Working Group"/>

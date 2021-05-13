@@ -10,14 +10,14 @@
   fhir:Resource.id [ fhir:value "PADIPersonalAndLegalRelationshipRoleTypeVS"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"http://terminology.hl7.org/2.0.0/CodeSystem-v3-RoleCode.html\"><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></a></li></ul></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-v3-RoleCode.html\"><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></a></li></ul></div>"
   ];
   fhir:ValueSet.url [ fhir:value "http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIPersonalAndLegalRelationshipRoleTypeVS"];
   fhir:ValueSet.version [ fhir:value "0.0.1"];
   fhir:ValueSet.name [ fhir:value "PADIPersonalAndLegalRelationshipRoleTypeVS"];
   fhir:ValueSet.title [ fhir:value "Personal And Legal Relationship Role Type"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2021-05-07T11:56:18-07:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2021-05-12T21:51:30-07:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "HL7 Patient Empowerment Working Group"];
   fhir:ValueSet.contact [
      fhir:index 0;

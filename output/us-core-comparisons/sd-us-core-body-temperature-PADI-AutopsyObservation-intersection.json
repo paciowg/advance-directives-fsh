@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "3ef4db78-9816-4004-91df-8f839fc9165f-27",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/3ef4db78-9816-4004-91df-8f839fc9165f-27",
+  "id" : "2da77faf-56a6-490a-a294-2130e401bfb7-132",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/2da77faf-56a6-490a-a294-2130e401bfb7-132",
   "name" : "IntersectionUSCoreBodyTemperatureProfileAndPADIAutopsyObservation",
   "title" : "Intersection of US Core Body Temperature Profile And ADI Autopsy Observation",
   "status" : "active",
-  "date" : "2021-05-07T11:56:36-07:00",
+  "date" : "2021-05-12T21:51:37-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -578,7 +578,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "The vital sign codes from the base FHIR and US Core Vital Signs.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/3ef4db78-9816-4004-91df-8f839fc9165f-6"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/2da77faf-56a6-490a-a294-2130e401bfb7-114"
       },
       "mapping" : [{
         "identity" : "workflow",

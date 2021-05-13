@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "3ef4db78-9816-4004-91df-8f839fc9165f-212",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/3ef4db78-9816-4004-91df-8f839fc9165f-212",
+  "id" : "2da77faf-56a6-490a-a294-2130e401bfb7-41",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/2da77faf-56a6-490a-a294-2130e401bfb7-41",
   "name" : "UnionLOINCCodesAndPADIInterventionPreferencesVS",
   "title" : "Union of LOINC Codes And Intervention Preferences",
   "status" : "draft",
-  "date" : "2021-05-07T11:56:37-07:00",
+  "date" : "2021-05-12T21:51:37-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -2137,7 +2137,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "10363-0",
-      "display" : "Barbiturates [Presence] in Unspecified specimen"
+      "display" : "Barbiturates [Presence] in Specimen"
     },
     {
       "system" : "http://loinc.org",
@@ -3037,7 +3037,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "10525-4",
-      "display" : "Microscopic observation [Identifier] in Unspecified specimen by Cyto stain"
+      "display" : "Microscopic observation [Identifier] in Specimen by Cyto stain"
     },
     {
       "system" : "http://loinc.org",
@@ -3112,7 +3112,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "10539-5",
-      "display" : "Glipizide [Mass/volume] in Serum or Plasma"
+      "display" : "glipiZIDE [Mass/volume] in Serum or Plasma"
     },
     {
       "system" : "http://loinc.org",
@@ -3122,7 +3122,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "10540-3",
-      "display" : "Glyburide [Mass/volume] in Serum or Plasma"
+      "display" : "glyBURIDE [Mass/volume] in Serum or Plasma"
     },
     {
       "system" : "http://loinc.org",
@@ -3662,12 +3662,12 @@
     {
       "system" : "http://loinc.org",
       "code" : "10638-5",
-      "display" : "Thermophilic Actinomycetes colony count [#/volume] in Unspecified specimen by Organism specific culture"
+      "display" : "Thermophilic Actinomycetes colony count [#/volume] in Specimen by Organism specific culture"
     },
     {
       "system" : "http://loinc.org",
       "code" : "10639-3",
-      "display" : "Thermophilic Actinomycetes identified in Unspecified specimen by Organism specific culture"
+      "display" : "Thermophilic Actinomycetes identified in Specimen by Organism specific culture"
     },
     {
       "system" : "http://loinc.org",
@@ -3697,7 +3697,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "10644-3",
-      "display" : "Arthropod identified in Unspecified specimen"
+      "display" : "Arthropod identified in Specimen"
     },
     {
       "system" : "http://loinc.org",
@@ -3812,7 +3812,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "10665-8",
-      "display" : "Fungus colony count [#/volume] in Unspecified specimen by Environmental culture"
+      "display" : "Fungus colony count [#/volume] in Specimen by Environmental culture"
     },
     {
       "system" : "http://loinc.org",
@@ -3822,17 +3822,17 @@
     {
       "system" : "http://loinc.org",
       "code" : "10667-4",
-      "display" : "Fungus identified in Unspecified specimen by Animal inoculation"
+      "display" : "Fungus identified in Specimen by Animal inoculation"
     },
     {
       "system" : "http://loinc.org",
       "code" : "10668-2",
-      "display" : "Fungus identified in Unspecified specimen by Environmental culture"
+      "display" : "Fungus identified in Specimen by Environmental culture"
     },
     {
       "system" : "http://loinc.org",
       "code" : "10669-0",
-      "display" : "Fungus identified in Unspecified specimen by Sticky tape for environmental fungus"
+      "display" : "Fungus identified in Specimen by Sticky tape for environmental fungus"
     },
     {
       "system" : "http://loinc.org",
@@ -3847,12 +3847,12 @@
     {
       "system" : "http://loinc.org",
       "code" : "10671-6",
-      "display" : "Helminth identified in Unspecified specimen"
+      "display" : "Helminth identified in Specimen"
     },
     {
       "system" : "http://loinc.org",
       "code" : "10672-4",
-      "display" : "Helminth+Arthropod identified in Unspecified specimen"
+      "display" : "Helminth+Arthropod identified in Specimen"
     },
     {
       "system" : "http://loinc.org",
@@ -4082,7 +4082,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "10713-6",
-      "display" : "Prototheca identified in Unspecified specimen by Culture"
+      "display" : "Prototheca identified in Specimen by Culture"
     },
     {
       "system" : "http://loinc.org",
@@ -4097,7 +4097,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "10716-9",
-      "display" : "Schistosoma sp identified in Unspecified specimen by Organism specific culture"
+      "display" : "Schistosoma sp identified in Specimen by Organism specific culture"
     },
     {
       "system" : "http://loinc.org",
@@ -4222,7 +4222,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "10739-1",
-      "display" : "Virus identified in Unspecified specimen by Electron microscopy"
+      "display" : "Virus identified in Specimen by Electron microscopy"
     },
     {
       "system" : "http://loinc.org",
@@ -4842,7 +4842,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "10850-6",
-      "display" : "Cyclospora cayetanensis [Presence] in Unspecified specimen"
+      "display" : "Cyclospora cayetanensis [Presence] in Specimen"
     },
     {
       "system" : "http://loinc.org",
@@ -4857,7 +4857,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "10853-0",
-      "display" : "Isospora belli [Presence] in Unspecified specimen by Acid fast stain.Kinyoun modified"
+      "display" : "Isospora belli [Presence] in Specimen by Acid fast stain.Kinyoun modified"
     },
     {
       "system" : "http://loinc.org",
@@ -4877,7 +4877,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "10857-1",
-      "display" : "Microsporidia identified in Unspecified specimen by Light microscopy"
+      "display" : "Microsporidia identified in Specimen by Light microscopy"
     },
     {
       "system" : "http://loinc.org",
@@ -4897,7 +4897,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "10860-5",
-      "display" : "Varicella zoster virus [Presence] in Unspecified specimen by Organism specific culture"
+      "display" : "Varicella zoster virus [Presence] in Specimen by Organism specific culture"
     },
     {
       "system" : "http://loinc.org",

@@ -17,7 +17,7 @@
   fhir:ValueSet.name [ fhir:value "PADIHealthcareAgentRelationshipVS"];
   fhir:ValueSet.title [ fhir:value "Healthcare Agent Relationships"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2021-05-07T11:56:18-07:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2021-05-12T21:51:30-07:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "HL7 Patient Empowerment Working Group"];
   fhir:ValueSet.contact [
      fhir:index 0;
@@ -32,7 +32,7 @@
        fhir:ContactPoint.value [ fhir:value "patients@lists.HL7.org" ]
      ]
   ];
-  fhir:ValueSet.description [ fhir:value "[TODO] This value set identifies the healthcare agent or proxy roles that individuals commonly designate to empower surrogates to make medical treatment and care decisions when the individual is unable to effectively communicate with medical personnel or requires assistance with decision making.\r\n\r\nThis ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1046.35/expansion"];
+  fhir:ValueSet.description [ fhir:value "[TODO] This value set identifies the healthcare agent or proxy roles that individuals commonly designate to empower surrogates to make medical treatment and care decisions when the individual is unable to effectively communicate with medical personnel or requires assistance with decision making.\n\nThis ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1046.35/expansion"];
   fhir:ValueSet.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [

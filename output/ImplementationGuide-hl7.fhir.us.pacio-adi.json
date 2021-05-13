@@ -10,7 +10,7 @@
   "name": "PACIOAdvanceDirectiveInteroperability",
   "title": "PACIO Advance Directive Interoperability Implementation Guide",
   "status": "draft",
-  "date": "2021-05-07T11:56:18-07:00",
+  "date": "2021-05-12T21:51:30-07:00",
   "publisher": "HL7 Patient Empowerment Working Group",
   "contact": [
     {
@@ -689,7 +689,7 @@
           "reference": "ValueSet/PADIAdvanceDirectiveCategoriesVS"
         },
         "name": "Advance Directive Categories",
-        "description": "Kinds of Advance Directives\r\n\r\nThis ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113883.11.20.9.69.4/expansion",
+        "description": "Kinds of Advance Directives\n\nThis ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113883.11.20.9.69.4/expansion",
         "exampleBoolean": false
       },
       {
@@ -717,7 +717,7 @@
           "reference": "ValueSet/PADICareExperiencePreferencesVS"
         },
         "name": "Care Experience Preferences",
-        "description": "This value set includes concepts representing an individual's care experience preferences at end of life which can be expressed by the individual in his or her advance care plan),(Data Element Scope: The intent of this value set is to identify personal care experience preferences that may be relevant and could be considered by clinicians when making a treatment/care plan for the person.\r\n\r\nThis ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1115.11/expansion",
+        "description": "This value set includes concepts representing an individual's care experience preferences at end of life which can be expressed by the individual in his or her advance care plan),(Data Element Scope: The intent of this value set is to identify personal care experience preferences that may be relevant and could be considered by clinicians when making a treatment/care plan for the person.\n\nThis ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1115.11/expansion",
         "exampleBoolean": false
       },
       {
@@ -731,7 +731,7 @@
           "reference": "ValueSet/PADIHealthGoalsVS"
         },
         "name": "Health Goals",
-        "description": "Clinical Focus: This value set includes concepts representing an individual's goals at end of life which can be expressed by the individual in his or her advance care plan.),(Data Element Scope: The intent of this value set is to identify personal goals that may be relevant and could be considered by clinicians when making a treatment/care plan for the person.),(Inclusion Criteria: Include member value sets for Health Goals at end of life for LOINC and SNOMED CT.),(Exclusion Criteria: None.\r\n\r\nThis ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1115.7/expansion",
+        "description": "Clinical Focus: This value set includes concepts representing an individual's goals at end of life which can be expressed by the individual in his or her advance care plan.),(Data Element Scope: The intent of this value set is to identify personal goals that may be relevant and could be considered by clinicians when making a treatment/care plan for the person.),(Inclusion Criteria: Include member value sets for Health Goals at end of life for LOINC and SNOMED CT.),(Exclusion Criteria: None.\n\nThis ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1115.7/expansion",
         "exampleBoolean": false
       },
       {
@@ -745,7 +745,7 @@
           "reference": "ValueSet/PADIHealthcareAgentOrProxyChoicesVS"
         },
         "name": "Healthcare Agent or Proxy Choices",
-        "description": "This value set identifies the healthcare agent or proxy roles that individuals commonly designate to empower surrogates to make medical treatment and care decisions when the individual is unable to effectively communicate with medical personnel or requires assistance with decision making.\r\n\r\nThis ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1046.35/expansion",
+        "description": "This value set identifies the healthcare agent or proxy roles that individuals commonly designate to empower surrogates to make medical treatment and care decisions when the individual is unable to effectively communicate with medical personnel or requires assistance with decision making.\n\nThis ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1046.35/expansion",
         "exampleBoolean": false
       },
       {
@@ -759,7 +759,7 @@
           "reference": "ValueSet/PADIHealthcareAgentRelationshipVS"
         },
         "name": "Healthcare Agent Relationships",
-        "description": "[TODO] This value set identifies the healthcare agent or proxy roles that individuals commonly designate to empower surrogates to make medical treatment and care decisions when the individual is unable to effectively communicate with medical personnel or requires assistance with decision making.\r\n\r\nThis ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1046.35/expansion",
+        "description": "[TODO] This value set identifies the healthcare agent or proxy roles that individuals commonly designate to empower surrogates to make medical treatment and care decisions when the individual is unable to effectively communicate with medical personnel or requires assistance with decision making.\n\nThis ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1046.35/expansion",
         "exampleBoolean": false
       },
       {

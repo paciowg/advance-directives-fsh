@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "PACIOAdvanceDirectiveInteroperability"];
   fhir:ImplementationGuide.title [ fhir:value "PACIO Advance Directive Interoperability Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-05-07T11:56:18-07:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-05-12T21:51:30-07:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 Patient Empowerment Working Group"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -673,7 +673,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/PADIAdvanceDirectiveCategoriesVS" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Advance Directive Categories" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Kinds of Advance Directives\r\n\r\nThis ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113883.11.20.9.69.4/expansion" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Kinds of Advance Directives\n\nThis ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113883.11.20.9.69.4/expansion" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 26;
@@ -701,7 +701,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/PADICareExperiencePreferencesVS" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Care Experience Preferences" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This value set includes concepts representing an individual's care experience preferences at end of life which can be expressed by the individual in his or her advance care plan),(Data Element Scope: The intent of this value set is to identify personal care experience preferences that may be relevant and could be considered by clinicians when making a treatment/care plan for the person.\r\n\r\nThis ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1115.11/expansion" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This value set includes concepts representing an individual's care experience preferences at end of life which can be expressed by the individual in his or her advance care plan),(Data Element Scope: The intent of this value set is to identify personal care experience preferences that may be relevant and could be considered by clinicians when making a treatment/care plan for the person.\n\nThis ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1115.11/expansion" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 28;
@@ -715,7 +715,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/PADIHealthGoalsVS" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Health Goals" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Clinical Focus: This value set includes concepts representing an individual's goals at end of life which can be expressed by the individual in his or her advance care plan.),(Data Element Scope: The intent of this value set is to identify personal goals that may be relevant and could be considered by clinicians when making a treatment/care plan for the person.),(Inclusion Criteria: Include member value sets for Health Goals at end of life for LOINC and SNOMED CT.),(Exclusion Criteria: None.\r\n\r\nThis ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1115.7/expansion" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Clinical Focus: This value set includes concepts representing an individual's goals at end of life which can be expressed by the individual in his or her advance care plan.),(Data Element Scope: The intent of this value set is to identify personal goals that may be relevant and could be considered by clinicians when making a treatment/care plan for the person.),(Inclusion Criteria: Include member value sets for Health Goals at end of life for LOINC and SNOMED CT.),(Exclusion Criteria: None.\n\nThis ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1115.7/expansion" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 29;
@@ -729,7 +729,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/PADIHealthcareAgentOrProxyChoicesVS" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Healthcare Agent or Proxy Choices" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This value set identifies the healthcare agent or proxy roles that individuals commonly designate to empower surrogates to make medical treatment and care decisions when the individual is unable to effectively communicate with medical personnel or requires assistance with decision making.\r\n\r\nThis ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1046.35/expansion" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This value set identifies the healthcare agent or proxy roles that individuals commonly designate to empower surrogates to make medical treatment and care decisions when the individual is unable to effectively communicate with medical personnel or requires assistance with decision making.\n\nThis ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1046.35/expansion" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 30;
@@ -743,7 +743,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/PADIHealthcareAgentRelationshipVS" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Healthcare Agent Relationships" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "[TODO] This value set identifies the healthcare agent or proxy roles that individuals commonly designate to empower surrogates to make medical treatment and care decisions when the individual is unable to effectively communicate with medical personnel or requires assistance with decision making.\r\n\r\nThis ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1046.35/expansion" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "[TODO] This value set identifies the healthcare agent or proxy roles that individuals commonly designate to empower surrogates to make medical treatment and care decisions when the individual is unable to effectively communicate with medical personnel or requires assistance with decision making.\n\nThis ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1046.35/expansion" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 31;

@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "3ef4db78-9816-4004-91df-8f839fc9165f-171",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/3ef4db78-9816-4004-91df-8f839fc9165f-171",
+  "id" : "2da77faf-56a6-490a-a294-2130e401bfb7-213",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/2da77faf-56a6-490a-a294-2130e401bfb7-213",
   "name" : "IntersectionUSCoreSmokingStatusObservationCodesAndPADIOrganDonationVS",
   "title" : "Intersection of US Core Smoking Status Observation Codes And Organ Donation",
   "status" : "active",
-  "date" : "2021-05-07T11:56:37-07:00",
+  "date" : "2021-05-12T21:51:38-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

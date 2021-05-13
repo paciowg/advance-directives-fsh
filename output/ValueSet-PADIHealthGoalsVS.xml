@@ -10,7 +10,7 @@
   <name value="PADIHealthGoalsVS"/>
   <title value="Health Goals"/>
   <status value="active"/>
-  <date value="2021-05-07T11:56:18-07:00"/>
+  <date value="2021-05-12T21:51:30-07:00"/>
   <publisher value="HL7 Patient Empowerment Working Group"/>
   <contact>
     <name value="HL7 Patient Empowerment Working Group"/>
@@ -23,7 +23,7 @@
       <value value="patients@lists.HL7.org"/>
     </telecom>
   </contact>
-  <description value="Clinical Focus: This value set includes concepts representing an individual&#39;s goals at end of life which can be expressed by the individual in his or her advance care plan.),(Data Element Scope: The intent of this value set is to identify personal goals that may be relevant and could be considered by clinicians when making a treatment/care plan for the person.),(Inclusion Criteria: Include member value sets for Health Goals at end of life for LOINC and SNOMED CT.),(Exclusion Criteria: None.&#xD;&#xA;&#xD;&#xA;This ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1115.7/expansion"/>
+  <description value="Clinical Focus: This value set includes concepts representing an individual&#39;s goals at end of life which can be expressed by the individual in his or her advance care plan.),(Data Element Scope: The intent of this value set is to identify personal goals that may be relevant and could be considered by clinicians when making a treatment/care plan for the person.),(Inclusion Criteria: Include member value sets for Health Goals at end of life for LOINC and SNOMED CT.),(Exclusion Criteria: None.&#xA;&#xA;This ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1115.7/expansion"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>

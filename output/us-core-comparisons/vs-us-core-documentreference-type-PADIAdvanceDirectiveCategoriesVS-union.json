@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "3ef4db78-9816-4004-91df-8f839fc9165f-119",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/3ef4db78-9816-4004-91df-8f839fc9165f-119",
+  "id" : "2da77faf-56a6-490a-a294-2130e401bfb7-275",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/2da77faf-56a6-490a-a294-2130e401bfb7-275",
   "name" : "UnionUSCoreDocumentReferenceTypeAndPADIAdvanceDirectiveCategoriesVS",
   "title" : "Union of US Core DocumentReference Type And Advance Directive Categories",
   "status" : "active",
-  "date" : "2021-05-07T11:56:37-07:00",
+  "date" : "2021-05-12T21:51:38-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

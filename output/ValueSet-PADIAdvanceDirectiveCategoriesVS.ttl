@@ -17,7 +17,7 @@
   fhir:ValueSet.name [ fhir:value "PADIAdvanceDirectiveCategoriesVS"];
   fhir:ValueSet.title [ fhir:value "Advance Directive Categories"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2021-05-07T11:56:18-07:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2021-05-12T21:51:30-07:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "HL7 Patient Empowerment Working Group"];
   fhir:ValueSet.contact [
      fhir:index 0;
@@ -32,7 +32,7 @@
        fhir:ContactPoint.value [ fhir:value "patients@lists.HL7.org" ]
      ]
   ];
-  fhir:ValueSet.description [ fhir:value "Kinds of Advance Directives\r\n\r\nThis ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113883.11.20.9.69.4/expansion"];
+  fhir:ValueSet.description [ fhir:value "Kinds of Advance Directives\n\nThis ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113883.11.20.9.69.4/expansion"];
   fhir:ValueSet.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [

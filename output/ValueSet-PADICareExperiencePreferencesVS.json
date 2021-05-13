@@ -10,7 +10,7 @@
   "name": "PADICareExperiencePreferencesVS",
   "title": "Care Experience Preferences",
   "status": "active",
-  "date": "2021-05-07T11:56:18-07:00",
+  "date": "2021-05-12T21:51:30-07:00",
   "publisher": "HL7 Patient Empowerment Working Group",
   "contact": [
     {
@@ -27,7 +27,7 @@
       ]
     }
   ],
-  "description": "This value set includes concepts representing an individual's care experience preferences at end of life which can be expressed by the individual in his or her advance care plan),(Data Element Scope: The intent of this value set is to identify personal care experience preferences that may be relevant and could be considered by clinicians when making a treatment/care plan for the person.\r\n\r\nThis ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1115.11/expansion",
+  "description": "This value set includes concepts representing an individual's care experience preferences at end of life which can be expressed by the individual in his or her advance care plan),(Data Element Scope: The intent of this value set is to identify personal care experience preferences that may be relevant and could be considered by clinicians when making a treatment/care plan for the person.\n\nThis ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1115.11/expansion",
   "jurisdiction": [
     {
       "coding": [

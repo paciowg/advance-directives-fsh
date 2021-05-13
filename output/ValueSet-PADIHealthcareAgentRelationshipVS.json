@@ -10,7 +10,7 @@
   "name": "PADIHealthcareAgentRelationshipVS",
   "title": "Healthcare Agent Relationships",
   "status": "active",
-  "date": "2021-05-07T11:56:18-07:00",
+  "date": "2021-05-12T21:51:30-07:00",
   "publisher": "HL7 Patient Empowerment Working Group",
   "contact": [
     {
@@ -27,7 +27,7 @@
       ]
     }
   ],
-  "description": "[TODO] This value set identifies the healthcare agent or proxy roles that individuals commonly designate to empower surrogates to make medical treatment and care decisions when the individual is unable to effectively communicate with medical personnel or requires assistance with decision making.\r\n\r\nThis ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1046.35/expansion",
+  "description": "[TODO] This value set identifies the healthcare agent or proxy roles that individuals commonly designate to empower surrogates to make medical treatment and care decisions when the individual is unable to effectively communicate with medical personnel or requires assistance with decision making.\n\nThis ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1046.35/expansion",
   "jurisdiction": [
     {
       "coding": [

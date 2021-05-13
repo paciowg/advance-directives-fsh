@@ -254,7 +254,7 @@
   {
     "id": "padi",
     "type": "CapabilityStatement",
-    "url": "https://paciowg.github.io/advance-directives-igCapabilityStatement/padi",
+    "url": "https://paciowg.github.io/advance-directives-ig/CapabilityStatement/padi",
     "version": "0.0.1",
     "name": "PacioAdiCapabilityStatement"
   }
