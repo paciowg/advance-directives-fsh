@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "ea7b1123-2bd4-4a47-8cfc-645ee306e63e-12",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/ea7b1123-2bd4-4a47-8cfc-645ee306e63e-12",
+  "id" : "b49a2ecf-2d9d-485c-af1b-6d51c423d83c-12",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/b49a2ecf-2d9d-485c-af1b-6d51c423d83c-12",
   "name" : "IntersectionUSCorePediatricBMIforAgeObservationProfileAndPADIPersonalInterventionPreference",
   "title" : "Intersection of US Core Pediatric BMI for Age Observation Profile And ADI Personal Intervention Preference",
   "status" : "active",
-  "date" : "2021-05-13T12:41:10-07:00",
+  "date" : "2021-05-13T21:04:10-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -578,7 +578,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "The vital sign codes from the base FHIR and US Core Vital Signs.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/ea7b1123-2bd4-4a47-8cfc-645ee306e63e-6"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/b49a2ecf-2d9d-485c-af1b-6d51c423d83c-6"
       },
       "mapping" : [{
         "identity" : "workflow",

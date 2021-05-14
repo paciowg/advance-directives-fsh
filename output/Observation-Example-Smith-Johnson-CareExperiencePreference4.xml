@@ -13,7 +13,7 @@
     <coding>
       <system value="http://loinc.org"/>
       <code value="81380-8"/>
-      <display value="[TODO] A better code? Goals, preferences, and priorities for care experience"/>
+      <display value="Goals, Preferences, and Priorities for Care Experience"/>
     </coding>
   </code>
   <valueString value="How to care for me: If I become incapacitated and cannot express myself, here is what I would like to tell my healthcare agent, family and friends about how I would like for them to care for me: I want photos of my family where I can see them."/>

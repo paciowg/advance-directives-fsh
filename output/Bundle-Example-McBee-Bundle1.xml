@@ -18,7 +18,7 @@
         </meta>
         <language value="en-US"/>
         <text>
-          <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"><p><b>Generated Narrative</b></p><p><b>Version Number</b>: 1</p><p><b>Data Enterer</b>: <a href="#Patient_Example-McBee-Patient1">See above (Patient/Example-McBee-Patient1)</a></p><p><b>identifier</b>: id: 20130607100315-CCDA-CCD</p><p><b>status</b>: final</p><p><b>type</b>: <span title="Codes: {http://loinc.org 81334-5}">Patient Personal advance care plan</span></p><p><b>category</b>: <span title="Codes: {http://loinc.org 75320-2}">Advance directive</span></p><p><b>date</b>: Aug 28, 2018, 5:49:58 AM</p><p><b>author</b>: <a href="#Patient_Example-McBee-Patient1">See above (Patient/Example-McBee-Patient1)</a></p><p><b>title</b>: Personal Advance Care Plan Document for Roger McBee</p><p><b>custodian</b>: <a href="#Organization_Example-McBee-OrganizationCustodian1">See above (Organization/Example-McBee-OrganizationCustodian1)</a></p></div>
+          <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"><p><b>Generated Narrative</b></p><p><b>Version Number</b>: 1</p><p><b>Data Enterer</b>: <a href="#Patient_Example-McBee-Patient1">See above (Patient/Example-McBee-Patient1)</a></p><p><b>identifier</b>: id: 20130607100315-CCDA-CCD</p><p><b>status</b>: final</p><p><b>type</b>: <span title="Codes: {http://loinc.org 81334-5}">Patient Personal Advance Care Plan</span></p><p><b>category</b>: <span title="Codes: {http://loinc.org 75320-2}">Advance Directive</span></p><p><b>date</b>: Aug 28, 2018, 5:49:58 AM</p><p><b>author</b>: <a href="#Patient_Example-McBee-Patient1">See above (Patient/Example-McBee-Patient1)</a></p><p><b>title</b>: Personal Advance Care Plan Document for Roger McBee</p><p><b>custodian</b>: <a href="#Organization_Example-McBee-OrganizationCustodian1">See above (Organization/Example-McBee-OrganizationCustodian1)</a></p></div>
         </text>
         <extension url="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-versionNumber-extension">
           <valueInteger value="1"/>
@@ -37,14 +37,14 @@
           <coding>
             <system value="http://loinc.org"/>
             <code value="81334-5"/>
-            <display value="Patient Personal advance care plan"/>
+            <display value="Patient Personal Advance Care Plan"/>
           </coding>
         </type>
         <category>
           <coding>
             <system value="http://loinc.org"/>
             <code value="75320-2"/>
-            <display value="Advance directive"/>
+            <display value="Advance Directive"/>
           </coding>
         </category>
         <subject>
@@ -83,7 +83,7 @@
             <coding>
               <system value="http://loinc.org"/>
               <code value="81338-6"/>
-              <display value="Patient Goals, preferences, and priorities for care experience"/>
+              <display value="Patient Goals, Preferences, and Priorities for Care Experience"/>
             </coding>
           </code>
           <text>
@@ -103,12 +103,12 @@
           </entry>
         </section>
         <section>
-          <title value="Expression of Healthcare Treatment Wishes and Desires under certain health conditions"/>
+          <title value="Expression of Healthcare Treatment Wishes and Desires Under Certain Health Conditions"/>
           <code>
             <coding>
               <system value="http://loinc.org"/>
               <code value="81336-0"/>
-              <display value="Patient Goals, preferences, and priorities under certain health conditions"/>
+              <display value="Patient Goals, Preferences, and Priorities Under Certain Health Conditions"/>
             </coding>
           </code>
           <text>
@@ -145,7 +145,7 @@
             <coding>
               <system value="http://loinc.org"/>
               <code value="81337-8"/>
-              <display value="Patient Goals, preferences, and priorities upon death"/>
+              <display value="Patient Goals, Preferences, and Priorities Upon Death"/>
             </coding>
           </code>
           <text>
@@ -167,7 +167,7 @@
             <coding>
               <system value="http://loinc.org"/>
               <code value="81339-4"/>
-              <display value="Witness and notary Document"/>
+              <display value="Witness and Notary Document"/>
             </coding>
           </code>
           <text>
@@ -273,7 +273,7 @@
           <coding>
             <system value="http://loinc.org"/>
             <code value="75783-1"/>
-            <display value="Primary healthcare agent [Reported]"/>
+            <display value="Primary Healthcare Agent [Reported]"/>
           </coding>
         </relationship>
         <name>
@@ -306,7 +306,7 @@
           <coding>
             <system value="http://loinc.org"/>
             <code value="75784-9"/>
-            <display value="First alternate healthcare agent [Reported]"/>
+            <display value="First Alternate Healthcare Agent [Reported]"/>
           </coding>
         </relationship>
         <relationship>
@@ -344,7 +344,7 @@
           <coding>
             <system value="http://loinc.org"/>
             <code value="81360-0"/>
-            <display value="My likes and joys [Reported]"/>
+            <display value="My Likes and Joys [Reported]"/>
           </coding>
         </code>
         <valueString value="Here are some examples of the things that I would like to have near me, music that I&#x2019;d like to hear, and other details of my care that would help to keep me happy and relaxed: Like Bach, especially the cantatas.  St. Martin in the Fields"/>
@@ -367,7 +367,7 @@
           <coding>
             <system value="http://loinc.org"/>
             <code value="81380-8"/>
-            <display value="Goals, preferences, and priorities for care experience [Reported]"/>
+            <display value="Goals, Preferences, and Priorities for Care Experience [Reported]"/>
           </coding>
         </code>
         <valueString value="How to care for me: If I become incapacitated and cannot express myself, here is what I would like to tell my healthcare agent, family and friends about how I would like for them to care for me: I don&#x2019;t like being treated like an object. I would like to be greeted like a person before working on me."/>
@@ -390,7 +390,7 @@
           <coding>
             <system value="http://loinc.org"/>
             <code value="81365-9"/>
-            <display value="Religious affiliation contact to notify [Reported]"/>
+            <display value="Religious Affiliation Contact to Notify [Reported]"/>
           </coding>
         </code>
         <valueString value="Please attempt to notify someone from my religion at the following phone number: If I have included one - Not Religious"/>
@@ -438,7 +438,7 @@
           <coding>
             <system value="http://loinc.org"/>
             <code value="81340-2"/>
-            <display value="Goals AndOr preferences in order of priority [Reported]"/>
+            <display value="Goals AndOr Preferences in Order of Priority [Reported]"/>
           </coding>
         </code>
         <orderedBy>

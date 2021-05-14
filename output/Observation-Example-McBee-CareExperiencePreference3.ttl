@@ -27,7 +27,7 @@
        a loinc:81365-9;
        fhir:Coding.system [ fhir:value "http://loinc.org" ];
        fhir:Coding.code [ fhir:value "81365-9" ];
-       fhir:Coding.display [ fhir:value "Religious affiliation contact to notify [Reported]" ]
+       fhir:Coding.display [ fhir:value "Religious Affiliation Contact to Notify [Reported]" ]
      ]
   ];
   fhir:Observation.valueString [ fhir:value "Please attempt to notify someone from my religion at the following phone number: If I have included one - Not Religious"] .

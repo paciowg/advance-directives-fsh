@@ -7,7 +7,7 @@
   </meta>
   <language value="en-US"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"><p><b>Generated Narrative</b></p><p><b>Version Number</b>: 1</p><p><b>Data Enterer</b>: <a href="Patient-Example-McBee-Patient1.html">Generated Summary: language: en-US; Social Beneficiary Identifier: 555-12-1246, Driver's License Number: 33487; active; Roger Rienman McBee ; Phone: +1(469)238-2858, Phone: +1(214)497-9529, rogerb@testaccount.edu; gender: male; birthDate: 1945-04-01; <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-NullFlavor NI}">NoInformation</span></a></p><p><b>identifier</b>: id: 20130607100315-CCDA-CCD</p><p><b>status</b>: final</p><p><b>type</b>: <span title="Codes: {http://loinc.org 81334-5}">Patient Personal advance care plan</span></p><p><b>category</b>: <span title="Codes: {http://loinc.org 75320-2}">Advance directive</span></p><p><b>date</b>: Aug 28, 2018, 5:49:58 AM</p><p><b>author</b>: <a href="Patient-Example-McBee-Patient1.html">Generated Summary: language: en-US; Social Beneficiary Identifier: 555-12-1246, Driver's License Number: 33487; active; Roger Rienman McBee ; Phone: +1(469)238-2858, Phone: +1(214)497-9529, rogerb@testaccount.edu; gender: male; birthDate: 1945-04-01; <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-NullFlavor NI}">NoInformation</span></a></p><p><b>title</b>: Personal Advance Care Plan Document for Roger McBee</p><p><b>custodian</b>: <a href="Organization-Example-McBee-OrganizationCustodian1.html">Generated Summary: id: 44444; active; name: MyDirectives.com; Phone: +1(202)776-7700</a></p></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"><p><b>Generated Narrative</b></p><p><b>Version Number</b>: 1</p><p><b>Data Enterer</b>: <a href="Patient-Example-McBee-Patient1.html">Generated Summary: language: en-US; Social Beneficiary Identifier: 555-12-1246, Driver's License Number: 33487; active; Roger Rienman McBee ; Phone: +1(469)238-2858, Phone: +1(214)497-9529, rogerb@testaccount.edu; gender: male; birthDate: 1945-04-01; <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-NullFlavor NI}">NoInformation</span></a></p><p><b>identifier</b>: id: 20130607100315-CCDA-CCD</p><p><b>status</b>: final</p><p><b>type</b>: <span title="Codes: {http://loinc.org 81334-5}">Patient Personal Advance Care Plan</span></p><p><b>category</b>: <span title="Codes: {http://loinc.org 75320-2}">Advance Directive</span></p><p><b>date</b>: Aug 28, 2018, 5:49:58 AM</p><p><b>author</b>: <a href="Patient-Example-McBee-Patient1.html">Generated Summary: language: en-US; Social Beneficiary Identifier: 555-12-1246, Driver's License Number: 33487; active; Roger Rienman McBee ; Phone: +1(469)238-2858, Phone: +1(214)497-9529, rogerb@testaccount.edu; gender: male; birthDate: 1945-04-01; <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-NullFlavor NI}">NoInformation</span></a></p><p><b>title</b>: Personal Advance Care Plan Document for Roger McBee</p><p><b>custodian</b>: <a href="Organization-Example-McBee-OrganizationCustodian1.html">Generated Summary: id: 44444; active; name: MyDirectives.com; Phone: +1(202)776-7700</a></p></div>
   </text>
   <extension url="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-versionNumber-extension">
     <valueInteger value="1"/>
@@ -26,14 +26,14 @@
     <coding>
       <system value="http://loinc.org"/>
       <code value="81334-5"/>
-      <display value="Patient Personal advance care plan"/>
+      <display value="Patient Personal Advance Care Plan"/>
     </coding>
   </type>
   <category>
     <coding>
       <system value="http://loinc.org"/>
       <code value="75320-2"/>
-      <display value="Advance directive"/>
+      <display value="Advance Directive"/>
     </coding>
   </category>
   <subject>
@@ -72,7 +72,7 @@
       <coding>
         <system value="http://loinc.org"/>
         <code value="81338-6"/>
-        <display value="Patient Goals, preferences, and priorities for care experience"/>
+        <display value="Patient Goals, Preferences, and Priorities for Care Experience"/>
       </coding>
     </code>
     <text>
@@ -92,12 +92,12 @@
     </entry>
   </section>
   <section>
-    <title value="Expression of Healthcare Treatment Wishes and Desires under certain health conditions"/>
+    <title value="Expression of Healthcare Treatment Wishes and Desires Under Certain Health Conditions"/>
     <code>
       <coding>
         <system value="http://loinc.org"/>
         <code value="81336-0"/>
-        <display value="Patient Goals, preferences, and priorities under certain health conditions"/>
+        <display value="Patient Goals, Preferences, and Priorities Under Certain Health Conditions"/>
       </coding>
     </code>
     <text>
@@ -134,7 +134,7 @@
       <coding>
         <system value="http://loinc.org"/>
         <code value="81337-8"/>
-        <display value="Patient Goals, preferences, and priorities upon death"/>
+        <display value="Patient Goals, Preferences, and Priorities Upon Death"/>
       </coding>
     </code>
     <text>
@@ -156,7 +156,7 @@
       <coding>
         <system value="http://loinc.org"/>
         <code value="81339-4"/>
-        <display value="Witness and notary Document"/>
+        <display value="Witness and Notary Document"/>
       </coding>
     </code>
     <text>

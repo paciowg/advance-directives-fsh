@@ -142,8 +142,8 @@ Usage: #example
 
 
 * status = #final
-* type = $LOINC#81334-5 "Patient Personal advance care plan"
-* category = $LOINC#75320-2 "Advance directive"
+* type = $LOINC#81334-5 "Patient Personal Advance Care Plan"
+* category = $LOINC#75320-2 "Advance Directive"
 * subject = Reference(Example-McBee-Patient1)
 * date = "2018-08-28T08:49:58.313-04:00"
 * author = Reference(Example-McBee-Patient1)
@@ -201,7 +201,7 @@ Usage: #example
 
 // Line 1011
 * section[gpp_personal_care_experience].title = "Expression of Healthcare Treatment Wishes and Desires"
-* section[gpp_personal_care_experience].code = $LOINC#81338-6 "Patient Goals, preferences, and priorities for care experience"
+* section[gpp_personal_care_experience].code = $LOINC#81338-6 "Patient Goals, Preferences, and Priorities for Care Experience"
 * section[gpp_personal_care_experience].text.status = #additional
 * section[gpp_personal_care_experience].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
 
@@ -229,8 +229,8 @@ Usage: #example
 
 
 // Line 477
-* section[gpp_for_end_of_life_or_severely_dibilitating_condition].title = "Expression of Healthcare Treatment Wishes and Desires under certain health conditions"
-* section[gpp_for_end_of_life_or_severely_dibilitating_condition].code = $LOINC#81336-0 "Patient Goals, preferences, and priorities under certain health conditions"
+* section[gpp_for_end_of_life_or_severely_dibilitating_condition].title = "Expression of Healthcare Treatment Wishes and Desires Under Certain Health Conditions"
+* section[gpp_for_end_of_life_or_severely_dibilitating_condition].code = $LOINC#81336-0 "Patient Goals, Preferences, and Priorities Under Certain Health Conditions"
 * section[gpp_for_end_of_life_or_severely_dibilitating_condition].text.status = #additional
 * section[gpp_for_end_of_life_or_severely_dibilitating_condition].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
 <p><b>My Advance Care Goals</b></p>
@@ -286,7 +286,7 @@ Usage: #example
 
 // Line 477
 * section[gpp_upon_death].title = "Goals, Preferences and Priorities upon Death"
-* section[gpp_upon_death].code = $LOINC#81337-8 "Patient Goals, preferences, and priorities upon death"
+* section[gpp_upon_death].code = $LOINC#81337-8 "Patient Goals, Preferences, and Priorities Upon Death"
 * section[gpp_upon_death].text.status = #additional
 * section[gpp_upon_death].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
 
@@ -310,7 +310,7 @@ Usage: #example
 
 // Line 1205
 * section[administrative_information].title = "Witnesses and Notary"
-* section[administrative_information].code = $LOINC#81339-4 "Witness and notary Document"
+* section[administrative_information].code = $LOINC#81339-4 "Witness and Notary Document"
 * section[administrative_information].text.status = #additional
 * section[administrative_information].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
 
@@ -383,7 +383,7 @@ Usage: #example
 </div>"
 
 * patient = Reference(Example-McBee-Patient1)
-* relationship[0] = $LOINC#75783-1 "Primary healthcare agent [Reported]"
+* relationship[0] = $LOINC#75783-1 "Primary Healthcare Agent [Reported]"
 
 * name[0].family = "Sally"
 * name[0].given[0] = "Bobbins"
@@ -408,7 +408,7 @@ Usage: #example
 </div>"
 
 * patient = Reference(Example-McBee-Patient1)
-* relationship[0] = $LOINC#75784-9 "First alternate healthcare agent [Reported]"
+* relationship[0] = $LOINC#75784-9 "First Alternate Healthcare Agent [Reported]"
 * relationship[1] = $HL7RoleCode#FRND "unrelated friend"
 
 * name[0].family = "S. Leonard"
@@ -431,7 +431,7 @@ Description: "Example Patient McBee Care Experience Preference (My Joys)"
 <p><i>Like Bach, especially the cantatas.  St. Martin in the Fields</i></p>
 </div>"
 * status = #final
-* code = $LOINC#81360-0 "My likes and joys [Reported]"
+* code = $LOINC#81360-0 "My Likes and Joys [Reported]"
 * valueString = "Here are some examples of the things that I would like to have near me, music that I’d like to hear, and other details of my care that would help to keep me happy and relaxed: Like Bach, especially the cantatas.  St. Martin in the Fields"
 
 
@@ -446,7 +446,7 @@ Description: "Example Patient McBee Care Experience Preference (How to care for 
 <p><i>I don’t like being treated like an object. I would like to be greeted like a person before working on me.</i></p>
 </div>"
 * status = #final
-* code = $LOINC#81380-8 "Goals, preferences, and priorities for care experience [Reported]"
+* code = $LOINC#81380-8 "Goals, Preferences, and Priorities for Care Experience [Reported]"
 * valueString = "How to care for me: If I become incapacitated and cannot express myself, here is what I would like to tell my healthcare agent, family and friends about how I would like for them to care for me: I don’t like being treated like an object. I would like to be greeted like a person before working on me."
 
 
@@ -461,7 +461,7 @@ Description: "Example Patient McBee Care Experience Preference (Religious affili
 <p><i>Not Religious</i></p>
 </div>"
 * status = #final
-* code = $LOINC#81365-9 "Religious affiliation contact to notify [Reported]"
+* code = $LOINC#81365-9 "Religious Affiliation Contact to Notify [Reported]"
 * valueString = "Please attempt to notify someone from my religion at the following phone number: If I have included one - Not Religious"
 
 Instance: Example-McBee-CareExperiencePreference4
@@ -504,7 +504,7 @@ Description: "Example Patient McBee Personal Priorities Organizer"
 * status = #current
 * mode = #working
 * title = "My Advance Care Goals"
-* code = $LOINC#81340-2 "Goals AndOr preferences in order of priority [Reported]"
+* code = $LOINC#81340-2 "Goals AndOr Preferences in Order of Priority [Reported]"
 * orderedBy = http://terminology.hl7.org/CodeSystem/list-order#priority
 * entry[0].item = Reference(Example-McBee-PersonalHealthGoal1)
 * entry[1].item = Reference(Example-McBee-PersonalHealthGoal2)

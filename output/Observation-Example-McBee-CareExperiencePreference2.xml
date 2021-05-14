@@ -13,7 +13,7 @@
     <coding>
       <system value="http://loinc.org"/>
       <code value="81380-8"/>
-      <display value="Goals, preferences, and priorities for care experience [Reported]"/>
+      <display value="Goals, Preferences, and Priorities for Care Experience [Reported]"/>
     </coding>
   </code>
   <valueString value="How to care for me: If I become incapacitated and cannot express myself, here is what I would like to tell my healthcare agent, family and friends about how I would like for them to care for me: I don&#x2019;t like being treated like an object. I would like to be greeted like a person before working on me."/>

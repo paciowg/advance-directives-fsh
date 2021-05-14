@@ -19,7 +19,7 @@
         {
           "system": "http://loinc.org",
           "code": "75783-1",
-          "display": "Primary healthcare agent [Reported]"
+          "display": "Primary Healthcare Agent [Reported]"
         }
       ]
     }

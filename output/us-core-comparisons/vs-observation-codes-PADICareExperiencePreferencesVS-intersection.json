@@ -1,9 +1,9 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "ea7b1123-2bd4-4a47-8cfc-645ee306e63e-255",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/ea7b1123-2bd4-4a47-8cfc-645ee306e63e-255",
+  "id" : "b49a2ecf-2d9d-485c-af1b-6d51c423d83c-255",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b49a2ecf-2d9d-485c-af1b-6d51c423d83c-255",
   "name" : "IntersectionLOINCCodesAndPADICareExperiencePreferencesVS",
   "title" : "Intersection of LOINC Codes And Care Experience Preferences",
   "status" : "draft",
-  "date" : "2021-05-13T12:41:10-07:00"
+  "date" : "2021-05-13T21:04:10-07:00"
 }

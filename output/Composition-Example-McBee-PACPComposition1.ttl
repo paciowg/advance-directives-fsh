@@ -19,7 +19,7 @@
   fhir:Resource.language [ fhir:value "en-US"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><p><b>Version Number</b>: 1</p><p><b>Data Enterer</b>: <a href=\"Patient-Example-McBee-Patient1.html\">Generated Summary: language: en-US; Social Beneficiary Identifier: 555-12-1246, Driver's License Number: 33487; active; Roger Rienman McBee ; Phone: +1(469)238-2858, Phone: +1(214)497-9529, rogerb@testaccount.edu; gender: male; birthDate: 1945-04-01; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-NullFlavor NI}\">NoInformation</span></a></p><p><b>identifier</b>: id: 20130607100315-CCDA-CCD</p><p><b>status</b>: final</p><p><b>type</b>: <span title=\"Codes: {http://loinc.org 81334-5}\">Patient Personal advance care plan</span></p><p><b>category</b>: <span title=\"Codes: {http://loinc.org 75320-2}\">Advance directive</span></p><p><b>date</b>: Aug 28, 2018, 5:49:58 AM</p><p><b>author</b>: <a href=\"Patient-Example-McBee-Patient1.html\">Generated Summary: language: en-US; Social Beneficiary Identifier: 555-12-1246, Driver's License Number: 33487; active; Roger Rienman McBee ; Phone: +1(469)238-2858, Phone: +1(214)497-9529, rogerb@testaccount.edu; gender: male; birthDate: 1945-04-01; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-NullFlavor NI}\">NoInformation</span></a></p><p><b>title</b>: Personal Advance Care Plan Document for Roger McBee</p><p><b>custodian</b>: <a href=\"Organization-Example-McBee-OrganizationCustodian1.html\">Generated Summary: id: 44444; active; name: MyDirectives.com; Phone: +1(202)776-7700</a></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><p><b>Version Number</b>: 1</p><p><b>Data Enterer</b>: <a href=\"Patient-Example-McBee-Patient1.html\">Generated Summary: language: en-US; Social Beneficiary Identifier: 555-12-1246, Driver's License Number: 33487; active; Roger Rienman McBee ; Phone: +1(469)238-2858, Phone: +1(214)497-9529, rogerb@testaccount.edu; gender: male; birthDate: 1945-04-01; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-NullFlavor NI}\">NoInformation</span></a></p><p><b>identifier</b>: id: 20130607100315-CCDA-CCD</p><p><b>status</b>: final</p><p><b>type</b>: <span title=\"Codes: {http://loinc.org 81334-5}\">Patient Personal Advance Care Plan</span></p><p><b>category</b>: <span title=\"Codes: {http://loinc.org 75320-2}\">Advance Directive</span></p><p><b>date</b>: Aug 28, 2018, 5:49:58 AM</p><p><b>author</b>: <a href=\"Patient-Example-McBee-Patient1.html\">Generated Summary: language: en-US; Social Beneficiary Identifier: 555-12-1246, Driver's License Number: 33487; active; Roger Rienman McBee ; Phone: +1(469)238-2858, Phone: +1(214)497-9529, rogerb@testaccount.edu; gender: male; birthDate: 1945-04-01; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-NullFlavor NI}\">NoInformation</span></a></p><p><b>title</b>: Personal Advance Care Plan Document for Roger McBee</p><p><b>custodian</b>: <a href=\"Organization-Example-McBee-OrganizationCustodian1.html\">Generated Summary: id: 44444; active; name: MyDirectives.com; Phone: +1(202)776-7700</a></p></div>"
   ];
   fhir:DomainResource.extension [
      fhir:index 0;
@@ -44,7 +44,7 @@
        a loinc:81334-5;
        fhir:Coding.system [ fhir:value "http://loinc.org" ];
        fhir:Coding.code [ fhir:value "81334-5" ];
-       fhir:Coding.display [ fhir:value "Patient Personal advance care plan" ]
+       fhir:Coding.display [ fhir:value "Patient Personal Advance Care Plan" ]
      ]
   ];
   fhir:Composition.category [
@@ -54,7 +54,7 @@
        a loinc:75320-2;
        fhir:Coding.system [ fhir:value "http://loinc.org" ];
        fhir:Coding.code [ fhir:value "75320-2" ];
-       fhir:Coding.display [ fhir:value "Advance directive" ]
+       fhir:Coding.display [ fhir:value "Advance Directive" ]
      ]
   ];
   fhir:Composition.subject [
@@ -106,7 +106,7 @@
          a loinc:81338-6;
          fhir:Coding.system [ fhir:value "http://loinc.org" ];
          fhir:Coding.code [ fhir:value "81338-6" ];
-         fhir:Coding.display [ fhir:value "Patient Goals, preferences, and priorities for care experience" ]
+         fhir:Coding.display [ fhir:value "Patient Goals, Preferences, and Priorities for Care Experience" ]
        ]
      ];
      fhir:Composition.section.text [
@@ -132,14 +132,14 @@
      ]
   ], [
      fhir:index 2;
-     fhir:Composition.section.title [ fhir:value "Expression of Healthcare Treatment Wishes and Desires under certain health conditions" ];
+     fhir:Composition.section.title [ fhir:value "Expression of Healthcare Treatment Wishes and Desires Under Certain Health Conditions" ];
      fhir:Composition.section.code [
        fhir:CodeableConcept.coding [
          fhir:index 0;
          a loinc:81336-0;
          fhir:Coding.system [ fhir:value "http://loinc.org" ];
          fhir:Coding.code [ fhir:value "81336-0" ];
-         fhir:Coding.display [ fhir:value "Patient Goals, preferences, and priorities under certain health conditions" ]
+         fhir:Coding.display [ fhir:value "Patient Goals, Preferences, and Priorities Under Certain Health Conditions" ]
        ]
      ];
      fhir:Composition.section.text [
@@ -188,7 +188,7 @@
          a loinc:81337-8;
          fhir:Coding.system [ fhir:value "http://loinc.org" ];
          fhir:Coding.code [ fhir:value "81337-8" ];
-         fhir:Coding.display [ fhir:value "Patient Goals, preferences, and priorities upon death" ]
+         fhir:Coding.display [ fhir:value "Patient Goals, Preferences, and Priorities Upon Death" ]
        ]
      ];
      fhir:Composition.section.text [
@@ -217,7 +217,7 @@
          a loinc:81339-4;
          fhir:Coding.system [ fhir:value "http://loinc.org" ];
          fhir:Coding.code [ fhir:value "81339-4" ];
-         fhir:Coding.display [ fhir:value "Witness and notary Document" ]
+         fhir:Coding.display [ fhir:value "Witness and Notary Document" ]
        ]
      ];
      fhir:Composition.section.text [

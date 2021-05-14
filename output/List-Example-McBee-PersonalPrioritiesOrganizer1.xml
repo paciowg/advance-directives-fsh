@@ -15,7 +15,7 @@
     <coding>
       <system value="http://loinc.org"/>
       <code value="81340-2"/>
-      <display value="Goals AndOr preferences in order of priority [Reported]"/>
+      <display value="Goals AndOr Preferences in Order of Priority [Reported]"/>
     </coding>
   </code>
   <orderedBy>

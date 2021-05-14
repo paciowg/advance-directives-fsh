@@ -101,7 +101,7 @@ Usage: #example
 
 
 * telecom[0].system = #email
-* telecom[0].value = "advault.test33@jettelabs.com"
+* telecom[0].value = "BetsySJ@example.com"
 * telecom[0].use = #home
 
 * gender = #female
@@ -138,7 +138,7 @@ Usage: #example
 
 * status = #final
 * type = $LOINC#81334-5 "Personal Advance Care Plan Document"
-* category = $LOINC#75320-2 "Advance directive"
+* category = $LOINC#75320-2 "Advance Directive"
 * subject = Reference(Example-Smith-Johnson-Patient1)
 * date = "2021-03-29T14:25:34-05:00"
 * author = Reference(Example-Smith-Johnson-Patient1)
@@ -194,7 +194,7 @@ Usage: #example
 
 // Line 1011
 * section[gpp_personal_care_experience].title = "Expression of Healthcare Treatment Wishes and Desires"
-* section[gpp_personal_care_experience].code = $LOINC#81338-6 "Patient Goals, preferences, and priorities for care experience"
+* section[gpp_personal_care_experience].code = $LOINC#81338-6 "Patient Goals, Preferences, and Priorities for Care Experience"
 * section[gpp_personal_care_experience].text.status = #additional
 * section[gpp_personal_care_experience].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
 <p><i>MyDirectives® offers people a list of optional questions that can be answered by typing text in a text box or by uploading a video or audio file for each question. Only those questions answered by Betsy Smith-Johnson appear here. For a complete list of questions in My Thoughts, please visit www.MyDirectives.com.</i></p>
@@ -248,7 +248,7 @@ Usage: #example
 
 // Line 477
 * section[gpp_for_end_of_life_or_severely_dibilitating_condition].title = "Expression of Healthcare Treatment Wishes and Desires"
-* section[gpp_for_end_of_life_or_severely_dibilitating_condition].code = $LOINC#81336-0 "GPP certain health cond" //"Patient Goals, preferences, and priorities under certain health conditions"
+* section[gpp_for_end_of_life_or_severely_dibilitating_condition].code = $LOINC#81336-0 "Goals, Priorities, and Preferences Under Certain Health Conditions" //"Patient Goals, preferences, and priorities under certain health conditions"
 * section[gpp_for_end_of_life_or_severely_dibilitating_condition].text.status = #additional
 * section[gpp_for_end_of_life_or_severely_dibilitating_condition].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
 <p><b>My Advance Care Goals</b></p>
@@ -300,8 +300,8 @@ Usage: #example
 
 
 // Line 477
-* section[gpp_upon_death].title = "Goals, Preferences and Priorities upon Death"
-* section[gpp_upon_death].code = $LOINC#81337-8 "Patient Goals, preferences, and priorities upon death"
+* section[gpp_upon_death].title = "Goals, Preferences and Priorities Upon Death"
+* section[gpp_upon_death].code = $LOINC#81337-8 "Patient Goals, Preferences, and Priorities Upon Death"
 * section[gpp_upon_death].text.status = #additional
 * section[gpp_upon_death].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
 <p><b>Consent to Donate</b></p>
@@ -324,7 +324,7 @@ Usage: #example
 
 // Line 1205
 * section[administrative_information].title = "Witnesses and Notary"
-* section[administrative_information].code = $LOINC#81339-4 "Witness and notary Document"
+* section[administrative_information].code = $LOINC#81339-4 "Witness and Notary Document"
 * section[administrative_information].text.status = #additional
 * section[administrative_information].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
 
@@ -492,7 +492,7 @@ Description: "Example Patient Smith-Johnson Care Experience Preference (How to C
 <p><i>I want photos of my family where I can see them.</i></p>
 </div>"
 * status = #final
-* code = $LOINC#81380-8 "[TODO] A better code? Goals, preferences, and priorities for care experience"
+* code = $LOINC#81380-8 "Goals, Preferences, and Priorities for Care Experience"
 * valueString = "How to care for me: If I become incapacitated and cannot express myself, here is what I would like to tell my healthcare agent, family and friends about how I would like for them to care for me: I want photos of my family where I can see them."
 
 

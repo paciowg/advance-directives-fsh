@@ -15,7 +15,7 @@
     <coding>
       <system value="http://loinc.org"/>
       <code value="75784-9"/>
-      <display value="First alternate healthcare agent [Reported]"/>
+      <display value="First Alternate Healthcare Agent [Reported]"/>
     </coding>
   </relationship>
   <relationship>

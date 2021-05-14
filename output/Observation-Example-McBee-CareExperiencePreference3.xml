@@ -13,7 +13,7 @@
     <coding>
       <system value="http://loinc.org"/>
       <code value="81365-9"/>
-      <display value="Religious affiliation contact to notify [Reported]"/>
+      <display value="Religious Affiliation Contact to Notify [Reported]"/>
     </coding>
   </code>
   <valueString value="Please attempt to notify someone from my religion at the following phone number: If I have included one - Not Religious"/>

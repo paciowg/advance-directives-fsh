@@ -27,7 +27,7 @@
        a loinc:81380-8;
        fhir:Coding.system [ fhir:value "http://loinc.org" ];
        fhir:Coding.code [ fhir:value "81380-8" ];
-       fhir:Coding.display [ fhir:value "[TODO] A better code? Goals, preferences, and priorities for care experience" ]
+       fhir:Coding.display [ fhir:value "Goals, Preferences, and Priorities for Care Experience" ]
      ]
   ];
   fhir:Observation.valueString [ fhir:value "How to care for me: If I become incapacitated and cannot express myself, here is what I would like to tell my healthcare agent, family and friends about how I would like for them to care for me: I want photos of my family where I can see them."] .

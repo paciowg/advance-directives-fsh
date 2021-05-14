@@ -133,7 +133,7 @@
   fhir:Resource.language [ fhir:value "en-US"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><p><b>Version Number</b>: 1</p><p><b>Data Enterer</b>: <a href=\"#Patient_Example-Smith-Johnson-Patient1\">See above (Patient/Example-Smith-Johnson-Patient1)</a></p><p><b>identifier</b>: id: 0-87f37989294a408897aacd1fc5d8fd16</p><p><b>status</b>: final</p><p><b>type</b>: <span title=\"Codes: {http://loinc.org 81334-5}\">Personal Advance Care Plan Document</span></p><p><b>category</b>: <span title=\"Codes: {http://loinc.org 75320-2}\">Advance directive</span></p><p><b>date</b>: Mar 29, 2021, 12:25:34 PM</p><p><b>author</b>: <a href=\"#Patient_Example-Smith-Johnson-Patient1\">See above (Patient/Example-Smith-Johnson-Patient1)</a></p><p><b>title</b>: Personal Advance Care Plan</p><p><b>custodian</b>: <a href=\"#Organization_Example-Smith-Johnson-OrganizationCustodian1\">See above (Organization/Example-Smith-Johnson-OrganizationCustodian1)</a></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><p><b>Version Number</b>: 1</p><p><b>Data Enterer</b>: <a href=\"#Patient_Example-Smith-Johnson-Patient1\">See above (Patient/Example-Smith-Johnson-Patient1)</a></p><p><b>identifier</b>: id: 0-87f37989294a408897aacd1fc5d8fd16</p><p><b>status</b>: final</p><p><b>type</b>: <span title=\"Codes: {http://loinc.org 81334-5}\">Personal Advance Care Plan Document</span></p><p><b>category</b>: <span title=\"Codes: {http://loinc.org 75320-2}\">Advance Directive</span></p><p><b>date</b>: Mar 29, 2021, 12:25:34 PM</p><p><b>author</b>: <a href=\"#Patient_Example-Smith-Johnson-Patient1\">See above (Patient/Example-Smith-Johnson-Patient1)</a></p><p><b>title</b>: Personal Advance Care Plan</p><p><b>custodian</b>: <a href=\"#Organization_Example-Smith-Johnson-OrganizationCustodian1\">See above (Organization/Example-Smith-Johnson-OrganizationCustodian1)</a></p></div>"
   ];
   fhir:DomainResource.extension [
      fhir:index 0;
@@ -168,7 +168,7 @@
        a loinc:75320-2;
        fhir:Coding.system [ fhir:value "http://loinc.org" ];
        fhir:Coding.code [ fhir:value "75320-2" ];
-       fhir:Coding.display [ fhir:value "Advance directive" ]
+       fhir:Coding.display [ fhir:value "Advance Directive" ]
      ]
   ];
   fhir:Composition.subject [
@@ -220,7 +220,7 @@
          a loinc:81338-6;
          fhir:Coding.system [ fhir:value "http://loinc.org" ];
          fhir:Coding.code [ fhir:value "81338-6" ];
-         fhir:Coding.display [ fhir:value "Patient Goals, preferences, and priorities for care experience" ]
+         fhir:Coding.display [ fhir:value "Patient Goals, Preferences, and Priorities for Care Experience" ]
        ]
      ];
      fhir:Composition.section.text [
@@ -265,7 +265,7 @@
          a loinc:81336-0;
          fhir:Coding.system [ fhir:value "http://loinc.org" ];
          fhir:Coding.code [ fhir:value "81336-0" ];
-         fhir:Coding.display [ fhir:value "GPP certain health cond" ]
+         fhir:Coding.display [ fhir:value "Goals, Priorities, and Preferences Under Certain Health Conditions" ]
        ]
      ];
      fhir:Composition.section.text [
@@ -299,14 +299,14 @@
      ]
   ], [
      fhir:index 3;
-     fhir:Composition.section.title [ fhir:value "Goals, Preferences and Priorities upon Death" ];
+     fhir:Composition.section.title [ fhir:value "Goals, Preferences and Priorities Upon Death" ];
      fhir:Composition.section.code [
        fhir:CodeableConcept.coding [
          fhir:index 0;
          a loinc:81337-8;
          fhir:Coding.system [ fhir:value "http://loinc.org" ];
          fhir:Coding.code [ fhir:value "81337-8" ];
-         fhir:Coding.display [ fhir:value "Patient Goals, preferences, and priorities upon death" ]
+         fhir:Coding.display [ fhir:value "Patient Goals, Preferences, and Priorities Upon Death" ]
        ]
      ];
      fhir:Composition.section.text [
@@ -335,7 +335,7 @@
          a loinc:81339-4;
          fhir:Coding.system [ fhir:value "http://loinc.org" ];
          fhir:Coding.code [ fhir:value "81339-4" ];
-         fhir:Coding.display [ fhir:value "Witness and notary Document" ]
+         fhir:Coding.display [ fhir:value "Witness and Notary Document" ]
        ]
      ];
      fhir:Composition.section.text [
@@ -397,7 +397,7 @@
   fhir:Resource.language [ fhir:value "en-US"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 047e62ccf09d4b39a8add708a69b7f38</p><p><b>active</b>: true</p><p><b>name</b>: Betsy Smith-Johnson </p><p><b>telecom</b>: <a href=\"mailto:advault.test33@jettelabs.com\">advault.test33@jettelabs.com</a></p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1950-11-05</p><p><b>address</b>: 111 Maple Court San Antonio TX 78212 US (HOME)</p><p><b>maritalStatus</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-NullFlavor UNK}\">unknown</span></p><h3>Communications</h3><table class=\"grid\"><tr><td>-</td><td><b>Language</b></td><td><b>Preferred</b></td></tr><tr><td>*</td><td><span title=\"Codes: {urn:ietf:bcp:47 en}\">English</span></td><td>true</td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 047e62ccf09d4b39a8add708a69b7f38</p><p><b>active</b>: true</p><p><b>name</b>: Betsy Smith-Johnson </p><p><b>telecom</b>: <a href=\"mailto:BetsySJ@example.com\">BetsySJ@example.com</a></p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1950-11-05</p><p><b>address</b>: 111 Maple Court San Antonio TX 78212 US (HOME)</p><p><b>maritalStatus</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-NullFlavor UNK}\">unknown</span></p><h3>Communications</h3><table class=\"grid\"><tr><td>-</td><td><b>Language</b></td><td><b>Preferred</b></td></tr><tr><td>*</td><td><span title=\"Codes: {urn:ietf:bcp:47 en}\">English</span></td><td>true</td></tr></table></div>"
   ];
   fhir:Patient.identifier [
      fhir:index 0;
@@ -417,7 +417,7 @@
   fhir:Patient.telecom [
      fhir:index 0;
      fhir:ContactPoint.system [ fhir:value "email" ];
-     fhir:ContactPoint.value [ fhir:value "advault.test33@jettelabs.com" ];
+     fhir:ContactPoint.value [ fhir:value "BetsySJ@example.com" ];
      fhir:ContactPoint.use [ fhir:value "home" ]
   ];
   fhir:Patient.gender [ fhir:value "female"];
@@ -625,7 +625,7 @@
        a loinc:81380-8;
        fhir:Coding.system [ fhir:value "http://loinc.org" ];
        fhir:Coding.code [ fhir:value "81380-8" ];
-       fhir:Coding.display [ fhir:value "[TODO] A better code? Goals, preferences, and priorities for care experience" ]
+       fhir:Coding.display [ fhir:value "Goals, Preferences, and Priorities for Care Experience" ]
      ]
   ];
   fhir:Observation.valueString [ fhir:value "How to care for me: If I become incapacitated and cannot express myself, here is what I would like to tell my healthcare agent, family and friends about how I would like for them to care for me: I want photos of my family where I can see them."] .

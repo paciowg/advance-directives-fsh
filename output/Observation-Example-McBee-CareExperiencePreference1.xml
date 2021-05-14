@@ -13,7 +13,7 @@
     <coding>
       <system value="http://loinc.org"/>
       <code value="81360-0"/>
-      <display value="My likes and joys [Reported]"/>
+      <display value="My Likes and Joys [Reported]"/>
     </coding>
   </code>
   <valueString value="Here are some examples of the things that I would like to have near me, music that I&#x2019;d like to hear, and other details of my care that would help to keep me happy and relaxed: Like Bach, especially the cantatas.  St. Martin in the Fields"/>
