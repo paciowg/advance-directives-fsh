@@ -26,7 +26,7 @@
   fhir:StructureDefinition.name [ fhir:value "PADICareExperiencePreference"];
   fhir:StructureDefinition.title [ fhir:value "ADI Care Experience Preference"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-05-13T21:04:01-07:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-05-17T15:17:04-07:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "HL7 Patient Empowerment Working Group"];
   fhir:StructureDefinition.contact [
      fhir:index 0;

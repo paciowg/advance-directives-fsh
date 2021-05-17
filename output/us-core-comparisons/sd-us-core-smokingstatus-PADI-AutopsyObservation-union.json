@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "b49a2ecf-2d9d-485c-af1b-6d51c423d83c-155",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/b49a2ecf-2d9d-485c-af1b-6d51c423d83c-155",
+  "id" : "c18b480a-0fca-4da9-bfd4-4cd345066841-155",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/c18b480a-0fca-4da9-bfd4-4cd345066841-155",
   "name" : "UnionUSCoreSmokingStatusProfileAndPADIAutopsyObservation",
   "title" : "Union of US Core Smoking Status Observation Profile And ADI Autopsy Observation",
   "status" : "active",
-  "date" : "2021-05-13T21:04:10-07:00",
+  "date" : "2021-05-17T15:17:30-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -474,7 +474,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "Codes providing the status of an observation.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/b49a2ecf-2d9d-485c-af1b-6d51c423d83c-53"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/c18b480a-0fca-4da9-bfd4-4cd345066841-53"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -562,7 +562,7 @@
       "isSummary" : true,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/b49a2ecf-2d9d-485c-af1b-6d51c423d83c-158"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/c18b480a-0fca-4da9-bfd4-4cd345066841-158"
       },
       "mapping" : [{
         "identity" : "workflow",

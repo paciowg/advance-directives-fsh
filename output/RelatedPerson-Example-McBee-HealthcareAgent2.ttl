@@ -18,7 +18,7 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "additional" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>First Alternate Healthcare Agent</b></p><p>If this healthcare agent is unable or unwilling to make medical treatment decisions for me, or if my spouse is designated as my primary healthcare agent and our marriage is annulled, or we are divorced or legally separated, then my next choice for a healthcare agent is:</p><p><i>S. Leonard Susskind (Friend)</i></p><p><i>sbrown@advaultinc.com</i></p><p><i>[SELECTED to act as a healthcare agent on 3/23/2018, at 9:13 AM CST]</i></p><p><i>[ACCEPTED to act as a healthcare agent on 3/23/2018, at 9:14 AM CST]</i></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>First Alternate Healthcare Agent</b></p><p>If this healthcare agent is unable or unwilling to make medical treatment decisions for me, or if my spouse is designated as my primary healthcare agent and our marriage is annulled, or we are divorced or legally separated, then my next choice for a healthcare agent is:</p><p><i>S. Leonard Susskind (Friend)</i></p><p><i>ssuskind@example.com</i></p><p><i>[SELECTED to act as a healthcare agent on 3/23/2018, at 9:13 AM CST]</i></p><p><i>[ACCEPTED to act as a healthcare agent on 3/23/2018, at 9:14 AM CST]</i></p></div>"
   ];
   fhir:RelatedPerson.patient [
      fhir:link <http://hl7.org/fhir/us/pacio-adi/Patient/Example-McBee-Patient1>;
@@ -53,7 +53,7 @@
   fhir:RelatedPerson.telecom [
      fhir:index 0;
      fhir:ContactPoint.system [ fhir:value "email" ];
-     fhir:ContactPoint.value [ fhir:value "sbrown@advaultinc.com" ];
+     fhir:ContactPoint.value [ fhir:value "ssuskind@example.com" ];
      fhir:ContactPoint.use [ fhir:value "home" ]
   ] .
 

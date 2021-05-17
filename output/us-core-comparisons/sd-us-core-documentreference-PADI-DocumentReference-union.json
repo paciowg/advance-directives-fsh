@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "b49a2ecf-2d9d-485c-af1b-6d51c423d83c-272",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/b49a2ecf-2d9d-485c-af1b-6d51c423d83c-272",
+  "id" : "c18b480a-0fca-4da9-bfd4-4cd345066841-272",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/c18b480a-0fca-4da9-bfd4-4cd345066841-272",
   "name" : "UnionUSCoreDocumentReferenceProfileAndPADIDocumentReference",
   "title" : "Union of US Core DocumentReference Profile And PACIO ADI Document Reference",
   "status" : "active",
-  "date" : "2021-05-13T21:04:10-07:00",
+  "date" : "2021-05-17T15:17:31-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -510,7 +510,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "All LOINC  values whose SCALE is DOC in the LOINC database and the HL7 v3 Code System NullFlavor concept 'unknown'",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/b49a2ecf-2d9d-485c-af1b-6d51c423d83c-275"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/c18b480a-0fca-4da9-bfd4-4cd345066841-275"
       },
       "mapping" : [{
         "identity" : "workflow",

@@ -87,7 +87,7 @@
             },
             "text": {
               "status": "additional",
-              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>IF THIS PART OF THE uADD™ IS LEFT BLANK, I DO NOT WANT TO DESIGNATE A HEALTHCARE AGENT AT THIS TIME, AND I DO NOT WANT A DEFAULT HEALTHCARE AGENT DESIGNATED FOR ME UNDER APPLICABLE LAW. I TRUST THE DOCTORS AND NURSES TREATING ME TO MAKE MEDICAL TREATMENT DECISIONS REGARDING MY TREATMENT AND CARE.</p><p>I am appointing the person or persons below as my healthcare agent and, if applicable, as my alternate healthcare agent(s), and I am granting to each of them the legal authority to make medical treatment decisions on my behalf and to consult with my physician and others. The power to make medical treatment decisions that I am granting to my healthcare agent(s) is expressly subject to, and limited by, the choices that I have expressed elsewhere in my uADD. If my medical treatment choices are not clear, I am authorizing and directing my healthcare agent to make decisions in my best interests and based on what is known of my wishes.</p><p><b>Primary Healthcare Agent</b></p><p>The person I choose as my Primary Healthcare Agent is:</p><p><i>Charles Johnson</i></p><p><i>(Son)</i></p><p><i>advault.test55@jettelabs.com</i></p><p>[SELECTED to act as a healthcare agent on 3/29/2021, at 2:25 PM CDT]</p><p>[ACCEPTED to act as a healthcare agent on 4/1/2021, at 3:39 PM CDT]</p><p></p><p><b>First Alternate Healthcare Agent</b></p><p>If this healthcare agent is unable or unwilling to make medical treatment decisions for me, or if my spouse is designated as my primary healthcare agent and our marriage is annulled, or we are divorced or legally separated, then my next choice for a healthcare agent is:</p><p><i>Debra Johnson</i></p><p><i>(Daughter)</i></p><p><i>advault.test56@jettelabs.com</i></p><p>[SELECTED to act as a healthcare agent on 3/29/2021, at 2:25 PM CDT]</p><p>[As of 4/1/2021, at 3:40 PM CDT, a response is still PENDING]</p><p></p><p><b>My Healthcare Agent’s General Authority</b></p><p>Subject to my medical treatment choices expressed elsewhere in this uADD™ and applicable law that requires otherwise, I grant to my healthcare agent the power to make all choices and medical treatment decisions for me.</p><p>If I cannot express my own wishes for medical treatment,</p><p>I would like the doctors treating me, as well as my healthcare agent if I have chosen one, to make decisions based as much as possible and appropriate on my instructions below.</p><p><i>If at some point in the future I am declared incompetent,</i></p><p><i>I DO NOT want to be allowed to override these preferences. I want my doctors to follow the preferences I express in this document.</i></p><p>Unless I have stated otherwise somewhere else in this uADD™, I understand that my healthcare agent may reconsider my medical treatment choices expressed above in light of my other instructions contained elsewhere in this uADD™ or new medical information.</p></div>"
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>IF THIS PART OF THE uADD™ IS LEFT BLANK, I DO NOT WANT TO DESIGNATE A HEALTHCARE AGENT AT THIS TIME, AND I DO NOT WANT A DEFAULT HEALTHCARE AGENT DESIGNATED FOR ME UNDER APPLICABLE LAW. I TRUST THE DOCTORS AND NURSES TREATING ME TO MAKE MEDICAL TREATMENT DECISIONS REGARDING MY TREATMENT AND CARE.</p><p>I am appointing the person or persons below as my healthcare agent and, if applicable, as my alternate healthcare agent(s), and I am granting to each of them the legal authority to make medical treatment decisions on my behalf and to consult with my physician and others. The power to make medical treatment decisions that I am granting to my healthcare agent(s) is expressly subject to, and limited by, the choices that I have expressed elsewhere in my uADD. If my medical treatment choices are not clear, I am authorizing and directing my healthcare agent to make decisions in my best interests and based on what is known of my wishes.</p><p><b>Primary Healthcare Agent</b></p><p>The person I choose as my Primary Healthcare Agent is:</p><p><i>Charles Johnson</i></p><p><i>(Son)</i></p><p><i>CharlesSJ@example.com</i></p><p>[SELECTED to act as a healthcare agent on 3/29/2021, at 2:25 PM CDT]</p><p>[ACCEPTED to act as a healthcare agent on 4/1/2021, at 3:39 PM CDT]</p><p></p><p><b>First Alternate Healthcare Agent</b></p><p>If this healthcare agent is unable or unwilling to make medical treatment decisions for me, or if my spouse is designated as my primary healthcare agent and our marriage is annulled, or we are divorced or legally separated, then my next choice for a healthcare agent is:</p><p><i>Debra Johnson</i></p><p><i>(Daughter)</i></p><p><i>DebraSJ@example.com</i></p><p>[SELECTED to act as a healthcare agent on 3/29/2021, at 2:25 PM CDT]</p><p>[As of 4/1/2021, at 3:40 PM CDT, a response is still PENDING]</p><p></p><p><b>My Healthcare Agent’s General Authority</b></p><p>Subject to my medical treatment choices expressed elsewhere in this uADD™ and applicable law that requires otherwise, I grant to my healthcare agent the power to make all choices and medical treatment decisions for me.</p><p>If I cannot express my own wishes for medical treatment,</p><p>I would like the doctors treating me, as well as my healthcare agent if I have chosen one, to make decisions based as much as possible and appropriate on my instructions below.</p><p><i>If at some point in the future I am declared incompetent,</i></p><p><i>I DO NOT want to be allowed to override these preferences. I want my doctors to follow the preferences I express in this document.</i></p><p>Unless I have stated otherwise somewhere else in this uADD™, I understand that my healthcare agent may reconsider my medical treatment choices expressed above in light of my other instructions contained elsewhere in this uADD™ or new medical information.</p></div>"
             },
             "entry": [
               {
@@ -309,7 +309,7 @@
         },
         "text": {
           "status": "additional",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Primary Healthcare Agent</b></p><p>The person I choose as my Primary Healthcare Agent is:</p><p><i>Charles Johnson</i></p><p><i>(Son)</i></p><p><i>advault.test55@jettelabs.com</i></p><p>[SELECTED to act as a healthcare agent on 3/29/2021, at 2:25 PM CDT]</p><p>[ACCEPTED to act as a healthcare agent on 4/1/2021, at 3:39 PM CDT]</p></div>"
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Primary Healthcare Agent</b></p><p>The person I choose as my Primary Healthcare Agent is:</p><p><i>Charles Johnson</i></p><p><i>(Son)</i></p><p><i>CharlesSJ@example.com</i></p><p>[SELECTED to act as a healthcare agent on 3/29/2021, at 2:25 PM CDT]</p><p>[ACCEPTED to act as a healthcare agent on 4/1/2021, at 3:39 PM CDT]</p></div>"
         },
         "patient": {
           "reference": "Patient/Example-Smith-Johnson-Patient1"
@@ -345,7 +345,7 @@
         "telecom": [
           {
             "system": "email",
-            "value": "lscottbrown@verizon.net",
+            "value": "CharlesSJ@example.com",
             "use": "home"
           }
         ]
@@ -363,7 +363,7 @@
         },
         "text": {
           "status": "additional",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>First Alternate Healthcare Agent</b></p><p>If this healthcare agent is unable or unwilling to make medical treatment decisions for me, or if my spouse is designated as my primary healthcare agent and our marriage is annulled, or we are divorced or legally separated, then my next choice for a healthcare agent is:</p><p><i>Debra Johnson</i></p><p><i>(Daughter)</i></p><p><i>advault.test56@jettelabs.com</i></p><p>[SELECTED to act as a healthcare agent on 3/29/2021, at 2:25 PM CDT]</p><p>[As of 4/1/2021, at 3:40 PM CDT, a response is still PENDING]</p></div>"
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>First Alternate Healthcare Agent</b></p><p>If this healthcare agent is unable or unwilling to make medical treatment decisions for me, or if my spouse is designated as my primary healthcare agent and our marriage is annulled, or we are divorced or legally separated, then my next choice for a healthcare agent is:</p><p><i>Debra Johnson</i></p><p><i>(Daughter)</i></p><p><i>DebraSJ@example.com</i></p><p>[SELECTED to act as a healthcare agent on 3/29/2021, at 2:25 PM CDT]</p><p>[As of 4/1/2021, at 3:40 PM CDT, a response is still PENDING]</p></div>"
         },
         "patient": {
           "reference": "Patient/Example-Smith-Johnson-Patient1"
@@ -399,7 +399,7 @@
         "telecom": [
           {
             "system": "email",
-            "value": "advault.test56@jettelabs.com",
+            "value": "DebraSJ@example.com",
             "use": "home"
           }
         ]

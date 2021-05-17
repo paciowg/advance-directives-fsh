@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "b49a2ecf-2d9d-485c-af1b-6d51c423d83c-138",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/b49a2ecf-2d9d-485c-af1b-6d51c423d83c-138",
+  "id" : "c18b480a-0fca-4da9-bfd4-4cd345066841-138",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/c18b480a-0fca-4da9-bfd4-4cd345066841-138",
   "name" : "IntersectionUSCoreHeadCircumferenceProfileAndPADIAutopsyObservation",
   "title" : "Intersection of US Core Head Circumference Profile And ADI Autopsy Observation",
   "status" : "active",
-  "date" : "2021-05-13T21:04:10-07:00",
+  "date" : "2021-05-17T15:17:30-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -578,7 +578,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "The vital sign codes from the base FHIR and US Core Vital Signs.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/b49a2ecf-2d9d-485c-af1b-6d51c423d83c-114"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/c18b480a-0fca-4da9-bfd4-4cd345066841-114"
       },
       "mapping" : [{
         "identity" : "workflow",

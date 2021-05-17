@@ -8,7 +8,7 @@
   },
   "text": {
     "status": "additional",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Primary Healthcare Agent</b></p><p>The person I choose as my Primary Healthcare Agent is:</p><p><i>Charles Johnson</i></p><p><i>(Son)</i></p><p><i>advault.test55@jettelabs.com</i></p><p>[SELECTED to act as a healthcare agent on 3/29/2021, at 2:25 PM CDT]</p><p>[ACCEPTED to act as a healthcare agent on 4/1/2021, at 3:39 PM CDT]</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Primary Healthcare Agent</b></p><p>The person I choose as my Primary Healthcare Agent is:</p><p><i>Charles Johnson</i></p><p><i>(Son)</i></p><p><i>CharlesSJ@example.com</i></p><p>[SELECTED to act as a healthcare agent on 3/29/2021, at 2:25 PM CDT]</p><p>[ACCEPTED to act as a healthcare agent on 4/1/2021, at 3:39 PM CDT]</p></div>"
   },
   "patient": {
     "reference": "Patient/Example-Smith-Johnson-Patient1"
@@ -44,7 +44,7 @@
   "telecom": [
     {
       "system": "email",
-      "value": "lscottbrown@verizon.net",
+      "value": "CharlesSJ@example.com",
       "use": "home"
     }
   ]

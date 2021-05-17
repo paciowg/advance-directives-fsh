@@ -6,7 +6,7 @@
     <profile value="http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-HealthcareAgent"/>
   </meta>
   <text>
-    <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>First Alternate Healthcare Agent</b></p><p>If this healthcare agent is unable or unwilling to make medical treatment decisions for me, or if my spouse is designated as my primary healthcare agent and our marriage is annulled, or we are divorced or legally separated, then my next choice for a healthcare agent is:</p><p><i>S. Leonard Susskind (Friend)</i></p><p><i>sbrown@advaultinc.com</i></p><p><i>[SELECTED to act as a healthcare agent on 3/23/2018, at 9:13 AM CST]</i></p><p><i>[ACCEPTED to act as a healthcare agent on 3/23/2018, at 9:14 AM CST]</i></p></div>
+    <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>First Alternate Healthcare Agent</b></p><p>If this healthcare agent is unable or unwilling to make medical treatment decisions for me, or if my spouse is designated as my primary healthcare agent and our marriage is annulled, or we are divorced or legally separated, then my next choice for a healthcare agent is:</p><p><i>S. Leonard Susskind (Friend)</i></p><p><i>ssuskind@example.com</i></p><p><i>[SELECTED to act as a healthcare agent on 3/23/2018, at 9:13 AM CST]</i></p><p><i>[ACCEPTED to act as a healthcare agent on 3/23/2018, at 9:14 AM CST]</i></p></div>
   </text>
   <patient>
     <reference value="Patient/Example-McBee-Patient1"/>
@@ -31,7 +31,7 @@
   </name>
   <telecom>
     <system value="email"/>
-    <value value="sbrown@advaultinc.com"/>
+    <value value="ssuskind@example.com"/>
     <use value="home"/>
   </telecom>
 </RelatedPerson>
