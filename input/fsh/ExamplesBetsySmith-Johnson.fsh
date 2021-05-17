@@ -166,7 +166,7 @@ Usage: #example
 <p>The person I choose as my Primary Healthcare Agent is:</p>
 <p><i>Charles Johnson</i></p>
 <p><i>(Son)</i></p>
-<p><i>advault.test55@jettelabs.com</i></p>
+<p><i>CharlesSJ@example.com</i></p>
 <p>[SELECTED to act as a healthcare agent on 3/29/2021, at 2:25 PM CDT]</p>
 <p>[ACCEPTED to act as a healthcare agent on 4/1/2021, at 3:39 PM CDT]</p>
 <p> </p>
@@ -174,7 +174,7 @@ Usage: #example
 <p>If this healthcare agent is unable or unwilling to make medical treatment decisions for me, or if my spouse is designated as my primary healthcare agent and our marriage is annulled, or we are divorced or legally separated, then my next choice for a healthcare agent is:</p>
 <p><i>Debra Johnson</i></p>
 <p><i>(Daughter)</i></p>
-<p><i>advault.test56@jettelabs.com</i></p>
+<p><i>DebraSJ@example.com</i></p>
 <p>[SELECTED to act as a healthcare agent on 3/29/2021, at 2:25 PM CDT]</p>
 <p>[As of 4/1/2021, at 3:40 PM CDT, a response is still PENDING]</p>
 <p> </p>
@@ -391,7 +391,7 @@ Usage: #example
 <p>The person I choose as my Primary Healthcare Agent is:</p>
 <p><i>Charles Johnson</i></p>
 <p><i>(Son)</i></p>
-<p><i>advault.test55@jettelabs.com</i></p>
+<p><i>CharlesSJ@example.com</i></p>
 <p>[SELECTED to act as a healthcare agent on 3/29/2021, at 2:25 PM CDT]</p>
 <p>[ACCEPTED to act as a healthcare agent on 4/1/2021, at 3:39 PM CDT]</p>
 </div>"
@@ -403,7 +403,7 @@ Usage: #example
 * name[0].family = "Johnson"
 * name[0].given[0] = "Charles"
 * telecom[0].system = #email
-* telecom[0].value = "lscottbrown@verizon.net"
+* telecom[0].value = "CharlesSJ@example.com"
 * telecom[0].use = #home
 
 
@@ -418,7 +418,7 @@ Usage: #example
 <p>If this healthcare agent is unable or unwilling to make medical treatment decisions for me, or if my spouse is designated as my primary healthcare agent and our marriage is annulled, or we are divorced or legally separated, then my next choice for a healthcare agent is:</p>
 <p><i>Debra Johnson</i></p>
 <p><i>(Daughter)</i></p>
-<p><i>advault.test56@jettelabs.com</i></p>
+<p><i>DebraSJ@example.com</i></p>
 <p>[SELECTED to act as a healthcare agent on 3/29/2021, at 2:25 PM CDT]</p>
 <p>[As of 4/1/2021, at 3:40 PM CDT, a response is still PENDING]</p>
 </div>"
@@ -430,7 +430,7 @@ Usage: #example
 * name[0].family = "Johnson"
 * name[0].given[0] = "Debra"
 * telecom[0].system = #email
-* telecom[0].value = "advault.test56@jettelabs.com"
+* telecom[0].value = "DebraSJ@example.com"
 * telecom[0].use = #home
 
 

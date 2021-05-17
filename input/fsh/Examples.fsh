@@ -100,7 +100,7 @@ Usage: #example
 * telecom[1].rank = 2
 
 * telecom[2].system = #email
-* telecom[2].value = "rogerb@testaccount.edu"
+* telecom[2].value = "rogerb@example.com"
 * telecom[2].use = #mobile
 * telecom[2].rank = 3
 
