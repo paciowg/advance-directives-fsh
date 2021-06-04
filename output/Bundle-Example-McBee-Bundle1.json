@@ -99,7 +99,7 @@
             ]
           },
           {
-            "title": "Expression of Healthcare Treatment Wishes and Desires",
+            "title": "Patient Goals, Preferences, and Priorities for Care Experience",
             "code": {
               "coding": [
                 {
@@ -129,7 +129,7 @@
             ]
           },
           {
-            "title": "Expression of Healthcare Treatment Wishes and Desires Under Certain Health Conditions",
+            "title": "Goals, Priorities, and Preferences for End of Life or a Severely Dibilitating Condition",
             "code": {
               "coding": [
                 {

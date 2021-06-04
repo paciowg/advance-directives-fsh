@@ -19,7 +19,7 @@
   fhir:Resource.language [ fhir:value "en-US"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><p><b>Version Number</b>: 1</p><p><b>Data Enterer</b>: <a href=\"Patient-Example-Smith-Johnson-Patient1.html\">Generated Summary: language: en-US; id: 047e62ccf09d4b39a8add708a69b7f38; active; Betsy Smith-Johnson ; BetsySJ@example.com; gender: female; birthDate: 1950-11-05; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-NullFlavor UNK}\">unknown</span></a></p><p><b>identifier</b>: id: 0-87f37989294a408897aacd1fc5d8fd16</p><p><b>status</b>: final</p><p><b>type</b>: <span title=\"Codes: {http://loinc.org 81334-5}\">Personal Advance Care Plan Document</span></p><p><b>category</b>: <span title=\"Codes: {http://loinc.org 75320-2}\">Advance Directive</span></p><p><b>date</b>: Mar 29, 2021, 12:25:34 PM</p><p><b>author</b>: <a href=\"Patient-Example-Smith-Johnson-Patient1.html\">Generated Summary: language: en-US; id: 047e62ccf09d4b39a8add708a69b7f38; active; Betsy Smith-Johnson ; BetsySJ@example.com; gender: female; birthDate: 1950-11-05; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-NullFlavor UNK}\">unknown</span></a></p><p><b>title</b>: Personal Advance Care Plan</p><p><b>custodian</b>: <a href=\"Organization-Example-Smith-Johnson-OrganizationCustodian1.html\">Generated Summary: id: 44444; active; name: MyDirectives.com; Phone: +1(202)776-7700</a></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><p><b>Version Number</b>: 1</p><p><b>Data Enterer</b>: <a href=\"Patient-Example-Smith-Johnson-Patient1.html\">Generated Summary: language: en-US; id: 047e62ccf09d4b39a8add708a69b7f38; active; Betsy Smith-Johnson ; BetsySJ@example.com; gender: female; birthDate: 1950-11-15; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-NullFlavor UNK}\">unknown</span></a></p><p><b>identifier</b>: id: 0-87f37989294a408897aacd1fc5d8fd16</p><p><b>status</b>: final</p><p><b>type</b>: <span title=\"Codes: {http://loinc.org 81334-5}\">Personal Advance Care Plan Document</span></p><p><b>category</b>: <span title=\"Codes: {http://loinc.org 75320-2}\">Advance Directive</span></p><p><b>date</b>: Mar 29, 2021, 12:25:34 PM</p><p><b>author</b>: <a href=\"Patient-Example-Smith-Johnson-Patient1.html\">Generated Summary: language: en-US; id: 047e62ccf09d4b39a8add708a69b7f38; active; Betsy Smith-Johnson ; BetsySJ@example.com; gender: female; birthDate: 1950-11-15; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-NullFlavor UNK}\">unknown</span></a></p><p><b>title</b>: Personal Advance Care Plan</p><p><b>custodian</b>: <a href=\"Organization-Example-Smith-Johnson-OrganizationCustodian1.html\">Generated Summary: id: 44444; active; name: MyDirectives.com; Phone: +1(202)776-7700</a></p></div>"
   ];
   fhir:DomainResource.extension [
      fhir:index 0;
@@ -99,7 +99,7 @@
      ]
   ], [
      fhir:index 1;
-     fhir:Composition.section.title [ fhir:value "Expression of Healthcare Treatment Wishes and Desires" ];
+     fhir:Composition.section.title [ fhir:value "Patient Goals, Preferences, and Priorities for Care Experience" ];
      fhir:Composition.section.code [
        fhir:CodeableConcept.coding [
          fhir:index 0;
@@ -144,7 +144,7 @@
      ]
   ], [
      fhir:index 2;
-     fhir:Composition.section.title [ fhir:value "Expression of Healthcare Treatment Wishes and Desires" ];
+     fhir:Composition.section.title [ fhir:value "Goals, Priorities, and Preferences for End of Life or aSeverely Dibilitating " ];
      fhir:Composition.section.code [
        fhir:CodeableConcept.coding [
          fhir:index 0;

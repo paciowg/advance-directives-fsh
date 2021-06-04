@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "c18b480a-0fca-4da9-bfd4-4cd345066841-191",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/c18b480a-0fca-4da9-bfd4-4cd345066841-191",
+  "id" : "00a334b4-768f-48f9-963e-1a931a40de31-191",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/00a334b4-768f-48f9-963e-1a931a40de31-191",
   "name" : "UnionUSCoreHeadCircumferenceProfileAndPADIOrganDonationObservation",
   "title" : "Union of US Core Head Circumference Profile And ADI Organ Donation",
   "status" : "active",
-  "date" : "2021-05-17T15:17:30-07:00",
+  "date" : "2021-06-04T15:56:58-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -562,7 +562,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "The vital sign codes from the base FHIR and US Core Vital Signs.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/c18b480a-0fca-4da9-bfd4-4cd345066841-167"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/00a334b4-768f-48f9-963e-1a931a40de31-167"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -1763,7 +1763,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "left: The vital sign codes from the base FHIR and US Core Vital Signs.; right: Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/c18b480a-0fca-4da9-bfd4-4cd345066841-8"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/00a334b4-768f-48f9-963e-1a931a40de31-8"
       },
       "mapping" : [{
         "identity" : "w5",

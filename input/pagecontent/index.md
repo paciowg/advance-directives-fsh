@@ -1,4 +1,10 @@
+
+# This IG location is no longer being updated. It has been move to <a href="http://build.fhir.org/ig/HL7/pacio-adi/branches/main/">http://build.fhir.org/ig/HL7/pacio-adi/branches/main/</a>
+
+
 This Advance Directive Interoperability (ADI) FHIR implementation guide (IG) is used for explaining how to represent, exchange, and verify a person’s goals, preferences and priorities for treatments and interventions regarding future medical care.
+
+
 
 ### Introduction 
 <p>

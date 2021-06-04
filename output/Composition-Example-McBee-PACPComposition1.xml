@@ -67,7 +67,7 @@
     </entry>
   </section>
   <section>
-    <title value="Expression of Healthcare Treatment Wishes and Desires"/>
+    <title value="Patient Goals, Preferences, and Priorities for Care Experience"/>
     <code>
       <coding>
         <system value="http://loinc.org"/>
@@ -92,7 +92,7 @@
     </entry>
   </section>
   <section>
-    <title value="Expression of Healthcare Treatment Wishes and Desires Under Certain Health Conditions"/>
+    <title value="Goals, Priorities, and Preferences for End of Life or a Severely Dibilitating Condition"/>
     <code>
       <coding>
         <system value="http://loinc.org"/>

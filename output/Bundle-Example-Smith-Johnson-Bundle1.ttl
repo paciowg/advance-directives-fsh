@@ -213,7 +213,7 @@
      ]
   ], [
      fhir:index 1;
-     fhir:Composition.section.title [ fhir:value "Expression of Healthcare Treatment Wishes and Desires" ];
+     fhir:Composition.section.title [ fhir:value "Patient Goals, Preferences, and Priorities for Care Experience" ];
      fhir:Composition.section.code [
        fhir:CodeableConcept.coding [
          fhir:index 0;
@@ -258,7 +258,7 @@
      ]
   ], [
      fhir:index 2;
-     fhir:Composition.section.title [ fhir:value "Expression of Healthcare Treatment Wishes and Desires" ];
+     fhir:Composition.section.title [ fhir:value "Goals, Priorities, and Preferences for End of Life or aSeverely Dibilitating " ];
      fhir:Composition.section.code [
        fhir:CodeableConcept.coding [
          fhir:index 0;
@@ -397,7 +397,7 @@
   fhir:Resource.language [ fhir:value "en-US"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 047e62ccf09d4b39a8add708a69b7f38</p><p><b>active</b>: true</p><p><b>name</b>: Betsy Smith-Johnson </p><p><b>telecom</b>: <a href=\"mailto:BetsySJ@example.com\">BetsySJ@example.com</a></p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1950-11-05</p><p><b>address</b>: 111 Maple Court San Antonio TX 78212 US (HOME)</p><p><b>maritalStatus</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-NullFlavor UNK}\">unknown</span></p><h3>Communications</h3><table class=\"grid\"><tr><td>-</td><td><b>Language</b></td><td><b>Preferred</b></td></tr><tr><td>*</td><td><span title=\"Codes: {urn:ietf:bcp:47 en}\">English</span></td><td>true</td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 047e62ccf09d4b39a8add708a69b7f38</p><p><b>active</b>: true</p><p><b>name</b>: Betsy Smith-Johnson </p><p><b>telecom</b>: <a href=\"mailto:BetsySJ@example.com\">BetsySJ@example.com</a></p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1950-11-15</p><p><b>address</b>: 111 Maple Court San Antonio TX 78212 US (HOME)</p><p><b>maritalStatus</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-NullFlavor UNK}\">unknown</span></p><h3>Communications</h3><table class=\"grid\"><tr><td>-</td><td><b>Language</b></td><td><b>Preferred</b></td></tr><tr><td>*</td><td><span title=\"Codes: {urn:ietf:bcp:47 en}\">English</span></td><td>true</td></tr></table></div>"
   ];
   fhir:Patient.identifier [
      fhir:index 0;
@@ -421,7 +421,7 @@
      fhir:ContactPoint.use [ fhir:value "home" ]
   ];
   fhir:Patient.gender [ fhir:value "female"];
-  fhir:Patient.birthDate [ fhir:value "1950-11-05"^^xsd:date];
+  fhir:Patient.birthDate [ fhir:value "1950-11-15"^^xsd:date];
   fhir:Patient.address [
      fhir:index 0;
      fhir:Address.use [ fhir:value "home" ];

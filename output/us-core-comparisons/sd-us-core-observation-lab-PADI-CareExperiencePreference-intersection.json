@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "c18b480a-0fca-4da9-bfd4-4cd345066841-252",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/c18b480a-0fca-4da9-bfd4-4cd345066841-252",
+  "id" : "00a334b4-768f-48f9-963e-1a931a40de31-252",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/00a334b4-768f-48f9-963e-1a931a40de31-252",
   "name" : "IntersectionUSCoreLaboratoryResultObservationProfileAndPADICareExperiencePreference",
   "title" : "Intersection of US Core Laboratory Result Observation Profile And ADI Care Experience Preference",
   "status" : "active",
-  "date" : "2021-05-17T15:17:31-07:00",
+  "date" : "2021-06-04T15:56:58-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -591,7 +591,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "LOINC codes",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/c18b480a-0fca-4da9-bfd4-4cd345066841-255"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/00a334b4-768f-48f9-963e-1a931a40de31-255"
       },
       "mapping" : [{
         "identity" : "workflow",

@@ -1,9 +1,9 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "c18b480a-0fca-4da9-bfd4-4cd345066841-42",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/c18b480a-0fca-4da9-bfd4-4cd345066841-42",
+  "id" : "00a334b4-768f-48f9-963e-1a931a40de31-42",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/00a334b4-768f-48f9-963e-1a931a40de31-42",
   "name" : "IntersectionLOINCCodesAndPADIInterventionPreferencesVS",
   "title" : "Intersection of LOINC Codes And Intervention Preferences",
   "status" : "draft",
-  "date" : "2021-05-17T15:17:29-07:00"
+  "date" : "2021-06-04T15:56:58-07:00"
 }

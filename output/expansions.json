@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "48852e0f-1f11-4c90-8188-6f44fb0eafa2",
+  "id" : "c8803181-715a-4b2b-97d4-a0a1faac8787",
   "meta" : {
-    "lastUpdated" : "2021-05-17T15:17:04.015-07:00"
+    "lastUpdated" : "2021-06-04T15:56:50.560-07:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -19,7 +19,7 @@
       "name" : "PADIHealthcareAgentRelationshipVS",
       "title" : "Healthcare Agent Relationships",
       "status" : "active",
-      "date" : "2021-05-17T15:17:04-07:00",
+      "date" : "2021-06-04T15:56:50-07:00",
       "publisher" : "HL7 Patient Empowerment Working Group",
       "contact" : [{
         "name" : "HL7 Patient Empowerment Working Group",
@@ -40,8 +40,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:80293624-7bf4-4a85-92cf-936db74584bd",
-        "timestamp" : "2021-05-17T15:19:53-07:00",
+        "identifier" : "urn:uuid:7d1f2043-b0af-4dba-8bf7-c57d288b4e4a",
+        "timestamp" : "2021-06-04T15:57:12-07:00",
         "total" : 417,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2988,49 +2988,17 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.org/fhir/us/pacio-adi/ValueSet/PADICareExperiencePreferencesVS",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "PADICareExperiencePreferencesVS",
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 11 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on Loinc v2.69</p><p>All codes from system <a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-v3-loinc.html\"><code>http://loinc.org</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-75774-0\"> </a><a href=\"http://details.loinc.org/LOINC/75774-0.html\">75774-0</a></td><td>Allowance to change advance directive preferences in the future regardless of mental state [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-75775-7\"> </a><a href=\"http://details.loinc.org/LOINC/75775-7.html\">75775-7</a></td><td>Decision to inform doctors and nurses about the role religion, faith, or spirituality play in my life [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-75793-0\"> </a><a href=\"http://details.loinc.org/LOINC/75793-0.html\">75793-0</a></td><td>Other directives that have not otherwise been documented [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81359-2\"> </a><a href=\"http://details.loinc.org/LOINC/81359-2.html\">81359-2</a></td><td>Near death thoughts and feelings to be shared [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81360-0\"> </a><a href=\"http://details.loinc.org/LOINC/81360-0.html\">81360-0</a></td><td>My likes and joys [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81361-8\"> </a><a href=\"http://details.loinc.org/LOINC/81361-8.html\">81361-8</a></td><td>Things that make me laugh [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81362-6\"> </a><a href=\"http://details.loinc.org/LOINC/81362-6.html\">81362-6</a></td><td>My dislikes and fears [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81363-4\"> </a><a href=\"http://details.loinc.org/LOINC/81363-4.html\">81363-4</a></td><td>Things that matter to me [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81364-2\"> </a><a href=\"http://details.loinc.org/LOINC/81364-2.html\">81364-2</a></td><td>Religious beliefs [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81365-9\"> </a><a href=\"http://details.loinc.org/LOINC/81365-9.html\">81365-9</a></td><td>Religious affiliation contact to notify [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81366-7\"> </a><a href=\"http://details.loinc.org/LOINC/81366-7.html\">81366-7</a></td><td>Unfinished business [Reported]</td><td/></tr></table></div>"
       },
-      "url" : "http://hl7.org/fhir/us/pacio-adi/ValueSet/PADICareExperiencePreferencesVS",
-      "version" : "0.0.1",
-      "name" : "PADICareExperiencePreferencesVS",
-      "title" : "Care Experience Preferences",
       "status" : "active",
-      "date" : "2021-05-17T15:17:04-07:00",
-      "publisher" : "HL7 Patient Empowerment Working Group",
-      "contact" : [{
-        "name" : "HL7 Patient Empowerment Working Group",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://www.hl7.org/Special/committees/patientempowerment/index.cfm"
-        },
-        {
-          "system" : "email",
-          "value" : "patients@lists.HL7.org"
-        }]
-      }],
-      "description" : "This value set includes concepts representing an individual's care experience preferences at end of life which can be expressed by the individual in his or her advance care plan),(Data Element Scope: The intent of this value set is to identify personal care experience preferences that may be relevant and could be considered by clinicians when making a treatment/care plan for the person.\n\nThis ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1115.11/expansion",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "US"
-        }]
-      }],
-      "copyright" : "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc.",
       "expansion" : {
-        "identifier" : "urn:uuid:2fd539c6-9c24-4f5e-9457-ac041e87737e",
-        "timestamp" : "2021-05-17T15:19:54-07:00",
-        "total" : 11,
+        "identifier" : "urn:uuid:774a1170-2d0b-45b8-bf7e-c8268dc1aa50",
+        "timestamp" : "2021-05-17T22:19:54.873Z",
         "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
           "name" : "limitedExpansion",
           "valueBoolean" : true
         },
@@ -3139,49 +3107,17 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIHealthGoalsVS",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "PADIHealthGoalsVS",
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on Loinc v2.69</p><p>All codes from system <a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-v3-loinc.html\"><code>http://loinc.org</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81378-2\"> </a><a href=\"http://details.loinc.org/LOINC/81378-2.html\">81378-2</a></td><td>Goals, preferences, and priorities under certain health conditions [Reported]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-87528-6\"> </a><a href=\"http://details.loinc.org/LOINC/87528-6.html\">87528-6</a></td><td>Personal health goal</td><td/></tr></table></div>"
       },
-      "url" : "http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIHealthGoalsVS",
-      "version" : "0.0.1",
-      "name" : "PADIHealthGoalsVS",
-      "title" : "Health Goals",
       "status" : "active",
-      "date" : "2021-05-17T15:17:04-07:00",
-      "publisher" : "HL7 Patient Empowerment Working Group",
-      "contact" : [{
-        "name" : "HL7 Patient Empowerment Working Group",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://www.hl7.org/Special/committees/patientempowerment/index.cfm"
-        },
-        {
-          "system" : "email",
-          "value" : "patients@lists.HL7.org"
-        }]
-      }],
-      "description" : "Clinical Focus: This value set includes concepts representing an individual's goals at end of life which can be expressed by the individual in his or her advance care plan.),(Data Element Scope: The intent of this value set is to identify personal goals that may be relevant and could be considered by clinicians when making a treatment/care plan for the person.),(Inclusion Criteria: Include member value sets for Health Goals at end of life for LOINC and SNOMED CT.),(Exclusion Criteria: None.\n\nThis ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1115.7/expansion",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "US"
-        }]
-      }],
-      "copyright" : "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc.",
       "expansion" : {
-        "identifier" : "urn:uuid:b652781e-84b9-4d43-b045-ef1ee5673457",
-        "timestamp" : "2021-05-17T15:19:58-07:00",
-        "total" : 2,
+        "identifier" : "urn:uuid:26ab2720-c58b-4be2-a1ae-c3eaf8627769",
+        "timestamp" : "2021-05-17T22:19:58.826Z",
         "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
           "name" : "limitedExpansion",
           "valueBoolean" : true
         },
@@ -3216,7 +3152,7 @@
       "name" : "PADIInterventionPreferencesVS",
       "title" : "Intervention Preferences",
       "status" : "active",
-      "date" : "2021-05-17T15:17:04-07:00",
+      "date" : "2021-06-04T15:56:50-07:00",
       "publisher" : "HL7 Patient Empowerment Working Group",
       "contact" : [{
         "name" : "HL7 Patient Empowerment Working Group",
@@ -3238,8 +3174,8 @@
       }],
       "copyright" : "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc.",
       "expansion" : {
-        "identifier" : "urn:uuid:efb34b9b-8244-44d2-ae35-ad946adb0cd3",
-        "timestamp" : "2021-05-17T15:19:58-07:00",
+        "identifier" : "urn:uuid:b3606153-ff9f-498c-a9ec-09c04cd092cf",
+        "timestamp" : "2021-06-04T15:57:15-07:00",
         "total" : 27,
         "parameter" : [{
           "name" : "excludeNested",
@@ -3460,49 +3396,17 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIOrganDonationVS",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "PADIOrganDonationVS",
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on Loinc v2.69</p><p>All codes from system <a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-v3-loinc.html\"><code>http://loinc.org</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-75781-5\"> </a><a href=\"http://details.loinc.org/LOINC/75781-5.html\">75781-5</a></td><td>Thoughts on organ and tissue donations [Reported]</td><td/></tr></table></div>"
       },
-      "url" : "http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIOrganDonationVS",
-      "version" : "0.0.1",
-      "name" : "PADIOrganDonationVS",
-      "title" : "Organ Donation",
       "status" : "active",
-      "date" : "2021-05-17T15:17:04-07:00",
-      "publisher" : "HL7 Patient Empowerment Working Group",
-      "contact" : [{
-        "name" : "HL7 Patient Empowerment Working Group",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://www.hl7.org/Special/committees/patientempowerment/index.cfm"
-        },
-        {
-          "system" : "email",
-          "value" : "patients@lists.HL7.org"
-        }]
-      }],
-      "description" : "This value set includes the concept representing an individual's thoughts on organ and tissue donation after death.",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "US"
-        }]
-      }],
-      "copyright" : "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc.",
       "expansion" : {
-        "identifier" : "urn:uuid:bacca172-c72a-49cf-ac98-506c40e5dbc7",
-        "timestamp" : "2021-05-17T15:20:00-07:00",
-        "total" : 1,
+        "identifier" : "urn:uuid:be452afe-3f69-4670-a700-b19d23242d1a",
+        "timestamp" : "2021-05-17T22:20:00.686Z",
         "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
           "name" : "limitedExpansion",
           "valueBoolean" : true
         },
@@ -3519,49 +3423,17 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIAutopsyVS",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "PADIAutopsyVS",
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on Loinc v2.69</p><p>All codes from system <a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-v3-loinc.html\"><code>http://loinc.org</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-75782-3\"> </a><a href=\"http://details.loinc.org/LOINC/75782-3.html\">75782-3</a></td><td>Thoughts regarding autopsy [Reported]</td><td/></tr></table></div>"
       },
-      "url" : "http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIAutopsyVS",
-      "version" : "0.0.1",
-      "name" : "PADIAutopsyVS",
-      "title" : "Autopsy Thoughts",
       "status" : "active",
-      "date" : "2021-05-17T15:17:04-07:00",
-      "publisher" : "HL7 Patient Empowerment Working Group",
-      "contact" : [{
-        "name" : "HL7 Patient Empowerment Working Group",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://www.hl7.org/Special/committees/patientempowerment/index.cfm"
-        },
-        {
-          "system" : "email",
-          "value" : "patients@lists.HL7.org"
-        }]
-      }],
-      "description" : "This value set includes the concept representing an individual's thoughts on autopsy after death.",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "US"
-        }]
-      }],
-      "copyright" : "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc.",
       "expansion" : {
-        "identifier" : "urn:uuid:2f203617-a57f-48a1-9acd-28f94401f92b",
-        "timestamp" : "2021-05-17T15:20:01-07:00",
-        "total" : 1,
+        "identifier" : "urn:uuid:6f9251be-2bc6-47f6-92cf-1c542a8512e4",
+        "timestamp" : "2021-05-17T22:20:01.623Z",
         "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
           "name" : "limitedExpansion",
           "valueBoolean" : true
         },
@@ -3591,7 +3463,7 @@
       "name" : "PADIPersonalAndLegalRelationshipRoleTypeVS",
       "title" : "Personal And Legal Relationship Role Type",
       "status" : "active",
-      "date" : "2021-05-17T15:17:04-07:00",
+      "date" : "2021-06-04T15:56:50-07:00",
       "publisher" : "HL7 Patient Empowerment Working Group",
       "contact" : [{
         "name" : "HL7 Patient Empowerment Working Group",
@@ -3612,8 +3484,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:131c98c5-b745-4d5a-8cbb-c829a3740628",
-        "timestamp" : "2021-05-17T15:20:02-07:00",
+        "identifier" : "urn:uuid:78474a20-d988-4ad0-8d13-ab3b8d17cc38",
+        "timestamp" : "2021-06-04T15:57:17-07:00",
         "total" : 413,
         "parameter" : [{
           "name" : "excludeNested",
@@ -5733,49 +5605,17 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIAdvanceDirectiveCategoriesVS",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "PADIAdvanceDirectiveCategoriesVS",
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on Loinc v2.69</p><p>All codes from system <a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-v3-loinc.html\"><code>http://loinc.org</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-64298-3\"> </a><a href=\"http://details.loinc.org/LOINC/64298-3.html\">64298-3</a></td><td>Power of attorney</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-81334-5\"> </a><a href=\"http://details.loinc.org/LOINC/81334-5.html\">81334-5</a></td><td>Patient Personal advance care plan</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-86533-7\"> </a><a href=\"http://details.loinc.org/LOINC/86533-7.html\">86533-7</a></td><td>Patient Living will</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-92664-2\"> </a><a href=\"http://details.loinc.org/LOINC/92664-2.html\">92664-2</a></td><td>Power of attorney and Living will</td><td/></tr></table></div>"
       },
-      "url" : "http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIAdvanceDirectiveCategoriesVS",
-      "version" : "0.0.1",
-      "name" : "PADIAdvanceDirectiveCategoriesVS",
-      "title" : "Advance Directive Categories",
       "status" : "active",
-      "date" : "2021-05-17T15:17:04-07:00",
-      "publisher" : "HL7 Patient Empowerment Working Group",
-      "contact" : [{
-        "name" : "HL7 Patient Empowerment Working Group",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://www.hl7.org/Special/committees/patientempowerment/index.cfm"
-        },
-        {
-          "system" : "email",
-          "value" : "patients@lists.HL7.org"
-        }]
-      }],
-      "description" : "Kinds of Advance Directives\n\nThis ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113883.11.20.9.69.4/expansion",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "US"
-        }]
-      }],
-      "copyright" : "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc.",
       "expansion" : {
-        "identifier" : "urn:uuid:580f86ce-09d0-4391-a4dd-ac521c68e170",
-        "timestamp" : "2021-05-17T15:20:02-07:00",
-        "total" : 4,
+        "identifier" : "urn:uuid:f36c3758-5e30-4fee-af2a-ad738584c02e",
+        "timestamp" : "2021-05-17T22:20:03.186Z",
         "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
           "name" : "limitedExpansion",
           "valueBoolean" : true
         },

@@ -99,7 +99,7 @@
      ]
   ], [
      fhir:index 1;
-     fhir:Composition.section.title [ fhir:value "Expression of Healthcare Treatment Wishes and Desires" ];
+     fhir:Composition.section.title [ fhir:value "Patient Goals, Preferences, and Priorities for Care Experience" ];
      fhir:Composition.section.code [
        fhir:CodeableConcept.coding [
          fhir:index 0;
@@ -132,7 +132,7 @@
      ]
   ], [
      fhir:index 2;
-     fhir:Composition.section.title [ fhir:value "Expression of Healthcare Treatment Wishes and Desires Under Certain Health Conditions" ];
+     fhir:Composition.section.title [ fhir:value "Goals, Priorities, and Preferences for End of Life or a Severely Dibilitating Condition" ];
      fhir:Composition.section.code [
        fhir:CodeableConcept.coding [
          fhir:index 0;

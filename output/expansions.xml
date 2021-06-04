@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="48852e0f-1f11-4c90-8188-6f44fb0eafa2"/>
+  <id value="c8803181-715a-4b2b-97d4-a0a1faac8787"/>
   <meta>
-    <lastUpdated value="2021-05-17T15:17:04.015-07:00"/>
+    <lastUpdated value="2021-06-04T15:56:50.560-07:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -3966,7 +3966,7 @@ Examples include: Physician, Nurse, Medical Technician, Respiratory Technician.<
         <name value="PADIHealthcareAgentRelationshipVS"/>
         <title value="Healthcare Agent Relationships"/>
         <status value="active"/>
-        <date value="2021-05-17T15:17:04-07:00"/>
+        <date value="2021-06-04T15:56:50-07:00"/>
         <publisher value="HL7 Patient Empowerment Working Group"/>
         <contact>
           <name value="HL7 Patient Empowerment Working Group"/>
@@ -3987,8 +3987,8 @@ Examples include: Physician, Nurse, Medical Technician, Respiratory Technician.<
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:80293624-7bf4-4a85-92cf-936db74584bd"/>
-          <timestamp value="2021-05-17T15:19:53-07:00"/>
+          <identifier value="urn:uuid:7d1f2043-b0af-4dba-8bf7-c57d288b4e4a"/>
+          <timestamp value="2021-06-04T15:57:12-07:00"/>
           <total value="417"/>
           <parameter>
             <name value="excludeNested"/>
@@ -6936,10 +6936,8 @@ Examples include: Physician, Nurse, Medical Technician, Respiratory Technician.<
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/us/pacio-adi/ValueSet/PADICareExperiencePreferencesVS"/>
     <resource>
       <ValueSet>
-        <id value="PADICareExperiencePreferencesVS"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -7053,40 +7051,10 @@ Examples include: Physician, Nurse, Medical Technician, Respiratory Technician.<
             </table>
           </div>
         </text>
-        <url value="http://hl7.org/fhir/us/pacio-adi/ValueSet/PADICareExperiencePreferencesVS"/>
-        <version value="0.0.1"/>
-        <name value="PADICareExperiencePreferencesVS"/>
-        <title value="Care Experience Preferences"/>
         <status value="active"/>
-        <date value="2021-05-17T15:17:04-07:00"/>
-        <publisher value="HL7 Patient Empowerment Working Group"/>
-        <contact>
-          <name value="HL7 Patient Empowerment Working Group"/>
-          <telecom>
-            <system value="url"/>
-            <value value="http://www.hl7.org/Special/committees/patientempowerment/index.cfm"/>
-          </telecom>
-          <telecom>
-            <system value="email"/>
-            <value value="patients@lists.HL7.org"/>
-          </telecom>
-        </contact>
-        <description value="This value set includes concepts representing an individual&#39;s care experience preferences at end of life which can be expressed by the individual in his or her advance care plan),(Data Element Scope: The intent of this value set is to identify personal care experience preferences that may be relevant and could be considered by clinicians when making a treatment/care plan for the person.&#xA;&#xA;This ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1115.11/expansion"/>
-        <jurisdiction>
-          <coding>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="US"/>
-          </coding>
-        </jurisdiction>
-        <copyright value="This material contains content from LOINC (http://loinc.org). LOINC is copyright &#xA9; 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC&#xAE; is a registered United States trademark of Regenstrief Institute, Inc."/>
         <expansion>
-          <identifier value="urn:uuid:2fd539c6-9c24-4f5e-9457-ac041e87737e"/>
-          <timestamp value="2021-05-17T15:19:54-07:00"/>
-          <total value="11"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
+          <identifier value="urn:uuid:774a1170-2d0b-45b8-bf7e-c8268dc1aa50"/>
+          <timestamp value="2021-05-17T22:19:54.873Z"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>
@@ -7251,10 +7219,8 @@ Examples include: Physician, Nurse, Medical Technician, Respiratory Technician.<
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIHealthGoalsVS"/>
     <resource>
       <ValueSet>
-        <id value="PADIHealthGoalsVS"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -7296,40 +7262,10 @@ Examples include: Physician, Nurse, Medical Technician, Respiratory Technician.<
             </table>
           </div>
         </text>
-        <url value="http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIHealthGoalsVS"/>
-        <version value="0.0.1"/>
-        <name value="PADIHealthGoalsVS"/>
-        <title value="Health Goals"/>
         <status value="active"/>
-        <date value="2021-05-17T15:17:04-07:00"/>
-        <publisher value="HL7 Patient Empowerment Working Group"/>
-        <contact>
-          <name value="HL7 Patient Empowerment Working Group"/>
-          <telecom>
-            <system value="url"/>
-            <value value="http://www.hl7.org/Special/committees/patientempowerment/index.cfm"/>
-          </telecom>
-          <telecom>
-            <system value="email"/>
-            <value value="patients@lists.HL7.org"/>
-          </telecom>
-        </contact>
-        <description value="Clinical Focus: This value set includes concepts representing an individual&#39;s goals at end of life which can be expressed by the individual in his or her advance care plan.),(Data Element Scope: The intent of this value set is to identify personal goals that may be relevant and could be considered by clinicians when making a treatment/care plan for the person.),(Inclusion Criteria: Include member value sets for Health Goals at end of life for LOINC and SNOMED CT.),(Exclusion Criteria: None.&#xA;&#xA;This ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1115.7/expansion"/>
-        <jurisdiction>
-          <coding>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="US"/>
-          </coding>
-        </jurisdiction>
-        <copyright value="This material contains content from LOINC (http://loinc.org). LOINC is copyright &#xA9; 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC&#xAE; is a registered United States trademark of Regenstrief Institute, Inc."/>
         <expansion>
-          <identifier value="urn:uuid:b652781e-84b9-4d43-b045-ef1ee5673457"/>
-          <timestamp value="2021-05-17T15:19:58-07:00"/>
-          <total value="2"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
+          <identifier value="urn:uuid:26ab2720-c58b-4be2-a1ae-c3eaf8627769"/>
+          <timestamp value="2021-05-17T22:19:58.826Z"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>
@@ -7611,7 +7547,7 @@ Examples include: Physician, Nurse, Medical Technician, Respiratory Technician.<
         <name value="PADIInterventionPreferencesVS"/>
         <title value="Intervention Preferences"/>
         <status value="active"/>
-        <date value="2021-05-17T15:17:04-07:00"/>
+        <date value="2021-06-04T15:56:50-07:00"/>
         <publisher value="HL7 Patient Empowerment Working Group"/>
         <contact>
           <name value="HL7 Patient Empowerment Working Group"/>
@@ -7633,8 +7569,8 @@ Examples include: Physician, Nurse, Medical Technician, Respiratory Technician.<
         </jurisdiction>
         <copyright value="This material contains content from LOINC (http://loinc.org). LOINC is copyright &#xA9; 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC&#xAE; is a registered United States trademark of Regenstrief Institute, Inc."/>
         <expansion>
-          <identifier value="urn:uuid:efb34b9b-8244-44d2-ae35-ad946adb0cd3"/>
-          <timestamp value="2021-05-17T15:19:58-07:00"/>
+          <identifier value="urn:uuid:b3606153-ff9f-498c-a9ec-09c04cd092cf"/>
+          <timestamp value="2021-06-04T15:57:15-07:00"/>
           <total value="27"/>
           <parameter>
             <name value="excludeNested"/>
@@ -7926,10 +7862,8 @@ Examples include: Physician, Nurse, Medical Technician, Respiratory Technician.<
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIOrganDonationVS"/>
     <resource>
       <ValueSet>
-        <id value="PADIOrganDonationVS"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -7963,40 +7897,10 @@ Examples include: Physician, Nurse, Medical Technician, Respiratory Technician.<
             </table>
           </div>
         </text>
-        <url value="http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIOrganDonationVS"/>
-        <version value="0.0.1"/>
-        <name value="PADIOrganDonationVS"/>
-        <title value="Organ Donation"/>
         <status value="active"/>
-        <date value="2021-05-17T15:17:04-07:00"/>
-        <publisher value="HL7 Patient Empowerment Working Group"/>
-        <contact>
-          <name value="HL7 Patient Empowerment Working Group"/>
-          <telecom>
-            <system value="url"/>
-            <value value="http://www.hl7.org/Special/committees/patientempowerment/index.cfm"/>
-          </telecom>
-          <telecom>
-            <system value="email"/>
-            <value value="patients@lists.HL7.org"/>
-          </telecom>
-        </contact>
-        <description value="This value set includes the concept representing an individual&#39;s thoughts on organ and tissue donation after death."/>
-        <jurisdiction>
-          <coding>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="US"/>
-          </coding>
-        </jurisdiction>
-        <copyright value="This material contains content from LOINC (http://loinc.org). LOINC is copyright &#xA9; 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC&#xAE; is a registered United States trademark of Regenstrief Institute, Inc."/>
         <expansion>
-          <identifier value="urn:uuid:bacca172-c72a-49cf-ac98-506c40e5dbc7"/>
-          <timestamp value="2021-05-17T15:20:00-07:00"/>
-          <total value="1"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
+          <identifier value="urn:uuid:be452afe-3f69-4670-a700-b19d23242d1a"/>
+          <timestamp value="2021-05-17T22:20:00.686Z"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>
@@ -8015,10 +7919,8 @@ Examples include: Physician, Nurse, Medical Technician, Respiratory Technician.<
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIAutopsyVS"/>
     <resource>
       <ValueSet>
-        <id value="PADIAutopsyVS"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -8052,40 +7954,10 @@ Examples include: Physician, Nurse, Medical Technician, Respiratory Technician.<
             </table>
           </div>
         </text>
-        <url value="http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIAutopsyVS"/>
-        <version value="0.0.1"/>
-        <name value="PADIAutopsyVS"/>
-        <title value="Autopsy Thoughts"/>
         <status value="active"/>
-        <date value="2021-05-17T15:17:04-07:00"/>
-        <publisher value="HL7 Patient Empowerment Working Group"/>
-        <contact>
-          <name value="HL7 Patient Empowerment Working Group"/>
-          <telecom>
-            <system value="url"/>
-            <value value="http://www.hl7.org/Special/committees/patientempowerment/index.cfm"/>
-          </telecom>
-          <telecom>
-            <system value="email"/>
-            <value value="patients@lists.HL7.org"/>
-          </telecom>
-        </contact>
-        <description value="This value set includes the concept representing an individual&#39;s thoughts on autopsy after death."/>
-        <jurisdiction>
-          <coding>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="US"/>
-          </coding>
-        </jurisdiction>
-        <copyright value="This material contains content from LOINC (http://loinc.org). LOINC is copyright &#xA9; 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC&#xAE; is a registered United States trademark of Regenstrief Institute, Inc."/>
         <expansion>
-          <identifier value="urn:uuid:2f203617-a57f-48a1-9acd-28f94401f92b"/>
-          <timestamp value="2021-05-17T15:20:01-07:00"/>
-          <total value="1"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
+          <identifier value="urn:uuid:6f9251be-2bc6-47f6-92cf-1c542a8512e4"/>
+          <timestamp value="2021-05-17T22:20:01.623Z"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>
@@ -11604,7 +11476,7 @@ Examples include: Physician, Nurse, Medical Technician, Respiratory Technician.<
         <name value="PADIPersonalAndLegalRelationshipRoleTypeVS"/>
         <title value="Personal And Legal Relationship Role Type"/>
         <status value="active"/>
-        <date value="2021-05-17T15:17:04-07:00"/>
+        <date value="2021-06-04T15:56:50-07:00"/>
         <publisher value="HL7 Patient Empowerment Working Group"/>
         <contact>
           <name value="HL7 Patient Empowerment Working Group"/>
@@ -11625,8 +11497,8 @@ Examples include: Physician, Nurse, Medical Technician, Respiratory Technician.<
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:131c98c5-b745-4d5a-8cbb-c829a3740628"/>
-          <timestamp value="2021-05-17T15:20:02-07:00"/>
+          <identifier value="urn:uuid:78474a20-d988-4ad0-8d13-ab3b8d17cc38"/>
+          <timestamp value="2021-06-04T15:57:17-07:00"/>
           <total value="413"/>
           <parameter>
             <name value="excludeNested"/>
@@ -13747,10 +13619,8 @@ Examples include: Physician, Nurse, Medical Technician, Respiratory Technician.<
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIAdvanceDirectiveCategoriesVS"/>
     <resource>
       <ValueSet>
-        <id value="PADIAdvanceDirectiveCategoriesVS"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -13808,40 +13678,10 @@ Examples include: Physician, Nurse, Medical Technician, Respiratory Technician.<
             </table>
           </div>
         </text>
-        <url value="http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIAdvanceDirectiveCategoriesVS"/>
-        <version value="0.0.1"/>
-        <name value="PADIAdvanceDirectiveCategoriesVS"/>
-        <title value="Advance Directive Categories"/>
         <status value="active"/>
-        <date value="2021-05-17T15:17:04-07:00"/>
-        <publisher value="HL7 Patient Empowerment Working Group"/>
-        <contact>
-          <name value="HL7 Patient Empowerment Working Group"/>
-          <telecom>
-            <system value="url"/>
-            <value value="http://www.hl7.org/Special/committees/patientempowerment/index.cfm"/>
-          </telecom>
-          <telecom>
-            <system value="email"/>
-            <value value="patients@lists.HL7.org"/>
-          </telecom>
-        </contact>
-        <description value="Kinds of Advance Directives&#xA;&#xA;This ValueSet is managed at the US National Library of Medicine (NLM) Value Set Authority Center (VSAC): https://vsac.nlm.nih.gov/valueset/2.16.840.1.113883.11.20.9.69.4/expansion"/>
-        <jurisdiction>
-          <coding>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="US"/>
-          </coding>
-        </jurisdiction>
-        <copyright value="This material contains content from LOINC (http://loinc.org). LOINC is copyright &#xA9; 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC&#xAE; is a registered United States trademark of Regenstrief Institute, Inc."/>
         <expansion>
-          <identifier value="urn:uuid:580f86ce-09d0-4391-a4dd-ac521c68e170"/>
-          <timestamp value="2021-05-17T15:20:02-07:00"/>
-          <total value="4"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
+          <identifier value="urn:uuid:f36c3758-5e30-4fee-af2a-ad738584c02e"/>
+          <timestamp value="2021-05-17T22:20:03.186Z"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>

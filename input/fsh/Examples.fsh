@@ -200,7 +200,7 @@ Usage: #example
 
 
 // Line 1011
-* section[gpp_personal_care_experience].title = "Expression of Healthcare Treatment Wishes and Desires"
+* section[gpp_personal_care_experience].title = "Patient Goals, Preferences, and Priorities for Care Experience"
 * section[gpp_personal_care_experience].code = $LOINC#81338-6 "Patient Goals, Preferences, and Priorities for Care Experience"
 * section[gpp_personal_care_experience].text.status = #additional
 * section[gpp_personal_care_experience].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
@@ -229,7 +229,7 @@ Usage: #example
 
 
 // Line 477
-* section[gpp_for_end_of_life_or_severely_dibilitating_condition].title = "Expression of Healthcare Treatment Wishes and Desires Under Certain Health Conditions"
+* section[gpp_for_end_of_life_or_severely_dibilitating_condition].title = "Goals, Priorities, and Preferences for End of Life or a Severely Dibilitating Condition"
 * section[gpp_for_end_of_life_or_severely_dibilitating_condition].code = $LOINC#81336-0 "Patient Goals, Preferences, and Priorities Under Certain Health Conditions"
 * section[gpp_for_end_of_life_or_severely_dibilitating_condition].text.status = #additional
 * section[gpp_for_end_of_life_or_severely_dibilitating_condition].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
